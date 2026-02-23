@@ -1,0 +1,16 @@
+{
+  "name": "anime-hub-worker",
+  "version": "1.0.0",
+  "description": "Anime Hub GitHub Actions Worker - Fetches episodes from Jikan API",
+  "main": "fetch.js",
+  "scripts": {
+    "fetch": "node fetch.js"
+  },
+  "keywords": ["anime", "github-actions", "firebase", "jikan"],
+  "author": "YOUR_NAME",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "axios": "^1.7.0"
+  }
+}

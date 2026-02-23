@@ -1,0 +1,40 @@
+name: Fetch New Episodes
+
+on:
+  schedule:
+    # Run every 3 minutes
+    - cron: '*/3 * * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  fetch-episodes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install firebase-admin axios dotenv
+
+      - name: Fetch and update episodes
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
+          FIREBASE_CLIENT_EMAIL: ${{ secrets.FIREBASE_CLIENT_EMAIL }}
+        run: node fetch.js
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## Fetch Episodes Workflow" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Completed at $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- Fetched new episodes from Jikan API" >> $GITHUB_STEP_SUMMARY
+          echo "- Updated Firestore database" >> $GITHUB_STEP_SUMMARY
