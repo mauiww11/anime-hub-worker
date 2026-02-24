@@ -1,8 +1,8 @@
 /**
- * Anime Hub Worker - fetch.js (UPDATED)
+ * Anime Hub Worker - fetch.js (FIXED VERSION)
  * 
  * This script runs every 10 minutes via GitHub Actions.
- * It fetches new episodes from Jikan API, then fetches FULL anime data,
+ * It fetches new episodes from Jikan API, filters for RECENT episodes only,
  * and updates Firestore with complete information.
  * 
  * Requirements:
@@ -26,6 +26,9 @@ admin.initializeApp({
 
 const db = admin.firestore();
 const JIKAN_API = 'https://api.jikan.moe/v4';
+
+// ✅ FIX: Only show episodes from the last 7 days
+const RECENCY_WINDOW_DAYS = 7;
 
 // Rate limiting: Jikan allows 60 requests/minute
 // We'll make requests with a 100ms delay between them
@@ -70,6 +73,49 @@ async function fetchFullAnimeData(animeId) {
 }
 
 /**
+ * ✅ NEW: Check if an episode entry is recent enough to display
+ */
+function isRecentEpisode(entry, fullAnimeData) {
+  const now = new Date();
+  const cutoffDate = new Date(now.getTime() - (RECENCY_WINDOW_DAYS * 24 * 60 * 60 * 1000));
+  
+  // Strategy 1: Check if the episode itself has a recent aired date
+  if (entry.episodes && entry.episodes.length > 0) {
+    const latestEp = entry.episodes[0];
+    if (latestEp.aired) {
+      const epAiredDate = new Date(latestEp.aired);
+      if (epAiredDate >= cutoffDate) {
+        console.log(`  ✅ Recent episode (aired: ${latestEp.aired})`);
+        return true;
+      }
+    }
+  }
+  
+  // Strategy 2: Check if anime is currently airing
+  if (fullAnimeData) {
+    const status = fullAnimeData.status?.toLowerCase() || '';
+    const airing = fullAnimeData.airing || false;
+    
+    if (status === 'currently airing' || airing === true) {
+      console.log(`  ✅ Currently airing anime`);
+      return true;
+    }
+    
+    // Strategy 3: Check if anime aired recently (for new series)
+    if (fullAnimeData.aired?.from) {
+      const animeStartDate = new Date(fullAnimeData.aired.from);
+      if (animeStartDate >= cutoffDate) {
+        console.log(`  ✅ Recently started airing (from: ${fullAnimeData.aired.from})`);
+        return true;
+      }
+    }
+  }
+  
+  console.log(`  ⏭️  Skipping old/finished anime`);
+  return false;
+}
+
+/**
  * Process episode entry + full anime data
  */
 async function processEpisodeEntry(entry) {
@@ -92,8 +138,13 @@ async function processEpisodeEntry(entry) {
       latestEpisodeNum = entry.episodes[0]?.mal_id || 0;
     }
 
-    // ✨ NEW: Fetch FULL anime data from Jikan API
+    // ✨ Fetch FULL anime data from Jikan API
     const fullAnimeData = await fetchFullAnimeData(animeId);
+    
+    // ✅ FIX: Filter out old/finished anime
+    if (!isRecentEpisode(entry, fullAnimeData)) {
+      return null; // Skip this anime
+    }
 
     // Merge basic + full data (prioritize full data)
     const mergedData = {
@@ -117,6 +168,7 @@ async function processEpisodeEntry(entry) {
       regionLocked: entry.region_locked || false,
       // keep an explicit aired date (if available) for filtering
       airedDate: fullAnimeData?.aired?.from || animeData.aired?.from || null,
+      episodeAiredDate: entry.episodes && entry.episodes.length > 0 ? entry.episodes[0].aired : null,
 
       // Metadata
       lastUpdated: new Date().toISOString(),
@@ -130,20 +182,21 @@ async function processEpisodeEntry(entry) {
 }
 
 /**
- * Update Firestore with new episodes (now with full data)
+ * Update Firestore with new episodes (now with filtering)
  */
 async function updateFirestore(episodesList) {
   const batch = db.batch();
   let updateCount = 0;
   let errorCount = 0;
+  let skippedOldCount = 0;
 
   console.log(`\n📝 Processing ${episodesList.length} episodes...`);
 
   for (const entry of episodesList) {
     const animeData = await processEpisodeEntry(entry);
     if (!animeData) {
-      errorCount++;
-      continue;
+      skippedOldCount++;
+      continue; // Skip old/finished anime
     }
 
     try {
@@ -154,53 +207,34 @@ async function updateFirestore(episodesList) {
       const prevLatest = prev ? Number(prev.latestEpisode || 0) : 0;
       const newLatest = Number(animeData.latestEpisode || 0);
 
-      // Determine whether we should write the document. We avoid rewriting
-      // the doc if the latest episode number hasn't changed to prevent
-      // bumping timestamps for unchanged shows.
-      let needsWrite = !existing.exists || newLatest !== prevLatest;
-
-      // Build object to write. We normally write metadata fields, but only
-      // set `episodeAddedAt` when the latest episode is newly detected OR
-      // when creating a new doc whose `airedDate` is within the recent window.
-      const toWrite = Object.assign({}, animeData);
+      // Always add episodeAddedAt for new recent episodes
       const nowIso = new Date().toISOString();
+      let needsWrite = false;
 
-      // If the latest episode increased, mark it as newly added right now.
-      if (newLatest > prevLatest) {
-        toWrite.episodeAddedAt = nowIso;
-        needsWrite = true; // ensure we write the update
-      } else if (!existing.exists) {
-        // New document: only mark as recent if airedDate is within last 48h.
-        if (toWrite.airedDate) {
-          const aired = new Date(toWrite.airedDate);
-          const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
-          if (aired >= cutoff) {
-            toWrite.episodeAddedAt = nowIso;
-            needsWrite = true;
-          }
-        }
+      if (!existing.exists) {
+        // New document - always write with timestamp
+        animeData.episodeAddedAt = nowIso;
+        needsWrite = true;
+        console.log(`  ✅ NEW anime: ${animeData.title} (ep ${newLatest})`);
+      } else if (newLatest > prevLatest) {
+        // Episode number increased - update timestamp
+        animeData.episodeAddedAt = nowIso;
+        needsWrite = true;
+        console.log(`  ✅ UPDATED: ${animeData.title} (${prevLatest} → ${newLatest})`);
+      } else if (!prev.episodeAddedAt) {
+        // Existing doc but missing timestamp - backfill
+        animeData.episodeAddedAt = nowIso;
+        needsWrite = true;
+        console.log(`  🛠️  BACKFILL timestamp: ${animeData.title}`);
       } else {
-        // Existing doc with same latest episode – check if it's missing the
-        // timestamp and should be backfilled (e.g. we previously skipped it).
-        if (!prev || !prev.episodeAddedAt) {
-          if (toWrite.airedDate) {
-            const aired = new Date(toWrite.airedDate);
-            const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
-            if (aired >= cutoff) {
-              toWrite.episodeAddedAt = nowIso;
-              needsWrite = true;
-              console.log(`  🛠️  Backfilling timestamp for ${animeData.title}`);
-            }
-          }
-        }
+        // Same episode, already has timestamp - refresh metadata only
+        needsWrite = true;
+        console.log(`  🔄 REFRESH metadata: ${animeData.title}`);
       }
 
       if (needsWrite) {
-        batch.set(docRef, toWrite, { merge: true });
+        batch.set(docRef, animeData, { merge: true });
         updateCount++;
-        console.log(`  ✅ Queued write: ${animeData.title} (latest ${newLatest})`);
-      } else {
-        console.log(`  ➖ Skipping unchanged: ${animeData.title}`);
       }
     } catch (error) {
       errorCount++;
@@ -212,6 +246,7 @@ async function updateFirestore(episodesList) {
     await batch.commit();
     console.log(`\n✨ Batch committed!`);
     console.log(`✅ Updated ${updateCount} episodes in Firestore`);
+    console.log(`⏭️  Skipped ${skippedOldCount} old/finished anime`);
     if (errorCount > 0) {
       console.log(`⚠️  Failed to process ${errorCount} entries`);
     }
@@ -224,21 +259,22 @@ async function updateFirestore(episodesList) {
  * Main execution
  */
 async function main() {
-  console.log('🚀 Starting Anime Hub Worker...');
+  console.log('🚀 Starting Anime Hub Worker (FIXED VERSION)...');
   console.log(`⏰ Time: ${new Date().toISOString()}`);
   console.log(`📡 Fetching from: ${JIKAN_API}/watch/episodes`);
   console.log(`📚 Then enriching with: ${JIKAN_API}/anime/{id}/full`);
+  console.log(`🎯 Filtering: Only episodes from last ${RECENCY_WINDOW_DAYS} days`);
 
   try {
     // Fetch latest episodes
     const episodesList = await fetchLatestEpisodes();
-    console.log(`📊 Found ${episodesList.length} new episode entries`);
+    console.log(`📊 Found ${episodesList.length} episode entries from API`);
 
     if (episodesList.length > 0) {
-      // Process and update Firestore (with full anime data for each)
+      // Process and update Firestore (with filtering for recent only)
       await updateFirestore(episodesList);
     } else {
-      console.log('⚠️  No new episodes found');
+      console.log('⚠️  No episodes found from API');
     }
 
     console.log('✨ Worker completed successfully!');
