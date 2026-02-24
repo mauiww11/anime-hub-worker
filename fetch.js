@@ -168,6 +168,7 @@ async function updateFirestore(episodesList) {
       // If the latest episode increased, mark it as newly added right now.
       if (newLatest > prevLatest) {
         toWrite.episodeAddedAt = nowIso;
+        needsWrite = true; // ensure we write the update
       } else if (!existing.exists) {
         // New document: only mark as recent if airedDate is within last 48h.
         if (toWrite.airedDate) {
@@ -175,6 +176,21 @@ async function updateFirestore(episodesList) {
           const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
           if (aired >= cutoff) {
             toWrite.episodeAddedAt = nowIso;
+            needsWrite = true;
+          }
+        }
+      } else {
+        // Existing doc with same latest episode – check if it's missing the
+        // timestamp and should be backfilled (e.g. we previously skipped it).
+        if (!prev || !prev.episodeAddedAt) {
+          if (toWrite.airedDate) {
+            const aired = new Date(toWrite.airedDate);
+            const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
+            if (aired >= cutoff) {
+              toWrite.episodeAddedAt = nowIso;
+              needsWrite = true;
+              console.log(`  🛠️  Backfilling timestamp for ${animeData.title}`);
+            }
           }
         }
       }
