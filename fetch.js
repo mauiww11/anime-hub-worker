@@ -163,16 +163,20 @@ async function processEpisodeEntry(entry) {
       
       // Episode-specific data
       latestEpisode: latestEpisodeNum,
-      latestEpisodeTitle: entry.episodes && entry.episodes.length > 0 ? entry.episodes[0].title : '',
+      latestEpisodeTitle: entry.episodes && entry.episodes.length > 0 ? (entry.episodes[0].title || '') : '',
       mal_url: fullAnimeData?.url || animeData.url || `https://myanimelist.net/anime/${animeId}`,
       regionLocked: entry.region_locked || false,
       // keep an explicit aired date (if available) for filtering
       airedDate: fullAnimeData?.aired?.from || animeData.aired?.from || null,
-      episodeAiredDate: entry.episodes && entry.episodes.length > 0 ? entry.episodes[0].aired : null,
 
       // Metadata
       lastUpdated: new Date().toISOString(),
     };
+    
+    // ✅ FIX: Only add episodeAiredDate if it's not undefined
+    if (entry.episodes && entry.episodes.length > 0 && entry.episodes[0].aired) {
+      mergedData.episodeAiredDate = entry.episodes[0].aired;
+    }
 
     return mergedData;
   } catch (error) {
