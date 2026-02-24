@@ -1,17 +1,13 @@
 /**
- * Cleanup Script - Remove Old Episodes from Firestore
+ * Cleanup Script v2 - IMPROVED
+ * Remove Old Episodes from Firestore
  * 
- * This script removes old/finished anime from the episodes collection.
- * Run this ONCE before deploying the fixed fetch.js
- * 
- * Requirements:
- * - Firebase Secrets: FIREBASE_PROJECT_ID, FIREBASE_PRIVATE_KEY, FIREBASE_CLIENT_EMAIL
- * - npm packages: firebase-admin
+ * This version checks multiple factors, not just status!
  */
 
 const admin = require('firebase-admin');
 
-// Initialize Firebase with service account from GitHub Secrets
+// Initialize Firebase
 const serviceAccount = {
   projectId: process.env.FIREBASE_PROJECT_ID,
   privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
@@ -27,20 +23,31 @@ const db = admin.firestore();
 // Only keep episodes from the last 7 days
 const RECENCY_WINDOW_DAYS = 7;
 
+// List of known OLD anime IDs that should be deleted
+const OLD_ANIME_IDS = [
+  22729,  // Aldnoah.Zero (2014)
+  32281,  // Kimi no Na wa. (2016)
+  235,    // Meitantei Conan (1996)
+  433,    // Kumo no Mukou, Yakusoku no Basho (2004)
+  9760,   // Hoshi wo Ou Kodomo (2011)
+  60666,  // Aldnoah.Zero (Re+)
+  59843,  // Aldnoah.Zero: Ame no Danshou
+  54863,  // Trigun Stargaze (old)
+];
+
 /**
- * Check if an anime should be kept based on its data
+ * Check if an anime should be kept
  */
-function shouldKeepAnime(data) {
+function shouldKeepAnime(data, animeId) {
   const now = new Date();
   const cutoffDate = new Date(now.getTime() - (RECENCY_WINDOW_DAYS * 24 * 60 * 60 * 1000));
   
-  // Keep if currently airing
-  const status = data.status?.toLowerCase() || '';
-  if (status === 'currently airing' || status === 'airing') {
-    return true;
+  // ❌ DELETE if in the blacklist of old anime
+  if (OLD_ANIME_IDS.includes(parseInt(animeId))) {
+    return false;
   }
   
-  // Keep if episode aired recently
+  // ✅ KEEP if episode aired very recently (last 7 days)
   if (data.episodeAiredDate) {
     const epDate = new Date(data.episodeAiredDate);
     if (epDate >= cutoffDate) {
@@ -48,15 +55,7 @@ function shouldKeepAnime(data) {
     }
   }
   
-  // Keep if anime started airing recently
-  if (data.airedDate) {
-    const animeStartDate = new Date(data.airedDate);
-    if (animeStartDate >= cutoffDate) {
-      return true;
-    }
-  }
-  
-  // Keep if added to database recently
+  // ✅ KEEP if added to database recently
   if (data.episodeAddedAt) {
     const addedDate = new Date(data.episodeAddedAt);
     if (addedDate >= cutoffDate) {
@@ -64,30 +63,52 @@ function shouldKeepAnime(data) {
     }
   }
   
-  // Keep if last updated recently (in case of metadata refresh)
+  // ✅ KEEP if anime started airing in last 30 days (new series)
+  if (data.airedDate) {
+    const animeStartDate = new Date(data.airedDate);
+    const newSeriesCutoff = new Date(now.getTime() - (30 * 24 * 60 * 60 * 1000));
+    if (animeStartDate >= newSeriesCutoff) {
+      return true;
+    }
+  }
+  
+  // ✅ KEEP if status explicitly says "Currently Airing"
+  const status = data.status?.toLowerCase() || '';
+  if (status === 'currently airing') {
+    return true;
+  }
+  
+  // ❌ DELETE if status is "Finished Airing"
+  if (status === 'finished airing') {
+    return false;
+  }
+  
+  // ✅ KEEP if last updated very recently (in last 2 days)
   if (data.lastUpdated) {
     const updatedDate = new Date(data.lastUpdated);
-    const recentUpdateWindow = new Date(now.getTime() - (2 * 24 * 60 * 60 * 1000)); // 2 days
+    const recentUpdateWindow = new Date(now.getTime() - (2 * 24 * 60 * 60 * 1000));
     if (updatedDate >= recentUpdateWindow) {
       return true;
     }
   }
   
+  // ❌ Default: DELETE if none of the above conditions are met
   return false;
 }
 
 /**
- * Clean up old episodes from Firestore
+ * Clean up old episodes
  */
 async function cleanupOldEpisodes() {
-  console.log('🧹 Starting cleanup of old episodes...');
+  console.log('🧹 Starting IMPROVED cleanup of old episodes...');
   console.log(`📅 Cutoff: Episodes older than ${RECENCY_WINDOW_DAYS} days`);
+  console.log(`🚫 Blacklist: ${OLD_ANIME_IDS.length} known old anime IDs\n`);
   
   try {
     const episodesRef = db.collection('episodes');
     const snapshot = await episodesRef.get();
     
-    console.log(`📊 Total episodes in database: ${snapshot.size}`);
+    console.log(`📊 Total episodes in database: ${snapshot.size}\n`);
     
     const batch = db.batch();
     let deleteCount = 0;
@@ -97,12 +118,13 @@ async function cleanupOldEpisodes() {
       const data = doc.data();
       const animeId = doc.id;
       const title = data.title || 'Unknown';
+      const status = data.status || 'Unknown';
       
-      if (shouldKeepAnime(data)) {
-        console.log(`  ✅ KEEP: ${title} (status: ${data.status})`);
+      if (shouldKeepAnime(data, animeId)) {
+        console.log(`  ✅ KEEP: ${title} (ID: ${animeId}, status: ${status})`);
         keepCount++;
       } else {
-        console.log(`  🗑️  DELETE: ${title} (old/finished)`);
+        console.log(`  🗑️  DELETE: ${title} (ID: ${animeId}, status: ${status})`);
         batch.delete(doc.ref);
         deleteCount++;
       }
@@ -130,7 +152,7 @@ async function cleanupOldEpisodes() {
  * Main execution
  */
 async function main() {
-  console.log('🚀 Starting Episodes Cleanup Script...');
+  console.log('🚀 Starting Episodes Cleanup Script v2 (IMPROVED)...');
   console.log(`⏰ Time: ${new Date().toISOString()}\n`);
   
   try {
