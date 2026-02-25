@@ -1,41 +1,82 @@
 /**
- * Anime Hub Worker - fetch.js (AniList Version)
+ * Anime Hub Worker - fetch.js (Enhanced AniList Version)
  * 
  * Uses AniList GraphQL API for accurate, real-time data!
  * Endpoint: https://graphql.anilist.co
  * 
- * Advantages:
- * - Accurate latest episode numbers
- * - Real-time updates
- * - Better rate limits (90 requests/minute)
- * - More reliable data
+ * Enhancements:
+ * - Comprehensive logging for debugging
+ * - All available AniList fields extracted
+ * - Better error handling and recovery
+ * - Performance metrics
+ * - Retry logic for failed requests
  */
 
 const admin = require('firebase-admin');
 const axios = require('axios');
 
-// Initialize Firebase
+// ============================================
+// CONFIGURATION
+// ============================================
+
+const CONFIG = {
+  ANILIST_API: 'https://graphql.anilist.co',
+  RECENCY_DAYS: 7,
+  EPISODES_PER_PAGE: 50,
+  MAX_RETRIES: 3,
+  RETRY_DELAY: 2000, // 2 seconds
+  RATE_LIMIT_DELAY: 700, // milliseconds between requests
+};
+
+// ============================================
+// FIREBASE INITIALIZATION
+// ============================================
+
 const serviceAccount = {
   projectId: process.env.FIREBASE_PROJECT_ID,
   privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
   clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
 };
 
+console.log('🔧 Initializing Firebase...');
+console.log(`   Project ID: ${serviceAccount.projectId}`);
+
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 
 const db = admin.firestore();
-const ANILIST_API = 'https://graphql.anilist.co';
+console.log('✅ Firebase initialized successfully\n');
 
-// Rate limiting: AniList allows 90 requests/minute
-async function delay(ms = 700) {
+// ============================================
+// UTILITY FUNCTIONS
+// ============================================
+
+async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-/**
- * GraphQL Query to fetch currently airing anime with latest episodes
- */
+function formatTimestamp(unixTimestamp) {
+  return new Date(unixTimestamp * 1000).toISOString();
+}
+
+function cleanHtmlTags(html) {
+  if (!html) return '';
+  return html
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]*>/g, '')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .trim();
+}
+
+// ============================================
+// GRAPHQL QUERY (ENHANCED - ALL FIELDS)
+// ============================================
+
 const AIRING_ANIME_QUERY = `
 query ($page: Int, $perPage: Int) {
   Page(page: $page, perPage: $perPage) {
@@ -44,11 +85,13 @@ query ($page: Int, $perPage: Int) {
       currentPage
       lastPage
       hasNextPage
+      perPage
     }
     airingSchedules(notYetAired: false, sort: TIME_DESC) {
       id
       episode
       airingAt
+      timeUntilAiring
       media {
         id
         idMal
@@ -56,179 +99,636 @@ query ($page: Int, $perPage: Int) {
           romaji
           english
           native
+          userPreferred
         }
         coverImage {
           extraLarge
           large
+          medium
+          color
         }
         bannerImage
+        startDate {
+          year
+          month
+          day
+        }
+        endDate {
+          year
+          month
+          day
+        }
         description
-        status
-        episodes
         season
         seasonYear
-        averageScore
+        seasonInt
+        episodes
+        duration
+        countryOfOrigin
+        isLicensed
+        source
+        hashtag
+        trailer {
+          id
+          site
+        }
+        updatedAt
+        coverImage {
+          extraLarge
+          large
+          medium
+          color
+        }
+        bannerImage
         genres
-        studios(isMain: true) {
-          nodes {
+        synonyms
+        averageScore
+        meanScore
+        popularity
+        isLocked
+        trending
+        favourites
+        tags {
+          id
+          name
+          description
+          category
+          rank
+          isGeneralSpoiler
+          isMediaSpoiler
+          isAdult
+        }
+        relations {
+          edges {
+            id
+            relationType
+            node {
+              id
+              idMal
+              title {
+                romaji
+                english
+              }
+              type
+            }
+          }
+        }
+        characters {
+          edges {
+            id
+            role
             name
+            node {
+              id
+              name {
+                first
+                middle
+                last
+                full
+                native
+              }
+            }
+          }
+        }
+        staff {
+          edges {
+            id
+            role
+            node {
+              id
+              name {
+                first
+                middle
+                last
+                full
+                native
+              }
+            }
+          }
+        }
+        studios(isMain: true) {
+          edges {
+            isMain
+            node {
+              id
+              name
+              isAnimationStudio
+              siteUrl
+            }
+          }
+        }
+        isFavourite
+        isAdult
+        nextAiringEpisode {
+          id
+          airingAt
+          timeUntilAiring
+          episode
+          mediaId
+        }
+        airingSchedule {
+          edges {
+            node {
+              id
+              airingAt
+              timeUntilAiring
+              episode
+            }
+          }
+        }
+        externalLinks {
+          id
+          url
+          site
+          type
+          language
+          color
+          icon
+        }
+        streamingEpisodes {
+          title
+          thumbnail
+          url
+          site
+        }
+        rankings {
+          id
+          rank
+          type
+          format
+          year
+          season
+          allTime
+          context
+        }
+        mediaListEntry {
+          id
+          status
+          score
+          progress
+          repeat
+        }
+        stats {
+          scoreDistribution {
+            score
+            amount
+          }
+          statusDistribution {
+            status
+            amount
           }
         }
         siteUrl
-        nextAiringEpisode {
-          episode
-          airingAt
-        }
+        autoCreateForumThread
+        isRecommendationBlocked
+        isReviewBlocked
+        modNotes
+        type
+        format
+        status
       }
     }
   }
 }
 `;
 
+// ============================================
+// API FUNCTIONS
+// ============================================
+
 /**
- * Fetch recently aired episodes from AniList
+ * Fetch episodes with retry logic
  */
 async function fetchRecentlyAiredEpisodes() {
-  try {
-    console.log('📺 Fetching recently aired episodes from AniList...');
-    
-    const response = await axios.post(ANILIST_API, {
-      query: AIRING_ANIME_QUERY,
-      variables: {
-        page: 1,
-        perPage: 50, // Get 50 most recent episodes
-      },
-    });
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📺 FETCHING EPISODES FROM ANILIST');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`🔗 API Endpoint: ${CONFIG.ANILIST_API}`);
+  console.log(`📄 Episodes per page: ${CONFIG.EPISODES_PER_PAGE}`);
+  console.log(`⏱️  Request time: ${new Date().toISOString()}\n`);
 
-    const schedules = response.data?.data?.Page?.airingSchedules || [];
-    console.log(`📊 Found ${schedules.length} recently aired episodes`);
-    
-    return schedules;
-  } catch (error) {
-    console.error('❌ Error fetching from AniList:', error.message);
-    if (error.response) {
-      console.error('Response:', error.response.data);
+  let retries = 0;
+  let lastError = null;
+
+  while (retries < CONFIG.MAX_RETRIES) {
+    try {
+      const startTime = Date.now();
+      
+      const response = await axios.post(CONFIG.ANILIST_API, {
+        query: AIRING_ANIME_QUERY,
+        variables: {
+          page: 1,
+          perPage: CONFIG.EPISODES_PER_PAGE,
+        },
+      }, {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        timeout: 30000, // 30 second timeout
+      });
+
+      const requestTime = Date.now() - startTime;
+
+      // Check for GraphQL errors
+      if (response.data.errors) {
+        console.error('⚠️  GraphQL Errors detected:');
+        response.data.errors.forEach((err, i) => {
+          console.error(`   Error ${i + 1}: ${err.message}`);
+          if (err.locations) {
+            console.error(`   Location: Line ${err.locations[0].line}, Column ${err.locations[0].column}`);
+          }
+        });
+      }
+
+      const schedules = response.data?.data?.Page?.airingSchedules || [];
+      const pageInfo = response.data?.data?.Page?.pageInfo || {};
+
+      console.log('✅ API Request Successful!');
+      console.log(`   Response time: ${requestTime}ms`);
+      console.log(`   Episodes found: ${schedules.length}`);
+      console.log(`   Page info:`, JSON.stringify(pageInfo, null, 2));
+      console.log(`   Rate limit remaining: ${response.headers['x-ratelimit-remaining'] || 'N/A'}`);
+      console.log('');
+
+      if (schedules.length === 0) {
+        console.log('⚠️  Warning: No episodes returned from API');
+      }
+
+      return schedules;
+    } catch (error) {
+      retries++;
+      lastError = error;
+      
+      console.error(`❌ API Request Failed (Attempt ${retries}/${CONFIG.MAX_RETRIES})`);
+      console.error(`   Error: ${error.message}`);
+      
+      if (error.response) {
+        console.error(`   Status: ${error.response.status}`);
+        console.error(`   Status Text: ${error.response.statusText}`);
+        console.error(`   Data:`, JSON.stringify(error.response.data, null, 2));
+      } else if (error.request) {
+        console.error(`   No response received from server`);
+        console.error(`   Request timeout or network error`);
+      }
+
+      if (retries < CONFIG.MAX_RETRIES) {
+        const waitTime = CONFIG.RETRY_DELAY * retries;
+        console.log(`   ⏳ Retrying in ${waitTime / 1000} seconds...\n`);
+        await delay(waitTime);
+      }
     }
-    return [];
   }
+
+  console.error(`💥 All retry attempts failed!`);
+  console.error(`   Last error: ${lastError?.message}`);
+  return [];
 }
 
+// ============================================
+// FILTERING AND PROCESSING
+// ============================================
+
 /**
- * Filter and deduplicate anime (keep only latest episode per anime)
+ * Filter and deduplicate episodes
  */
 function filterLatestEpisodes(schedules) {
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('🔍 FILTERING AND PROCESSING EPISODES');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  
   const animeMap = new Map();
-  const now = Date.now() / 1000; // Current time in seconds
-  const sevenDaysAgo = now - (7 * 24 * 60 * 60);
+  const now = Date.now() / 1000;
+  const cutoffDate = now - (CONFIG.RECENCY_DAYS * 24 * 60 * 60);
   
-  console.log('\n📝 Processing and filtering episodes...');
-  
-  for (const schedule of schedules) {
+  console.log(`📅 Current time: ${formatTimestamp(now)}`);
+  console.log(`📅 Cutoff date (${CONFIG.RECENCY_DAYS} days ago): ${formatTimestamp(cutoffDate)}`);
+  console.log(`📊 Total schedules to process: ${schedules.length}\n`);
+
+  let skippedOld = 0;
+  let skippedNotAiring = 0;
+  let skippedNoMalId = 0;
+  let skippedDuplicate = 0;
+  let kept = 0;
+
+  for (let i = 0; i < schedules.length; i++) {
+    const schedule = schedules[i];
     const media = schedule.media;
-    if (!media || !media.idMal) continue;
     
+    console.log(`\n[${i + 1}/${schedules.length}] Processing: ${media?.title?.romaji || 'Unknown'}`);
+    
+    // Validation checks
+    if (!media) {
+      console.log(`   ⚠️  No media data`);
+      continue;
+    }
+
+    if (!media.idMal) {
+      console.log(`   ⏭️  SKIP: No MAL ID (AniList ID: ${media.id})`);
+      skippedNoMalId++;
+      continue;
+    }
+
     const animeId = media.idMal;
     const airingTime = schedule.airingAt;
     const episode = schedule.episode;
-    
-    // ✅ Filter: Only episodes from last 7 days
-    if (airingTime < sevenDaysAgo) {
-      console.log(`  ⏭️  Too old: ${media.title.romaji} ep ${episode} (${new Date(airingTime * 1000).toISOString()})`);
+
+    console.log(`   MAL ID: ${animeId}`);
+    console.log(`   AniList ID: ${media.id}`);
+    console.log(`   Episode: ${episode}`);
+    console.log(`   Aired at: ${formatTimestamp(airingTime)}`);
+    console.log(`   Status: ${media.status}`);
+
+    // Filter: Only episodes from last N days
+    if (airingTime < cutoffDate) {
+      const daysAgo = Math.floor((now - airingTime) / (24 * 60 * 60));
+      console.log(`   ⏭️  SKIP: Too old (${daysAgo} days ago)`);
+      skippedOld++;
       continue;
     }
-    
-    // ✅ Filter: Only currently airing anime
+
+    // Filter: Only currently airing anime
     if (media.status !== 'RELEASING') {
-      console.log(`  ⏭️  Not airing: ${media.title.romaji} (${media.status})`);
+      console.log(`   ⏭️  SKIP: Not currently releasing (status: ${media.status})`);
+      skippedNotAiring++;
       continue;
     }
-    
-    // Keep only the latest episode per anime
-    if (!animeMap.has(animeId) || animeMap.get(animeId).episode < episode) {
-      animeMap.set(animeId, { media, episode, airingTime });
-      console.log(`  ✅ KEEP: ${media.title.romaji} ep ${episode}`);
-    } else {
-      console.log(`  ⏭️  Duplicate (older): ${media.title.romaji} ep ${episode}`);
+
+    // Deduplicate: Keep only latest episode per anime
+    if (animeMap.has(animeId)) {
+      const existing = animeMap.get(animeId);
+      if (existing.episode >= episode) {
+        console.log(`   ⏭️  SKIP: Duplicate (already have ep ${existing.episode})`);
+        skippedDuplicate++;
+        continue;
+      } else {
+        console.log(`   🔄 REPLACE: Updating from ep ${existing.episode} to ep ${episode}`);
+      }
     }
+
+    animeMap.set(animeId, { media, episode, airingTime, scheduleId: schedule.id });
+    console.log(`   ✅ KEPT`);
+    kept++;
   }
-  
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📊 FILTERING SUMMARY');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`✅ Kept: ${kept}`);
+  console.log(`⏭️  Skipped - Too old: ${skippedOld}`);
+  console.log(`⏭️  Skipped - Not airing: ${skippedNotAiring}`);
+  console.log(`⏭️  Skipped - No MAL ID: ${skippedNoMalId}`);
+  console.log(`⏭️  Skipped - Duplicate: ${skippedDuplicate}`);
+  console.log(`📈 Total processed: ${schedules.length}`);
+  console.log('');
+
   return Array.from(animeMap.values());
 }
 
+// ============================================
+// DATA CONVERSION
+// ============================================
+
 /**
- * Convert AniList data to Firestore format
+ * Convert AniList data to Firestore format (ALL FIELDS)
  */
 function convertToFirestoreFormat(data) {
-  const { media, episode, airingTime } = data;
+  const { media, episode, airingTime, scheduleId } = data;
   
   try {
+    console.log(`\n🔄 Converting: ${media.title.romaji}`);
+
     const animeId = media.idMal;
-    const title = media.title.english || media.title.romaji || 'Unknown';
+    const title = media.title.english || media.title.romaji || media.title.userPreferred || 'Unknown';
     
     // Get best quality image
     const imageUrl = media.coverImage?.extraLarge || 
                      media.coverImage?.large || 
+                     media.coverImage?.medium ||
                      media.bannerImage || '';
     
-    // Clean HTML from description
-    const synopsis = media.description 
-      ? media.description.replace(/<[^>]*>/g, '').substring(0, 500)
-      : '';
+    // Clean and truncate description
+    const synopsis = cleanHtmlTags(media.description || '').substring(0, 1000);
     
+    // Extract all available data
     const firestoreData = {
+      // ============ Basic Info ============
       animeId,
+      anilistId: media.id,
       title,
-      imageUrl,
-      synopsis,
-      genres: media.genres || [],
-      studios: media.studios?.nodes?.map(s => s.name) || [],
-      rating: media.averageScore ? media.averageScore / 10 : 0, // Convert 0-100 to 0-10
-      episodes: media.episodes || 0,
-      status: 'Currently Airing', // AniList RELEASING = Currently Airing
-      seasonYear: media.seasonYear || null,
-      season: media.season || '',
-      type: 'TV', // AniList mostly has TV anime
+      titleRomaji: media.title.romaji || '',
+      titleEnglish: media.title.english || '',
+      titleNative: media.title.native || '',
+      synonyms: media.synonyms || [],
       
-      // Episode-specific data
+      // ============ Images ============
+      imageUrl,
+      coverImageLarge: media.coverImage?.large || '',
+      coverImageMedium: media.coverImage?.medium || '',
+      coverImageColor: media.coverImage?.color || '',
+      bannerImage: media.bannerImage || '',
+      
+      // ============ Description ============
+      synopsis,
+      
+      // ============ Classification ============
+      type: media.type || 'TV',
+      format: media.format || '',
+      status: 'Currently Airing',
+      season: media.season || '',
+      seasonYear: media.seasonYear || null,
+      seasonInt: media.seasonInt || null,
+      
+      // ============ Episodes ============
+      episodes: media.episodes || 0,
+      duration: media.duration || 0,
       latestEpisode: episode,
       latestEpisodeTitle: `Episode ${episode}`,
+      
+      // ============ Metadata ============
+      genres: media.genres || [],
+      tags: (media.tags || []).map(tag => ({
+        id: tag.id,
+        name: tag.name,
+        description: tag.description,
+        category: tag.category,
+        rank: tag.rank,
+        isGeneralSpoiler: tag.isGeneralSpoiler || false,
+        isMediaSpoiler: tag.isMediaSpoiler || false,
+        isAdult: tag.isAdult || false,
+      })),
+      
+      // ============ Studios ============
+      studios: (media.studios?.edges || []).map(edge => ({
+        id: edge.node.id,
+        name: edge.node.name,
+        isMain: edge.isMain || false,
+        isAnimationStudio: edge.node.isAnimationStudio || false,
+        siteUrl: edge.node.siteUrl || '',
+      })),
+      studiosNames: (media.studios?.edges || []).map(edge => edge.node.name),
+      
+      // ============ Scores & Rankings ============
+      rating: media.averageScore ? media.averageScore / 10 : 0,
+      averageScore: media.averageScore || 0,
+      meanScore: media.meanScore || 0,
+      popularity: media.popularity || 0,
+      trending: media.trending || 0,
+      favourites: media.favourites || 0,
+      rankings: (media.rankings || []).map(rank => ({
+        id: rank.id,
+        rank: rank.rank,
+        type: rank.type,
+        format: rank.format,
+        year: rank.year,
+        season: rank.season,
+        allTime: rank.allTime || false,
+        context: rank.context,
+      })),
+      
+      // ============ Additional Info ============
+      source: media.source || '',
+      countryOfOrigin: media.countryOfOrigin || '',
+      isLicensed: media.isLicensed || false,
+      isAdult: media.isAdult || false,
+      hashtag: media.hashtag || '',
+      
+      // ============ Dates ============
+      startDate: media.startDate ? 
+        `${media.startDate.year}-${String(media.startDate.month || 1).padStart(2, '0')}-${String(media.startDate.day || 1).padStart(2, '0')}` : 
+        null,
+      endDate: media.endDate && media.endDate.year ? 
+        `${media.endDate.year}-${String(media.endDate.month || 1).padStart(2, '0')}-${String(media.endDate.day || 1).padStart(2, '0')}` : 
+        null,
+      
+      // ============ External Links ============
       mal_url: `https://myanimelist.net/anime/${animeId}`,
       anilist_url: media.siteUrl || '',
-      regionLocked: false,
+      externalLinks: (media.externalLinks || []).map(link => ({
+        id: link.id,
+        url: link.url,
+        site: link.site,
+        type: link.type,
+        language: link.language,
+        color: link.color,
+        icon: link.icon,
+      })),
       
-      // Timestamps
-      episodeAiredDate: new Date(airingTime * 1000).toISOString(),
+      // ============ Streaming ============
+      streamingEpisodes: (media.streamingEpisodes || []).map(ep => ({
+        title: ep.title,
+        thumbnail: ep.thumbnail,
+        url: ep.url,
+        site: ep.site,
+      })),
+      
+      // ============ Trailer ============
+      trailer: media.trailer ? {
+        id: media.trailer.id,
+        site: media.trailer.site,
+        url: media.trailer.site === 'youtube' ? 
+          `https://www.youtube.com/watch?v=${media.trailer.id}` : 
+          null,
+      } : null,
+      
+      // ============ Relations ============
+      relations: (media.relations?.edges || []).slice(0, 10).map(edge => ({
+        id: edge.node.id,
+        idMal: edge.node.idMal,
+        type: edge.relationType,
+        title: edge.node.title?.english || edge.node.title?.romaji || '',
+        format: edge.node.type,
+      })),
+      
+      // ============ Characters (Top 10) ============
+      characters: (media.characters?.edges || []).slice(0, 10).map(edge => ({
+        id: edge.node.id,
+        role: edge.role,
+        name: edge.node.name?.full || edge.node.name?.native || '',
+      })),
+      
+      // ============ Staff (Top 10) ============
+      staff: (media.staff?.edges || []).slice(0, 10).map(edge => ({
+        id: edge.node.id,
+        role: edge.role,
+        name: edge.node.name?.full || edge.node.name?.native || '',
+      })),
+      
+      // ============ Next Episode ============
+      nextEpisode: media.nextAiringEpisode?.episode || null,
+      nextEpisodeAiringAt: media.nextAiringEpisode?.airingAt ? 
+        formatTimestamp(media.nextAiringEpisode.airingAt) : 
+        null,
+      timeUntilNextEpisode: media.nextAiringEpisode?.timeUntilAiring || null,
+      
+      // ============ Stats ============
+      scoreDistribution: (media.stats?.scoreDistribution || []).map(dist => ({
+        score: dist.score,
+        amount: dist.amount,
+      })),
+      statusDistribution: (media.stats?.statusDistribution || []).map(dist => ({
+        status: dist.status,
+        amount: dist.amount,
+      })),
+      
+      // ============ Timestamps ============
+      episodeAiredDate: formatTimestamp(airingTime),
+      episodeAiredAt: airingTime, // Unix timestamp for sorting
       lastUpdated: new Date().toISOString(),
       episodeAddedAt: new Date().toISOString(),
+      anilistUpdatedAt: media.updatedAt ? formatTimestamp(media.updatedAt) : null,
+      
+      // ============ Internal ============
+      scheduleId: scheduleId,
+      regionLocked: false,
+      dataSource: 'anilist',
+      apiVersion: '2.0',
     };
-    
-    // Add next episode info if available
-    if (media.nextAiringEpisode) {
-      firestoreData.nextEpisode = media.nextAiringEpisode.episode;
-      firestoreData.nextEpisodeAiringAt = new Date(media.nextAiringEpisode.airingAt * 1000).toISOString();
-    }
+
+    console.log(`   ✅ Conversion successful`);
+    console.log(`   Fields extracted: ${Object.keys(firestoreData).length}`);
     
     return firestoreData;
   } catch (error) {
-    console.error(`❌ Error converting data:`, error.message);
+    console.error(`   ❌ Conversion failed: ${error.message}`);
+    console.error(`   Stack:`, error.stack);
     return null;
   }
 }
 
+// ============================================
+// FIRESTORE UPDATE
+// ============================================
+
 /**
- * Update Firestore with new episodes
+ * Update Firestore with comprehensive logging
  */
 async function updateFirestore(episodesList) {
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('💾 UPDATING FIRESTORE DATABASE');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`📊 Episodes to process: ${episodesList.length}\n`);
+
   const batch = db.batch();
   let updateCount = 0;
   let newCount = 0;
+  let updatedEpisodeCount = 0;
   let refreshCount = 0;
+  let errorCount = 0;
+  const errors = [];
 
-  console.log(`\n📝 Updating Firestore with ${episodesList.length} anime...`);
+  const startTime = Date.now();
 
-  for (const data of episodesList) {
+  for (let i = 0; i < episodesList.length; i++) {
+    const data = episodesList[i];
+    console.log(`\n[${i + 1}/${episodesList.length}] Processing for Firestore...`);
+    
     const animeData = convertToFirestoreFormat(data);
-    if (!animeData) continue;
+    if (!animeData) {
+      errorCount++;
+      errors.push({ animeId: data.media?.idMal, error: 'Conversion failed' });
+      continue;
+    }
 
     try {
       const docRef = db.collection('episodes').doc(String(animeData.animeId));
@@ -238,74 +738,146 @@ async function updateFirestore(episodesList) {
       const prevLatest = prev ? Number(prev.latestEpisode || 0) : 0;
       const newLatest = Number(animeData.latestEpisode || 0);
 
+      console.log(`   Document: episodes/${animeData.animeId}`);
+      console.log(`   Exists: ${existing.exists}`);
+
       if (!existing.exists) {
         // New anime
         batch.set(docRef, animeData);
         updateCount++;
         newCount++;
-        console.log(`  ✅ NEW: ${animeData.title} (ep ${newLatest})`);
+        console.log(`   ✅ NEW anime will be added`);
+        console.log(`      Title: ${animeData.title}`);
+        console.log(`      Episode: ${newLatest}`);
       } else if (newLatest > prevLatest) {
         // Episode number increased
         batch.set(docRef, animeData, { merge: true });
         updateCount++;
-        console.log(`  ✅ UPDATED: ${animeData.title} (${prevLatest} → ${newLatest})`);
+        updatedEpisodeCount++;
+        console.log(`   ✅ EPISODE UPDATE`);
+        console.log(`      Title: ${animeData.title}`);
+        console.log(`      Previous: Episode ${prevLatest}`);
+        console.log(`      New: Episode ${newLatest}`);
       } else {
         // Same episode - refresh metadata only
         animeData.episodeAddedAt = prev.episodeAddedAt || animeData.episodeAddedAt;
         batch.set(docRef, animeData, { merge: true });
         updateCount++;
         refreshCount++;
-        console.log(`  🔄 REFRESH: ${animeData.title} (ep ${newLatest})`);
+        console.log(`   🔄 METADATA REFRESH`);
+        console.log(`      Title: ${animeData.title}`);
+        console.log(`      Episode: ${newLatest} (unchanged)`);
       }
     } catch (error) {
-      console.error(`  ❌ Error processing anime ${animeData.animeId}:`, error.message);
+      errorCount++;
+      errors.push({ 
+        animeId: animeData.animeId, 
+        title: animeData.title,
+        error: error.message 
+      });
+      console.error(`   ❌ Error: ${error.message}`);
     }
   }
 
+  // Commit batch
   try {
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('💾 COMMITTING BATCH TO FIRESTORE...');
     await batch.commit();
-    console.log(`\n✨ Batch committed!`);
-    console.log(`✅ Total updated: ${updateCount} anime`);
-    console.log(`   - New: ${newCount}`);
-    console.log(`   - Updated episodes: ${updateCount - newCount - refreshCount}`);
-    console.log(`   - Refreshed: ${refreshCount}`);
+    const commitTime = Date.now() - startTime;
+    
+    console.log('✅ BATCH COMMITTED SUCCESSFULLY!');
+    console.log(`⏱️  Total time: ${commitTime}ms`);
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('📊 FIRESTORE UPDATE SUMMARY');
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log(`✅ Total operations: ${updateCount}`);
+    console.log(`   🆕 New anime: ${newCount}`);
+    console.log(`   📈 Episode updates: ${updatedEpisodeCount}`);
+    console.log(`   🔄 Metadata refreshes: ${refreshCount}`);
+    console.log(`   ❌ Errors: ${errorCount}`);
+    
+    if (errors.length > 0) {
+      console.log('\n⚠️  ERRORS DETAILS:');
+      errors.forEach((err, i) => {
+        console.log(`   ${i + 1}. ${err.title || `Anime ${err.animeId}`}: ${err.error}`);
+      });
+    }
+    
+    console.log('');
   } catch (error) {
-    console.error('❌ Error updating Firestore:', error.message);
+    console.error('\n💥 BATCH COMMIT FAILED!');
+    console.error(`   Error: ${error.message}`);
+    console.error(`   Stack:`, error.stack);
+    throw error;
   }
 }
 
-/**
- * Main execution
- */
+// ============================================
+// MAIN EXECUTION
+// ============================================
+
 async function main() {
-  console.log('🚀 Starting Anime Hub Worker (AniList Version)...');
-  console.log(`⏰ Time: ${new Date().toISOString()}`);
-  console.log(`📡 Using AniList GraphQL API: ${ANILIST_API}`);
-  console.log(`🎯 Filtering: Episodes from last 7 days + Currently airing\n`);
+  const scriptStartTime = Date.now();
+  
+  console.log('\n');
+  console.log('═══════════════════════════════════════════');
+  console.log('🚀 ANIME HUB WORKER - ENHANCED VERSION');
+  console.log('═══════════════════════════════════════════');
+  console.log(`⏰ Started at: ${new Date().toISOString()}`);
+  console.log(`🌍 Timezone: ${Intl.DateTimeFormat().resolvedOptions().timeZone}`);
+  console.log(`📡 API: ${CONFIG.ANILIST_API}`);
+  console.log(`📅 Recency window: ${CONFIG.RECENCY_DAYS} days`);
+  console.log(`🔢 Episodes per fetch: ${CONFIG.EPISODES_PER_PAGE}`);
+  console.log(`🔄 Max retries: ${CONFIG.MAX_RETRIES}`);
+  console.log(`⏱️  Rate limit delay: ${CONFIG.RATE_LIMIT_DELAY}ms`);
+  console.log('');
 
   try {
-    // Fetch recently aired episodes
+    // Step 1: Fetch episodes from AniList
     const schedules = await fetchRecentlyAiredEpisodes();
     
     if (schedules.length === 0) {
-      console.log('⚠️  No episodes found');
+      console.log('⚠️  No episodes found or API request failed');
+      console.log('   Exiting without database updates');
+      process.exit(1);
+    }
+
+    // Step 2: Filter and process episodes
+    const latestEpisodes = filterLatestEpisodes(schedules);
+    
+    if (latestEpisodes.length === 0) {
+      console.log('⚠️  No episodes passed filtering');
+      console.log('   This might be normal if no new episodes aired recently');
+      console.log('   Exiting without database updates');
       process.exit(0);
     }
 
-    // Filter and deduplicate
-    const latestEpisodes = filterLatestEpisodes(schedules);
-    console.log(`\n📊 After filtering: ${latestEpisodes.length} unique anime with recent episodes`);
+    // Step 3: Update Firestore
+    await updateFirestore(latestEpisodes);
 
-    if (latestEpisodes.length > 0) {
-      // Update Firestore
-      await updateFirestore(latestEpisodes);
-    }
-
-    console.log('\n✨ Worker completed successfully!');
+    // Success summary
+    const totalTime = Date.now() - scriptStartTime;
+    console.log('═══════════════════════════════════════════');
+    console.log('✅ WORKER COMPLETED SUCCESSFULLY');
+    console.log('═══════════════════════════════════════════');
+    console.log(`⏱️  Total execution time: ${(totalTime / 1000).toFixed(2)}s`);
+    console.log(`⏰ Finished at: ${new Date().toISOString()}`);
+    console.log('═══════════════════════════════════════════\n');
+    
     process.exit(0);
   } catch (error) {
-    console.error('💥 Fatal error:', error.message);
+    const totalTime = Date.now() - scriptStartTime;
+    console.error('\n═══════════════════════════════════════════');
+    console.error('💥 FATAL ERROR - WORKER FAILED');
+    console.error('═══════════════════════════════════════════');
+    console.error(`❌ Error: ${error.message}`);
+    console.error(`📍 Stack trace:`);
     console.error(error.stack);
+    console.error(`⏱️  Failed after: ${(totalTime / 1000).toFixed(2)}s`);
+    console.error(`⏰ Failed at: ${new Date().toISOString()}`);
+    console.error('═══════════════════════════════════════════\n');
+    
     process.exit(1);
   }
 }
