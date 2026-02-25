@@ -297,27 +297,20 @@ query ($page: Int, $perPage: Int) {
 // ============================================
 
 /**
- * Fetch episodes with retry logic
+ * Fetch a single page with retry logic
  */
-async function fetchRecentlyAiredEpisodes() {
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('📺 FETCHING EPISODES FROM ANILIST');
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log(`🔗 API Endpoint: ${CONFIG.ANILIST_API}`);
-  console.log(`📄 Episodes per page: ${CONFIG.EPISODES_PER_PAGE}`);
-  console.log(`⏱️  Request time: ${new Date().toISOString()}\n`);
-
+async function fetchPage(page) {
   let retries = 0;
   let lastError = null;
 
   while (retries < CONFIG.MAX_RETRIES) {
     try {
       const startTime = Date.now();
-      
+
       const response = await axios.post(CONFIG.ANILIST_API, {
         query: AIRING_ANIME_QUERY,
         variables: {
-          page: 1,
+          page,
           perPage: CONFIG.EPISODES_PER_PAGE,
         },
       }, {
@@ -325,7 +318,7 @@ async function fetchRecentlyAiredEpisodes() {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
-        timeout: 30000, // 30 second timeout
+        timeout: 30000,
       });
 
       const requestTime = Date.now() - startTime;
@@ -344,32 +337,25 @@ async function fetchRecentlyAiredEpisodes() {
       const schedules = response.data?.data?.Page?.airingSchedules || [];
       const pageInfo = response.data?.data?.Page?.pageInfo || {};
 
-      console.log('✅ API Request Successful!');
+      console.log(`✅ Page ${page} fetched successfully`);
       console.log(`   Response time: ${requestTime}ms`);
-      console.log(`   Episodes found: ${schedules.length}`);
-      console.log(`   Page info:`, JSON.stringify(pageInfo, null, 2));
+      console.log(`   Episodes in page: ${schedules.length}`);
+      console.log(`   hasNextPage: ${pageInfo.hasNextPage} | lastPage: ${pageInfo.lastPage}`);
       console.log(`   Rate limit remaining: ${response.headers['x-ratelimit-remaining'] || 'N/A'}`);
-      console.log('');
 
-      if (schedules.length === 0) {
-        console.log('⚠️  Warning: No episodes returned from API');
-      }
-
-      return schedules;
+      return { schedules, pageInfo };
     } catch (error) {
       retries++;
       lastError = error;
-      
-      console.error(`❌ API Request Failed (Attempt ${retries}/${CONFIG.MAX_RETRIES})`);
+
+      console.error(`❌ Page ${page} failed (Attempt ${retries}/${CONFIG.MAX_RETRIES})`);
       console.error(`   Error: ${error.message}`);
-      
+
       if (error.response) {
         console.error(`   Status: ${error.response.status}`);
-        console.error(`   Status Text: ${error.response.statusText}`);
         console.error(`   Data:`, JSON.stringify(error.response.data, null, 2));
       } else if (error.request) {
         console.error(`   No response received from server`);
-        console.error(`   Request timeout or network error`);
       }
 
       if (retries < CONFIG.MAX_RETRIES) {
@@ -380,9 +366,72 @@ async function fetchRecentlyAiredEpisodes() {
     }
   }
 
-  console.error(`💥 All retry attempts failed!`);
+  console.error(`💥 All retry attempts failed for page ${page}!`);
   console.error(`   Last error: ${lastError?.message}`);
-  return [];
+  return null;
+}
+
+/**
+ * Fetch ALL episodes with full pagination support
+ */
+async function fetchRecentlyAiredEpisodes() {
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📺 FETCHING EPISODES FROM ANILIST (ALL PAGES)');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`🔗 API Endpoint: ${CONFIG.ANILIST_API}`);
+  console.log(`📄 Episodes per page: ${CONFIG.EPISODES_PER_PAGE}`);
+  console.log(`⏱️  Request time: ${new Date().toISOString()}\n`);
+
+  const allSchedules = [];
+  let currentPage = 1;
+  let hasNextPage = true;
+  const now = Date.now() / 1000;
+  const cutoffDate = now - (CONFIG.RECENCY_DAYS * 24 * 60 * 60);
+
+  while (hasNextPage) {
+    console.log(`\n📄 Fetching page ${currentPage}...`);
+
+    const result = await fetchPage(currentPage);
+
+    if (!result) {
+      console.error(`⚠️  Failed to fetch page ${currentPage}, stopping pagination`);
+      break;
+    }
+
+    const { schedules, pageInfo } = result;
+    allSchedules.push(...schedules);
+
+    // Early exit: if the last episode on this page is older than our cutoff,
+    // no need to fetch more pages (API returns TIME_DESC order)
+    if (schedules.length > 0) {
+      const oldestOnPage = schedules[schedules.length - 1].airingAt;
+      if (oldestOnPage < cutoffDate) {
+        console.log(`\n⏹️  Oldest episode on page ${currentPage} is beyond ${CONFIG.RECENCY_DAYS}-day window — stopping early`);
+        hasNextPage = false;
+        break;
+      }
+    }
+
+    hasNextPage = pageInfo.hasNextPage;
+
+    if (hasNextPage) {
+      currentPage++;
+      console.log(`   ⏳ Waiting ${CONFIG.RATE_LIMIT_DELAY}ms before next page...`);
+      await delay(CONFIG.RATE_LIMIT_DELAY);
+    }
+  }
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`✅ Pagination complete!`);
+  console.log(`   Total pages fetched: ${currentPage}`);
+  console.log(`   Total episodes fetched: ${allSchedules.length}`);
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+
+  if (allSchedules.length === 0) {
+    console.log('⚠️  Warning: No episodes returned from API');
+  }
+
+  return allSchedules;
 }
 
 // ============================================
