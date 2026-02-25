@@ -1,11 +1,11 @@
 name: Fetch New Episodes
 
 on:
-  schedule:
-    # Run every 3 minutes
-    - cron: '*/3 * * * *'
+  # ❌ REMOVE schedule - now using cron-job.org
+  # schedule:
+  #   - cron: '*/3 * * * *'
   
-  # Allow manual trigger
+  # ✅ KEEP this - needed for cron-job.org trigger
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install firebase-admin axios dotenv
+        run: npm install
 
       - name: Fetch and update episodes
         env:
@@ -34,7 +34,5 @@ jobs:
       - name: Create summary
         if: always()
         run: |
-          echo "## Fetch Episodes Workflow" >> $GITHUB_STEP_SUMMARY
+          echo "## Fetch Episodes Workflow (via cron-job.org)" >> $GITHUB_STEP_SUMMARY
           echo "✅ Completed at $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "- Fetched new episodes from Jikan API" >> $GITHUB_STEP_SUMMARY
-          echo "- Updated Firestore database" >> $GITHUB_STEP_SUMMARY
