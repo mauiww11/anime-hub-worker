@@ -435,11 +435,80 @@ async function fetchRecentlyAiredEpisodes() {
 }
 
 // ============================================
+// CONTENT FILTERING RULES
+// ============================================
+
+// Formats allowed — anime only, no cartoons or other media
+const ALLOWED_FORMATS = ['TV', 'TV_SHORT', 'OVA', 'ONA', 'SPECIAL', 'MOVIE'];
+
+// Genres that are strictly blocked (hentai / adult)
+const BLOCKED_GENRES = ['Hentai', 'Ecchi'];
+
+// Tags that indicate adult/explicit content — blocked
+const BLOCKED_TAGS = [
+  'Hentai', 'Ecchi', 'Nudity', 'Explicit Sexual Content',
+  'Sex', 'Softcore', 'Pornography', 'BDSM',
+  'Sexual Abuse', 'Rape', 'Incest',
+];
+
+// Country whitelist — only Japanese anime (JP) and Chinese donghua (CN) / Korean (KR)
+// Blocks Western cartoons (US, GB, FR, CA, AU, etc.)
+const ALLOWED_COUNTRIES = ['JP', 'CN', 'KR', 'TW'];
+
+/**
+ * Check if a media entry should be blocked due to adult/hentai content
+ */
+function isAdultContent(media) {
+  // AniList's own isAdult flag
+  if (media.isAdult === true) return { blocked: true, reason: 'isAdult flag' };
+
+  // Block by genre
+  const genres = media.genres || [];
+  for (const genre of genres) {
+    if (BLOCKED_GENRES.includes(genre)) {
+      return { blocked: true, reason: `Blocked genre: ${genre}` };
+    }
+  }
+
+  // Block by tag
+  const tags = media.tags || [];
+  for (const tag of tags) {
+    if (BLOCKED_TAGS.includes(tag.name)) {
+      return { blocked: true, reason: `Blocked tag: ${tag.name}` };
+    }
+  }
+
+  return { blocked: false };
+}
+
+/**
+ * Check if a media entry is a proper anime (not a cartoon)
+ */
+function isAnime(media) {
+  // Must be type ANIME
+  if (media.type !== 'ANIME') {
+    return { allowed: false, reason: `Not anime type: ${media.type}` };
+  }
+
+  // Must be an allowed format
+  if (!ALLOWED_FORMATS.includes(media.format)) {
+    return { allowed: false, reason: `Blocked format: ${media.format}` };
+  }
+
+  // Must be from an allowed country (JP, CN, KR, TW)
+  if (media.countryOfOrigin && !ALLOWED_COUNTRIES.includes(media.countryOfOrigin)) {
+    return { allowed: false, reason: `Blocked country: ${media.countryOfOrigin}` };
+  }
+
+  return { allowed: true };
+}
+
+// ============================================
 // FILTERING AND PROCESSING
 // ============================================
 
 /**
- * Filter and deduplicate episodes
+ * Filter and deduplicate episodes — strict content rules applied
  */
 function filterLatestEpisodes(schedules) {
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
@@ -458,6 +527,8 @@ function filterLatestEpisodes(schedules) {
   let skippedNotAiring = 0;
   let skippedNoMalId = 0;
   let skippedDuplicate = 0;
+  let skippedAdult = 0;
+  let skippedNotAnime = 0;
   let kept = 0;
 
   for (let i = 0; i < schedules.length; i++) {
@@ -487,6 +558,24 @@ function filterLatestEpisodes(schedules) {
     console.log(`   Episode: ${episode}`);
     console.log(`   Aired at: ${formatTimestamp(airingTime)}`);
     console.log(`   Status: ${media.status}`);
+    console.log(`   Format: ${media.format} | Country: ${media.countryOfOrigin} | isAdult: ${media.isAdult}`);
+    console.log(`   Genres: ${(media.genres || []).join(', ') || 'N/A'}`);
+
+    // ── STRICT FILTER 1: Adult / Hentai / Ecchi content ──
+    const adultCheck = isAdultContent(media);
+    if (adultCheck.blocked) {
+      console.log(`   🚫 SKIP: Adult content — ${adultCheck.reason}`);
+      skippedAdult++;
+      continue;
+    }
+
+    // ── STRICT FILTER 2: Must be anime (not cartoon / other) ──
+    const animeCheck = isAnime(media);
+    if (!animeCheck.allowed) {
+      console.log(`   🚫 SKIP: Not anime — ${animeCheck.reason}`);
+      skippedNotAnime++;
+      continue;
+    }
 
     // Filter: Only episodes from last N days
     if (airingTime < cutoffDate) {
@@ -528,6 +617,8 @@ function filterLatestEpisodes(schedules) {
   console.log(`⏭️  Skipped - Not airing: ${skippedNotAiring}`);
   console.log(`⏭️  Skipped - No MAL ID: ${skippedNoMalId}`);
   console.log(`⏭️  Skipped - Duplicate: ${skippedDuplicate}`);
+  console.log(`🚫 Skipped - Adult/Hentai/Ecchi: ${skippedAdult}`);
+  console.log(`🚫 Skipped - Not anime (cartoon/other): ${skippedNotAnime}`);
   console.log(`📈 Total processed: ${schedules.length}`);
   console.log('');
 
