@@ -715,6 +715,305 @@ function convertToFirestoreFormat(data) {
       popularity: media.popularity || 0,
       trending: media.trending || 0,
       favourites: media.favourites || 0,
+      rankings: (media.ranDELAY}ms before next page...`);
+      await delay(CONFIG.RATE_LIMIT_DELAY);
+    }
+  }
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`✅ Pagination complete!`);
+  console.log(`   Total pages fetched: ${currentPage}`);
+  console.log(`   Total episodes fetched: ${allSchedules.length}`);
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+
+  if (allSchedules.length === 0) {
+    console.log('⚠️  Warning: No episodes returned from API');
+  }
+
+  return allSchedules;
+}
+
+// ============================================
+// CONTENT FILTERING RULES
+// ============================================
+
+// Formats allowed — anime only, no cartoons or other media
+const ALLOWED_FORMATS = ['TV', 'TV_SHORT', 'OVA', 'ONA', 'SPECIAL', 'MOVIE'];
+
+// Genres that are strictly blocked (hentai / adult)
+const BLOCKED_GENRES = ['Hentai', 'Ecchi'];
+
+// Tags that indicate adult/explicit content — blocked
+const BLOCKED_TAGS = [
+  'Hentai', 'Ecchi', 'Nudity', 'Explicit Sexual Content',
+  'Sex', 'Softcore', 'Pornography', 'BDSM',
+  'Sexual Abuse', 'Rape', 'Incest',
+];
+
+// Country whitelist — only Japanese anime (JP) and Chinese donghua (CN) / Korean (KR)
+// Blocks Western cartoons (US, GB, FR, CA, AU, etc.)
+const ALLOWED_COUNTRIES = ['JP', 'CN', 'KR', 'TW'];
+
+/**
+ * Check if a media entry should be blocked due to adult/hentai content
+ */
+function isAdultContent(media) {
+  // AniList's own isAdult flag
+  if (media.isAdult === true) return { blocked: true, reason: 'isAdult flag' };
+
+  // Block by genre
+  const genres = media.genres || [];
+  for (const genre of genres) {
+    if (BLOCKED_GENRES.includes(genre)) {
+      return { blocked: true, reason: `Blocked genre: ${genre}` };
+    }
+  }
+
+  // Block by tag
+  const tags = media.tags || [];
+  for (const tag of tags) {
+    if (BLOCKED_TAGS.includes(tag.name)) {
+      return { blocked: true, reason: `Blocked tag: ${tag.name}` };
+    }
+  }
+
+  return { blocked: false };
+}
+
+/**
+ * Check if a media entry is a proper anime (not a cartoon)
+ */
+function isAnime(media) {
+  // Must be type ANIME
+  if (media.type !== 'ANIME') {
+    return { allowed: false, reason: `Not anime type: ${media.type}` };
+  }
+
+  // Must be an allowed format
+  if (!ALLOWED_FORMATS.includes(media.format)) {
+    return { allowed: false, reason: `Blocked format: ${media.format}` };
+  }
+
+  // Must be from an allowed country (JP, CN, KR, TW)
+  if (media.countryOfOrigin && !ALLOWED_COUNTRIES.includes(media.countryOfOrigin)) {
+    return { allowed: false, reason: `Blocked country: ${media.countryOfOrigin}` };
+  }
+
+  return { allowed: true };
+}
+
+// ============================================
+// FILTERING AND PROCESSING
+// ============================================
+
+/**
+ * Filter and deduplicate episodes — strict content rules applied
+ */
+function filterLatestEpisodes(schedules) {
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('🔍 FILTERING AND PROCESSING EPISODES');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  
+  const animeMap = new Map();
+  const now = Date.now() / 1000;
+  const cutoffDate = now - (CONFIG.RECENCY_DAYS * 24 * 60 * 60);
+  
+  console.log(`📅 Current time: ${formatTimestamp(now)}`);
+  console.log(`📅 Cutoff date (${CONFIG.RECENCY_DAYS} days ago): ${formatTimestamp(cutoffDate)}`);
+  console.log(`📊 Total schedules to process: ${schedules.length}\n`);
+
+  let skippedOld = 0;
+  let skippedNotAiring = 0;
+  let skippedNoMalId = 0;
+  let skippedDuplicate = 0;
+  let skippedAdult = 0;
+  let skippedNotAnime = 0;
+  let kept = 0;
+
+  for (let i = 0; i < schedules.length; i++) {
+    const schedule = schedules[i];
+    const media = schedule.media;
+    
+    console.log(`\n[${i + 1}/${schedules.length}] Processing: ${media?.title?.romaji || 'Unknown'}`);
+    
+    // Validation checks
+    if (!media) {
+      console.log(`   ⚠️  No media data`);
+      continue;
+    }
+
+    if (!media.idMal) {
+      console.log(`   ⏭️  SKIP: No MAL ID (AniList ID: ${media.id})`);
+      skippedNoMalId++;
+      continue;
+    }
+
+    const animeId = media.idMal;
+    const airingTime = schedule.airingAt;
+    const episode = schedule.episode;
+
+    console.log(`   MAL ID: ${animeId}`);
+    console.log(`   AniList ID: ${media.id}`);
+    console.log(`   Episode: ${episode}`);
+    console.log(`   Aired at: ${formatTimestamp(airingTime)}`);
+    console.log(`   Status: ${media.status}`);
+    console.log(`   Format: ${media.format} | Country: ${media.countryOfOrigin} | isAdult: ${media.isAdult}`);
+    console.log(`   Genres: ${(media.genres || []).join(', ') || 'N/A'}`);
+
+    // ── STRICT FILTER 1: Adult / Hentai / Ecchi content ──
+    const adultCheck = isAdultContent(media);
+    if (adultCheck.blocked) {
+      console.log(`   🚫 SKIP: Adult content — ${adultCheck.reason}`);
+      skippedAdult++;
+      continue;
+    }
+
+    // ── STRICT FILTER 2: Must be anime (not cartoon / other) ──
+    const animeCheck = isAnime(media);
+    if (!animeCheck.allowed) {
+      console.log(`   🚫 SKIP: Not anime — ${animeCheck.reason}`);
+      skippedNotAnime++;
+      continue;
+    }
+
+    // Filter: Only episodes from last N days
+    if (airingTime < cutoffDate) {
+      const daysAgo = Math.floor((now - airingTime) / (24 * 60 * 60));
+      console.log(`   ⏭️  SKIP: Too old (${daysAgo} days ago)`);
+      skippedOld++;
+      continue;
+    }
+
+    // Filter: Only currently airing anime
+    if (media.status !== 'RELEASING') {
+      console.log(`   ⏭️  SKIP: Not currently releasing (status: ${media.status})`);
+      skippedNotAiring++;
+      continue;
+    }
+
+    // Deduplicate: Keep only latest episode per anime
+    if (animeMap.has(animeId)) {
+      const existing = animeMap.get(animeId);
+      if (existing.episode >= episode) {
+        console.log(`   ⏭️  SKIP: Duplicate (already have ep ${existing.episode})`);
+        skippedDuplicate++;
+        continue;
+      } else {
+        console.log(`   🔄 REPLACE: Updating from ep ${existing.episode} to ep ${episode}`);
+      }
+    }
+
+    animeMap.set(animeId, { media, episode, airingTime, scheduleId: schedule.id });
+    console.log(`   ✅ KEPT`);
+    kept++;
+  }
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📊 FILTERING SUMMARY');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`✅ Kept: ${kept}`);
+  console.log(`⏭️  Skipped - Too old: ${skippedOld}`);
+  console.log(`⏭️  Skipped - Not airing: ${skippedNotAiring}`);
+  console.log(`⏭️  Skipped - No MAL ID: ${skippedNoMalId}`);
+  console.log(`⏭️  Skipped - Duplicate: ${skippedDuplicate}`);
+  console.log(`🚫 Skipped - Adult/Hentai/Ecchi: ${skippedAdult}`);
+  console.log(`🚫 Skipped - Not anime (cartoon/other): ${skippedNotAnime}`);
+  console.log(`📈 Total processed: ${schedules.length}`);
+  console.log('');
+
+  return Array.from(animeMap.values());
+}
+
+// ============================================
+// DATA CONVERSION
+// ============================================
+
+/**
+ * Convert AniList data to Firestore format (ALL FIELDS)
+ */
+function convertToFirestoreFormat(data) {
+  const { media, episode, airingTime, scheduleId } = data;
+  
+  try {
+    console.log(`\n🔄 Converting: ${media.title.romaji}`);
+
+    const animeId = media.idMal;
+    const title = media.title.english || media.title.romaji || media.title.userPreferred || 'Unknown';
+    
+    // Get best quality image
+    const imageUrl = media.coverImage?.extraLarge || 
+                     media.coverImage?.large || 
+                     media.coverImage?.medium ||
+                     media.bannerImage || '';
+    
+    // Clean and truncate description
+    const synopsis = cleanHtmlTags(media.description || '').substring(0, 1000);
+    
+    // Extract all available data
+    const firestoreData = {
+      // ============ Basic Info ============
+      animeId,
+      anilistId: media.id,
+      title,
+      titleRomaji: media.title.romaji || '',
+      titleEnglish: media.title.english || '',
+      titleNative: media.title.native || '',
+      synonyms: media.synonyms || [],
+      
+      // ============ Images ============
+      imageUrl,
+      coverImageLarge: media.coverImage?.large || '',
+      coverImageMedium: media.coverImage?.medium || '',
+      coverImageColor: media.coverImage?.color || '',
+      bannerImage: media.bannerImage || '',
+      
+      // ============ Description ============
+      synopsis,
+      
+      // ============ Classification ============
+      type: media.type || 'TV',
+      format: media.format || '',
+      status: 'Currently Airing',
+      season: media.season || '',
+      seasonYear: media.seasonYear || null,
+      seasonInt: media.seasonInt || null,
+      
+      // ============ Episodes ============
+      episodes: media.episodes || 0,
+      duration: media.duration || 0,
+      latestEpisode: episode,
+      latestEpisodeTitle: `Episode ${episode}`,
+      
+      // ============ Metadata ============
+      genres: media.genres || [],
+      tags: (media.tags || []).map(tag => ({
+        id: tag.id,
+        name: tag.name,
+        description: tag.description,
+        category: tag.category,
+        rank: tag.rank,
+        isGeneralSpoiler: tag.isGeneralSpoiler || false,
+        isMediaSpoiler: tag.isMediaSpoiler || false,
+        isAdult: tag.isAdult || false,
+      })),
+      
+      // ============ Studios ============
+      studios: (media.studios?.edges || []).map(edge => ({
+        id: edge.node.id,
+        name: edge.node.name,
+        isMain: edge.isMain || false,
+        isAnimationStudio: edge.node.isAnimationStudio || false,
+        siteUrl: edge.node.siteUrl || '',
+      })),
+      studiosNames: (media.studios?.edges || []).map(edge => edge.node.name),
+      
+      // ============ Scores & Rankings ============
+      rating: media.averageScore ? media.averageScore / 10 : 0,
+      averageScore: media.averageScore || 0,
+      meanScore: media.meanScore || 0,
+      popularity: media.popularity || 0,
+      trending: media.trending || 0,
+      favourites: media.favourites || 0,
       rankings: (media.rankings || []).map(rank => ({
         id: rank.id,
         rank: rank.rank,
