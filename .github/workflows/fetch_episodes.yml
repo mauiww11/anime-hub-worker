@@ -41,8 +41,3 @@ jobs:
           git pull --rebase origin main
           git push
           echo "## Fetch Episodes Workflow (via cron-job.org)" >> $GITHUB_STEP_SUMMARY
-<<<<<<< HEAD
-          echo "✅ Completed at $(date)" >> $GITHUB_STEP_SUMMARY
-=======
-          echo "✅ Completed at $(date)" >> $GITHUB_STEP_SUMMARY
->>>>>>> be60fa340f1eaffadfdf20f2b15c66ff82c754d1
