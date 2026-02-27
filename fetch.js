@@ -619,8 +619,6 @@ function filterLatestEpisodes(schedules) {
   console.log(`⏭️  Skipped - Duplicate: ${skippedDuplicate}`);
   console.log(`🚫 Skipped - Adult/Hentai/Ecchi: ${skippedAdult}`);
   console.log(`🚫 Skipped - Not anime (cartoon/other): ${skippedNotAnime}`);
-<<<<<<< HEAD
-=======
   console.log(`📈 Total processed: ${schedules.length}`);
   console.log('');
 
