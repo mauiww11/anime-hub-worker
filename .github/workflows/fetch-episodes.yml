@@ -1,38 +1,46 @@
-name: Fetch New Episodes
+name: Fetch and Update Episodes
 
 on:
-  # ❌ REMOVE schedule - now using cron-job.org
-  # schedule:
-  #   - cron: '*/3 * * * *'
-  
-  # ✅ KEEP this - needed for cron-job.org trigger
-  workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *'   # Every 20 minutes
+  workflow_dispatch:           # Manual trigger
+
+permissions:
+  contents: write              # Needed to commit seen_episodes.json
 
 jobs:
-  fetch-episodes:
+  fetch:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Fetch and update episodes
+      - name: Run fetch worker
         env:
           FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
           FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
           FIREBASE_CLIENT_EMAIL: ${{ secrets.FIREBASE_CLIENT_EMAIL }}
         run: node fetch.js
 
-      - name: Create summary
-        if: always()
+      - name: Commit updated seen_episodes.json
         run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_episodes.json
+          git diff --cached --quiet || git commit -m "chore: update seen_episodes.json [skip ci]"
+          git pull --rebase origin main
+          git push
           echo "## Fetch Episodes Workflow (via cron-job.org)" >> $GITHUB_STEP_SUMMARY
           echo "✅ Completed at $(date)" >> $GITHUB_STEP_SUMMARY
