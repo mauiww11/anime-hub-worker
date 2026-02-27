@@ -1,8 +1,6 @@
 name: Fetch and Update Episodes
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'   # Every 20 minutes
   workflow_dispatch:           # Manual trigger
 
 permissions:
