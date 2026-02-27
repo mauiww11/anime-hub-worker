@@ -297,27 +297,20 @@ query ($page: Int, $perPage: Int) {
 // ============================================
 
 /**
- * Fetch episodes with retry logic
+ * Fetch a single page with retry logic
  */
-async function fetchRecentlyAiredEpisodes() {
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('📺 FETCHING EPISODES FROM ANILIST');
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log(`🔗 API Endpoint: ${CONFIG.ANILIST_API}`);
-  console.log(`📄 Episodes per page: ${CONFIG.EPISODES_PER_PAGE}`);
-  console.log(`⏱️  Request time: ${new Date().toISOString()}\n`);
-
+async function fetchPage(page) {
   let retries = 0;
   let lastError = null;
 
   while (retries < CONFIG.MAX_RETRIES) {
     try {
       const startTime = Date.now();
-      
+
       const response = await axios.post(CONFIG.ANILIST_API, {
         query: AIRING_ANIME_QUERY,
         variables: {
-          page: 1,
+          page,
           perPage: CONFIG.EPISODES_PER_PAGE,
         },
       }, {
@@ -325,7 +318,7 @@ async function fetchRecentlyAiredEpisodes() {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
-        timeout: 30000, // 30 second timeout
+        timeout: 30000,
       });
 
       const requestTime = Date.now() - startTime;
@@ -344,32 +337,25 @@ async function fetchRecentlyAiredEpisodes() {
       const schedules = response.data?.data?.Page?.airingSchedules || [];
       const pageInfo = response.data?.data?.Page?.pageInfo || {};
 
-      console.log('✅ API Request Successful!');
+      console.log(`✅ Page ${page} fetched successfully`);
       console.log(`   Response time: ${requestTime}ms`);
-      console.log(`   Episodes found: ${schedules.length}`);
-      console.log(`   Page info:`, JSON.stringify(pageInfo, null, 2));
+      console.log(`   Episodes in page: ${schedules.length}`);
+      console.log(`   hasNextPage: ${pageInfo.hasNextPage} | lastPage: ${pageInfo.lastPage}`);
       console.log(`   Rate limit remaining: ${response.headers['x-ratelimit-remaining'] || 'N/A'}`);
-      console.log('');
 
-      if (schedules.length === 0) {
-        console.log('⚠️  Warning: No episodes returned from API');
-      }
-
-      return schedules;
+      return { schedules, pageInfo };
     } catch (error) {
       retries++;
       lastError = error;
-      
-      console.error(`❌ API Request Failed (Attempt ${retries}/${CONFIG.MAX_RETRIES})`);
+
+      console.error(`❌ Page ${page} failed (Attempt ${retries}/${CONFIG.MAX_RETRIES})`);
       console.error(`   Error: ${error.message}`);
-      
+
       if (error.response) {
         console.error(`   Status: ${error.response.status}`);
-        console.error(`   Status Text: ${error.response.statusText}`);
         console.error(`   Data:`, JSON.stringify(error.response.data, null, 2));
       } else if (error.request) {
         console.error(`   No response received from server`);
-        console.error(`   Request timeout or network error`);
       }
 
       if (retries < CONFIG.MAX_RETRIES) {
@@ -380,9 +366,141 @@ async function fetchRecentlyAiredEpisodes() {
     }
   }
 
-  console.error(`💥 All retry attempts failed!`);
+  console.error(`💥 All retry attempts failed for page ${page}!`);
   console.error(`   Last error: ${lastError?.message}`);
-  return [];
+  return null;
+}
+
+/**
+ * Fetch ALL episodes with full pagination support
+ */
+async function fetchRecentlyAiredEpisodes() {
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📺 FETCHING EPISODES FROM ANILIST (ALL PAGES)');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`🔗 API Endpoint: ${CONFIG.ANILIST_API}`);
+  console.log(`📄 Episodes per page: ${CONFIG.EPISODES_PER_PAGE}`);
+  console.log(`⏱️  Request time: ${new Date().toISOString()}\n`);
+
+  const allSchedules = [];
+  let currentPage = 1;
+  let hasNextPage = true;
+  const now = Date.now() / 1000;
+  const cutoffDate = now - (CONFIG.RECENCY_DAYS * 24 * 60 * 60);
+
+  while (hasNextPage) {
+    console.log(`\n📄 Fetching page ${currentPage}...`);
+
+    const result = await fetchPage(currentPage);
+
+    if (!result) {
+      console.error(`⚠️  Failed to fetch page ${currentPage}, stopping pagination`);
+      break;
+    }
+
+    const { schedules, pageInfo } = result;
+    allSchedules.push(...schedules);
+
+    // Early exit: if the last episode on this page is older than our cutoff,
+    // no need to fetch more pages (API returns TIME_DESC order)
+    if (schedules.length > 0) {
+      const oldestOnPage = schedules[schedules.length - 1].airingAt;
+      if (oldestOnPage < cutoffDate) {
+        console.log(`\n⏹️  Oldest episode on page ${currentPage} is beyond ${CONFIG.RECENCY_DAYS}-day window — stopping early`);
+        hasNextPage = false;
+        break;
+      }
+    }
+
+    hasNextPage = pageInfo.hasNextPage;
+
+    if (hasNextPage) {
+      currentPage++;
+      console.log(`   ⏳ Waiting ${CONFIG.RATE_LIMIT_DELAY}ms before next page...`);
+      await delay(CONFIG.RATE_LIMIT_DELAY);
+    }
+  }
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`✅ Pagination complete!`);
+  console.log(`   Total pages fetched: ${currentPage}`);
+  console.log(`   Total episodes fetched: ${allSchedules.length}`);
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+
+  if (allSchedules.length === 0) {
+    console.log('⚠️  Warning: No episodes returned from API');
+  }
+
+  return allSchedules;
+}
+
+// ============================================
+// CONTENT FILTERING RULES
+// ============================================
+
+// Formats allowed — anime only, no cartoons or other media
+const ALLOWED_FORMATS = ['TV', 'TV_SHORT', 'OVA', 'ONA', 'SPECIAL', 'MOVIE'];
+
+// Genres that are strictly blocked (hentai / adult)
+const BLOCKED_GENRES = ['Hentai', 'Ecchi'];
+
+// Tags that indicate adult/explicit content — blocked
+const BLOCKED_TAGS = [
+  'Hentai', 'Ecchi', 'Nudity', 'Explicit Sexual Content',
+  'Sex', 'Softcore', 'Pornography', 'BDSM',
+  'Sexual Abuse', 'Rape', 'Incest',
+];
+
+// Country whitelist — only Japanese anime (JP) and Chinese donghua (CN) / Korean (KR)
+// Blocks Western cartoons (US, GB, FR, CA, AU, etc.)
+const ALLOWED_COUNTRIES = ['JP', 'CN', 'KR', 'TW'];
+
+/**
+ * Check if a media entry should be blocked due to adult/hentai content
+ */
+function isAdultContent(media) {
+  // AniList's own isAdult flag
+  if (media.isAdult === true) return { blocked: true, reason: 'isAdult flag' };
+
+  // Block by genre
+  const genres = media.genres || [];
+  for (const genre of genres) {
+    if (BLOCKED_GENRES.includes(genre)) {
+      return { blocked: true, reason: `Blocked genre: ${genre}` };
+    }
+  }
+
+  // Block by tag
+  const tags = media.tags || [];
+  for (const tag of tags) {
+    if (BLOCKED_TAGS.includes(tag.name)) {
+      return { blocked: true, reason: `Blocked tag: ${tag.name}` };
+    }
+  }
+
+  return { blocked: false };
+}
+
+/**
+ * Check if a media entry is a proper anime (not a cartoon)
+ */
+function isAnime(media) {
+  // Must be type ANIME
+  if (media.type !== 'ANIME') {
+    return { allowed: false, reason: `Not anime type: ${media.type}` };
+  }
+
+  // Must be an allowed format
+  if (!ALLOWED_FORMATS.includes(media.format)) {
+    return { allowed: false, reason: `Blocked format: ${media.format}` };
+  }
+
+  // Must be from an allowed country (JP, CN, KR, TW)
+  if (media.countryOfOrigin && !ALLOWED_COUNTRIES.includes(media.countryOfOrigin)) {
+    return { allowed: false, reason: `Blocked country: ${media.countryOfOrigin}` };
+  }
+
+  return { allowed: true };
 }
 
 // ============================================
@@ -390,7 +508,7 @@ async function fetchRecentlyAiredEpisodes() {
 // ============================================
 
 /**
- * Filter and deduplicate episodes
+ * Filter and deduplicate episodes — strict content rules applied
  */
 function filterLatestEpisodes(schedules) {
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
@@ -409,6 +527,8 @@ function filterLatestEpisodes(schedules) {
   let skippedNotAiring = 0;
   let skippedNoMalId = 0;
   let skippedDuplicate = 0;
+  let skippedAdult = 0;
+  let skippedNotAnime = 0;
   let kept = 0;
 
   for (let i = 0; i < schedules.length; i++) {
@@ -438,6 +558,24 @@ function filterLatestEpisodes(schedules) {
     console.log(`   Episode: ${episode}`);
     console.log(`   Aired at: ${formatTimestamp(airingTime)}`);
     console.log(`   Status: ${media.status}`);
+    console.log(`   Format: ${media.format} | Country: ${media.countryOfOrigin} | isAdult: ${media.isAdult}`);
+    console.log(`   Genres: ${(media.genres || []).join(', ') || 'N/A'}`);
+
+    // ── STRICT FILTER 1: Adult / Hentai / Ecchi content ──
+    const adultCheck = isAdultContent(media);
+    if (adultCheck.blocked) {
+      console.log(`   🚫 SKIP: Adult content — ${adultCheck.reason}`);
+      skippedAdult++;
+      continue;
+    }
+
+    // ── STRICT FILTER 2: Must be anime (not cartoon / other) ──
+    const animeCheck = isAnime(media);
+    if (!animeCheck.allowed) {
+      console.log(`   🚫 SKIP: Not anime — ${animeCheck.reason}`);
+      skippedNotAnime++;
+      continue;
+    }
 
     // Filter: Only episodes from last N days
     if (airingTime < cutoffDate) {
@@ -479,6 +617,8 @@ function filterLatestEpisodes(schedules) {
   console.log(`⏭️  Skipped - Not airing: ${skippedNotAiring}`);
   console.log(`⏭️  Skipped - No MAL ID: ${skippedNoMalId}`);
   console.log(`⏭️  Skipped - Duplicate: ${skippedDuplicate}`);
+  console.log(`🚫 Skipped - Adult/Hentai/Ecchi: ${skippedAdult}`);
+  console.log(`🚫 Skipped - Not anime (cartoon/other): ${skippedNotAnime}`);
   console.log(`📈 Total processed: ${schedules.length}`);
   console.log('');
 
@@ -697,11 +837,69 @@ function convertToFirestoreFormat(data) {
 }
 
 // ============================================
-// FIRESTORE UPDATE
+// SEEN EPISODES CACHE (seen_episodes.json)
 // ============================================
 
+const fs = require('fs');
+const SEEN_FILE = 'seen_episodes.json';
+
 /**
- * Update Firestore with comprehensive logging
+ * Load seen episodes from the local file.
+ * Returns a Map of  "animeId_ep" → airingAt (unix timestamp)
+ */
+function loadSeenEpisodes() {
+  try {
+    if (!fs.existsSync(SEEN_FILE)) {
+      console.log(`📂 ${SEEN_FILE} not found — starting fresh`);
+      return new Map();
+    }
+    const raw = JSON.parse(fs.readFileSync(SEEN_FILE, 'utf8'));
+    const map = new Map(Object.entries(raw));
+    console.log(`📂 Loaded ${map.size} seen episodes from ${SEEN_FILE}`);
+    return map;
+  } catch (e) {
+    console.error(`⚠️  Failed to load ${SEEN_FILE}: ${e.message} — starting fresh`);
+    return new Map();
+  }
+}
+
+/**
+ * Save the seen episodes map back to file (keeps last 7 days only).
+ * The cleanup workflow also runs this trim daily, but we trim here too
+ * as a safety net.
+ */
+function saveSeenEpisodes(seenMap) {
+  const now = Date.now() / 1000;
+  const cutoff = now - (CONFIG.RECENCY_DAYS * 24 * 60 * 60);
+
+  const trimmed = {};
+  let removed = 0;
+  for (const [key, airingAt] of seenMap.entries()) {
+    if (airingAt >= cutoff) {
+      trimmed[key] = airingAt;
+    } else {
+      removed++;
+    }
+  }
+
+  fs.writeFileSync(SEEN_FILE, JSON.stringify(trimmed, null, 2), 'utf8');
+  console.log(`💾 Saved ${Object.keys(trimmed).length} seen episodes (removed ${removed} old entries)`);
+}
+
+// ============================================
+// FIRESTORE UPDATE  (zero Firestore reads)
+// ============================================
+
+const WRITE_CHUNK_SIZE = 400;
+
+/**
+ * Update Firestore using seen_episodes.json as the source of truth.
+ * NO Firestore reads — zero read quota used.
+ *
+ * Logic:
+ *   - key = "animeId_ep{episode}"
+ *   - If key not in seenMap  → write to Firestore + add to seenMap
+ *   - If key already in seenMap → skip (already written before)
  */
 async function updateFirestore(episodesList) {
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
@@ -709,108 +907,98 @@ async function updateFirestore(episodesList) {
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log(`📊 Episodes to process: ${episodesList.length}\n`);
 
-  const batch = db.batch();
-  let updateCount = 0;
-  let newCount = 0;
-  let updatedEpisodeCount = 0;
-  let refreshCount = 0;
-  let errorCount = 0;
-  const errors = [];
-
   const startTime = Date.now();
+  const seenMap = loadSeenEpisodes();
 
-  for (let i = 0; i < episodesList.length; i++) {
-    const data = episodesList[i];
-    console.log(`\n[${i + 1}/${episodesList.length}] Processing for Firestore...`);
-    
+  // ── Step 1: Convert all episodes ──
+  const converted = [];
+  let conversionErrors = 0;
+  for (const data of episodesList) {
     const animeData = convertToFirestoreFormat(data);
-    if (!animeData) {
-      errorCount++;
-      errors.push({ animeId: data.media?.idMal, error: 'Conversion failed' });
-      continue;
+    if (animeData) {
+      converted.push(animeData);
+    } else {
+      conversionErrors++;
+      console.error(`   ❌ Conversion failed for MAL ID: ${data.media?.idMal}`);
     }
+  }
+  console.log(`✅ Converted: ${converted.length}/${episodesList.length}\n`);
 
-    try {
+  if (converted.length === 0) {
+    console.log('⚠️  Nothing to write.');
+    return;
+  }
+
+  // ── Step 2: Filter out already-seen episodes ──
+  const toWrite = [];
+  let skippedSeen = 0;
+
+  for (const animeData of converted) {
+    const key = `${animeData.animeId}_ep${animeData.latestEpisode}`;
+
+    console.log(`[${converted.indexOf(animeData) + 1}/${converted.length}] ${animeData.title}`);
+    console.log(`   Key: ${key}`);
+
+    if (seenMap.has(key)) {
+      console.log(`   ⏭️  SKIP: already in seen_episodes.json`);
+      skippedSeen++;
+    } else {
+      console.log(`   🆕 NEW — will write to Firestore`);
+      toWrite.push({ animeData, key });
+    }
+  }
+
+  console.log(`\n📊 New: ${toWrite.length} | Already seen: ${skippedSeen}\n`);
+
+  if (toWrite.length === 0) {
+    console.log('✅ Nothing new to write — all episodes already seen.');
+    return;
+  }
+
+  // ── Step 3: Write in chunks (no reads needed) ──
+  const chunks = [];
+  for (let i = 0; i < toWrite.length; i += WRITE_CHUNK_SIZE) {
+    chunks.push(toWrite.slice(i, i + WRITE_CHUNK_SIZE));
+  }
+
+  console.log(`📦 Writing ${toWrite.length} episodes in ${chunks.length} batch(es)...`);
+
+  let writeErrors = 0;
+  for (let c = 0; c < chunks.length; c++) {
+    const batch = db.batch();
+    for (const { animeData } of chunks[c]) {
       const docRef = db.collection('episodes').doc(String(animeData.animeId));
-      const existing = await docRef.get();
+      batch.set(docRef, animeData, { merge: true });
+    }
+    try {
+      console.log(`   💾 Batch ${c + 1}/${chunks.length} — ${chunks[c].length} ops...`);
+      await batch.commit();
+      console.log(`   ✅ Batch ${c + 1}/${chunks.length} committed`);
 
-      const prev = existing.exists ? existing.data() : null;
-      const prevLatest = prev ? Number(prev.latestEpisode || 0) : 0;
-      const newLatest = Number(animeData.latestEpisode || 0);
-
-      console.log(`   Document: episodes/${animeData.animeId}`);
-      console.log(`   Exists: ${existing.exists}`);
-
-      if (!existing.exists) {
-        // New anime
-        batch.set(docRef, animeData);
-        updateCount++;
-        newCount++;
-        console.log(`   ✅ NEW anime will be added`);
-        console.log(`      Title: ${animeData.title}`);
-        console.log(`      Episode: ${newLatest}`);
-      } else if (newLatest > prevLatest) {
-        // Episode number increased
-        batch.set(docRef, animeData, { merge: true });
-        updateCount++;
-        updatedEpisodeCount++;
-        console.log(`   ✅ EPISODE UPDATE`);
-        console.log(`      Title: ${animeData.title}`);
-        console.log(`      Previous: Episode ${prevLatest}`);
-        console.log(`      New: Episode ${newLatest}`);
-      } else {
-        // Same episode - refresh metadata only
-        animeData.episodeAddedAt = prev.episodeAddedAt || animeData.episodeAddedAt;
-        batch.set(docRef, animeData, { merge: true });
-        updateCount++;
-        refreshCount++;
-        console.log(`   🔄 METADATA REFRESH`);
-        console.log(`      Title: ${animeData.title}`);
-        console.log(`      Episode: ${newLatest} (unchanged)`);
+      // Only add to seenMap after successful commit
+      for (const { animeData, key } of chunks[c]) {
+        seenMap.set(key, animeData.episodeAiredAt);
       }
     } catch (error) {
-      errorCount++;
-      errors.push({ 
-        animeId: animeData.animeId, 
-        title: animeData.title,
-        error: error.message 
-      });
-      console.error(`   ❌ Error: ${error.message}`);
+      writeErrors++;
+      console.error(`   💥 Batch ${c + 1} FAILED: ${error.message}`);
+      throw error;
     }
   }
 
-  // Commit batch
-  try {
-    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('💾 COMMITTING BATCH TO FIRESTORE...');
-    await batch.commit();
-    const commitTime = Date.now() - startTime;
-    
-    console.log('✅ BATCH COMMITTED SUCCESSFULLY!');
-    console.log(`⏱️  Total time: ${commitTime}ms`);
-    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('📊 FIRESTORE UPDATE SUMMARY');
-    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log(`✅ Total operations: ${updateCount}`);
-    console.log(`   🆕 New anime: ${newCount}`);
-    console.log(`   📈 Episode updates: ${updatedEpisodeCount}`);
-    console.log(`   🔄 Metadata refreshes: ${refreshCount}`);
-    console.log(`   ❌ Errors: ${errorCount}`);
-    
-    if (errors.length > 0) {
-      console.log('\n⚠️  ERRORS DETAILS:');
-      errors.forEach((err, i) => {
-        console.log(`   ${i + 1}. ${err.title || `Anime ${err.animeId}`}: ${err.error}`);
-      });
-    }
-    
-    console.log('');
-  } catch (error) {
-    console.error('\n💥 BATCH COMMIT FAILED!');
-    console.error(`   Error: ${error.message}`);
-    console.error(`   Stack:`, error.stack);
-    throw error;
-  }
+  // ── Step 4: Save updated seenMap ──
+  saveSeenEpisodes(seenMap);
+
+  const totalTime = Date.now() - startTime;
+
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📊 FIRESTORE UPDATE SUMMARY');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log(`✅ Written: ${toWrite.length}`);
+  console.log(`⏭️  Skipped (already seen): ${skippedSeen}`);
+  console.log(`❌ Errors: ${conversionErrors + writeErrors}`);
+  console.log(`⏱️  Total time: ${totalTime}ms`);
+  console.log('');
 }
 
 // ============================================
