@@ -1,0 +1,35 @@
+name: Daily Cleanup
+
+on:
+  schedule:
+    - cron: '0 0 * * *'    # Every day at 00:00 UTC (before fetch starts)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run cleanup
+        run: node cleanup_seen.js
+
+      - name: Commit trimmed seen_episodes.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_episodes.json
+          git diff --cached --quiet || git commit -m "chore: daily cleanup seen_episodes.json [skip ci]"
+          git push
