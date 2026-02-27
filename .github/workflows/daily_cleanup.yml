@@ -1,8 +1,6 @@
 name: Daily Cleanup
 
 on:
-  schedule:
-    - cron: '0 0 * * *'    # Every day at 00:00 UTC (before fetch starts)
   workflow_dispatch:
 
 permissions:
