@@ -229,7 +229,7 @@
     "averageScore": 80,
     "meanScore": 81,
     "popularity": 27243,
-    "trending": 110,
+    "trending": 127,
     "favourites": 403,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -488,7 +488,7 @@
     "averageScore": 75,
     "meanScore": 76,
     "popularity": 28183,
-    "trending": 56,
+    "trending": 49,
     "favourites": 381,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1548,7 +1548,7 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 20007,
-    "trending": 43,
+    "trending": 34,
     "favourites": 287,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1724,7 +1724,7 @@
     "averageScore": 59,
     "meanScore": 59,
     "popularity": 19893,
-    "trending": 48,
+    "trending": 45,
     "favourites": 291,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -2075,7 +2075,7 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 93,
+        "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2085,7 +2085,7 @@
         "name": "Otaku Culture",
         "description": "Centers around the culture of a fanatical fan-base.",
         "category": "Theme-Other",
-        "rank": 88,
+        "rank": 87,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2095,7 +2095,7 @@
         "name": "Drugs",
         "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
         "category": "Theme-Other",
-        "rank": 80,
+        "rank": 78,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2111,16 +2111,6 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 71,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1047,
         "name": "VTuber",
         "description": "Prominently features a character who is either an actual or fictive VTuber.",
@@ -2131,11 +2121,21 @@
         "isAdult": false
       },
       {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 70,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1046,
         "name": "Suicide",
         "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
         "category": "Theme-Drama",
-        "rank": 67,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2151,16 +2151,6 @@
         "isAdult": true
       },
       {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 62,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 595,
         "name": "Urban",
         "description": "Partly or completely set in a city.",
@@ -2171,11 +2161,21 @@
         "isAdult": false
       },
       {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1742,
         "name": "Mixed Media",
         "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
         "category": "Technical",
-        "rank": 54,
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2185,16 +2185,6 @@
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 163,
-        "name": "Yandere",
-        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
-        "category": "Cast-Traits",
         "rank": 52,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2205,15 +2195,15 @@
         "name": "Work",
         "description": "Centers around the activities of a certain occupation.",
         "category": "Setting-Scene",
-        "rank": 51,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1219,
-        "name": "Disability",
-        "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
+        "id": 163,
+        "name": "Yandere",
+        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
         "category": "Cast-Traits",
         "rank": 48,
         "isGeneralSpoiler": false,
@@ -2225,7 +2215,17 @@
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 48,
+        "rank": 47,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1219,
+        "name": "Disability",
+        "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
+        "category": "Cast-Traits",
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2235,7 +2235,7 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 40,
+        "rank": 37,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2245,7 +2245,7 @@
         "name": "Bullying",
         "description": "Prominently features the use of force for intimidation, often in a school setting.",
         "category": "Theme-Drama",
-        "rank": 33,
+        "rank": 35,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2277,7 +2277,7 @@
     "averageScore": 68,
     "meanScore": 69,
     "popularity": 27176,
-    "trending": 39,
+    "trending": 49,
     "favourites": 484,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
@@ -2724,7 +2724,7 @@
     "averageScore": 67,
     "meanScore": 68,
     "popularity": 29153,
-    "trending": 38,
+    "trending": 33,
     "favourites": 391,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -3464,7 +3464,7 @@
     "averageScore": 63,
     "meanScore": 65,
     "popularity": 12946,
-    "trending": 45,
+    "trending": 56,
     "favourites": 124,
     "source": "MANGA",
     "countryOfOrigin": "JP",
