@@ -229,7 +229,7 @@
     "averageScore": 80,
     "meanScore": 81,
     "popularity": 28672,
-    "trending": 34,
+    "trending": 44,
     "favourites": 438,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -713,7 +713,7 @@
     "averageScore": 73,
     "meanScore": 74,
     "popularity": 19242,
-    "trending": 16,
+    "trending": 26,
     "favourites": 271,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2568,11 +2568,31 @@
         "isAdult": false
       },
       {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 79,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 198,
         "name": "Foreign",
         "description": "Partly or completely set in a country outside the country of origin.",
         "category": "Setting-Scene",
         "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
+        "category": "Theme-Other",
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2588,33 +2608,23 @@
         "isAdult": false
       },
       {
-        "id": 138,
-        "name": "Age Gap",
-        "description": "Prominently features romantic relations between people with a significant age difference.",
-        "category": "Theme-Romance",
-        "rank": 60,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
-        "category": "Theme-Other",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 466,
         "name": "Lost Civilization",
         "description": "Featuring a civilization with few ruins or records that exist in present day knowledge.",
         "category": "Theme-Other",
-        "rank": 50,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -2622,7 +2632,17 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 48,
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 598,
+        "name": "Elf",
+        "description": "Prominently features a character who is an elf.",
+        "category": "Cast-Traits",
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2638,23 +2658,13 @@
         "isAdult": false
       },
       {
-        "id": 598,
-        "name": "Elf",
-        "description": "Prominently features a character who is an elf.",
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
         "category": "Cast-Traits",
         "rank": 40,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -2662,17 +2672,7 @@
         "name": "Fairy",
         "description": "Prominently features a character who is a fairy.",
         "category": "Cast-Traits",
-        "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 224,
-        "name": "Dragons",
-        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
-        "category": "Cast-Traits",
-        "rank": 20,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2682,7 +2682,7 @@
         "name": "Religion",
         "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
         "category": "Theme-Other",
-        "rank": 20,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2692,7 +2692,7 @@
         "name": "Conspiracy",
         "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
         "category": "Theme-Drama",
-        "rank": 20,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2702,7 +2702,7 @@
         "name": "Robots",
         "description": "Prominently features humanoid machines.",
         "category": "Cast-Traits",
-        "rank": 20,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2732,10 +2732,10 @@
     ],
     "rating": 6.7,
     "averageScore": 67,
-    "meanScore": 68,
-    "popularity": 29391,
-    "trending": 25,
-    "favourites": 402,
+    "meanScore": 67,
+    "popularity": 29863,
+    "trending": 301,
+    "favourites": 404,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3789,9 +3789,9 @@
     "rating": 6,
     "averageScore": 60,
     "meanScore": 61,
-    "popularity": 21614,
-    "trending": 22,
-    "favourites": 220,
+    "popularity": 22201,
+    "trending": 32,
+    "favourites": 228,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
