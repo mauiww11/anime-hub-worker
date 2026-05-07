@@ -47,7 +47,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 409,
-    "trending": 1,
+    "trending": 0,
     "favourites": 1,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -241,7 +241,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 388,
-    "trending": 1,
+    "trending": 0,
     "favourites": 16,
     "source": "OTHER",
     "countryOfOrigin": "CN",
@@ -502,16 +502,6 @@
     "genres": [],
     "tags": [
       {
-        "id": 123,
-        "name": "Male Harem",
-        "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
-        "category": "Theme-Romance",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 88,
         "name": "Primarily Male Cast",
         "description": "Main cast is mostly composed of male characters.",
@@ -526,6 +516,16 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 123,
+        "name": "Male Harem",
+        "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
+        "category": "Theme-Romance",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -599,16 +599,6 @@
         "isAdult": false
       },
       {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1578,
         "name": "Arranged Marriage",
         "description": "Features two characters made to marry each other, usually by their family.",
@@ -616,16 +606,6 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -656,6 +636,26 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -789,20 +789,20 @@
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
+        "id": 112,
+        "name": "Virtual World",
+        "description": "Partly or completely set in the world inside a video game.",
+        "category": "Setting-Universe",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 112,
-        "name": "Virtual World",
-        "description": "Partly or completely set in the world inside a video game.",
-        "category": "Setting-Universe",
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1300,7 +1300,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 312,
-    "trending": 1,
+    "trending": 0,
     "favourites": 11,
     "source": "MANGA",
     "countryOfOrigin": "CN",
@@ -1359,7 +1359,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 301,
-    "trending": 1,
+    "trending": 0,
     "favourites": 7,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",

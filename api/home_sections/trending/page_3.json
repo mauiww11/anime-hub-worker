@@ -1872,31 +1872,11 @@
     ],
     "tags": [
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 86,
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
         "category": "Cast-Main Cast",
-        "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 83,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1906,9 +1886,39 @@
         "name": "Achronological Order",
         "description": "Chapters or episodes do not occur in chronological order.",
         "category": "Setting-Time",
-        "rank": 80,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1489,
+        "name": "Boarding School",
+        "description": "Features characters attending a boarding school.",
+        "category": "Setting-Scene",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1922,21 +1932,41 @@
         "isAdult": false
       },
       {
-        "id": 1489,
-        "name": "Boarding School",
-        "description": "Features characters attending a boarding school.",
-        "category": "Setting-Scene",
-        "rank": 70,
+        "id": 265,
+        "name": "Musical Theater",
+        "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
+        "category": "Theme-Arts-Music",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 265,
-        "name": "Musical Theater",
-        "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
-        "category": "Theme-Arts-Music",
-        "rank": 64,
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 67,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1962,33 +1992,13 @@
         "isAdult": false
       },
       {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 57,
+        "id": 87,
+        "name": "Family Life",
+        "description": "Centers around the activities of a family unit.",
+        "category": "Theme-Slice of Life",
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 193,
-        "name": "Episodic",
-        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-        "category": "Technical",
-        "rank": 55,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -2002,6 +2012,26 @@
         "isAdult": false
       },
       {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 33,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+        "category": "Theme-Drama",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 90,
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
@@ -2012,41 +2042,11 @@
         "isAdult": false
       },
       {
-        "id": 1046,
-        "name": "Suicide",
-        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
-        "category": "Theme-Drama",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 87,
-        "name": "Family Life",
-        "description": "Centers around the activities of a family unit.",
-        "category": "Theme-Slice of Life",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 20,
+        "rank": 10,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2067,9 +2067,9 @@
     "rating": 6.8,
     "averageScore": 68,
     "meanScore": 70,
-    "popularity": 9692,
-    "trending": 22,
-    "favourites": 54,
+    "popularity": 10006,
+    "trending": 52,
+    "favourites": 58,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2274,7 +2274,7 @@
         "name": "Dungeon",
         "description": "Prominently features a dungeon environment.",
         "category": "Setting-Scene",
-        "rank": 20,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2284,7 +2284,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 20,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2322,10 +2322,10 @@
     ],
     "rating": 3.7,
     "averageScore": 37,
-    "meanScore": 36,
-    "popularity": 3753,
-    "trending": 25,
-    "favourites": 67,
+    "meanScore": 37,
+    "popularity": 4129,
+    "trending": 32,
+    "favourites": 73,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2616,6 +2616,16 @@
         "isAdult": false
       },
       {
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 46,
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
@@ -2633,16 +2643,6 @@
         "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 139,
-        "name": "Love Triangle",
-        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
-        "category": "Theme-Romance",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -2671,9 +2671,9 @@
     "rating": 6.3,
     "averageScore": 63,
     "meanScore": 64,
-    "popularity": 13228,
-    "trending": 30,
-    "favourites": 167,
+    "popularity": 13823,
+    "trending": 150,
+    "favourites": 177,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3888,6 +3888,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -3906,7 +3916,7 @@
     "averageScore": 58,
     "meanScore": 60,
     "popularity": 6889,
-    "trending": 41,
+    "trending": 48,
     "favourites": 55,
     "source": "MANGA",
     "countryOfOrigin": "JP",
