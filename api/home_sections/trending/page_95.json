@@ -3735,7 +3735,7 @@
     "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx204356-RNYmxUVVz3Z2.png",
     "coverImageColor": "#35aef1",
     "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/204356-fwuxzhlTtPed.jpg",
-    "synopsis": "\"More,\" a new story by Kohei Horikoshi, is being adapted into an anime! It tells the story of Deku and friends after the final episode, published in the 42nd and final volume of the original manga. (Source: Official Website, translated)",
+    "synopsis": "Time as passed, and the former members of Class 1-A have grown up, but something is bothering Uraraka... (Source: Crunchyroll)",
     "type": "ANIME",
     "format": "SPECIAL",
     "status": "FINISHED",
@@ -3743,12 +3743,22 @@
     "seasonYear": 2026,
     "seasonInt": 262,
     "episodes": 1,
-    "duration": 0,
+    "duration": 23,
     "genres": [
       "Action",
       "Adventure"
     ],
     "tags": [
+      {
+        "id": 153,
+        "name": "Time Skip",
+        "description": "Features a gap in time used to advance the story.",
+        "category": "Setting-Time",
+        "rank": 92,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
       {
         "id": 56,
         "name": "Shounen",
@@ -3757,16 +3767,6 @@
         "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 153,
-        "name": "Time Skip",
-        "description": "Features a gap in time used to advance the story.",
-        "category": "Setting-Time",
-        "rank": 90,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -3784,7 +3784,17 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 77,
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3854,10 +3864,10 @@
     ],
     "rating": 8.2,
     "averageScore": 82,
-    "meanScore": 83,
-    "popularity": 25501,
-    "trending": 31,
-    "favourites": 470,
+    "meanScore": 82,
+    "popularity": 25886,
+    "trending": 29,
+    "favourites": 480,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
