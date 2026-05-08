@@ -643,7 +643,7 @@
     "averageScore": 89,
     "meanScore": 89,
     "popularity": 789766,
-    "trending": 30,
+    "trending": 26,
     "favourites": 91035,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -947,7 +947,7 @@
     "averageScore": 82,
     "meanScore": 82,
     "popularity": 208891,
-    "trending": 24,
+    "trending": 26,
     "favourites": 9130,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1454,7 +1454,7 @@
     "averageScore": 79,
     "meanScore": 79,
     "popularity": 539501,
-    "trending": 28,
+    "trending": 23,
     "favourites": 30033,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -3815,9 +3815,9 @@
     "rating": 8.8,
     "averageScore": 88,
     "meanScore": 88,
-    "popularity": 280189,
-    "trending": 20,
-    "favourites": 23739,
+    "popularity": 280478,
+    "trending": 16,
+    "favourites": 23752,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5260,7 +5260,7 @@
     "averageScore": 78,
     "meanScore": 78,
     "popularity": 135984,
-    "trending": 24,
+    "trending": 30,
     "favourites": 4283,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -6594,9 +6594,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 168386,
+    "popularity": 168909,
     "trending": 18,
-    "favourites": 10033,
+    "favourites": 10087,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6655,6 +6655,16 @@
         "isAdult": false
       },
       {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 613,
         "name": "Firefighters",
         "description": "Centered around the life and activities of rescuers specialised in firefighting.",
@@ -6695,16 +6705,6 @@
         "isAdult": false
       },
       {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 56,
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
@@ -6729,36 +6729,6 @@
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 614,
-        "name": "Nun",
-        "description": "Prominently features a character who is a nun.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -6805,11 +6775,31 @@
         "isAdult": false
       },
       {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 276,
         "name": "Kaiju",
         "description": "Prominently features giant monsters.",
         "category": "Theme-Fantasy",
         "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -6835,11 +6825,11 @@
         "isAdult": false
       },
       {
-        "id": 391,
-        "name": "Philosophy",
-        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
-        "category": "Theme-Other",
-        "rank": 46,
+        "id": 614,
+        "name": "Nun",
+        "description": "Prominently features a character who is a nun.",
+        "category": "Cast-Traits",
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -6852,6 +6842,16 @@
         "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+        "category": "Theme-Other",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -6868,21 +6868,21 @@
     "studios": [
       {
         "id": 287,
-        "name": "David Production",
+        "name": "david production",
         "isMain": true,
         "isAnimationStudio": true,
         "siteUrl": "https://anilist.co/studio/287"
       }
     ],
     "studiosNames": [
-      "David Production"
+      "david production"
     ],
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 71373,
-    "trending": 17,
-    "favourites": 1745,
+    "popularity": 72344,
+    "trending": 16,
+    "favourites": 1772,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
