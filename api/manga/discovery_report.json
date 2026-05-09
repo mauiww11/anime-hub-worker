@@ -1,101 +1,53 @@
 {
-  "generatedAt": "2026-05-09T01:51:46.090Z",
+  "generatedAt": "2026-05-09T02:17:48.883Z",
   "discoveryLimit": 300,
   "failureCooldownHours": 12,
-  "freshFeedCount": 190,
-  "discovered": [
+  "freshFeedCount": 150,
+  "discovered": [],
+  "failed": [
     {
-      "mangadexId": "08a69168-3adb-4f78-adaa-088b7663e0ff",
-      "chapterId": "d6e4cc22-30ba-4f5b-8e72-9cae25ce98c7",
-      "chapter": "42.5",
-      "title": "The Credits Roll into the Sea",
-      "chapterTitle": "Bonus Chapter",
+      "mangadexId": "c9a8ffb7-682f-40e2-87fe-9537e8f425ea",
+      "chapterId": "10b4ff91-8ebf-48df-a173-c153670eb69d",
+      "chapter": "96",
+      "title": "Episode 96",
+      "chapterTitle": "Episode 96",
       "language": "en",
-      "publishedAt": "2026-05-09T01:37:47+00:00",
-      "mangaId": 137614,
-      "anilistId": 137614,
-      "chapterIndexId": "08a69168-3adb-4f78-adaa-088b7663e0ff"
+      "publishedAt": "2026-05-09T02:10:32+00:00",
+      "reason": "anilist_match_not_found",
+      "candidateTitles": [
+        "WEE!!!"
+      ],
+      "anilistId": null
+    },
+    {
+      "mangadexId": "136faa55-554e-4a3c-ad10-d4ae26d2736b",
+      "chapterId": "f425afc1-2e7e-42d7-84eb-5f45da510f7a",
+      "chapter": "11",
+      "title": "GENJI AND TOKIO",
+      "chapterTitle": "GENJI AND TOKIO",
+      "language": "en",
+      "publishedAt": "2026-05-08T04:15:36+00:00",
+      "reason": "anilist_match_not_found",
+      "candidateTitles": [
+        "Crows Zero Reboot",
+        "クローズZEROリブート",
+        "Crows Zero Tái Khởi Động"
+      ],
+      "anilistId": null
     }
   ],
-  "failed": [],
   "skippedByLimit": [],
   "skippedRecentFailure": [
     {
-      "mangadexId": "dc311ac4-6528-4767-888f-31d26b4c401a",
-      "chapterId": "4b13d48e-b826-475e-bc2b-197c8dc31e92",
-      "chapter": "1",
-      "title": "A Cruel World",
-      "chapterTitle": "A Cruel World",
-      "language": "en",
-      "publishedAt": "2026-05-08T04:20:19+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T16:51:54.951Z"
-    },
-    {
-      "mangadexId": "975928eb-b7e3-4f6c-ad38-a8c2b17102d4",
-      "chapterId": "c5b0f693-f269-4bb8-b3c5-a1bd2554438b",
-      "chapter": "25",
-      "title": "Extra 4 - Youkai Hyakumonme",
-      "chapterTitle": "Extra 4 - Youkai Hyakumonme",
-      "language": "en",
-      "publishedAt": "2026-05-08T08:43:37+00:00",
-      "reason": "adult_blocked",
-      "lastAttemptAt": "2026-05-08T20:52:00.774Z"
-    },
-    {
-      "mangadexId": "6be2f409-01e2-4d20-8547-3c3be14f81e5",
-      "chapterId": "dc7ecf22-38cd-48ca-837f-82fde1c6f7a4",
-      "chapter": "1",
-      "title": "Nowhere",
-      "chapterTitle": "Nowhere",
-      "language": "en",
-      "publishedAt": "2026-05-07T17:58:51+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T18:01:12.208Z"
-    },
-    {
-      "mangadexId": "11ac676c-15c1-48ec-a289-91f798826ac5",
-      "chapterId": "6d8b53ae-ab64-493c-9b9f-2d7c13da9602",
-      "chapter": "10",
+      "mangadexId": "9229ee0c-3e56-41df-be1f-278fa8680426",
+      "chapterId": "6b3575d8-c0c8-4064-824f-5aff69c524ea",
+      "chapter": "61",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T19:17:28+00:00",
-      "reason": "adult_blocked",
-      "lastAttemptAt": "2026-05-08T19:18:04.156Z"
-    },
-    {
-      "mangadexId": "2077d8b4-60ee-4815-bd92-e268a5b0e638",
-      "chapterId": "f1667947-723c-4014-b674-21a814066cfb",
-      "chapter": "3",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T13:46:07+00:00",
+      "publishedAt": "2026-05-08T01:06:13+00:00",
       "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T17:00:54.629Z"
-    },
-    {
-      "mangadexId": "3cf1a8fc-2a14-41e3-8bc8-a7201a9f2dc0",
-      "chapterId": "645ee460-383a-44e1-9ed0-63b49b9efd2f",
-      "chapter": "10",
-      "title": "Is She Angery?",
-      "chapterTitle": "Is She Angery?",
-      "language": "en",
-      "publishedAt": "2026-05-07T19:07:32+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T19:35:02.313Z"
-    },
-    {
-      "mangadexId": "a471b9ee-7c1d-4915-aeb4-8ecebc6c2388",
-      "chapterId": "43911c29-51fb-4d0e-b09f-9250956b8833",
-      "chapter": "4",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T19:19:03+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T19:34:57.323Z"
+      "lastAttemptAt": "2026-05-09T01:35:04.143Z"
     },
     {
       "mangadexId": "5a563484-bbd0-4071-9b19-4fb2dbb72ba1",
@@ -120,94 +72,6 @@
       "lastAttemptAt": "2026-05-09T01:34:59.709Z"
     },
     {
-      "mangadexId": "5ae6ba69-9680-456a-8b84-47c68a6bac00",
-      "chapterId": "d91d85de-3f59-4829-bc75-be2d33b228d4",
-      "chapter": "33.5",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T15:06:02+00:00",
-      "reason": "adult_blocked",
-      "lastAttemptAt": "2026-05-08T15:17:54.078Z"
-    },
-    {
-      "mangadexId": "f31f1c67-13b4-4432-a67d-f1c8f21958a7",
-      "chapterId": "003cf256-831f-4a3d-8c48-ef683ce622f6",
-      "chapter": "1",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T13:03:10+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-09T01:35:02.526Z"
-    },
-    {
-      "mangadexId": "b69b09cc-a1df-4438-a117-78dbf94b8dc1",
-      "chapterId": "51576306-2364-474b-980b-8441619d3f83",
-      "chapter": "5",
-      "title": "وظيفة سيئة",
-      "chapterTitle": "وظيفة سيئة",
-      "language": "ar",
-      "publishedAt": "2026-05-08T19:45:40+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T19:51:57.284Z"
-    },
-    {
-      "mangadexId": "851bbd39-92d6-4e61-9e21-2236e409e07a",
-      "chapterId": "627a344f-416b-4c52-b627-512ab204965a",
-      "chapter": "",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T15:42:20+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T16:01:05.132Z"
-    },
-    {
-      "mangadexId": "d1b8e820-62d4-4d0c-9001-100a1e5ea551",
-      "chapterId": "f6c90804-8a50-4e1a-8f84-cb3fcd660f73",
-      "chapter": "20",
-      "title": "The One I Gave Him",
-      "chapterTitle": "The One I Gave Him",
-      "language": "en",
-      "publishedAt": "2026-05-08T21:29:42+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T21:35:02.332Z"
-    },
-    {
-      "mangadexId": "761064a4-bd69-4cb4-a45d-e5b5c74016d5",
-      "chapterId": "8d3c38c9-af3c-4edb-9f63-810ba2627f53",
-      "chapter": "27",
-      "title": "Group Chat Without Xiao-Yu",
-      "chapterTitle": "Group Chat Without Xiao-Yu",
-      "language": "en",
-      "publishedAt": "2026-05-07T15:19:09+00:00",
-      "reason": "adult_blocked",
-      "lastAttemptAt": "2026-05-08T16:00:55.992Z"
-    },
-    {
-      "mangadexId": "ee957607-e7fc-40b0-acdb-10c7084d9d40",
-      "chapterId": "c62da9c8-d7a2-4028-9e81-13cc65e24bf8",
-      "chapter": "50",
-      "title": "Apologies",
-      "chapterTitle": "Apologies",
-      "language": "en",
-      "publishedAt": "2026-05-08T22:05:03+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T22:17:44.349Z"
-    },
-    {
-      "mangadexId": "136faa55-554e-4a3c-ad10-d4ae26d2736b",
-      "chapterId": "bdea2cb9-4a1a-4239-8a83-52adcbc07c7b",
-      "chapter": "12",
-      "title": "TAME THE MONSTER",
-      "chapterTitle": "TAME THE MONSTER",
-      "language": "en",
-      "publishedAt": "2026-05-08T13:03:48+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-09T01:34:56.207Z"
-    },
-    {
       "mangadexId": "3c7cb0ba-180a-4bdb-8409-e7e3c4d31953",
       "chapterId": "8f7e0d0d-ea95-44f8-8532-a6b4d2a5e860",
       "chapter": "2",
@@ -230,61 +94,6 @@
       "lastAttemptAt": "2026-05-08T16:01:02.056Z"
     },
     {
-      "mangadexId": "171b8566-e262-4def-8ba2-a464e381fd48",
-      "chapterId": "854220d5-686a-4500-9d17-27e2d681f83f",
-      "chapter": "25",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T23:16:07+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T23:17:55.629Z"
-    },
-    {
-      "mangadexId": "c9a8ffb7-682f-40e2-87fe-9537e8f425ea",
-      "chapterId": "5cdc2b63-8186-4d89-89cd-8500167f37f7",
-      "chapter": "95",
-      "title": "Episode 95",
-      "chapterTitle": "Episode 95",
-      "language": "en",
-      "publishedAt": "2026-05-09T01:02:06+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-09T01:17:56.581Z"
-    },
-    {
-      "mangadexId": "8f12cc19-527f-47f8-9825-799ecfd7910b",
-      "chapterId": "5128f95c-e915-497e-8570-3e21299d6ecb",
-      "chapter": "23",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T02:06:32+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T14:34:58.973Z"
-    },
-    {
-      "mangadexId": "366dcef2-11ac-4ec0-9d75-967638f211a7",
-      "chapterId": "7c815d87-418a-4a2f-946d-ef0671767734",
-      "chapter": "1342",
-      "title": "A Change in Mindset",
-      "chapterTitle": "A Change in Mindset",
-      "language": "en",
-      "publishedAt": "2026-05-07T15:01:14+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T15:34:53.356Z"
-    },
-    {
-      "mangadexId": "f878e79c-3b3c-456d-8037-765fc85c1bb2",
-      "chapterId": "fabb05f5-2d2b-4ea4-bf97-0a315b089717",
-      "chapter": "76",
-      "title": "Side Story - The Pregnancy",
-      "chapterTitle": "Side Story - The Pregnancy",
-      "language": "en",
-      "publishedAt": "2026-05-08T23:10:45+00:00",
-      "reason": "adult_blocked",
-      "lastAttemptAt": "2026-05-08T23:17:56.106Z"
-    },
-    {
       "mangadexId": "4304a738-21c2-497a-8952-16deabc87fa1",
       "chapterId": "cd3b0b4b-2fc5-4729-b500-bf35a8e659bc",
       "chapter": "76",
@@ -296,26 +105,37 @@
       "lastAttemptAt": "2026-05-08T16:51:58.423Z"
     },
     {
-      "mangadexId": "c70a0c03-0503-4f53-8e58-c2f93e54b8ce",
-      "chapterId": "9cf8a8bc-f1b6-4bce-95a4-41a011064632",
-      "chapter": "4",
-      "title": "The invitation",
-      "chapterTitle": "The invitation",
+      "mangadexId": "851bbd39-92d6-4e61-9e21-2236e409e07a",
+      "chapterId": "627a344f-416b-4c52-b627-512ab204965a",
+      "chapter": "",
+      "title": "",
+      "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T14:21:46+00:00",
+      "publishedAt": "2026-05-07T15:42:20+00:00",
       "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T14:34:54.824Z"
+      "lastAttemptAt": "2026-05-08T16:01:05.132Z"
     },
     {
-      "mangadexId": "7681749a-2bac-40a0-b0fc-b35362f4028c",
-      "chapterId": "07804aa8-1f0e-4285-bbbe-3190fc518b2f",
-      "chapter": "19",
-      "title": "Ice Spirit Queen, Adores Me",
-      "chapterTitle": "Ice Spirit Queen, Adores Me",
+      "mangadexId": "975928eb-b7e3-4f6c-ad38-a8c2b17102d4",
+      "chapterId": "c5b0f693-f269-4bb8-b3c5-a1bd2554438b",
+      "chapter": "25",
+      "title": "Extra 4 - Youkai Hyakumonme",
+      "chapterTitle": "Extra 4 - Youkai Hyakumonme",
       "language": "en",
-      "publishedAt": "2026-05-08T15:00:00+00:00",
+      "publishedAt": "2026-05-08T08:43:37+00:00",
+      "reason": "adult_blocked",
+      "lastAttemptAt": "2026-05-08T20:52:00.774Z"
+    },
+    {
+      "mangadexId": "171b8566-e262-4def-8ba2-a464e381fd48",
+      "chapterId": "854220d5-686a-4500-9d17-27e2d681f83f",
+      "chapter": "25",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T23:16:07+00:00",
       "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T15:00:50.537Z"
+      "lastAttemptAt": "2026-05-08T23:17:55.629Z"
     },
     {
       "mangadexId": "ba189608-3851-414c-a700-6a163ba94b49",
@@ -329,26 +149,125 @@
       "lastAttemptAt": "2026-05-08T20:01:10.290Z"
     },
     {
-      "mangadexId": "9229ee0c-3e56-41df-be1f-278fa8680426",
-      "chapterId": "6b3575d8-c0c8-4064-824f-5aff69c524ea",
-      "chapter": "61",
+      "mangadexId": "ee957607-e7fc-40b0-acdb-10c7084d9d40",
+      "chapterId": "c62da9c8-d7a2-4028-9e81-13cc65e24bf8",
+      "chapter": "50",
+      "title": "Apologies",
+      "chapterTitle": "Apologies",
+      "language": "en",
+      "publishedAt": "2026-05-08T22:05:03+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T22:17:44.349Z"
+    },
+    {
+      "mangadexId": "6be2f409-01e2-4d20-8547-3c3be14f81e5",
+      "chapterId": "dc7ecf22-38cd-48ca-837f-82fde1c6f7a4",
+      "chapter": "1",
+      "title": "Nowhere",
+      "chapterTitle": "Nowhere",
+      "language": "en",
+      "publishedAt": "2026-05-07T17:58:51+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T18:01:12.208Z"
+    },
+    {
+      "mangadexId": "3cf1a8fc-2a14-41e3-8bc8-a7201a9f2dc0",
+      "chapterId": "645ee460-383a-44e1-9ed0-63b49b9efd2f",
+      "chapter": "10",
+      "title": "Is She Angery?",
+      "chapterTitle": "Is She Angery?",
+      "language": "en",
+      "publishedAt": "2026-05-07T19:07:32+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T19:35:02.313Z"
+    },
+    {
+      "mangadexId": "f878e79c-3b3c-456d-8037-765fc85c1bb2",
+      "chapterId": "fabb05f5-2d2b-4ea4-bf97-0a315b089717",
+      "chapter": "76",
+      "title": "Side Story - The Pregnancy",
+      "chapterTitle": "Side Story - The Pregnancy",
+      "language": "en",
+      "publishedAt": "2026-05-08T23:10:45+00:00",
+      "reason": "adult_blocked",
+      "lastAttemptAt": "2026-05-08T23:17:56.106Z"
+    },
+    {
+      "mangadexId": "d1b8e820-62d4-4d0c-9001-100a1e5ea551",
+      "chapterId": "f6c90804-8a50-4e1a-8f84-cb3fcd660f73",
+      "chapter": "20",
+      "title": "The One I Gave Him",
+      "chapterTitle": "The One I Gave Him",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:29:42+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T21:35:02.332Z"
+    },
+    {
+      "mangadexId": "5ae6ba69-9680-456a-8b84-47c68a6bac00",
+      "chapterId": "d91d85de-3f59-4829-bc75-be2d33b228d4",
+      "chapter": "33.5",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T01:06:13+00:00",
-      "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-09T01:35:04.143Z"
+      "publishedAt": "2026-05-08T15:06:02+00:00",
+      "reason": "adult_blocked",
+      "lastAttemptAt": "2026-05-08T15:17:54.078Z"
     },
     {
-      "mangadexId": "330013d3-9078-46ff-8120-ef8d43dc528c",
-      "chapterId": "28c3f102-e6f7-43d4-91eb-758e674cefdc",
-      "chapter": "1",
-      "title": "A Frizzly Haired Man and a Messenger of God 3",
-      "chapterTitle": "A Frizzly Haired Man and a Messenger of God 3",
-      "language": "en",
-      "publishedAt": "2026-05-07T06:25:12+00:00",
+      "mangadexId": "b69b09cc-a1df-4438-a117-78dbf94b8dc1",
+      "chapterId": "51576306-2364-474b-980b-8441619d3f83",
+      "chapter": "5",
+      "title": "وظيفة سيئة",
+      "chapterTitle": "وظيفة سيئة",
+      "language": "ar",
+      "publishedAt": "2026-05-08T19:45:40+00:00",
       "reason": "anilist_match_not_found",
-      "lastAttemptAt": "2026-05-08T18:52:10.134Z"
+      "lastAttemptAt": "2026-05-08T19:51:57.284Z"
+    },
+    {
+      "mangadexId": "11ac676c-15c1-48ec-a289-91f798826ac5",
+      "chapterId": "6d8b53ae-ab64-493c-9b9f-2d7c13da9602",
+      "chapter": "10",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T19:17:28+00:00",
+      "reason": "adult_blocked",
+      "lastAttemptAt": "2026-05-08T19:18:04.156Z"
+    },
+    {
+      "mangadexId": "c70a0c03-0503-4f53-8e58-c2f93e54b8ce",
+      "chapterId": "9cf8a8bc-f1b6-4bce-95a4-41a011064632",
+      "chapter": "4",
+      "title": "The invitation",
+      "chapterTitle": "The invitation",
+      "language": "en",
+      "publishedAt": "2026-05-08T14:21:46+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T14:34:54.824Z"
+    },
+    {
+      "mangadexId": "f31f1c67-13b4-4432-a67d-f1c8f21958a7",
+      "chapterId": "003cf256-831f-4a3d-8c48-ef683ce622f6",
+      "chapter": "1",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T13:03:10+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-09T01:35:02.526Z"
+    },
+    {
+      "mangadexId": "761064a4-bd69-4cb4-a45d-e5b5c74016d5",
+      "chapterId": "8d3c38c9-af3c-4edb-9f63-810ba2627f53",
+      "chapter": "27",
+      "title": "Group Chat Without Xiao-Yu",
+      "chapterTitle": "Group Chat Without Xiao-Yu",
+      "language": "en",
+      "publishedAt": "2026-05-07T15:19:09+00:00",
+      "reason": "adult_blocked",
+      "lastAttemptAt": "2026-05-08T16:00:55.992Z"
     },
     {
       "mangadexId": "b2a9bce4-a95e-4c6a-b79f-87993289db57",
@@ -360,28 +279,62 @@
       "publishedAt": "2026-05-07T21:01:02+00:00",
       "reason": "anilist_match_not_found",
       "lastAttemptAt": "2026-05-08T21:18:04.254Z"
+    },
+    {
+      "mangadexId": "dc311ac4-6528-4767-888f-31d26b4c401a",
+      "chapterId": "4b13d48e-b826-475e-bc2b-197c8dc31e92",
+      "chapter": "1",
+      "title": "A Cruel World",
+      "chapterTitle": "A Cruel World",
+      "language": "en",
+      "publishedAt": "2026-05-08T04:20:19+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T16:51:54.951Z"
+    },
+    {
+      "mangadexId": "7681749a-2bac-40a0-b0fc-b35362f4028c",
+      "chapterId": "07804aa8-1f0e-4285-bbbe-3190fc518b2f",
+      "chapter": "19",
+      "title": "Ice Spirit Queen, Adores Me",
+      "chapterTitle": "Ice Spirit Queen, Adores Me",
+      "language": "en",
+      "publishedAt": "2026-05-08T15:00:00+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T15:00:50.537Z"
+    },
+    {
+      "mangadexId": "366dcef2-11ac-4ec0-9d75-967638f211a7",
+      "chapterId": "7c815d87-418a-4a2f-946d-ef0671767734",
+      "chapter": "1342",
+      "title": "A Change in Mindset",
+      "chapterTitle": "A Change in Mindset",
+      "language": "en",
+      "publishedAt": "2026-05-07T15:01:14+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T15:34:53.356Z"
+    },
+    {
+      "mangadexId": "a471b9ee-7c1d-4915-aeb4-8ecebc6c2388",
+      "chapterId": "43911c29-51fb-4d0e-b09f-9250956b8833",
+      "chapter": "4",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T19:19:03+00:00",
+      "reason": "anilist_match_not_found",
+      "lastAttemptAt": "2026-05-08T19:34:57.323Z"
     }
   ],
   "skippedAlreadyKnown": [
     {
-      "mangadexId": "740471f5-4f75-457a-8c0c-cb4e0a5a999f",
-      "chapterId": "3cb75d6e-a94e-4222-81c7-0448600ad7d5",
-      "chapter": "54",
-      "title": "Sarufuto",
-      "chapterTitle": "Sarufuto",
+      "mangadexId": "91a2e0c9-cd81-4bf7-b5f7-bb37434bf6b3",
+      "chapterId": "63869c57-5474-4cc3-a11a-b5512e96fbc2",
+      "chapter": "44.5",
+      "title": "Vol. 3 Extras + Inserts",
+      "chapterTitle": "Vol. 3 Extras + Inserts",
       "language": "en",
-      "publishedAt": "2026-05-08T01:11:24+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1ef6ddce-7930-45ae-a335-9a45604b99f7",
-      "chapterId": "64caa837-40e5-432d-8098-a405ba971373",
-      "chapter": "74",
-      "title": "A Dance with You (2)",
-      "chapterTitle": "A Dance with You (2)",
-      "language": "en",
-      "publishedAt": "2026-05-07T19:09:02+00:00",
-      "reason": "already_in_catalog_chapter_exists"
+      "publishedAt": "2026-05-08T23:42:31+00:00",
+      "reason": "already_in_catalog"
     },
     {
       "mangadexId": "492e9584-b84b-4c78-afa1-71a747ba4ebe",
@@ -391,286 +344,6 @@
       "chapterTitle": "Drink #5:  Anything for you, senpai",
       "language": "en",
       "publishedAt": "2026-05-07T16:20:14+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "5ac4af05-c275-40d1-ba6e-64e9ad0528fa",
-      "chapterId": "465bc0a6-afba-47f3-9d8f-190efccbd16f",
-      "chapter": "7",
-      "title": "She's struck",
-      "chapterTitle": "She's struck",
-      "language": "en",
-      "publishedAt": "2026-05-07T02:35:49+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d6e9b748-9187-4f93-a5df-b802c567f60c",
-      "chapterId": "574fe4aa-2c43-45ef-a7eb-e4286aad403f",
-      "chapter": "71",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T06:44:22+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "4e511eb7-30a6-4900-8e94-34747261f65a",
-      "chapterId": "da5c2fef-821f-4d3d-a605-9199a9783ab5",
-      "chapter": "1",
-      "title": "The Girl Who Lies",
-      "chapterTitle": "The Girl Who Lies",
-      "language": "en",
-      "publishedAt": "2026-05-07T08:48:09+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "a9c157f6-a720-4adc-87a4-79a3601aa4e8",
-      "chapterId": "393ac45e-a58b-4aae-bccf-b614816d1e06",
-      "chapter": "8",
-      "title": "Reunion",
-      "chapterTitle": "Reunion",
-      "language": "en",
-      "publishedAt": "2026-05-07T04:30:48+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "82bf73a9-401b-4f07-9dd1-be9a720ccb19",
-      "chapterId": "3f755ba9-d553-42f8-b4c2-bacfbc013c5b",
-      "chapter": "26",
-      "title": "Haseo is seduced by a Tang Dynasty beauty 1",
-      "chapterTitle": "Haseo is seduced by a Tang Dynasty beauty 1",
-      "language": "en",
-      "publishedAt": "2026-05-07T10:51:31+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "3e11f43e-3d91-47c8-a2ad-e2f23d36ad4c",
-      "chapterId": "4b1deaac-bb26-4f56-b49f-8f329ea22ad2",
-      "chapter": "182",
-      "title": "Cultural Exchange.",
-      "chapterTitle": "Cultural Exchange.",
-      "language": "en",
-      "publishedAt": "2026-05-08T15:36:55+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d0f9e331-e022-4b49-8399-e14091d8b703",
-      "chapterId": "fcbc0a80-c11b-469a-8b28-d53e0377b4c5",
-      "chapter": "100",
-      "title": "Yeah, We Even Make Out",
-      "chapterTitle": "Yeah, We Even Make Out",
-      "language": "en",
-      "publishedAt": "2026-05-08T02:36:08+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "0a15b7c4-dbc9-4565-a5c4-2171db421cb2",
-      "chapterId": "45b441e1-ada1-4e0f-a78a-525ff7fe2211",
-      "chapter": "268",
-      "title": "Run, Takagi!!",
-      "chapterTitle": "Run, Takagi!!",
-      "language": "en",
-      "publishedAt": "2026-05-07T12:30:07+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "bc70eee3-5668-4a89-bc57-4ec3af33e8ed",
-      "chapterId": "56c60157-6ae7-4506-ad88-c85fb5ee1bbe",
-      "chapter": "19",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T06:35:38+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "11aeb905-4ed4-4a5c-a837-6f4a6a8ae5cb",
-      "chapterId": "49aefa29-eed2-47ee-8ed2-546fc045a2d5",
-      "chapter": "9",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T04:28:06+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "cba7aea2-6c99-4372-a8d1-80179bdf95fc",
-      "chapterId": "8cffe6fd-7166-42a5-b094-4a20921d2045",
-      "chapter": "39",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T05:29:48+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "fc0dbb8a-8e13-4c8b-aebc-14b16168cdb4",
-      "chapterId": "6f4abfd3-8466-49ee-a96c-c3d21bf6dfd0",
-      "chapter": "1",
-      "title": "Diary 1 - Tsukiko and Master",
-      "chapterTitle": "Diary 1 - Tsukiko and Master",
-      "language": "en",
-      "publishedAt": "2026-05-07T14:33:52+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "10e98722-874d-48b2-a715-90bb8af93598",
-      "chapterId": "bffebc5a-b517-49bb-9385-791bf35c75fe",
-      "chapter": "73",
-      "title": "Demon King's Blood",
-      "chapterTitle": "Demon King's Blood",
-      "language": "en",
-      "publishedAt": "2026-05-08T05:22:42+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6675fe08-1c9a-41e3-bbb3-20ab08c26a28",
-      "chapterId": "547d68b6-10b6-4f69-9873-b07ad0f9ac19",
-      "chapter": "5",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T22:52:45+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "c326cbf9-c81b-4ff5-9d77-dc549437fd4e",
-      "chapterId": "330a1c6a-4bd1-464b-bae7-24dd44bf7d2c",
-      "chapter": "9",
-      "title": "It Doesn't Make Sense",
-      "chapterTitle": "It Doesn't Make Sense",
-      "language": "en",
-      "publishedAt": "2026-05-09T00:44:53+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "8791c515-0245-4fcc-81cc-22863a0aba6b",
-      "chapterId": "66429b3c-33c9-4666-8542-92737ee6a5a6",
-      "chapter": "56.2",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T02:55:35+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "ce89adb4-63fc-422e-9fbc-40ea6af4525c",
-      "chapterId": "ad91ae5c-5e43-4f03-a022-b0da7533df62",
-      "chapter": "253",
-      "title": "PRODUCED PARADISE - ark of people",
-      "chapterTitle": "PRODUCED PARADISE - ark of people",
-      "language": "en",
-      "publishedAt": "2026-05-08T09:19:33+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "bbc14d56-b0c4-457d-ae6c-a795b818f833",
-      "chapterId": "6c3d8081-3565-427d-b8da-49fc4d26a622",
-      "chapter": "18",
-      "title": "A Busybody Girl, Visiting the Sick - Makita ver.",
-      "chapterTitle": "A Busybody Girl, Visiting the Sick - Makita ver.",
-      "language": "en",
-      "publishedAt": "2026-05-07T06:29:04+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "9478665e-412b-4e08-9844-5c07a732a71b",
-      "chapterId": "6b8f7e91-c6c0-4d3c-b474-6c6e6e66863d",
-      "chapter": "36",
-      "title": "Comprehensive exam, begin!",
-      "chapterTitle": "Comprehensive exam, begin!",
-      "language": "en",
-      "publishedAt": "2026-05-07T16:54:40+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "54e1b971-fe2c-4720-b96b-4dc049863ae7",
-      "chapterId": "838ff967-1c43-40f6-93d9-79faf017172c",
-      "chapter": "159",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T13:38:06+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "8587c766-37a3-4fb0-89db-8145fafb3152",
-      "chapterId": "aca86213-4463-4c93-9d26-d447ed227bb6",
-      "chapter": "8",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T21:55:11+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "2b2e7c95-9e4d-4199-9ea6-52add4c22cfa",
-      "chapterId": "c9e42bb3-f555-4720-ac3d-de0ae4131077",
-      "chapter": "246",
-      "title": "Goal Flag!",
-      "chapterTitle": "Goal Flag!",
-      "language": "en",
-      "publishedAt": "2026-05-07T03:22:15+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "3d7d0879-1330-43cc-aaa4-4133933a5db5",
-      "chapterId": "8d1367ed-2606-4219-881d-6352bde41215",
-      "chapter": "18",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T14:17:29+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "027df837-7a15-4893-9dc3-e2ae11b94717",
-      "chapterId": "ba308404-c618-4fcd-8c70-3eee56f84bb6",
-      "chapter": "86",
-      "title": "Mahiro and the Nocturnal Classmate",
-      "chapterTitle": "Mahiro and the Nocturnal Classmate",
-      "language": "en",
-      "publishedAt": "2026-05-08T23:00:13+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d89cfcf7-dcb4-4af7-8c95-330c2c6167d0",
-      "chapterId": "7080d832-442c-4497-8e06-43438672d4e8",
-      "chapter": "10",
-      "title": "",
-      "chapterTitle": "",
-      "language": "ar",
-      "publishedAt": "2026-05-08T09:16:06+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "0025e816-e52c-47da-88fe-fdd5a5170299",
-      "chapterId": "e078fca8-8230-428c-8d04-437c94d763a8",
-      "chapter": "175",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T03:10:19+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6650b928-f00f-4c93-b5e2-92edbec65f93",
-      "chapterId": "870da8ca-3332-46a7-b5a4-68bc0c085128",
-      "chapter": "",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T17:23:12+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "151bca3e-db98-4ad2-8d8d-239943b91437",
-      "chapterId": "5e74f565-3e60-4f72-9f4c-aedf0dd4c037",
-      "chapter": "1188",
-      "title": "Cultivation Advancement/Nature",
-      "chapterTitle": "Cultivation Advancement/Nature",
-      "language": "en",
-      "publishedAt": "2026-05-08T04:02:51+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -684,23 +357,193 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "3083fdad-a2a0-4f34-a37e-00b2432d6c19",
-      "chapterId": "5399f376-cb35-4bae-913a-d2856817864b",
-      "chapter": "20",
+      "mangadexId": "79264ef2-507e-4216-aed3-ab42ca140706",
+      "chapterId": "9119a02e-cb20-4fb8-ae7e-c52fe76845e5",
+      "chapter": "17",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-09T00:04:09+00:00",
+      "publishedAt": "2026-05-08T18:57:27+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "410d499a-f438-4a56-9ad4-eb90a4de5b39",
-      "chapterId": "42b24567-e0ad-4f8a-9e2e-6d988ccdc8d6",
-      "chapter": "2",
+      "mangadexId": "7abcae6c-5703-4f3f-b8ab-54bbf437afac",
+      "chapterId": "4cfbe63d-3228-477b-825a-399286a0eeda",
+      "chapter": "55",
+      "title": "Sports Day!!",
+      "chapterTitle": "Sports Day!!",
+      "language": "en",
+      "publishedAt": "2026-05-08T02:31:37+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "87515aa0-3c90-4b76-9254-0363fdbec36b",
+      "chapterId": "059dde56-a0fa-4f01-9673-1a82791fc67c",
+      "chapter": "12",
+      "title": "Adults & Children",
+      "chapterTitle": "Adults & Children",
+      "language": "en",
+      "publishedAt": "2026-05-09T00:37:07+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "e038b47c-00db-4623-b1c3-35b46f6cdc2d",
+      "chapterId": "380a5630-dbe2-42db-ba8c-f4d9ace38187",
+      "chapter": "35",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T06:33:31+00:00",
+      "publishedAt": "2026-05-07T14:33:08+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "647c6480-a877-4899-9382-5757fcfba1d3",
+      "chapterId": "aaf148f3-aee2-4cb1-b4c0-3286e9b1bb5c",
+      "chapter": "10",
+      "title": "Hit On",
+      "chapterTitle": "Hit On",
+      "language": "en",
+      "publishedAt": "2026-05-07T15:16:43+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "2b7a244a-5fc5-4d4c-a8d5-c2473c055366",
+      "chapterId": "bd59d7d4-397f-49a6-b287-93eb61de5981",
+      "chapter": "1",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T04:40:50+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "1c83c0e9-c74f-491c-97d8-db0e4e7dc707",
+      "chapterId": "340b3c85-2bcb-4933-91e4-0462e82e50cf",
+      "chapter": "59",
+      "title": "Each of Their Battlefields!",
+      "chapterTitle": "Each of Their Battlefields!",
+      "language": "en",
+      "publishedAt": "2026-05-08T17:52:50+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "fc0dbb8a-8e13-4c8b-aebc-14b16168cdb4",
+      "chapterId": "6f4abfd3-8466-49ee-a96c-c3d21bf6dfd0",
+      "chapter": "1",
+      "title": "Diary 1 - Tsukiko and Master",
+      "chapterTitle": "Diary 1 - Tsukiko and Master",
+      "language": "en",
+      "publishedAt": "2026-05-07T14:33:52+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "ee96e2b7-9af2-4864-9656-649f4d3b6fec",
+      "chapterId": "8c345aba-a404-4845-babf-472fd66dff92",
+      "chapter": "93",
+      "title": "Otaku & Gyaru & Open Campus",
+      "chapterTitle": "Otaku & Gyaru & Open Campus",
+      "language": "en",
+      "publishedAt": "2026-05-07T23:04:05+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "ff73234b-4387-448c-ab54-2879626b4442",
+      "chapterId": "51823d7e-4c34-4e61-8b57-d6ab719f3257",
+      "chapter": "2",
+      "title": "GOTAVOICE",
+      "chapterTitle": "GOTAVOICE",
+      "language": "en",
+      "publishedAt": "2026-05-07T20:05:24+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "36bad9cb-6310-4048-a48e-a1ab7b7dcb3e",
+      "chapterId": "0dbbd100-7db9-4d05-8776-6f439fc100a3",
+      "chapter": "135",
+      "title": "The demon's plan. Part 1",
+      "chapterTitle": "The demon's plan. Part 1",
+      "language": "en",
+      "publishedAt": "2026-05-08T03:30:15+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "a9dd451c-3c45-4d66-a818-4e1b78855838",
+      "chapterId": "c4184817-6530-4a24-89f8-30113c188eff",
+      "chapter": "171",
+      "title": "Why She Lost",
+      "chapterTitle": "Why She Lost",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:05:55+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d89cfcf7-dcb4-4af7-8c95-330c2c6167d0",
+      "chapterId": "7080d832-442c-4497-8e06-43438672d4e8",
+      "chapter": "10",
+      "title": "",
+      "chapterTitle": "",
+      "language": "ar",
+      "publishedAt": "2026-05-08T09:16:06+00:00",
+      "reason": "already_in_catalog"
+    },
+    {
+      "mangadexId": "3f5bc21d-6575-4fe0-b03f-50c8bb88dc6b",
+      "chapterId": "6df8d5d8-5639-41b2-8b4f-ca4f692e08e6",
+      "chapter": "8",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T23:03:21+00:00",
+      "reason": "already_in_catalog"
+    },
+    {
+      "mangadexId": "748d2aab-cea8-4ffb-89b3-e716872cb027",
+      "chapterId": "b913414c-ef08-4b90-a96d-23ed6eaf4824",
+      "chapter": "14",
+      "title": "Let's Keep Going Together",
+      "chapterTitle": "Let's Keep Going Together",
+      "language": "en",
+      "publishedAt": "2026-05-09T01:26:04+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d06b7325-7ad8-438d-a1dd-98051c167055",
+      "chapterId": "1b173a71-cc8b-4d10-a5e9-30d86b6d11be",
+      "chapter": "2",
+      "title": "Afterimage Of A Smile",
+      "chapterTitle": "Afterimage Of A Smile",
+      "language": "en",
+      "publishedAt": "2026-05-08T02:32:30+00:00",
+      "reason": "already_in_catalog"
+    },
+    {
+      "mangadexId": "48221bce-0fd2-4519-b5f3-4fdc1921007b",
+      "chapterId": "0d6b40c8-5bea-4f41-b565-607de6d10cf5",
+      "chapter": "63",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T17:50:53+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "02cc6569-8dca-46e4-8e6a-4c1a395d2cac",
+      "chapterId": "ce3a0113-1588-4be2-a8ee-dc293d567817",
+      "chapter": "15",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T18:12:20+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "9f03fd07-8012-4032-ad95-31458704b601",
+      "chapterId": "8af94c80-1702-401b-b2aa-d3bcff1e6969",
+      "chapter": "281",
+      "title": "The Capable Sea Squirt",
+      "chapterTitle": "The Capable Sea Squirt",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:14:08+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -714,53 +557,343 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "16fa59cd-f198-4fd0-801c-8d5c5ee53070",
-      "chapterId": "87a6923f-a48f-470e-80ce-7932fcac131f",
-      "chapter": "16",
+      "mangadexId": "05c29e85-71c1-4f78-95cd-a03e68d9523c",
+      "chapterId": "c7e0b457-f377-44ab-931e-c0f8f0ffdb49",
+      "chapter": "72",
+      "title": "The Neverending Story",
+      "chapterTitle": "The Neverending Story",
+      "language": "en",
+      "publishedAt": "2026-05-07T17:06:22+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "688eee00-d587-4998-a999-652767aac846",
+      "chapterId": "c5853c46-f15f-49c7-af4e-ba2bbb5d3108",
+      "chapter": "41",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T12:10:24+00:00",
+      "publishedAt": "2026-05-08T20:58:48+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "748d2aab-cea8-4ffb-89b3-e716872cb027",
-      "chapterId": "b913414c-ef08-4b90-a96d-23ed6eaf4824",
-      "chapter": "14",
-      "title": "Let's Keep Going Together",
-      "chapterTitle": "Let's Keep Going Together",
-      "language": "en",
-      "publishedAt": "2026-05-09T01:26:04+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "0cb24b09-3885-4bbe-a2e6-d567e7db2d90",
-      "chapterId": "11199f0a-96a9-46d0-b7de-c7d5ddaca4e7",
-      "chapter": "13",
+      "mangadexId": "11aeb905-4ed4-4a5c-a837-6f4a6a8ae5cb",
+      "chapterId": "49aefa29-eed2-47ee-8ed2-546fc045a2d5",
+      "chapter": "9",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T18:32:38+00:00",
+      "publishedAt": "2026-05-08T04:28:06+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "8211bac6-a392-4e37-b3b6-dac0f4512d24",
-      "chapterId": "d02c1c7a-683d-47fe-95dc-4452b67c4122",
+      "mangadexId": "9478665e-412b-4e08-9844-5c07a732a71b",
+      "chapterId": "6b8f7e91-c6c0-4d3c-b474-6c6e6e66863d",
+      "chapter": "36",
+      "title": "Comprehensive exam, begin!",
+      "chapterTitle": "Comprehensive exam, begin!",
+      "language": "en",
+      "publishedAt": "2026-05-07T16:54:40+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "6e9e4d13-1138-4631-9483-860787a9bbad",
+      "chapterId": "b6ca9ad1-085f-4452-934c-4272cc2927d7",
+      "chapter": "14.1",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T11:10:32+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "0025e816-e52c-47da-88fe-fdd5a5170299",
+      "chapterId": "e078fca8-8230-428c-8d04-437c94d763a8",
+      "chapter": "175",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T03:10:19+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d042e605-a07a-4cd2-87d5-ebe53c0b135f",
+      "chapterId": "9725b54d-c67a-40a5-8fb7-a53fe2c69dcc",
+      "chapter": "56",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T16:09:59+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "18da0705-987a-470a-9037-faf25be21dc5",
+      "chapterId": "eacf4718-a597-4486-9d10-5977433e9bd2",
+      "chapter": "4",
+      "title": "The Laser Gun",
+      "chapterTitle": "The Laser Gun",
+      "language": "en",
+      "publishedAt": "2026-05-07T21:21:24+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "1ef6ddce-7930-45ae-a335-9a45604b99f7",
+      "chapterId": "64caa837-40e5-432d-8098-a405ba971373",
+      "chapter": "74",
+      "title": "A Dance with You (2)",
+      "chapterTitle": "A Dance with You (2)",
+      "language": "en",
+      "publishedAt": "2026-05-07T19:09:02+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d0f9e331-e022-4b49-8399-e14091d8b703",
+      "chapterId": "fcbc0a80-c11b-469a-8b28-d53e0377b4c5",
+      "chapter": "100",
+      "title": "Yeah, We Even Make Out",
+      "chapterTitle": "Yeah, We Even Make Out",
+      "language": "en",
+      "publishedAt": "2026-05-08T02:36:08+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "6675fe08-1c9a-41e3-bbb3-20ab08c26a28",
+      "chapterId": "547d68b6-10b6-4f69-9873-b07ad0f9ac19",
+      "chapter": "5",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T22:52:45+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "3d7d0879-1330-43cc-aaa4-4133933a5db5",
+      "chapterId": "8d1367ed-2606-4219-881d-6352bde41215",
+      "chapter": "18",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T14:17:29+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "6b42f1d8-2acb-4c7e-87e0-811388538174",
+      "chapterId": "f31dfadb-3b97-4965-9596-f8bb52d69974",
       "chapter": "3",
-      "title": "تجسيد التعطش للمعرفة",
-      "chapterTitle": "تجسيد التعطش للمعرفة",
-      "language": "ar",
-      "publishedAt": "2026-05-08T19:36:29+00:00",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T18:35:39+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "df9fd320-3fdd-4be5-aa29-d9c264f32651",
-      "chapterId": "86ff1a2e-c803-4121-bdec-a32dc30e2b3c",
-      "chapter": "40",
-      "title": "Kamakura Museum of Literature, Kanagawa",
-      "chapterTitle": "Kamakura Museum of Literature, Kanagawa",
+      "mangadexId": "da6cbb8a-2df2-4fd6-bfca-766e0ea2d860",
+      "chapterId": "a57e2d6a-3b46-4e80-9a74-c1e5d95b6cc2",
+      "chapter": "34",
+      "title": "",
+      "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-07T19:00:09+00:00",
+      "publishedAt": "2026-05-08T05:16:44+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "5a00f8ae-b2e9-490f-b5f8-b94552845d8d",
+      "chapterId": "43e5c850-cb42-406e-84a4-c48af92bf9f3",
+      "chapter": "4",
+      "title": "Passion for Going to School.",
+      "chapterTitle": "Passion for Going to School.",
+      "language": "en",
+      "publishedAt": "2026-05-09T01:51:29+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "410d499a-f438-4a56-9ad4-eb90a4de5b39",
+      "chapterId": "42b24567-e0ad-4f8a-9e2e-6d988ccdc8d6",
+      "chapter": "2",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T06:33:31+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "0f5ab57b-bc85-423b-b2d2-19a97dfc46f1",
+      "chapterId": "5b8507fc-ebfb-45c3-91ae-c50e9f04f93e",
+      "chapter": "31",
+      "title": "Sandwich Lunchbox",
+      "chapterTitle": "Sandwich Lunchbox",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:28:00+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "84cf55e0-b497-4455-8b40-4c5a880de96b",
+      "chapterId": "e96b00aa-df83-4f13-8096-a365eda1f861",
+      "chapter": "21",
+      "title": "I Fell Into Superstition Today",
+      "chapterTitle": "I Fell Into Superstition Today",
+      "language": "en",
+      "publishedAt": "2026-05-07T16:37:55+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "17eebcc7-d993-446c-84be-c222bfb27794",
+      "chapterId": "014f4398-10da-4284-a517-87f2d4dbbbc8",
+      "chapter": "20",
+      "title": "Training and Silver Forging",
+      "chapterTitle": "Training and Silver Forging",
+      "language": "en",
+      "publishedAt": "2026-05-08T06:58:34+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "68e3fbec-a12b-4ce9-bf26-641ef7f0eaea",
+      "chapterId": "b42fd30e-fcbd-448d-9238-8aa1565b97a0",
+      "chapter": "6",
+      "title": "Watch Out!",
+      "chapterTitle": "Watch Out!",
+      "language": "en",
+      "publishedAt": "2026-05-08T04:44:12+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "bc70eee3-5668-4a89-bc57-4ec3af33e8ed",
+      "chapterId": "56c60157-6ae7-4506-ad88-c85fb5ee1bbe",
+      "chapter": "19",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T06:35:38+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "42629cfc-527c-41b8-8336-58af877f5c9a",
+      "chapterId": "6776bc19-7b55-4c99-94d2-56259b89886f",
+      "chapter": "416",
+      "title": "Interfere",
+      "chapterTitle": "Interfere",
+      "language": "en",
+      "publishedAt": "2026-05-08T01:40:42+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "8587c766-37a3-4fb0-89db-8145fafb3152",
+      "chapterId": "aca86213-4463-4c93-9d26-d447ed227bb6",
+      "chapter": "8",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:55:11+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "1bad66ee-4857-433e-a075-704d93672341",
+      "chapterId": "9bd1b27f-e69d-48c2-acb2-588bd21561bc",
+      "chapter": "18",
+      "title": "Oura-san is amazing",
+      "chapterTitle": "Oura-san is amazing",
+      "language": "en",
+      "publishedAt": "2026-05-07T15:53:51+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "4ee79570-0d06-43d4-9844-51e83b1a6e87",
+      "chapterId": "6453cc9a-87cb-4a01-b109-e7948934361a",
+      "chapter": "11",
+      "title": "After Avalon: Mystic Gears - Mouse Eater",
+      "chapterTitle": "After Avalon: Mystic Gears - Mouse Eater",
+      "language": "en",
+      "publishedAt": "2026-05-08T15:30:39+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "f7f71df8-0b4f-4259-bdf1-714644a7fef6",
+      "chapterId": "a04a3527-406b-4589-8a45-4c083e0c28c1",
+      "chapter": "19",
+      "title": "initiation",
+      "chapterTitle": "initiation",
+      "language": "en",
+      "publishedAt": "2026-05-07T17:33:23+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "cc92f469-2e2d-4747-b753-6c1bf354cb74",
+      "chapterId": "e1ea3888-5d69-4953-9794-61b96349a3d0",
+      "chapter": "18",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T02:39:44+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "b66e8da4-f2f3-4159-8db8-e523094be8c2",
+      "chapterId": "b0eada9b-4790-4f84-9e48-f8707ab98cdf",
+      "chapter": "97.5",
+      "title": "Extra Edition 42",
+      "chapterTitle": "Extra Edition 42",
+      "language": "en",
+      "publishedAt": "2026-05-08T02:05:19+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "85ce7857-3d01-4b0a-adff-7a4cba347ced",
+      "chapterId": "32f5e9c2-dd75-488b-aaa9-01fb2dbdf165",
+      "chapter": "28",
+      "title": "Treasure stealing ditter 1",
+      "chapterTitle": "Treasure stealing ditter 1",
+      "language": "en",
+      "publishedAt": "2026-05-08T15:45:57+00:00",
+      "reason": "already_in_catalog"
+    },
+    {
+      "mangadexId": "8f5070ae-5d0c-478a-b7f3-96b6d2284fde",
+      "chapterId": "28d0d8b2-caf5-4c21-85de-84ea9e0bd9a6",
+      "chapter": "7",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T19:52:29+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "1f9fb803-733a-4104-bea3-f4b449da5e3c",
+      "chapterId": "8af3cff5-30e7-49c1-a91e-336089c84993",
+      "chapter": "34.5",
+      "title": "Volume 4 Extras",
+      "chapterTitle": "Volume 4 Extras",
+      "language": "en",
+      "publishedAt": "2026-05-08T15:25:50+00:00",
+      "reason": "already_in_catalog"
+    },
+    {
+      "mangadexId": "6bca9d94-5072-4399-9ef1-bc39c4d1bd6b",
+      "chapterId": "46513bd6-15c1-4d2b-a579-1e0d148f53e8",
+      "chapter": "1",
+      "title": "ROOM 101 - Episode 1",
+      "chapterTitle": "ROOM 101 - Episode 1",
+      "language": "en",
+      "publishedAt": "2026-05-08T08:34:43+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "06235465-3e81-4f6e-af5d-d4bbfe0f061f",
+      "chapterId": "ec5932ac-9513-41f8-9e23-722fde6f8893",
+      "chapter": "4",
+      "title": "The Laboratory of Madness",
+      "chapterTitle": "The Laboratory of Madness",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:49:02+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "8e17e098-5f3f-4918-a51a-41235303f290",
+      "chapterId": "5b024e26-4423-4926-8fd2-1d57101bced9",
+      "chapter": "6",
+      "title": "The reveal",
+      "chapterTitle": "The reveal",
+      "language": "en",
+      "publishedAt": "2026-05-08T01:12:51+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -774,23 +907,163 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "1e9f69ab-2107-44c2-a84c-78f3911cdea5",
-      "chapterId": "62be1263-88c7-4d75-86e6-d53f8b6eaa83",
-      "chapter": "29",
-      "title": "The Aftermath of a Dream",
-      "chapterTitle": "The Aftermath of a Dream",
+      "mangadexId": "4aa0f10f-1333-4f01-a6da-5316f6a51c40",
+      "chapterId": "67346531-f476-4150-aa41-bb9e313dcf78",
+      "chapter": "3",
+      "title": "Company Meeting",
+      "chapterTitle": "Company Meeting",
       "language": "en",
-      "publishedAt": "2026-05-07T11:49:48+00:00",
+      "publishedAt": "2026-05-07T18:16:07+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "0f5ab57b-bc85-423b-b2d2-19a97dfc46f1",
-      "chapterId": "5b8507fc-ebfb-45c3-91ae-c50e9f04f93e",
-      "chapter": "31",
-      "title": "Sandwich Lunchbox",
-      "chapterTitle": "Sandwich Lunchbox",
+      "mangadexId": "28f0d967-4110-4a8c-8426-2aeea4489111",
+      "chapterId": "ffc1f6d5-6645-4f28-916c-b77a4e718465",
+      "chapter": "182",
+      "title": "",
+      "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-08T21:28:00+00:00",
+      "publishedAt": "2026-05-07T14:44:57+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "8516915a-51a2-44e0-a915-aff325216a26",
+      "chapterId": "52508eec-a2f0-47ef-bc78-82e1d229438a",
+      "chapter": "41",
+      "title": "Only Bad Kids Stay Up All Night (Pt. 1)",
+      "chapterTitle": "Only Bad Kids Stay Up All Night (Pt. 1)",
+      "language": "en",
+      "publishedAt": "2026-05-08T22:22:32+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "44f1297a-0ed7-4d0a-a083-7cf5edaaf17a",
+      "chapterId": "cebc4aad-7764-41c7-8638-9265f8021289",
+      "chapter": "4",
+      "title": "Leopard's Eye",
+      "chapterTitle": "Leopard's Eye",
+      "language": "en",
+      "publishedAt": "2026-05-07T22:16:01+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "c326cbf9-c81b-4ff5-9d77-dc549437fd4e",
+      "chapterId": "330a1c6a-4bd1-464b-bae7-24dd44bf7d2c",
+      "chapter": "9",
+      "title": "It Doesn't Make Sense",
+      "chapterTitle": "It Doesn't Make Sense",
+      "language": "en",
+      "publishedAt": "2026-05-09T00:44:53+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "4e84b064-311e-4fa3-b7fc-f370ac3e9c6c",
+      "chapterId": "efd12aaf-4600-4ddf-bf2b-93ac34fc0fd8",
+      "chapter": "16",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-09T00:53:10+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "829fc3a7-d4f4-42e9-9032-0917083f9e0d",
+      "chapterId": "9da4dff1-e7ab-4d11-bb61-91ee5fa993f9",
+      "chapter": "127",
+      "title": "One day after school",
+      "chapterTitle": "One day after school",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:47:06+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "e93849b2-939f-40f3-91b4-79b96133052e",
+      "chapterId": "31e808bc-9286-4d4f-b490-d28693029396",
+      "chapter": "42",
+      "title": "My Medusa Maid and Golden Week.",
+      "chapterTitle": "My Medusa Maid and Golden Week.",
+      "language": "en",
+      "publishedAt": "2026-05-07T22:04:03+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "921fb112-54c2-457f-8e7b-3a357ee391cc",
+      "chapterId": "58476171-0707-4275-9ce3-dc0f5c9aaa34",
+      "chapter": "13",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T18:07:29+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "55358b55-75ee-4c44-8288-7a913a88ed25",
+      "chapterId": "bb30714a-49fa-428d-bc53-b1d901151b1e",
+      "chapter": "9.5",
+      "title": "Omake",
+      "chapterTitle": "Omake",
+      "language": "en",
+      "publishedAt": "2026-05-08T15:50:59+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "873f93ae-96ac-4482-91ac-023a6ccecfd3",
+      "chapterId": "f8e4181b-46e2-4bb9-a2dc-8e6c599b713d",
+      "chapter": "50",
+      "title": "The Reason for Hatred",
+      "chapterTitle": "The Reason for Hatred",
+      "language": "en",
+      "publishedAt": "2026-05-09T00:44:50+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "3512d948-2886-4a9a-b0dc-44e02bb67c87",
+      "chapterId": "543612a7-a1c6-4551-aebf-38193c70a20f",
+      "chapter": "52",
+      "title": "Experiment 52: Kagacolle",
+      "chapterTitle": "Experiment 52: Kagacolle",
+      "language": "en",
+      "publishedAt": "2026-05-08T07:18:56+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "7f4c9a81-88a3-4794-bfdb-5b881f905040",
+      "chapterId": "1356bd69-6506-4618-8743-0748b2407bfa",
+      "chapter": "5",
+      "title": "The engagement party",
+      "chapterTitle": "The engagement party",
+      "language": "en",
+      "publishedAt": "2026-05-08T18:39:30+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "6650b928-f00f-4c93-b5e2-92edbec65f93",
+      "chapterId": "870da8ca-3332-46a7-b5a4-68bc0c085128",
+      "chapter": "",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T17:23:12+00:00",
+      "reason": "already_in_catalog"
+    },
+    {
+      "mangadexId": "4c28fa92-d88a-4686-b068-348c4e72f3e1",
+      "chapterId": "198062dd-8e85-470f-b386-bb90c6c6bef0",
+      "chapter": "96",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T18:41:01+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "df9fd320-3fdd-4be5-aa29-d9c264f32651",
+      "chapterId": "86ff1a2e-c803-4121-bdec-a32dc30e2b3c",
+      "chapter": "40",
+      "title": "Kamakura Museum of Literature, Kanagawa",
+      "chapterTitle": "Kamakura Museum of Literature, Kanagawa",
+      "language": "en",
+      "publishedAt": "2026-05-07T19:00:09+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -814,123 +1087,173 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "a6ad6103-fbb8-47ec-8ca1-ad5eb50ff476",
-      "chapterId": "08edc280-1c11-40be-b25e-58717d19036b",
-      "chapter": "1",
+      "mangadexId": "ce89adb4-63fc-422e-9fbc-40ea6af4525c",
+      "chapterId": "ad91ae5c-5e43-4f03-a022-b0da7533df62",
+      "chapter": "253",
+      "title": "PRODUCED PARADISE - ark of people",
+      "chapterTitle": "PRODUCED PARADISE - ark of people",
+      "language": "en",
+      "publishedAt": "2026-05-08T09:19:33+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "c1f7d4dd-a16a-4ac6-9a34-bb73874158cb",
+      "chapterId": "fc7479ad-ff8f-42c5-9b87-321eb6fe6e85",
+      "chapter": "8",
+      "title": "Boobs and the Mysterious Dungeon!!!",
+      "chapterTitle": "Boobs and the Mysterious Dungeon!!!",
+      "language": "en",
+      "publishedAt": "2026-05-08T19:20:56+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "e0221566-f26d-4bbe-a160-09d79f5b828d",
+      "chapterId": "d5efbb41-1aba-4cc5-8029-c09cc24b5e9b",
+      "chapter": "2",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-07T08:17:23+00:00",
+      "publishedAt": "2026-05-08T02:51:03+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "873f93ae-96ac-4482-91ac-023a6ccecfd3",
-      "chapterId": "f8e4181b-46e2-4bb9-a2dc-8e6c599b713d",
-      "chapter": "50",
-      "title": "The Reason for Hatred",
-      "chapterTitle": "The Reason for Hatred",
-      "language": "en",
-      "publishedAt": "2026-05-09T00:44:50+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6202f5c6-5b94-49a5-80dd-c328cf58cbb8",
-      "chapterId": "2fcef10d-7bbc-4283-8602-d4826b57d53c",
-      "chapter": "20",
-      "title": "The Yotsuba Family",
-      "chapterTitle": "The Yotsuba Family",
-      "language": "en",
-      "publishedAt": "2026-05-08T18:31:38+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "abd0bc20-063a-45a0-91b2-8b7049701d4a",
-      "chapterId": "7f4dd956-9c4f-4638-b4ef-6faec857c6c1",
-      "chapter": "4",
-      "title": "",
-      "chapterTitle": "",
-      "language": "ar",
-      "publishedAt": "2026-05-07T06:21:18+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "91a2e0c9-cd81-4bf7-b5f7-bb37434bf6b3",
-      "chapterId": "63869c57-5474-4cc3-a11a-b5512e96fbc2",
-      "chapter": "44.5",
-      "title": "Vol. 3 Extras + Inserts",
-      "chapterTitle": "Vol. 3 Extras + Inserts",
-      "language": "en",
-      "publishedAt": "2026-05-08T23:42:31+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "5896ba9b-7bf0-42a3-94eb-15dcb70fafba",
-      "chapterId": "401f163b-7d14-4afc-873f-7a4162457d13",
-      "chapter": "82",
-      "title": "Ruffikeltio Church",
-      "chapterTitle": "Ruffikeltio Church",
-      "language": "en",
-      "publishedAt": "2026-05-07T05:06:04+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6d922c2c-f118-424c-8d21-78d9b24f25b5",
-      "chapterId": "5880645d-7fb4-43e0-83c7-9b99604b62fb",
-      "chapter": "30",
+      "mangadexId": "8791c515-0245-4fcc-81cc-22863a0aba6b",
+      "chapterId": "66429b3c-33c9-4666-8542-92737ee6a5a6",
+      "chapter": "56.2",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-07T08:28:14+00:00",
+      "publishedAt": "2026-05-08T02:55:35+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "b787bfae-7b1c-4964-a910-718529bbd377",
-      "chapterId": "32aa9dae-ac45-4435-9740-2e91f07302d9",
-      "chapter": "48",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T13:36:56+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "da6cbb8a-2df2-4fd6-bfca-766e0ea2d860",
-      "chapterId": "a57e2d6a-3b46-4e80-9a74-c1e5d95b6cc2",
-      "chapter": "34",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T05:16:44+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "09fc3c69-5b21-493e-83a1-f9486c46a19f",
-      "chapterId": "38c23f55-06dc-4089-9893-2324c0e21460",
+      "mangadexId": "6274fcab-df09-4ac5-b516-14152bd031c7",
+      "chapterId": "73b7177a-7c4d-4c84-ace2-4ef084e43e06",
       "chapter": "18",
-      "title": "Half-Coordinator",
-      "chapterTitle": "Half-Coordinator",
+      "title": "I Want to Be a Good Match",
+      "chapterTitle": "I Want to Be a Good Match",
       "language": "en",
-      "publishedAt": "2026-05-07T21:06:53+00:00",
+      "publishedAt": "2026-05-07T16:21:04+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "68e3fbec-a12b-4ce9-bf26-641ef7f0eaea",
-      "chapterId": "b42fd30e-fcbd-448d-9238-8aa1565b97a0",
-      "chapter": "6",
-      "title": "Watch Out!",
-      "chapterTitle": "Watch Out!",
+      "mangadexId": "aca35267-19bf-4cc9-96b6-cabd52b924b3",
+      "chapterId": "72deb4ce-fa53-4f91-bb9b-c2b16a44f305",
+      "chapter": "34",
+      "title": "Riding R**mba",
+      "chapterTitle": "Riding R**mba",
       "language": "en",
-      "publishedAt": "2026-05-08T04:44:12+00:00",
+      "publishedAt": "2026-05-07T17:06:02+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "d042e605-a07a-4cd2-87d5-ebe53c0b135f",
-      "chapterId": "9725b54d-c67a-40a5-8fb7-a53fe2c69dcc",
-      "chapter": "56",
+      "mangadexId": "8211bac6-a392-4e37-b3b6-dac0f4512d24",
+      "chapterId": "d02c1c7a-683d-47fe-95dc-4452b67c4122",
+      "chapter": "3",
+      "title": "تجسيد التعطش للمعرفة",
+      "chapterTitle": "تجسيد التعطش للمعرفة",
+      "language": "ar",
+      "publishedAt": "2026-05-08T19:36:29+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "db937417-cd1a-4ade-abfd-593a55c2a97b",
+      "chapterId": "9e477e18-e54d-44d6-bc9b-489110d42699",
+      "chapter": "12",
+      "title": "Wolf vs dragon",
+      "chapterTitle": "Wolf vs dragon",
+      "language": "en",
+      "publishedAt": "2026-05-08T18:55:05+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "ccb654fd-d4de-44d1-a9c1-f58ba34f3510",
+      "chapterId": "709911d7-65a7-4431-9d31-21e292015e50",
+      "chapter": "2564",
+      "title": "Power And Justice",
+      "chapterTitle": "Power And Justice",
+      "language": "en",
+      "publishedAt": "2026-05-08T12:49:39+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "08a69168-3adb-4f78-adaa-088b7663e0ff",
+      "chapterId": "d6e4cc22-30ba-4f5b-8e72-9cae25ce98c7",
+      "chapter": "42.5",
+      "title": "Bonus Chapter",
+      "chapterTitle": "Bonus Chapter",
+      "language": "en",
+      "publishedAt": "2026-05-09T01:37:47+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "1fc3d326-c037-43fa-8953-ed52a56caa18",
+      "chapterId": "0166a8b7-73a0-41cd-ac3f-69007735a32b",
+      "chapter": "27.5",
       "title": "",
       "chapterTitle": "",
       "language": "en",
-      "publishedAt": "2026-05-07T16:09:59+00:00",
+      "publishedAt": "2026-05-08T03:02:28+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d68ceffd-ac56-45db-9129-3413dd0d7063",
+      "chapterId": "7b55a5af-4575-437d-95d2-b7eb2cfff344",
+      "chapter": "56",
+      "title": "I Tried Talking About Japan",
+      "chapterTitle": "I Tried Talking About Japan",
+      "language": "en",
+      "publishedAt": "2026-05-08T01:34:22+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d0cb80c6-e982-4283-9c22-3954bf74c3b0",
+      "chapterId": "761652f7-9517-4258-be30-302d2bfaf940",
+      "chapter": "27",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T14:35:04+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "3be07d65-bdbf-4388-bb50-09bb4a59289c",
+      "chapterId": "03f23cac-19ac-447c-84a7-aef446009001",
+      "chapter": "33",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T00:43:07+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "16fa59cd-f198-4fd0-801c-8d5c5ee53070",
+      "chapterId": "87a6923f-a48f-470e-80ce-7932fcac131f",
+      "chapter": "16",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T12:10:24+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "da25c95f-e062-48ea-b5a0-9b51aeeddc05",
+      "chapterId": "2ee291ac-8cff-4ad6-9349-9b3fe2ec679b",
+      "chapter": "87",
+      "title": "School Library #234",
+      "chapterTitle": "School Library #234",
+      "language": "en",
+      "publishedAt": "2026-05-09T00:57:36+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "1b0c80ec-c8db-43c1-840c-6d126c78d09f",
+      "chapterId": "9836277d-196a-4e1b-94aa-c33628178a27",
+      "chapter": "148",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T18:00:18+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -944,6 +1267,86 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
+      "mangadexId": "0f01506d-9fb0-428d-8304-9f2a1f2a29da",
+      "chapterId": "1b32ff50-fc14-4dc3-8090-d996a762eec5",
+      "chapter": "362",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T19:10:35+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "40cef9b5-05f7-4e7d-9a44-651920e59038",
+      "chapterId": "9c9f5c54-fca9-46f6-9162-3b7060276115",
+      "chapter": "16",
+      "title": "Freedom",
+      "chapterTitle": "Freedom",
+      "language": "en",
+      "publishedAt": "2026-05-08T03:02:48+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d6e9b748-9187-4f93-a5df-b802c567f60c",
+      "chapterId": "6e1dc963-44a3-4b7c-bbef-56da240b8a39",
+      "chapter": "74",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T06:45:12+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "bece879a-2d51-4723-8dda-75cce5519edd",
+      "chapterId": "8f3285e7-f79e-4ed3-b956-e74e55d6e47c",
+      "chapter": "6",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T18:19:50+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "48863213-086b-4dfb-8103-8e279b8e5f5d",
+      "chapterId": "3ac00252-985d-4040-87da-939db34de067",
+      "chapter": "57",
+      "title": "A Mismatched Matching",
+      "chapterTitle": "A Mismatched Matching",
+      "language": "en",
+      "publishedAt": "2026-05-08T04:44:38+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "0cb24b09-3885-4bbe-a2e6-d567e7db2d90",
+      "chapterId": "11199f0a-96a9-46d0-b7de-c7d5ddaca4e7",
+      "chapter": "13",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T18:32:38+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "027df837-7a15-4893-9dc3-e2ae11b94717",
+      "chapterId": "ba308404-c618-4fcd-8c70-3eee56f84bb6",
+      "chapter": "86",
+      "title": "Mahiro and the Nocturnal Classmate",
+      "chapterTitle": "Mahiro and the Nocturnal Classmate",
+      "language": "en",
+      "publishedAt": "2026-05-08T23:00:13+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "3e11f43e-3d91-47c8-a2ad-e2f23d36ad4c",
+      "chapterId": "4b1deaac-bb26-4f56-b49f-8f329ea22ad2",
+      "chapter": "182",
+      "title": "Cultural Exchange.",
+      "chapterTitle": "Cultural Exchange.",
+      "language": "en",
+      "publishedAt": "2026-05-08T15:36:55+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
       "mangadexId": "024af7a5-f8ad-4b67-b950-b1708f52b018",
       "chapterId": "e23755c9-d02c-4c3c-bb49-f005b55aa389",
       "chapter": "65",
@@ -951,6 +1354,96 @@
       "chapterTitle": "",
       "language": "en",
       "publishedAt": "2026-05-07T19:05:37+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "6994b74a-2ecd-4a54-8d23-d2adff5e0b0c",
+      "chapterId": "67e860f1-4c1e-4dcf-8cb7-f18f944887f6",
+      "chapter": "257",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-07T20:55:11+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d701d37a-cefa-4f9e-9359-078bc057cfd2",
+      "chapterId": "dcfa55a0-ef4e-4fac-adeb-89f415da0ab4",
+      "chapter": "53",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T21:35:50+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "c8736457-f9e3-49fe-996c-e1ed0ed8bf5a",
+      "chapterId": "5f09d0c6-e5ce-4fee-a81a-2577ae53fa33",
+      "chapter": "52",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-08T04:46:53+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "10e98722-874d-48b2-a715-90bb8af93598",
+      "chapterId": "bffebc5a-b517-49bb-9385-791bf35c75fe",
+      "chapter": "73",
+      "title": "Demon King's Blood",
+      "chapterTitle": "Demon King's Blood",
+      "language": "en",
+      "publishedAt": "2026-05-08T05:22:42+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "80d1a3ca-bb3c-4fa6-9039-a854acf6d050",
+      "chapterId": "1818f240-0e8a-49ca-9eff-68ffd9827997",
+      "chapter": "54",
+      "title": "Exciting Earthenware",
+      "chapterTitle": "Exciting Earthenware",
+      "language": "en",
+      "publishedAt": "2026-05-08T14:38:26+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "e421aa24-46c5-472d-b587-b8e42fb3803a",
+      "chapterId": "70e16b9f-ffd4-41c5-8634-857ad475e034",
+      "chapter": "3.1",
+      "title": "The Lost Children",
+      "chapterTitle": "The Lost Children",
+      "language": "en",
+      "publishedAt": "2026-05-08T22:03:45+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "3083fdad-a2a0-4f34-a37e-00b2432d6c19",
+      "chapterId": "5399f376-cb35-4bae-913a-d2856817864b",
+      "chapter": "20",
+      "title": "",
+      "chapterTitle": "",
+      "language": "en",
+      "publishedAt": "2026-05-09T00:04:09+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "0483d2ef-557e-43ae-9761-2f2f0677625a",
+      "chapterId": "1b1ff414-075d-48ee-8dfe-2bc6fd7c1ee3",
+      "chapter": "76",
+      "title": "Rosy Cheeks in the Morning, Spirit by Evening (Part 2)",
+      "chapterTitle": "Rosy Cheeks in the Morning, Spirit by Evening (Part 2)",
+      "language": "en",
+      "publishedAt": "2026-05-07T14:50:34+00:00",
+      "reason": "already_in_catalog_chapter_exists"
+    },
+    {
+      "mangadexId": "d69d9c47-a3ab-41ac-bdcc-9cfcf226c88d",
+      "chapterId": "bb28af5e-76e0-4c3c-807c-c6959a270ae0",
+      "chapter": "32.2",
+      "title": "Pixiv Extra: A Middle School Coming-of-Age Story",
+      "chapterTitle": "Pixiv Extra: A Middle School Coming-of-Age Story",
+      "language": "en",
+      "publishedAt": "2026-05-07T20:22:59+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -974,23 +1467,13 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "8e17e098-5f3f-4918-a51a-41235303f290",
-      "chapterId": "5b024e26-4423-4926-8fd2-1d57101bced9",
-      "chapter": "6",
-      "title": "The reveal",
-      "chapterTitle": "The reveal",
+      "mangadexId": "151bca3e-db98-4ad2-8d8d-239943b91437",
+      "chapterId": "5e74f565-3e60-4f72-9f4c-aedf0dd4c037",
+      "chapter": "1188",
+      "title": "Cultivation Advancement/Nature",
+      "chapterTitle": "Cultivation Advancement/Nature",
       "language": "en",
-      "publishedAt": "2026-05-08T01:12:51+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "55358b55-75ee-4c44-8288-7a913a88ed25",
-      "chapterId": "bb30714a-49fa-428d-bc53-b1d901151b1e",
-      "chapter": "9.5",
-      "title": "Omake",
-      "chapterTitle": "Omake",
-      "language": "en",
-      "publishedAt": "2026-05-08T15:50:59+00:00",
+      "publishedAt": "2026-05-08T04:02:51+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -1004,433 +1487,13 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "d701d37a-cefa-4f9e-9359-078bc057cfd2",
-      "chapterId": "dcfa55a0-ef4e-4fac-adeb-89f415da0ab4",
-      "chapter": "53",
-      "title": "",
-      "chapterTitle": "",
+      "mangadexId": "6202f5c6-5b94-49a5-80dd-c328cf58cbb8",
+      "chapterId": "2fcef10d-7bbc-4283-8602-d4826b57d53c",
+      "chapter": "20",
+      "title": "The Yotsuba Family",
+      "chapterTitle": "The Yotsuba Family",
       "language": "en",
-      "publishedAt": "2026-05-08T21:35:50+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "003e7fbf-f047-4783-a7df-1533a2a653d4",
-      "chapterId": "e66d3b1b-dd8d-4c3e-881e-bddf6465f6eb",
-      "chapter": "715",
-      "title": "The \"Small\" Article",
-      "chapterTitle": "The \"Small\" Article",
-      "language": "en",
-      "publishedAt": "2026-05-08T13:44:13+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d69d9c47-a3ab-41ac-bdcc-9cfcf226c88d",
-      "chapterId": "bb28af5e-76e0-4c3c-807c-c6959a270ae0",
-      "chapter": "32.2",
-      "title": "Pixiv Extra: A Middle School Coming-of-Age Story",
-      "chapterTitle": "Pixiv Extra: A Middle School Coming-of-Age Story",
-      "language": "en",
-      "publishedAt": "2026-05-07T20:22:59+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "ea01341d-ca83-4896-be99-0487e9a8fa7a",
-      "chapterId": "084b2f83-283b-41af-8141-dc8077018d89",
-      "chapter": "28.5",
-      "title": "Double Tamer!! The Great Super Dimensional Battle!!",
-      "chapterTitle": "Double Tamer!! The Great Super Dimensional Battle!!",
-      "language": "en",
-      "publishedAt": "2026-05-07T04:46:24+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "b66e8da4-f2f3-4159-8db8-e523094be8c2",
-      "chapterId": "b0eada9b-4790-4f84-9e48-f8707ab98cdf",
-      "chapter": "97.5",
-      "title": "Extra Edition 42",
-      "chapterTitle": "Extra Edition 42",
-      "language": "en",
-      "publishedAt": "2026-05-08T02:05:19+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "a9dd451c-3c45-4d66-a818-4e1b78855838",
-      "chapterId": "c4184817-6530-4a24-89f8-30113c188eff",
-      "chapter": "171",
-      "title": "Why She Lost",
-      "chapterTitle": "Why She Lost",
-      "language": "en",
-      "publishedAt": "2026-05-08T21:05:55+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "921fb112-54c2-457f-8e7b-3a357ee391cc",
-      "chapterId": "58476171-0707-4275-9ce3-dc0f5c9aaa34",
-      "chapter": "13",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T18:07:29+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "36bad9cb-6310-4048-a48e-a1ab7b7dcb3e",
-      "chapterId": "0dbbd100-7db9-4d05-8776-6f439fc100a3",
-      "chapter": "135",
-      "title": "The demon's plan. Part 1",
-      "chapterTitle": "The demon's plan. Part 1",
-      "language": "en",
-      "publishedAt": "2026-05-08T03:30:15+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "18da0705-987a-470a-9037-faf25be21dc5",
-      "chapterId": "eacf4718-a597-4486-9d10-5977433e9bd2",
-      "chapter": "4",
-      "title": "The Laser Gun",
-      "chapterTitle": "The Laser Gun",
-      "language": "en",
-      "publishedAt": "2026-05-07T21:21:24+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "bece879a-2d51-4723-8dda-75cce5519edd",
-      "chapterId": "8f3285e7-f79e-4ed3-b956-e74e55d6e47c",
-      "chapter": "6",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T18:19:50+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "5c7185cb-70fc-4146-a7ff-1b999e008a84",
-      "chapterId": "5fc7c8d7-742f-477a-9986-8cd003755e86",
-      "chapter": "26",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T09:06:53+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "2917010b-61f5-4dd0-b861-a10362d8ab9b",
-      "chapterId": "56a32a02-3ddb-4ce6-9552-1cfc4e6acb50",
-      "chapter": "14",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T13:19:49+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "3be07d65-bdbf-4388-bb50-09bb4a59289c",
-      "chapterId": "03f23cac-19ac-447c-84a7-aef446009001",
-      "chapter": "33",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T00:43:07+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "e93849b2-939f-40f3-91b4-79b96133052e",
-      "chapterId": "31e808bc-9286-4d4f-b490-d28693029396",
-      "chapter": "42",
-      "title": "My Medusa Maid and Golden Week.",
-      "chapterTitle": "My Medusa Maid and Golden Week.",
-      "language": "en",
-      "publishedAt": "2026-05-07T22:04:03+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "647c6480-a877-4899-9382-5757fcfba1d3",
-      "chapterId": "aaf148f3-aee2-4cb1-b4c0-3286e9b1bb5c",
-      "chapter": "10",
-      "title": "Hit On",
-      "chapterTitle": "Hit On",
-      "language": "en",
-      "publishedAt": "2026-05-07T15:16:43+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1fc3d326-c037-43fa-8953-ed52a56caa18",
-      "chapterId": "0166a8b7-73a0-41cd-ac3f-69007735a32b",
-      "chapter": "27.5",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T03:02:28+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "fb716acf-4257-4613-bf30-32d7c32dc199",
-      "chapterId": "f490825b-c056-4c16-a234-2863ccf729eb",
-      "chapter": "4",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T14:02:45+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d06b7325-7ad8-438d-a1dd-98051c167055",
-      "chapterId": "1b173a71-cc8b-4d10-a5e9-30d86b6d11be",
-      "chapter": "2",
-      "title": "Afterimage Of A Smile",
-      "chapterTitle": "Afterimage Of A Smile",
-      "language": "en",
-      "publishedAt": "2026-05-08T02:32:30+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "85ce7857-3d01-4b0a-adff-7a4cba347ced",
-      "chapterId": "32f5e9c2-dd75-488b-aaa9-01fb2dbdf165",
-      "chapter": "28",
-      "title": "Treasure stealing ditter 1",
-      "chapterTitle": "Treasure stealing ditter 1",
-      "language": "en",
-      "publishedAt": "2026-05-08T15:45:57+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "6b42f1d8-2acb-4c7e-87e0-811388538174",
-      "chapterId": "f31dfadb-3b97-4965-9596-f8bb52d69974",
-      "chapter": "3",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T18:35:39+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "f6ce20ca-73c3-4fdd-9367-e2901fca780e",
-      "chapterId": "20ac4c32-b67d-45f0-920c-457ebbcbd0d8",
-      "chapter": "632",
-      "title": "شجر الخوخ والإجاص لا يَنطق",
-      "chapterTitle": "شجر الخوخ والإجاص لا يَنطق",
-      "language": "ar",
-      "publishedAt": "2026-05-07T09:38:30+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "ee96e2b7-9af2-4864-9656-649f4d3b6fec",
-      "chapterId": "8c345aba-a404-4845-babf-472fd66dff92",
-      "chapter": "93",
-      "title": "Otaku & Gyaru & Open Campus",
-      "chapterTitle": "Otaku & Gyaru & Open Campus",
-      "language": "en",
-      "publishedAt": "2026-05-07T23:04:05+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6994b74a-2ecd-4a54-8d23-d2adff5e0b0c",
-      "chapterId": "67e860f1-4c1e-4dcf-8cb7-f18f944887f6",
-      "chapter": "257",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T20:55:11+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "7abcae6c-5703-4f3f-b8ab-54bbf437afac",
-      "chapterId": "4cfbe63d-3228-477b-825a-399286a0eeda",
-      "chapter": "55",
-      "title": "Sports Day!!",
-      "chapterTitle": "Sports Day!!",
-      "language": "en",
-      "publishedAt": "2026-05-08T02:31:37+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "4ee79570-0d06-43d4-9844-51e83b1a6e87",
-      "chapterId": "6453cc9a-87cb-4a01-b109-e7948934361a",
-      "chapter": "11",
-      "title": "After Avalon: Mystic Gears - Mouse Eater",
-      "chapterTitle": "After Avalon: Mystic Gears - Mouse Eater",
-      "language": "en",
-      "publishedAt": "2026-05-08T15:30:39+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "5c60d071-882d-4cf8-8ae9-277a331c9cfb",
-      "chapterId": "0f6f380a-e633-4c83-a015-b609eb622f73",
-      "chapter": "26",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T11:05:40+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "0483d2ef-557e-43ae-9761-2f2f0677625a",
-      "chapterId": "1b1ff414-075d-48ee-8dfe-2bc6fd7c1ee3",
-      "chapter": "76",
-      "title": "Rosy Cheeks in the Morning, Spirit by Evening (Part 2)",
-      "chapterTitle": "Rosy Cheeks in the Morning, Spirit by Evening (Part 2)",
-      "language": "en",
-      "publishedAt": "2026-05-07T14:50:34+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "829fc3a7-d4f4-42e9-9032-0917083f9e0d",
-      "chapterId": "9da4dff1-e7ab-4d11-bb61-91ee5fa993f9",
-      "chapter": "127",
-      "title": "One day after school",
-      "chapterTitle": "One day after school",
-      "language": "en",
-      "publishedAt": "2026-05-08T21:47:06+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "b98c4daf-be1a-46c8-ad83-21d532995240",
-      "chapterId": "047ac1ca-0e3a-4815-a1c4-7d57b46712af",
-      "chapter": "223.11",
-      "title": "Side Story 1: Negotiations and Threats",
-      "chapterTitle": "Side Story 1: Negotiations and Threats",
-      "language": "en",
-      "publishedAt": "2026-05-07T04:07:53+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "40cef9b5-05f7-4e7d-9a44-651920e59038",
-      "chapterId": "9c9f5c54-fca9-46f6-9162-3b7060276115",
-      "chapter": "16",
-      "title": "Freedom",
-      "chapterTitle": "Freedom",
-      "language": "en",
-      "publishedAt": "2026-05-08T03:02:48+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "c1f7d4dd-a16a-4ac6-9a34-bb73874158cb",
-      "chapterId": "fc7479ad-ff8f-42c5-9b87-321eb6fe6e85",
-      "chapter": "8",
-      "title": "Boobs and the Mysterious Dungeon!!!",
-      "chapterTitle": "Boobs and the Mysterious Dungeon!!!",
-      "language": "en",
-      "publishedAt": "2026-05-08T19:20:56+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "06235465-3e81-4f6e-af5d-d4bbfe0f061f",
-      "chapterId": "ec5932ac-9513-41f8-9e23-722fde6f8893",
-      "chapter": "4",
-      "title": "The Laboratory of Madness",
-      "chapterTitle": "The Laboratory of Madness",
-      "language": "en",
-      "publishedAt": "2026-05-08T21:49:02+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "c8736457-f9e3-49fe-996c-e1ed0ed8bf5a",
-      "chapterId": "5f09d0c6-e5ce-4fee-a81a-2577ae53fa33",
-      "chapter": "52",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T04:46:53+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "ccb654fd-d4de-44d1-a9c1-f58ba34f3510",
-      "chapterId": "709911d7-65a7-4431-9d31-21e292015e50",
-      "chapter": "2564",
-      "title": "Power And Justice",
-      "chapterTitle": "Power And Justice",
-      "language": "en",
-      "publishedAt": "2026-05-08T12:49:39+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "28f0d967-4110-4a8c-8426-2aeea4489111",
-      "chapterId": "ffc1f6d5-6645-4f28-916c-b77a4e718465",
-      "chapter": "182",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T14:44:57+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "0f01506d-9fb0-428d-8304-9f2a1f2a29da",
-      "chapterId": "1b32ff50-fc14-4dc3-8090-d996a762eec5",
-      "chapter": "362",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T19:10:35+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "67ffb21f-1351-4caf-be96-924c4df57341",
-      "chapterId": "a1ca655f-1595-4589-9108-c439404ad938",
-      "chapter": "18",
-      "title": "Step On Me",
-      "chapterTitle": "Step On Me",
-      "language": "en",
-      "publishedAt": "2026-05-07T01:56:17+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "4aa0f10f-1333-4f01-a6da-5316f6a51c40",
-      "chapterId": "67346531-f476-4150-aa41-bb9e313dcf78",
-      "chapter": "3",
-      "title": "Company Meeting",
-      "chapterTitle": "Company Meeting",
-      "language": "en",
-      "publishedAt": "2026-05-07T18:16:07+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "27457fd8-8152-49dd-b26c-a76ffa96752f",
-      "chapterId": "07c0fe18-9596-436c-bc0a-849e5790c59a",
-      "chapter": "24",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T07:25:29+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "4e84b064-311e-4fa3-b7fc-f370ac3e9c6c",
-      "chapterId": "efd12aaf-4600-4ddf-bf2b-93ac34fc0fd8",
-      "chapter": "16",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-09T00:53:10+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "5a00f8ae-b2e9-490f-b5f8-b94552845d8d",
-      "chapterId": "857dcbea-c270-446d-a5c0-f01efa942442",
-      "chapter": "4",
-      "title": "Devotion to the School Run",
-      "chapterTitle": "Devotion to the School Run",
-      "language": "en",
-      "publishedAt": "2026-05-08T20:53:35+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "688eee00-d587-4998-a999-652767aac846",
-      "chapterId": "c5853c46-f15f-49c7-af4e-ba2bbb5d3108",
-      "chapter": "41",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T20:58:48+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d413c71b-8eb5-44c5-8590-7c38908de419",
-      "chapterId": "1b44f7cc-a87f-432d-8bd7-81518bdeb1e8",
-      "chapter": "55",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T09:41:27+00:00",
+      "publishedAt": "2026-05-08T18:31:38+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -1444,236 +1507,6 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "e038b47c-00db-4623-b1c3-35b46f6cdc2d",
-      "chapterId": "380a5630-dbe2-42db-ba8c-f4d9ace38187",
-      "chapter": "35",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T14:33:08+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "c6c428b5-b8e4-42f6-8777-8f548f45e79d",
-      "chapterId": "c721d864-9ea1-486a-a37f-1d0affae0020",
-      "chapter": "44",
-      "title": "At The End of『My』Holy Birth Festival (4)",
-      "chapterTitle": "At The End of『My』Holy Birth Festival (4)",
-      "language": "en",
-      "publishedAt": "2026-05-08T13:32:44+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "db937417-cd1a-4ade-abfd-593a55c2a97b",
-      "chapterId": "9e477e18-e54d-44d6-bc9b-489110d42699",
-      "chapter": "12",
-      "title": "Wolf vs dragon",
-      "chapterTitle": "Wolf vs dragon",
-      "language": "en",
-      "publishedAt": "2026-05-08T18:55:05+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "05c29e85-71c1-4f78-95cd-a03e68d9523c",
-      "chapterId": "c7e0b457-f377-44ab-931e-c0f8f0ffdb49",
-      "chapter": "72",
-      "title": "The Neverending Story",
-      "chapterTitle": "The Neverending Story",
-      "language": "en",
-      "publishedAt": "2026-05-07T17:06:22+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "87515aa0-3c90-4b76-9254-0363fdbec36b",
-      "chapterId": "059dde56-a0fa-4f01-9673-1a82791fc67c",
-      "chapter": "12",
-      "title": "Adults & Children",
-      "chapterTitle": "Adults & Children",
-      "language": "en",
-      "publishedAt": "2026-05-09T00:37:07+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "48863213-086b-4dfb-8103-8e279b8e5f5d",
-      "chapterId": "3ac00252-985d-4040-87da-939db34de067",
-      "chapter": "57",
-      "title": "A Mismatched Matching",
-      "chapterTitle": "A Mismatched Matching",
-      "language": "en",
-      "publishedAt": "2026-05-08T04:44:38+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "80d1a3ca-bb3c-4fa6-9039-a854acf6d050",
-      "chapterId": "1818f240-0e8a-49ca-9eff-68ffd9827997",
-      "chapter": "54",
-      "title": "Exciting Earthenware",
-      "chapterTitle": "Exciting Earthenware",
-      "language": "en",
-      "publishedAt": "2026-05-08T14:38:26+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "4a66059f-a6f0-4930-b1eb-798156f837d5",
-      "chapterId": "3d42f7ea-432f-4e3a-815e-5c5f33b4ade5",
-      "chapter": "16",
-      "title": "IRON MAIDEN vs. HEXE",
-      "chapterTitle": "IRON MAIDEN vs. HEXE",
-      "language": "en",
-      "publishedAt": "2026-05-07T08:53:18+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1c83c0e9-c74f-491c-97d8-db0e4e7dc707",
-      "chapterId": "340b3c85-2bcb-4933-91e4-0462e82e50cf",
-      "chapter": "59",
-      "title": "Each of Their Battlefields!",
-      "chapterTitle": "Each of Their Battlefields!",
-      "language": "en",
-      "publishedAt": "2026-05-08T17:52:50+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6274fcab-df09-4ac5-b516-14152bd031c7",
-      "chapterId": "73b7177a-7c4d-4c84-ace2-4ef084e43e06",
-      "chapter": "18",
-      "title": "I Want to Be a Good Match",
-      "chapterTitle": "I Want to Be a Good Match",
-      "language": "en",
-      "publishedAt": "2026-05-07T16:21:04+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "4f365b09-e44a-4b22-a8c7-02f3ed6ea0b0",
-      "chapterId": "b3943b14-8650-43f4-8c5c-125d779449f0",
-      "chapter": "37",
-      "title": "A Year-End Visitor",
-      "chapterTitle": "A Year-End Visitor",
-      "language": "en",
-      "publishedAt": "2026-05-07T04:40:50+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "3f5bc21d-6575-4fe0-b03f-50c8bb88dc6b",
-      "chapterId": "6df8d5d8-5639-41b2-8b4f-ca4f692e08e6",
-      "chapter": "8",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T23:03:21+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "e0221566-f26d-4bbe-a160-09d79f5b828d",
-      "chapterId": "d5efbb41-1aba-4cc5-8029-c09cc24b5e9b",
-      "chapter": "2",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T02:51:03+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "e421aa24-46c5-472d-b587-b8e42fb3803a",
-      "chapterId": "70e16b9f-ffd4-41c5-8634-857ad475e034",
-      "chapter": "3.1",
-      "title": "The Lost Children",
-      "chapterTitle": "The Lost Children",
-      "language": "en",
-      "publishedAt": "2026-05-08T22:03:45+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "8f5070ae-5d0c-478a-b7f3-96b6d2284fde",
-      "chapterId": "28d0d8b2-caf5-4c21-85de-84ea9e0bd9a6",
-      "chapter": "7",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T19:52:29+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "3512d948-2886-4a9a-b0dc-44e02bb67c87",
-      "chapterId": "543612a7-a1c6-4551-aebf-38193c70a20f",
-      "chapter": "52",
-      "title": "Experiment 52: Kagacolle",
-      "chapterTitle": "Experiment 52: Kagacolle",
-      "language": "en",
-      "publishedAt": "2026-05-08T07:18:56+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "ff73234b-4387-448c-ab54-2879626b4442",
-      "chapterId": "51823d7e-4c34-4e61-8b57-d6ab719f3257",
-      "chapter": "2",
-      "title": "GOTAVOICE",
-      "chapterTitle": "GOTAVOICE",
-      "language": "en",
-      "publishedAt": "2026-05-07T20:05:24+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "91fff6d2-c99e-453d-9d31-236670e03e01",
-      "chapterId": "ed802e0b-3135-4758-90eb-2338fcb87cb0",
-      "chapter": "17",
-      "title": "Once Again, We Leave on a Journey",
-      "chapterTitle": "Once Again, We Leave on a Journey",
-      "language": "en",
-      "publishedAt": "2026-05-07T10:49:36+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1259b4af-266a-4980-83b0-e24f4b3b5658",
-      "chapterId": "5c4c48de-30e3-41a0-a533-65b8e8a4caa8",
-      "chapter": "11",
-      "title": "The You Like That Is the Best in the World",
-      "chapterTitle": "The You Like That Is the Best in the World",
-      "language": "en",
-      "publishedAt": "2026-05-07T07:56:51+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6c62d637-4004-426f-ba7f-be45e18941b6",
-      "chapterId": "a659b948-69d0-4e6b-a4ba-4111c2f218bf",
-      "chapter": "280",
-      "title": "Matching Gym Clothes",
-      "chapterTitle": "Matching Gym Clothes",
-      "language": "en",
-      "publishedAt": "2026-05-07T02:13:59+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d0cb80c6-e982-4283-9c22-3954bf74c3b0",
-      "chapterId": "761652f7-9517-4258-be30-302d2bfaf940",
-      "chapter": "27",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T14:35:04+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "42629cfc-527c-41b8-8336-58af877f5c9a",
-      "chapterId": "6776bc19-7b55-4c99-94d2-56259b89886f",
-      "chapter": "416",
-      "title": "Interfere",
-      "chapterTitle": "Interfere",
-      "language": "en",
-      "publishedAt": "2026-05-08T01:40:42+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "c679bf28-e054-4bb7-93e6-18c089ee79f1",
-      "chapterId": "57179804-eb2d-442a-ab2a-9ada9569162e",
-      "chapter": "9.1",
-      "title": "Cooking",
-      "chapterTitle": "Cooking",
-      "language": "en",
-      "publishedAt": "2026-05-07T13:47:28+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
       "mangadexId": "49c7b586-b0a3-4776-b3f5-3bdc62d82161",
       "chapterId": "3cbdb09d-839e-4a23-9e76-e1a39dad596e",
       "chapter": "4",
@@ -1684,153 +1517,23 @@
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "79264ef2-507e-4216-aed3-ab42ca140706",
-      "chapterId": "9119a02e-cb20-4fb8-ae7e-c52fe76845e5",
-      "chapter": "17",
-      "title": "",
-      "chapterTitle": "",
+      "mangadexId": "740471f5-4f75-457a-8c0c-cb4e0a5a999f",
+      "chapterId": "3cb75d6e-a94e-4222-81c7-0448600ad7d5",
+      "chapter": "54",
+      "title": "Sarufuto",
+      "chapterTitle": "Sarufuto",
       "language": "en",
-      "publishedAt": "2026-05-08T18:57:27+00:00",
+      "publishedAt": "2026-05-08T01:11:24+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
-      "mangadexId": "cc35ae71-ca7b-4a52-b5db-477f866300c3",
-      "chapterId": "2c8ae8b2-d4ad-46f1-bc0f-97a2b7be3e82",
-      "chapter": "20.5",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T11:00:47+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "7f4c9a81-88a3-4794-bfdb-5b881f905040",
-      "chapterId": "1356bd69-6506-4618-8743-0748b2407bfa",
-      "chapter": "5",
-      "title": "The engagement party",
-      "chapterTitle": "The engagement party",
-      "language": "en",
-      "publishedAt": "2026-05-08T18:39:30+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "077812bd-6ee9-4756-a508-9148b254661e",
-      "chapterId": "9caa25f4-514c-4c57-b543-75ed7adc1a0b",
-      "chapter": "6",
-      "title": "Let's murder the guardian deity of the land!",
-      "chapterTitle": "Let's murder the guardian deity of the land!",
-      "language": "en",
-      "publishedAt": "2026-05-07T13:45:33+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "cc92f469-2e2d-4747-b753-6c1bf354cb74",
-      "chapterId": "e1ea3888-5d69-4953-9794-61b96349a3d0",
+      "mangadexId": "09fc3c69-5b21-493e-83a1-f9486c46a19f",
+      "chapterId": "38c23f55-06dc-4089-9893-2324c0e21460",
       "chapter": "18",
-      "title": "",
-      "chapterTitle": "",
+      "title": "Half-Coordinator",
+      "chapterTitle": "Half-Coordinator",
       "language": "en",
-      "publishedAt": "2026-05-08T02:39:44+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "da25c95f-e062-48ea-b5a0-9b51aeeddc05",
-      "chapterId": "2ee291ac-8cff-4ad6-9349-9b3fe2ec679b",
-      "chapter": "87",
-      "title": "School Library #234",
-      "chapterTitle": "School Library #234",
-      "language": "en",
-      "publishedAt": "2026-05-09T00:57:36+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "48221bce-0fd2-4519-b5f3-4fdc1921007b",
-      "chapterId": "0d6b40c8-5bea-4f41-b565-607de6d10cf5",
-      "chapter": "63",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T17:50:53+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "484ce390-f74b-46d1-9840-3b285d2b372e",
-      "chapterId": "da67b7b3-cfca-4303-936b-b2be3186ed10",
-      "chapter": "59",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T13:26:38+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "aca35267-19bf-4cc9-96b6-cabd52b924b3",
-      "chapterId": "72deb4ce-fa53-4f91-bb9b-c2b16a44f305",
-      "chapter": "34",
-      "title": "Riding R**mba",
-      "chapterTitle": "Riding R**mba",
-      "language": "en",
-      "publishedAt": "2026-05-07T17:06:02+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "44f1297a-0ed7-4d0a-a083-7cf5edaaf17a",
-      "chapterId": "cebc4aad-7764-41c7-8638-9265f8021289",
-      "chapter": "4",
-      "title": "Leopard's Eye",
-      "chapterTitle": "Leopard's Eye",
-      "language": "en",
-      "publishedAt": "2026-05-07T22:16:01+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1b0c80ec-c8db-43c1-840c-6d126c78d09f",
-      "chapterId": "9836277d-196a-4e1b-94aa-c33628178a27",
-      "chapter": "148",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T18:00:18+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1f9fb803-733a-4104-bea3-f4b449da5e3c",
-      "chapterId": "8af3cff5-30e7-49c1-a91e-336089c84993",
-      "chapter": "34.5",
-      "title": "Volume 4 Extras",
-      "chapterTitle": "Volume 4 Extras",
-      "language": "en",
-      "publishedAt": "2026-05-08T15:25:50+00:00",
-      "reason": "already_in_catalog"
-    },
-    {
-      "mangadexId": "84cf55e0-b497-4455-8b40-4c5a880de96b",
-      "chapterId": "e96b00aa-df83-4f13-8096-a365eda1f861",
-      "chapter": "21",
-      "title": "I Fell Into Superstition Today",
-      "chapterTitle": "I Fell Into Superstition Today",
-      "language": "en",
-      "publishedAt": "2026-05-07T16:37:55+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "02cc6569-8dca-46e4-8e6a-4c1a395d2cac",
-      "chapterId": "ce3a0113-1588-4be2-a8ee-dc293d567817",
-      "chapter": "15",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T18:12:20+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6bca9d94-5072-4399-9ef1-bc39c4d1bd6b",
-      "chapterId": "46513bd6-15c1-4d2b-a579-1e0d148f53e8",
-      "chapter": "1",
-      "title": "ROOM 101 - Episode 1",
-      "chapterTitle": "ROOM 101 - Episode 1",
-      "language": "en",
-      "publishedAt": "2026-05-08T08:34:43+00:00",
+      "publishedAt": "2026-05-07T21:06:53+00:00",
       "reason": "already_in_catalog_chapter_exists"
     },
     {
@@ -1842,115 +1545,15 @@
       "language": "en",
       "publishedAt": "2026-05-08T14:34:42+00:00",
       "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "f7f71df8-0b4f-4259-bdf1-714644a7fef6",
-      "chapterId": "a04a3527-406b-4589-8a45-4c083e0c28c1",
-      "chapter": "19",
-      "title": "initiation",
-      "chapterTitle": "initiation",
-      "language": "en",
-      "publishedAt": "2026-05-07T17:33:23+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "17eebcc7-d993-446c-84be-c222bfb27794",
-      "chapterId": "014f4398-10da-4284-a517-87f2d4dbbbc8",
-      "chapter": "20",
-      "title": "Training and Silver Forging",
-      "chapterTitle": "Training and Silver Forging",
-      "language": "en",
-      "publishedAt": "2026-05-08T06:58:34+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "1bad66ee-4857-433e-a075-704d93672341",
-      "chapterId": "9bd1b27f-e69d-48c2-acb2-588bd21561bc",
-      "chapter": "18",
-      "title": "Oura-san is amazing",
-      "chapterTitle": "Oura-san is amazing",
-      "language": "en",
-      "publishedAt": "2026-05-07T15:53:51+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "a7d89c90-2b56-4a37-9af2-149b640d651e",
-      "chapterId": "ff1d64c9-ab85-4265-932c-534d81af22f5",
-      "chapter": "16",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-07T05:51:47+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "2b7a244a-5fc5-4d4c-a8d5-c2473c055366",
-      "chapterId": "bd59d7d4-397f-49a6-b287-93eb61de5981",
-      "chapter": "1",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T04:40:50+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "9f03fd07-8012-4032-ad95-31458704b601",
-      "chapterId": "8af94c80-1702-401b-b2aa-d3bcff1e6969",
-      "chapter": "281",
-      "title": "The Capable Sea Squirt",
-      "chapterTitle": "The Capable Sea Squirt",
-      "language": "en",
-      "publishedAt": "2026-05-08T21:14:08+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "4c28fa92-d88a-4686-b068-348c4e72f3e1",
-      "chapterId": "198062dd-8e85-470f-b386-bb90c6c6bef0",
-      "chapter": "96",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T18:41:01+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "6e9e4d13-1138-4631-9483-860787a9bbad",
-      "chapterId": "b6ca9ad1-085f-4452-934c-4272cc2927d7",
-      "chapter": "14.1",
-      "title": "",
-      "chapterTitle": "",
-      "language": "en",
-      "publishedAt": "2026-05-08T11:10:32+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "8516915a-51a2-44e0-a915-aff325216a26",
-      "chapterId": "52508eec-a2f0-47ef-bc78-82e1d229438a",
-      "chapter": "41",
-      "title": "Only Bad Kids Stay Up All Night (Pt. 1)",
-      "chapterTitle": "Only Bad Kids Stay Up All Night (Pt. 1)",
-      "language": "en",
-      "publishedAt": "2026-05-08T22:22:32+00:00",
-      "reason": "already_in_catalog_chapter_exists"
-    },
-    {
-      "mangadexId": "d68ceffd-ac56-45db-9129-3413dd0d7063",
-      "chapterId": "7b55a5af-4575-437d-95d2-b7eb2cfff344",
-      "chapter": "56",
-      "title": "I Tried Talking About Japan",
-      "chapterTitle": "I Tried Talking About Japan",
-      "language": "en",
-      "publishedAt": "2026-05-08T01:34:22+00:00",
-      "reason": "already_in_catalog_chapter_exists"
     }
   ],
   "summary": {
-    "discovered": 1,
-    "failed": 0,
+    "discovered": 0,
+    "failed": 2,
     "skippedByLimit": 0,
-    "skippedRecentFailure": 31,
-    "skippedAlreadyKnown": 158,
-    "attempted": 1,
+    "skippedRecentFailure": 26,
+    "skippedAlreadyKnown": 122,
+    "attempted": 2,
     "catalogCountAfterMerge": 2080
   }
 }
