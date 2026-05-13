@@ -313,9 +313,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 937724,
-    "trending": 28,
-    "favourites": 56348,
+    "popularity": 938947,
+    "trending": 39,
+    "favourites": 56384,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -694,9 +694,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 904866,
-    "trending": 41,
-    "favourites": 64221,
+    "popularity": 906371,
+    "trending": 46,
+    "favourites": 64263,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1026,8 +1026,8 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 902891,
-    "trending": 37,
+    "popularity": 904046,
+    "trending": 48,
     "favourites": 60420,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1610,9 +1610,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 76,
-    "popularity": 697498,
-    "trending": 19,
-    "favourites": 25077,
+    "popularity": 701035,
+    "trending": 45,
+    "favourites": 25140,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2011,9 +2011,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 80,
-    "popularity": 683051,
-    "trending": 31,
-    "favourites": 39398,
+    "popularity": 683931,
+    "trending": 29,
+    "favourites": 39422,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3339,9 +3339,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 578157,
-    "trending": 35,
-    "favourites": 32356,
+    "popularity": 579426,
+    "trending": 28,
+    "favourites": 32376,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3752,9 +3752,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 575483,
-    "trending": 31,
-    "favourites": 44828,
+    "popularity": 576225,
+    "trending": 28,
+    "favourites": 44856,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5800,9 +5800,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 474478,
-    "trending": 49,
-    "favourites": 29169,
+    "popularity": 475464,
+    "trending": 39,
+    "favourites": 29211,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -12671,6 +12671,16 @@
         "isAdult": false
       },
       {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 98,
         "name": "Female Protagonist",
         "description": "Main character is female.",
@@ -12681,21 +12691,11 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1719,
         "name": "Exorcism",
         "description": "Involving religious methods of vanquishing youkai, demons, or other supernatural entities.",
         "category": "Theme-Fantasy",
-        "rank": 73,
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12705,7 +12705,7 @@
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 70,
+        "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12715,19 +12715,9 @@
         "name": "Gyaru",
         "description": "Prominently features a female character who has a distinct American-emulated fashion style, such as tanned skin, bleached hair, and excessive makeup. Also known as gal.",
         "category": "Cast-Traits",
-        "rank": 60,
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 139,
-        "name": "Love Triangle",
-        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
-        "category": "Theme-Romance",
-        "rank": 55,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -12735,7 +12725,7 @@
         "name": "Demons",
         "description": "Prominently features malevolent otherworldly creatures.",
         "category": "Cast-Traits",
-        "rank": 53,
+        "rank": 58,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12745,9 +12735,19 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 53,
+        "rank": 57,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -12755,7 +12755,7 @@
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
-        "rank": 39,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12765,9 +12765,29 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 38,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 513,
+        "name": "Tokusatsu",
+        "description": "Prominently features elements that resemble special effects in Japanese live-action shows",
+        "category": "Theme-Sci-Fi",
+        "rank": 36,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1539,
+        "name": "Unrequited Love",
+        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+        "category": "Theme-Romance",
+        "rank": 35,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -12791,31 +12811,11 @@
         "isAdult": false
       },
       {
-        "id": 513,
-        "name": "Tokusatsu",
-        "description": "Prominently features elements that resemble special effects in Japanese live-action shows",
-        "category": "Theme-Sci-Fi",
-        "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1539,
-        "name": "Unrequited Love",
-        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
-        "category": "Theme-Romance",
-        "rank": 26,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 710,
         "name": "Achromatic",
         "description": "Contains animation that is primarily done in black and white.",
         "category": "Technical",
-        "rank": 24,
+        "rank": 27,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12836,9 +12836,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 342531,
-    "trending": 44,
-    "favourites": 17416,
+    "popularity": 345289,
+    "trending": 40,
+    "favourites": 17476,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -28297,9 +28297,9 @@
     "rating": 8.6,
     "averageScore": 86,
     "meanScore": 86,
-    "popularity": 209887,
-    "trending": 54,
-    "favourites": 8371,
+    "popularity": 211335,
+    "trending": 43,
+    "favourites": 8408,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -29661,326 +29661,6 @@
     }
   },
   {
-    "animeId": 849,
-    "anilistId": 849,
-    "title": "The Melancholy of Haruhi Suzumiya",
-    "titleRomaji": "Suzumiya Haruhi no Yuuutsu",
-    "titleEnglish": "The Melancholy of Haruhi Suzumiya",
-    "titleNative": "涼宮ハルヒの憂鬱",
-    "synonyms": [
-      "La Malinconia Di Haruhi Suzumiya",
-      "凉宫春日的忧郁",
-      "La mélancolie de Haruhi Suzumiya",
-      "Меланхолия Харухи Судзумии",
-      "Melancholia Haruhi Suzumiyi"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx849-wQM3GqLvl62P.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx849-wQM3GqLvl62P.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx849-wQM3GqLvl62P.png",
-    "coverImageColor": "#3593e4",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/849-Cey4HHIDoeY2.jpg",
-    "synopsis": "Kyon, your typical high school student, has long given up his belief in the supernatural. However, upon meeting Haruhi Suzumiya, he quickly finds out that it is the supernatural that she is interested in; aliens, time travelers and espers among other things. When Haruhi laments about the lack of intriguing clubs around school, Kyon inspires Haruhi to form her own club. As a result, the SOS Brigade is formed, a club which specializes in all that is the supernatural. Much to his chagrin, Kyon, along with the silent bookworm, Yuki Nagato, the shy and timid Mikuru Asahina, and the perpetually smiling Itsuki Koizumi, are recruited as members. The story follows the crazy adventures that these four endure under their whimsical leader, Haruhi. The story is based on the light novels by Nagaru Tanigawa. Note: This entry is for the original 14-episode 2006 airing. The series was further expanded and reordered into a 28-episode series in 2009.",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "FINISHED",
-    "season": "SPRING",
-    "seasonYear": 2006,
-    "seasonInt": 62,
-    "episodes": 14,
-    "duration": 23,
-    "genres": [
-      "Comedy",
-      "Mystery",
-      "Sci-Fi",
-      "Slice of Life",
-      "Supernatural"
-    ],
-    "tags": [
-      {
-        "id": 84,
-        "name": "School Club",
-        "description": "Partly or completely set in a school club scene.",
-        "category": "Setting-Scene",
-        "rank": 95,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 156,
-        "name": "Achronological Order",
-        "description": "Chapters or episodes do not occur in chronological order.",
-        "category": "Setting-Time",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 321,
-        "name": "Urban Fantasy",
-        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
-        "category": "Setting-Universe",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 88,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 96,
-        "name": "Time Manipulation",
-        "description": "Prominently features time-traveling or other time-warping phenomena.",
-        "category": "Theme-Sci-Fi",
-        "rank": 83,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 191,
-        "name": "Aliens",
-        "description": "Prominently features extraterrestrial lifeforms.",
-        "category": "Cast-Traits",
-        "rank": 78,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 146,
-        "name": "Alternate Universe",
-        "description": "Features multiple alternate universes in the same series.",
-        "category": "Setting-Universe",
-        "rank": 77,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 144,
-        "name": "Meta",
-        "description": "Features fourth wall-breaking references to itself or genre tropes.",
-        "category": "Theme-Other",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 391,
-        "name": "Philosophy",
-        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
-        "category": "Theme-Other",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 39,
-        "name": "Parody",
-        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
-        "category": "Theme-Comedy",
-        "rank": 70,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 70,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 61,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 164,
-        "name": "Tsundere",
-        "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 97,
-        "name": "Otaku Culture",
-        "description": "Centers around the culture of a fanatical fan-base.",
-        "category": "Theme-Other",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 193,
-        "name": "Episodic",
-        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-        "category": "Technical",
-        "rank": 55,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 779,
-        "name": "Kuudere",
-        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
-        "category": "Cast-Traits",
-        "rank": 54,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 276,
-        "name": "Kaiju",
-        "description": "Prominently features giant monsters.",
-        "category": "Theme-Fantasy",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1422,
-        "name": "Filmmaking",
-        "description": "Centers around the art of filmmaking.",
-        "category": "Theme-Other",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 149,
-        "name": "Baseball",
-        "description": "Centers around the sport of baseball.",
-        "category": "Theme-Game-Sport",
-        "rank": 34,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 249,
-        "name": "Maids",
-        "description": "Prominently features a character who is a maid.",
-        "category": "Cast-Traits",
-        "rank": 33,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1539,
-        "name": "Unrequited Love",
-        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
-        "category": "Theme-Romance",
-        "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 2,
-        "name": "Kyoto Animation",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/2"
-      }
-    ],
-    "studiosNames": [
-      "Kyoto Animation"
-    ],
-    "rating": 7.6,
-    "averageScore": 76,
-    "meanScore": 76,
-    "popularity": 190006,
-    "trending": 2,
-    "favourites": 4153,
-    "source": "LIGHT_NOVEL",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#涼宮ハルヒ",
-    "startDate": "2006-04-03",
-    "endDate": "2006-07-03",
-    "mal_url": "https://myanimelist.net/anime/849",
-    "anilist_url": "https://anilist.co/anime/849",
-    "trailer": {
-      "id": "fXFoWkBaedU",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=fXFoWkBaedU"
-    }
-  },
-  {
     "animeId": 57555,
     "anilistId": 171627,
     "title": "Chainsaw Man – The Movie: Reze Arc",
@@ -30318,6 +29998,16 @@
         "isAdult": false
       },
       {
+        "id": 631,
+        "name": "Feet",
+        "description": "Features the sexual depiction or stimulation of a character's feet.",
+        "category": "Sexual Content",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": true
+      },
+      {
         "id": 90,
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
@@ -30363,9 +30053,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 189912,
-    "trending": 38,
-    "favourites": 14666,
+    "popularity": 192539,
+    "trending": 51,
+    "favourites": 14727,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -30379,6 +30069,326 @@
       "id": "pv8A7eubPQQ",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=pv8A7eubPQQ"
+    }
+  },
+  {
+    "animeId": 849,
+    "anilistId": 849,
+    "title": "The Melancholy of Haruhi Suzumiya",
+    "titleRomaji": "Suzumiya Haruhi no Yuuutsu",
+    "titleEnglish": "The Melancholy of Haruhi Suzumiya",
+    "titleNative": "涼宮ハルヒの憂鬱",
+    "synonyms": [
+      "La Malinconia Di Haruhi Suzumiya",
+      "凉宫春日的忧郁",
+      "La mélancolie de Haruhi Suzumiya",
+      "Меланхолия Харухи Судзумии",
+      "Melancholia Haruhi Suzumiyi"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx849-wQM3GqLvl62P.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx849-wQM3GqLvl62P.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx849-wQM3GqLvl62P.png",
+    "coverImageColor": "#3593e4",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/849-Cey4HHIDoeY2.jpg",
+    "synopsis": "Kyon, your typical high school student, has long given up his belief in the supernatural. However, upon meeting Haruhi Suzumiya, he quickly finds out that it is the supernatural that she is interested in; aliens, time travelers and espers among other things. When Haruhi laments about the lack of intriguing clubs around school, Kyon inspires Haruhi to form her own club. As a result, the SOS Brigade is formed, a club which specializes in all that is the supernatural. Much to his chagrin, Kyon, along with the silent bookworm, Yuki Nagato, the shy and timid Mikuru Asahina, and the perpetually smiling Itsuki Koizumi, are recruited as members. The story follows the crazy adventures that these four endure under their whimsical leader, Haruhi. The story is based on the light novels by Nagaru Tanigawa. Note: This entry is for the original 14-episode 2006 airing. The series was further expanded and reordered into a 28-episode series in 2009.",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "FINISHED",
+    "season": "SPRING",
+    "seasonYear": 2006,
+    "seasonInt": 62,
+    "episodes": 14,
+    "duration": 23,
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Sci-Fi",
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "id": 84,
+        "name": "School Club",
+        "description": "Partly or completely set in a school club scene.",
+        "category": "Setting-Scene",
+        "rank": 95,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 156,
+        "name": "Achronological Order",
+        "description": "Chapters or episodes do not occur in chronological order.",
+        "category": "Setting-Time",
+        "rank": 92,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 321,
+        "name": "Urban Fantasy",
+        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+        "category": "Setting-Universe",
+        "rank": 92,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 96,
+        "name": "Time Manipulation",
+        "description": "Prominently features time-traveling or other time-warping phenomena.",
+        "category": "Theme-Sci-Fi",
+        "rank": 83,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 191,
+        "name": "Aliens",
+        "description": "Prominently features extraterrestrial lifeforms.",
+        "category": "Cast-Traits",
+        "rank": 78,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 146,
+        "name": "Alternate Universe",
+        "description": "Features multiple alternate universes in the same series.",
+        "category": "Setting-Universe",
+        "rank": 77,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 144,
+        "name": "Meta",
+        "description": "Features fourth wall-breaking references to itself or genre tropes.",
+        "category": "Theme-Other",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+        "category": "Theme-Other",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 39,
+        "name": "Parody",
+        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+        "category": "Theme-Comedy",
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 61,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 164,
+        "name": "Tsundere",
+        "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 97,
+        "name": "Otaku Culture",
+        "description": "Centers around the culture of a fanatical fan-base.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 55,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 779,
+        "name": "Kuudere",
+        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+        "category": "Cast-Traits",
+        "rank": 54,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 276,
+        "name": "Kaiju",
+        "description": "Prominently features giant monsters.",
+        "category": "Theme-Fantasy",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1422,
+        "name": "Filmmaking",
+        "description": "Centers around the art of filmmaking.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 149,
+        "name": "Baseball",
+        "description": "Centers around the sport of baseball.",
+        "category": "Theme-Game-Sport",
+        "rank": 34,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 249,
+        "name": "Maids",
+        "description": "Prominently features a character who is a maid.",
+        "category": "Cast-Traits",
+        "rank": 33,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1539,
+        "name": "Unrequited Love",
+        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+        "category": "Theme-Romance",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 2,
+        "name": "Kyoto Animation",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/2"
+      }
+    ],
+    "studiosNames": [
+      "Kyoto Animation"
+    ],
+    "rating": 7.6,
+    "averageScore": 76,
+    "meanScore": 76,
+    "popularity": 190006,
+    "trending": 2,
+    "favourites": 4153,
+    "source": "LIGHT_NOVEL",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#涼宮ハルヒ",
+    "startDate": "2006-04-03",
+    "endDate": "2006-07-03",
+    "mal_url": "https://myanimelist.net/anime/849",
+    "anilist_url": "https://anilist.co/anime/849",
+    "trailer": {
+      "id": "fXFoWkBaedU",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=fXFoWkBaedU"
     }
   },
   {
