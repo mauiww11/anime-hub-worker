@@ -5170,6 +5170,16 @@
         "isAdult": false
       },
       {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 226,
         "name": "Fugitive",
         "description": "Prominently features a character evading capture by an individual or organization.",
@@ -5180,13 +5190,43 @@
         "isAdult": false
       },
       {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 89,
+        "rank": 86,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 494,
+        "name": "Twins",
+        "description": "Prominently features two or more siblings that were born at one birth.",
+        "category": "Cast-Traits",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 365,
+        "name": "Memory Manipulation",
+        "description": "Prominently features a character(s) who has had their memories altered.",
+        "category": "Theme-Other",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 86,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -5194,16 +5234,6 @@
         "name": "Noir",
         "description": "Stylized as a cynical crime drama with low-key visuals.",
         "category": "Theme-Other",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
         "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -5220,43 +5250,13 @@
         "isAdult": false
       },
       {
-        "id": 494,
-        "name": "Twins",
-        "description": "Prominently features two or more siblings that were born at one birth.",
-        "category": "Cast-Traits",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 365,
-        "name": "Memory Manipulation",
-        "description": "Prominently features a character(s) who has had their memories altered.",
-        "category": "Theme-Other",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 252,
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 85,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 85,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -5310,23 +5310,23 @@
         "isAdult": false
       },
       {
+        "id": 1382,
+        "name": "Orphan",
+        "description": "Prominently features a character that is an orphan.",
+        "category": "Cast-Traits",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 536,
         "name": "Dissociative Identities",
         "description": "A case where one or more people share the same body.",
         "category": "Cast-Traits",
-        "rank": 76,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1310,
-        "name": "Travel",
-        "description": "Centers around character(s) moving between places a significant distance apart.",
-        "category": "Theme-Other",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -5360,11 +5360,11 @@
         "isAdult": false
       },
       {
-        "id": 1382,
-        "name": "Orphan",
-        "description": "Prominently features a character that is an orphan.",
-        "category": "Cast-Traits",
-        "rank": 74,
+        "id": 1310,
+        "name": "Travel",
+        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "category": "Theme-Other",
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5374,16 +5374,16 @@
         "name": "Historical",
         "description": "Partly or completely set during a real period of world history.",
         "category": "Setting-Time",
-        "rank": 71,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 157,
-        "name": "Guns",
-        "description": "Prominently features the use of guns in combat.",
-        "category": "Theme-Action",
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+        "category": "Theme-Drama",
         "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
@@ -5400,11 +5400,11 @@
         "isAdult": false
       },
       {
-        "id": 1046,
-        "name": "Suicide",
-        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
-        "category": "Theme-Drama",
-        "rank": 67,
+        "id": 157,
+        "name": "Guns",
+        "description": "Prominently features the use of guns in combat.",
+        "category": "Theme-Action",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -5414,7 +5414,7 @@
         "name": "Primarily Male Cast",
         "description": "Main cast is mostly composed of male characters.",
         "category": "Cast-Main Cast",
-        "rank": 62,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5434,7 +5434,7 @@
         "name": "Episodic",
         "description": "Features story arcs that are loosely tied or lack an overarching plot.",
         "category": "Technical",
-        "rank": 50,
+        "rank": 47,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5444,7 +5444,7 @@
         "name": "Crossdressing",
         "description": "Prominently features a character dressing up as the opposite sex.",
         "category": "Cast-Traits",
-        "rank": 45,
+        "rank": 44,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -5454,7 +5454,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 38,
+        "rank": 36,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5464,7 +5464,7 @@
         "name": "Rescue",
         "description": "Centers around operations that carry out urgent treatment of injuries, remove people from danger, or save lives. This includes series that are about search-and-rescue teams, trauma surgeons, firefighters, and more.",
         "category": "Theme-Other",
-        "rank": 36,
+        "rank": 34,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5478,16 +5478,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": true
-      },
-      {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 17,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -5505,9 +5495,9 @@
     "rating": 8.8,
     "averageScore": 88,
     "meanScore": 88,
-    "popularity": 315184,
-    "trending": 22,
-    "favourites": 22655,
+    "popularity": 318043,
+    "trending": 29,
+    "favourites": 22783,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
