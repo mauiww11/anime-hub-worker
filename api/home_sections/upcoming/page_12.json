@@ -719,7 +719,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 867,
-    "trending": 0,
+    "trending": 1,
     "favourites": 10,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1790,7 +1790,38 @@
       "Comedy",
       "Fantasy"
     ],
-    "tags": [],
+    "tags": [
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 144,
+        "name": "Meta",
+        "description": "Features fourth wall-breaking references to itself or genre tropes.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 39,
+        "name": "Parody",
+        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+        "category": "Theme-Comedy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
     "studios": [
       {
         "id": 397,
@@ -1815,7 +1846,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 732,
-    "trending": 1,
+    "trending": 0,
     "favourites": 6,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
