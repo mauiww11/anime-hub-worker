@@ -90,13 +90,13 @@
     ],
     "tags": [
       {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
         "rank": 60,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -120,13 +120,13 @@
         "isAdult": false
       },
       {
-        "id": 56,
-        "name": "Shounen",
-        "description": "Target demographic is teenage and young adult males.",
-        "category": "Demographic",
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
         "rank": 60,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -223,20 +223,10 @@
         "isAdult": false
       },
       {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 179,
-        "name": "Witch",
-        "description": "Prominently features a character who is a witch.",
-        "category": "Cast-Traits",
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -253,10 +243,20 @@
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 179,
+        "name": "Witch",
+        "description": "Prominently features a character who is a witch.",
+        "category": "Cast-Traits",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -565,7 +565,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 382,
-    "trending": 1,
+    "trending": 0,
     "favourites": 1,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
@@ -662,6 +662,16 @@
     "genres": [],
     "tags": [
       {
+        "id": 123,
+        "name": "Male Harem",
+        "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 98,
         "name": "Female Protagonist",
         "description": "Main character is female.",
@@ -676,16 +686,6 @@
         "name": "Primarily Male Cast",
         "description": "Main cast is mostly composed of male characters.",
         "category": "Cast-Main Cast",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 123,
-        "name": "Male Harem",
-        "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
-        "category": "Theme-Romance",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1077,7 +1077,18 @@
       "Fantasy",
       "Romance"
     ],
-    "tags": [],
+    "tags": [
+      {
+        "id": 242,
+        "name": "Flash",
+        "description": "Created using Flash animation techniques.",
+        "category": "Technical",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
     "studios": [
       {
         "id": 7531,
@@ -1321,7 +1332,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 336,
-    "trending": 0,
+    "trending": 1,
     "favourites": 9,
     "source": "OTHER",
     "countryOfOrigin": "CN",
