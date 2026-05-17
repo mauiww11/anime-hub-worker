@@ -14587,44 +14587,51 @@
     "chapterSourceConfidence": 1
   },
   {
-    "mangaId": 171127,
-    "anilistId": 171127,
-    "idMal": 163625,
-    "title": "Inochi no Tabekata",
-    "titleRomaji": "Inochi no Tabekata",
-    "titleEnglish": "",
-    "titleNative": "いのちの食べ方",
+    "mangaId": 41378,
+    "anilistId": 41378,
+    "idMal": 11378,
+    "title": "Wonder Boy",
+    "titleRomaji": "Fushigi na Shounen",
+    "titleEnglish": "Wonder Boy",
+    "titleNative": "不思議な少年",
     "synonyms": [
-      "How to Eat Life"
+      "A Wonder Boy"
     ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx171127-PBzzmqBKjefV.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx171127-PBzzmqBKjefV.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx171127-PBzzmqBKjefV.jpg",
-    "coverImageColor": "#e47850",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx41378-yduGT6vrgmQ9.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx41378-yduGT6vrgmQ9.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx41378-yduGT6vrgmQ9.png",
+    "coverImageColor": "#e4a135",
     "bannerImage": "",
-    "synopsis": "Otogiri Tobi, a 2nd grade middle school student, spends his depressing days searching for his missing older brother alongside his inhuman companion, Baku. Tobi used to rarely speak to anyone besides Baku, however one day after his classmate Shiratama Ryuuko suddenly approaches him, his life begins to change...? This is an adventure surrounding the \"human\" and the \"inhuman\" that a lone boy faces. (Source: Kadokawa, translated)",
+    "synopsis": "A family, struggling to survive in Japan after the second World War. An orphan girl in London, working her fingers to the bone every day just to pay for the food on her table. A young man in a war-torn world, fighting without knowing his purpose for living. Across time and space, these strangers share just one thing in common-the wonder boy. A mysterious traveler who appears here and there throughout the ages, watching the triumphs and sorrows of humanity... (Source: Yen Press)",
     "type": "MANGA",
     "format": "MANGA",
     "status": "RELEASING",
-    "year": 2023,
-    "startDate": "2023-10-14",
+    "year": 2001,
+    "startDate": "2001-03-01",
     "endDate": null,
-    "chapters": 0,
+    "chapters": 30,
     "volumes": 0,
     "genres": [
-      "Action",
-      "Adventure",
       "Drama",
       "Mystery",
-      "Psychological",
       "Supernatural"
     ],
     "tags": [
       {
-        "id": 53,
-        "name": "Shoujo",
-        "description": "Target demographic is teenage and young adult females.",
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
         "category": "Demographic",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 156,
+        "name": "Achronological Order",
+        "description": "Chapters or episodes do not occur in chronological order.",
+        "category": "Setting-Time",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -14641,31 +14648,61 @@
         "isAdult": false
       },
       {
-        "id": 321,
-        "name": "Urban Fantasy",
-        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
-        "category": "Setting-Universe",
+        "id": 153,
+        "name": "Time Skip",
+        "description": "Features a gap in time used to advance the story.",
+        "category": "Setting-Time",
         "rank": 79,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 79,
+        "id": 25,
+        "name": "Historical",
+        "description": "Partly or completely set during a real period of world history.",
+        "category": "Setting-Time",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 94,
-        "name": "Gore",
-        "description": "Prominently features graphic bloodshed and violence.",
+        "id": 1091,
+        "name": "Religion",
+        "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
         "category": "Theme-Other",
-        "rank": 60,
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 96,
+        "name": "Time Manipulation",
+        "description": "Prominently features time-traveling or other time-warping phenomena.",
+        "category": "Theme-Sci-Fi",
+        "rank": 40,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+        "category": "Theme-Other",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -14675,69 +14712,57 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 60,
+        "rank": 20,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+        "category": "Theme-Drama",
         "rank": 20,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
     "authors": [
-      "Ao Juumonji",
-      "Eve",
-      "Eve"
+      "Kazumi Yamashita"
     ],
     "artists": [
-      "Yutoto"
+      "Kazumi Yamashita"
     ],
-    "rating": 5.9,
-    "averageScore": 59,
-    "meanScore": 70,
-    "popularity": 945,
+    "rating": 6.3,
+    "averageScore": 63,
+    "meanScore": 76,
+    "popularity": 961,
     "trending": 0,
-    "favourites": 22,
-    "source": "LIGHT_NOVEL",
+    "favourites": 20,
+    "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/171127",
-    "mal_url": "https://myanimelist.net/manga/163625",
+    "anilist_url": "https://anilist.co/manga/41378",
+    "mal_url": "https://myanimelist.net/manga/11378",
     "externalLinks": [
       {
-        "site": "Kadocomi",
-        "url": "https://comic-walker.com/contents/detail/KDCW_MF03204391010000_68/"
+        "site": "Kodansha USA",
+        "url": "https://www.kodansha.co.jp/comic/products/0000007636"
       },
       {
-        "site": "Official Site",
-        "url": "https://www.kadokawa.co.jp/product/322311000366/"
+        "site": "Yen Press",
+        "url": "https://yenpress.com/series/wonder-boy"
       }
     ],
-    "mangadexId": "bcf2a791-c789-483a-91b1-12b09d2b38d7",
-    "mangadexUrl": "https://mangadex.org/title/bcf2a791-c789-483a-91b1-12b09d2b38d7",
+    "mangadexId": "49986f19-8a84-4d50-b132-6f3672ea6402",
+    "mangadexUrl": "https://mangadex.org/title/49986f19-8a84-4d50-b132-6f3672ea6402",
     "mangadexMappingSource": "recent_chapter_discovery",
     "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "bcf2a791-c789-483a-91b1-12b09d2b38d7",
+    "chapterIndexId": "49986f19-8a84-4d50-b132-6f3672ea6402",
     "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "bcf2a791-c789-483a-91b1-12b09d2b38d7",
-    "chapterSourceTitle": "Inochi no Tabekata",
+    "chapterSourceId": "49986f19-8a84-4d50-b132-6f3672ea6402",
+    "chapterSourceTitle": "Fushigi na Shounen",
     "chapterSourceConfidence": 1
   }
 ]
