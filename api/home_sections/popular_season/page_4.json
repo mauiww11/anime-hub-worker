@@ -53,7 +53,7 @@
     "meanScore": 68,
     "popularity": 535,
     "trending": 0,
-    "favourites": 3,
+    "favourites": 4,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -207,7 +207,7 @@
     "averageScore": 0,
     "meanScore": 76,
     "popularity": 466,
-    "trending": 0,
+    "trending": 1,
     "favourites": 6,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -850,8 +850,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 0,
-    "trending": 7,
-    "favourites": 0,
+    "trending": 0,
+    "favourites": 1,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -890,7 +890,28 @@
       "Mecha",
       "Sci-Fi"
     ],
-    "tags": [],
+    "tags": [
+      {
+        "id": 160,
+        "name": "Real Robot",
+        "description": "Prominently features mechanical designs loosely influenced by real-world robotics.",
+        "category": "Theme-Sci-Fi-Mecha",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 159,
+        "name": "Super Robot",
+        "description": "Prominently features large robots often piloted by hot-blooded protagonists.",
+        "category": "Theme-Sci-Fi-Mecha",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
     "studios": [
       {
         "id": 7137,
@@ -907,8 +928,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 0,
-    "trending": 27,
-    "favourites": 0,
+    "trending": 9,
+    "favourites": 6,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
