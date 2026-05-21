@@ -10811,16 +10811,6 @@
         "isAdult": false
       },
       {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 61,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 155,
         "name": "Rape",
         "description": "Features non-consensual sexual penetration.",
@@ -10831,11 +10821,21 @@
         "isAdult": true
       },
       {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 58,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1742,
         "name": "Mixed Media",
         "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
         "category": "Technical",
-        "rank": 53,
+        "rank": 55,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -10918,6 +10918,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1779,
+        "name": "Body Image",
+        "description": "Features themes of self-esteem concerning perceived defects or flaws in appearance, such as body weight or disfigurement, and may discuss topics such as eating disorders, fatphobia, and body dysmorphia.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
