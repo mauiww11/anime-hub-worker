@@ -850,6 +850,16 @@
         "isAdult": false
       },
       {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 92,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 56,
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
@@ -870,21 +880,11 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 91,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 66,
         "name": "Super Power",
         "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
         "category": "Theme-Fantasy",
-        "rank": 89,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -894,7 +894,7 @@
         "name": "Battle Royale",
         "description": "Centers around a fierce group competition, often violent and with only one winner.",
         "category": "Theme-Action",
-        "rank": 89,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -904,17 +904,7 @@
         "name": "Exorcism",
         "description": "Involving religious methods of vanquishing youkai, demons, or other supernatural entities.",
         "category": "Theme-Fantasy",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 84,
+        "rank": 86,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -934,7 +924,17 @@
         "name": "Survival",
         "description": "Centers around the struggle to live in spite of extreme obstacles.",
         "category": "Theme-Other",
-        "rank": 81,
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -944,6 +944,16 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
+        "rank": 78,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 88,
+        "name": "Primarily Male Cast",
+        "description": "Main cast is mostly composed of male characters.",
+        "category": "Cast-Main Cast",
         "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -960,21 +970,11 @@
         "isAdult": false
       },
       {
-        "id": 88,
-        "name": "Primarily Male Cast",
-        "description": "Main cast is mostly composed of male characters.",
-        "category": "Cast-Main Cast",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 30,
         "name": "Martial Arts",
         "description": "Centers around the use of traditional hand-to-hand combat.",
         "category": "Theme-Action",
-        "rank": 69,
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -990,6 +990,16 @@
         "isAdult": false
       },
       {
+        "id": 281,
+        "name": "Surreal Comedy",
+        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
+        "category": "Theme-Comedy",
+        "rank": 63,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 15,
         "name": "Demons",
         "description": "Prominently features malevolent otherworldly creatures.",
@@ -997,16 +1007,6 @@
         "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 281,
-        "name": "Surreal Comedy",
-        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
-        "category": "Theme-Comedy",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1030,11 +1030,21 @@
         "isAdult": false
       },
       {
-        "id": 1165,
-        "name": "Transgender",
-        "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 294,
+        "name": "Bisexual",
+        "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
         "category": "Cast-Traits",
-        "rank": 47,
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1050,31 +1060,41 @@
         "isAdult": false
       },
       {
-        "id": 294,
-        "name": "Bisexual",
-        "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
-        "category": "Cast-Traits",
-        "rank": 42,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 33,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 100,
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 28,
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1456,
+        "name": "Femboy",
+        "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 186,
+        "name": "Crossdressing",
+        "description": "Prominently features a character dressing up as the opposite sex.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 75,
+        "name": "Boys' Love",
+        "description": "Prominently features romance between two males, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1096,7 +1116,7 @@
     "averageScore": 86,
     "meanScore": 86,
     "popularity": 217431,
-    "trending": 39,
+    "trending": 54,
     "favourites": 8600,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1391,7 +1411,7 @@
     "averageScore": 88,
     "meanScore": 88,
     "popularity": 190452,
-    "trending": 41,
+    "trending": 47,
     "favourites": 7359,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1759,7 +1779,7 @@
     "averageScore": 91,
     "meanScore": 91,
     "popularity": 431640,
-    "trending": 44,
+    "trending": 41,
     "favourites": 51483,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2206,8 +2226,8 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 479386,
-    "trending": 73,
+    "popularity": 479791,
+    "trending": 104,
     "favourites": 29522,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2641,7 +2661,7 @@
     "averageScore": 81,
     "meanScore": 81,
     "popularity": 582169,
-    "trending": 34,
+    "trending": 40,
     "favourites": 33869,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -2827,7 +2847,7 @@
     "averageScore": 83,
     "meanScore": 83,
     "popularity": 89221,
-    "trending": 33,
+    "trending": 34,
     "favourites": 3545,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -4382,7 +4402,7 @@
     "averageScore": 84,
     "meanScore": 84,
     "popularity": 913410,
-    "trending": 38,
+    "trending": 46,
     "favourites": 64761,
     "source": "MANGA",
     "countryOfOrigin": "JP",
