@@ -140,7 +140,7 @@
     "averageScore": 53,
     "meanScore": 62,
     "popularity": 604,
-    "trending": 0,
+    "trending": 1,
     "favourites": 6,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -240,7 +240,7 @@
     "averageScore": 0,
     "meanScore": 67,
     "popularity": 552,
-    "trending": 0,
+    "trending": 1,
     "favourites": 4,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -546,7 +546,7 @@
     "averageScore": 0,
     "meanScore": 70,
     "popularity": 284,
-    "trending": 8,
+    "trending": 4,
     "favourites": 3,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
@@ -1041,7 +1041,8 @@
     "titleEnglish": "",
     "titleNative": "トランスフォーマー ワイルドキングW",
     "synonyms": [
-      "Transformers: Wild King Double"
+      "Transformers: Wild King Double",
+      "トランスフォーマー ワイルドキングダブル"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212309-gDqt6qz1RPEL.png",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212309-gDqt6qz1RPEL.png",
@@ -1063,8 +1064,26 @@
       "Sci-Fi"
     ],
     "tags": [],
-    "studios": [],
-    "studiosNames": [],
+    "studios": [
+      {
+        "id": 6635,
+        "name": "Infinity Vision",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/6635"
+      },
+      {
+        "id": 7634,
+        "name": "Type ZERO",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/7634"
+      }
+    ],
+    "studiosNames": [
+      "Infinity Vision",
+      "Type ZERO"
+    ],
     "rating": 0,
     "averageScore": 0,
     "meanScore": 10,
