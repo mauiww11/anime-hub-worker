@@ -122,10 +122,10 @@
         "isAdult": false
       },
       {
-        "id": 84,
-        "name": "School Club",
-        "description": "Partly or completely set in a school club scene.",
-        "category": "Setting-Scene",
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -142,10 +142,10 @@
         "isAdult": false
       },
       {
-        "id": 86,
-        "name": "Primarily Female Cast",
-        "description": "Main cast is mostly composed of female characters.",
-        "category": "Cast-Main Cast",
+        "id": 84,
+        "name": "School Club",
+        "description": "Partly or completely set in a school club scene.",
+        "category": "Setting-Scene",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -223,22 +223,22 @@
         "isAdult": false
       },
       {
-        "id": 243,
-        "name": "Reincarnation",
-        "description": "Features a character being born again after death, typically as another person or in another world.",
-        "category": "Theme-Other",
-        "rank": 60,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 598,
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
         "category": "Cast-Traits",
         "rank": 60,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 243,
+        "name": "Reincarnation",
+        "description": "Features a character being born again after death, typically as another person or in another world.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -592,7 +592,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 512,
-    "trending": 1,
+    "trending": 0,
     "favourites": 4,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -635,6 +635,16 @@
       "Sports"
     ],
     "tags": [
+      {
+        "id": 194,
+        "name": "Tennis",
+        "description": "Centers around the sport of tennis.",
+        "category": "Theme-Game-Sport",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
       {
         "id": 1228,
         "name": "Primarily Teen Cast",
@@ -690,16 +700,6 @@
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 194,
-        "name": "Tennis",
-        "description": "Centers around the sport of tennis.",
-        "category": "Theme-Game-Sport",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -916,10 +916,10 @@
         "isAdult": false
       },
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -936,10 +936,10 @@
         "isAdult": false
       },
       {
-        "id": 86,
-        "name": "Primarily Female Cast",
-        "description": "Main cast is mostly composed of female characters.",
-        "category": "Cast-Main Cast",
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1016,16 +1016,6 @@
     ],
     "tags": [
       {
-        "id": 694,
-        "name": "Detective",
-        "description": "Features a character who investigates and solves crimes.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 118,
         "name": "Drawing",
         "description": "Centers around the art of drawing, including manga and doujinshi.",
@@ -1056,6 +1046,16 @@
         "isAdult": false
       },
       {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 50,
         "name": "Seinen",
         "description": "Target demographic is adult males.",
@@ -1076,22 +1076,22 @@
         "isAdult": false
       },
       {
+        "id": 694,
+        "name": "Detective",
+        "description": "Features a character who investigates and solves crimes.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 138,
         "name": "Age Gap",
         "description": "Prominently features romantic relations between people with a significant age difference.",
         "category": "Theme-Romance",
         "rank": 20,
         "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 20,
-        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       }
@@ -1758,7 +1758,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 439,
-    "trending": 1,
+    "trending": 0,
     "favourites": 6,
     "source": "",
     "countryOfOrigin": "JP",
