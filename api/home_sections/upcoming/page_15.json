@@ -235,9 +235,9 @@
         "isAdult": false
       },
       {
-        "id": 446,
-        "name": "Primarily Child Cast",
-        "description": "Main cast is mostly composed of characters below a high school age.",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
         "category": "Cast-Main Cast",
         "rank": 50,
         "isGeneralSpoiler": false,
@@ -245,9 +245,9 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
+        "id": 446,
+        "name": "Primarily Child Cast",
+        "description": "Main cast is mostly composed of characters below a high school age.",
         "category": "Cast-Main Cast",
         "rank": 50,
         "isGeneralSpoiler": false,
@@ -262,6 +262,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
@@ -390,26 +400,6 @@
         "isAdult": false
       },
       {
-        "id": 92,
-        "name": "Cute Girls Doing Cute Things",
-        "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
-        "category": "Theme-Slice of Life",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 179,
-        "name": "Witch",
-        "description": "Prominently features a character who is a witch.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 244,
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
@@ -424,6 +414,26 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 92,
+        "name": "Cute Girls Doing Cute Things",
+        "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
+        "category": "Theme-Slice of Life",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 179,
+        "name": "Witch",
+        "description": "Prominently features a character who is a witch.",
+        "category": "Cast-Traits",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -523,7 +533,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 407,
-    "trending": 0,
+    "trending": 1,
     "favourites": 9,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -602,7 +612,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 400,
-    "trending": 1,
+    "trending": 0,
     "favourites": 3,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1065,13 +1075,23 @@
         "isAdult": false
       },
       {
-        "id": 186,
-        "name": "Crossdressing",
-        "description": "Prominently features a character dressing up as the opposite sex.",
-        "category": "Cast-Traits",
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1082,6 +1102,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 186,
+        "name": "Crossdressing",
+        "description": "Prominently features a character dressing up as the opposite sex.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1099,26 +1129,6 @@
         "name": "Arranged Marriage",
         "description": "Features two characters made to marry each other, usually by their family.",
         "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1208,7 +1218,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 367,
-    "trending": 22,
+    "trending": 5,
     "favourites": 1,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1393,20 +1403,20 @@
         "isAdult": false
       },
       {
-        "id": 308,
-        "name": "Video Games",
-        "description": "Centers around characters playing video games.",
-        "category": "Theme-Game",
+        "id": 112,
+        "name": "Virtual World",
+        "description": "Partly or completely set in the world inside a video game.",
+        "category": "Setting-Universe",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 112,
-        "name": "Virtual World",
-        "description": "Partly or completely set in the world inside a video game.",
-        "category": "Setting-Universe",
+        "id": 308,
+        "name": "Video Games",
+        "description": "Centers around characters playing video games.",
+        "category": "Theme-Game",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,

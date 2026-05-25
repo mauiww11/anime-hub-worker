@@ -1593,6 +1593,16 @@
     ],
     "tags": [
       {
+        "id": 25,
+        "name": "Historical",
+        "description": "Partly or completely set during a real period of world history.",
+        "category": "Setting-Time",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1327,
         "name": "Royal Affairs",
         "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
@@ -1603,10 +1613,10 @@
         "isAdult": false
       },
       {
-        "id": 25,
-        "name": "Historical",
-        "description": "Partly or completely set during a real period of world history.",
-        "category": "Setting-Time",
+        "id": 145,
+        "name": "Work",
+        "description": "Centers around the activities of a certain occupation.",
+        "category": "Setting-Scene",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1633,30 +1643,10 @@
         "isAdult": false
       },
       {
-        "id": 145,
-        "name": "Work",
-        "description": "Centers around the activities of a certain occupation.",
-        "category": "Setting-Scene",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 53,
-        "name": "Shoujo",
-        "description": "Target demographic is teenage and young adult females.",
-        "category": "Demographic",
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1673,20 +1663,30 @@
         "isAdult": false
       },
       {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
-        "category": "Theme-Other",
+        "id": 1598,
+        "name": "Ancient China",
+        "description": "Setting in ancient china, does not apply to fantasy settings.",
+        "category": "Setting-Time",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1598,
-        "name": "Ancient China",
-        "description": "Setting in ancient china, does not apply to fantasy settings.",
-        "category": "Setting-Time",
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1709,7 +1709,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 470,
-    "trending": 2,
+    "trending": 3,
     "favourites": 3,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1818,16 +1818,6 @@
     ],
     "tags": [
       {
-        "id": 30,
-        "name": "Martial Arts",
-        "description": "Centers around the use of traditional hand-to-hand combat.",
-        "category": "Theme-Action",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 252,
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
@@ -1842,6 +1832,16 @@
         "name": "Stop Motion",
         "description": "Animation style characterized by physical objects being moved incrementally between frames to create the illusion of movement.",
         "category": "Technical",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 30,
+        "name": "Martial Arts",
+        "description": "Centers around the use of traditional hand-to-hand combat.",
+        "category": "Theme-Action",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
