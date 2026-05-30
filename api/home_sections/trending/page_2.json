@@ -35,19 +35,19 @@
     ],
     "tags": [
       {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
         "category": "Theme-Other",
-        "rank": 95,
+        "rank": 96,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
         "category": "Theme-Other",
         "rank": 95,
         "isGeneralSpoiler": false,
@@ -59,7 +59,17 @@
         "name": "Dystopian",
         "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
         "category": "Setting-Time",
-        "rank": 92,
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 34,
+        "name": "Military",
+        "description": "Centered around the life and activities of military personnel.",
+        "category": "Theme-Other-Organisations",
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -75,21 +85,11 @@
         "isAdult": false
       },
       {
-        "id": 34,
-        "name": "Military",
-        "description": "Centered around the life and activities of military personnel.",
-        "category": "Theme-Other-Organisations",
-        "rank": 86,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 391,
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 83,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -99,7 +99,7 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 80,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -109,7 +109,7 @@
         "name": "Post-Apocalyptic",
         "description": "Partly or completely set in a world or civilization after a global disaster.",
         "category": "Setting-Universe",
-        "rank": 76,
+        "rank": 78,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -119,7 +119,7 @@
         "name": "Class Struggle",
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
         "category": "Theme-Drama",
-        "rank": 75,
+        "rank": 78,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -129,17 +129,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 70,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 80,
-        "name": "Satire",
-        "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
-        "category": "Theme-Comedy",
-        "rank": 63,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -149,8 +139,18 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 60,
+        "rank": 62,
         "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 80,
+        "name": "Satire",
+        "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
+        "category": "Theme-Comedy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -159,7 +159,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 60,
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -169,7 +169,7 @@
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
         "category": "Theme-Action",
-        "rank": 50,
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -179,7 +179,7 @@
         "name": "Rural",
         "description": "Partly or completely set in the countryside.",
         "category": "Setting-Scene",
-        "rank": 46,
+        "rank": 45,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -189,7 +189,7 @@
         "name": "Anachronism",
         "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
         "category": "Setting-Time",
-        "rank": 40,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -199,7 +199,7 @@
         "name": "Ensemble Cast",
         "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
         "category": "Cast-Main Cast",
-        "rank": 40,
+        "rank": 26,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -209,7 +209,7 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 20,
+        "rank": 15,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -231,8 +231,8 @@
     "averageScore": 81,
     "meanScore": 82,
     "popularity": 38059,
-    "trending": 35,
-    "favourites": 674,
+    "trending": 33,
+    "favourites": 683,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1393,7 +1393,8 @@
     "titleEnglish": "Botan Kamiina Fully Blossoms When Drunk",
     "titleNative": "上伊那ぼたん、酔へる姿は百合の花",
     "synonyms": [
-      "โบตั๋น คามิอินะ งดงามดุจดอกลิลลี่ยามลอยละล่อง"
+      "โบตั๋น คามิอินะ งดงามดุจดอกลิลลี่ยามลอยละล่อง",
+      "Kamiina Botan - Dáng Say Tựa Đoá Bách Hợp"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187869-LUn3dyTzuKUq.jpg",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187869-LUn3dyTzuKUq.jpg",
@@ -1510,7 +1511,7 @@
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 72,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1622,8 +1623,8 @@
     "averageScore": 77,
     "meanScore": 78,
     "popularity": 24914,
-    "trending": 42,
-    "favourites": 476,
+    "trending": 121,
+    "favourites": 489,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3004,8 +3005,8 @@
     "averageScore": 73,
     "meanScore": 74,
     "popularity": 20841,
-    "trending": 230,
-    "favourites": 305,
+    "trending": 133,
+    "favourites": 311,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4064,8 +4065,8 @@
     "averageScore": 60,
     "meanScore": 61,
     "popularity": 27308,
-    "trending": 61,
-    "favourites": 284,
+    "trending": 28,
+    "favourites": 285,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4220,7 +4221,7 @@
     "averageScore": 58,
     "meanScore": 59,
     "popularity": 14620,
-    "trending": 26,
+    "trending": 25,
     "favourites": 145,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
