@@ -1287,9 +1287,9 @@
     "rating": 8.7,
     "averageScore": 87,
     "meanScore": 87,
-    "popularity": 707569,
-    "trending": 173,
-    "favourites": 103430,
+    "popularity": 708838,
+    "trending": 241,
+    "favourites": 103618,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1300,10 +1300,10 @@
     "mal_url": "https://myanimelist.net/anime/21",
     "anilist_url": "https://anilist.co/anime/21",
     "trailer": null,
-    "latestEpisode": 1163,
-    "latestEpisodeTitle": "Episode 1163",
-    "nextEpisode": 1164,
-    "nextAiringAt": 1780236960
+    "latestEpisode": 1164,
+    "latestEpisodeTitle": "Episode 1164",
+    "nextEpisode": 1165,
+    "nextAiringAt": 1780841760
   },
   {
     "animeId": 20,
@@ -1363,11 +1363,21 @@
         "isAdult": false
       },
       {
+        "id": 1589,
+        "name": "Criminal Organization",
+        "description": "Prominently features a group of people who commit crimes for illicit or violent purposes.",
+        "category": "Theme-Other-Organisations",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 102,
         "name": "Coming of Age",
         "description": "Centers around a character's transition from childhood to adulthood.",
         "category": "Theme-Drama",
-        "rank": 91,
+        "rank": 89,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1403,6 +1413,16 @@
         "isAdult": false
       },
       {
+        "id": 252,
+        "name": "Revenge",
+        "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
+        "category": "Theme-Drama",
+        "rank": 81,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 30,
         "name": "Martial Arts",
         "description": "Centers around the use of traditional hand-to-hand combat.",
@@ -1413,41 +1433,11 @@
         "isAdult": false
       },
       {
-        "id": 252,
-        "name": "Revenge",
-        "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
-        "category": "Theme-Drama",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1243,
-        "name": "Necromancy",
-        "description": "When the dead are summoned as spirits, skeletons, or the undead, usually for the purpose of gaining information or to be used as a weapon.",
-        "category": "Theme-Fantasy",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1589,
-        "name": "Criminal Organization",
-        "description": "Prominently features a group of people who commit crimes for illicit or violent purposes.",
-        "category": "Theme-Other-Organisations",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 1277,
         "name": "Found Family",
         "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
         "category": "Theme-Other",
-        "rank": 78,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1473,20 +1463,20 @@
         "isAdult": false
       },
       {
+        "id": 1243,
+        "name": "Necromancy",
+        "description": "When the dead are summoned as spirits, skeletons, or the undead, usually for the purpose of gaining information or to be used as a weapon.",
+        "category": "Theme-Fantasy",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 105,
         "name": "Ensemble Cast",
         "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
         "category": "Cast-Main Cast",
-        "rank": 72,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 101,
-        "name": "Battle Royale",
-        "description": "Centers around a fierce group competition, often violent and with only one winner.",
-        "category": "Theme-Action",
         "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1503,23 +1493,23 @@
         "isAdult": false
       },
       {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 276,
         "name": "Kaiju",
         "description": "Prominently features giant monsters.",
         "category": "Theme-Fantasy",
-        "rank": 64,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 101,
+        "name": "Battle Royale",
+        "description": "Centers around a fierce group competition, often violent and with only one winner.",
+        "category": "Theme-Action",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1527,6 +1517,16 @@
         "name": "Slapstick",
         "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
         "category": "Theme-Comedy",
+        "rank": 63,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
+        "category": "Theme-Drama",
         "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1553,6 +1553,16 @@
         "isAdult": false
       },
       {
+        "id": 1539,
+        "name": "Unrequited Love",
+        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+        "category": "Theme-Romance",
+        "rank": 57,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 490,
         "name": "Anachronism",
         "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
@@ -1573,16 +1583,6 @@
         "isAdult": false
       },
       {
-        "id": 1539,
-        "name": "Unrequited Love",
-        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
-        "category": "Theme-Romance",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1310,
         "name": "Travel",
         "description": "Centers around character(s) moving between places a significant distance apart.",
@@ -1593,21 +1593,21 @@
         "isAdult": false
       },
       {
-        "id": 1564,
-        "name": "Estranged Family",
-        "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
-        "category": "Cast-Main Cast",
-        "rank": 50,
+        "id": 615,
+        "name": "Death Game",
+        "description": "Features characters participating in a game, where failure results in death.",
+        "category": "Theme-Other",
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       },
       {
-        "id": 615,
-        "name": "Death Game",
-        "description": "Features characters participating in a game, where failure results in death.",
-        "category": "Theme-Other",
-        "rank": 50,
+        "id": 1564,
+        "name": "Estranged Family",
+        "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
+        "category": "Cast-Main Cast",
+        "rank": 51,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1617,7 +1617,7 @@
         "name": "Gender Bending",
         "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
         "category": "Theme-Other",
-        "rank": 46,
+        "rank": 45,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1657,9 +1657,19 @@
         "name": "Anthropomorphism",
         "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
         "category": "Cast-Traits",
-        "rank": 30,
+        "rank": 33,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1688,9 +1698,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 80,
-    "popularity": 691065,
-    "trending": 35,
-    "favourites": 39913,
+    "popularity": 692292,
+    "trending": 37,
+    "favourites": 39993,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2614,11 +2624,11 @@
         "isAdult": false
       },
       {
-        "id": 66,
-        "name": "Super Power",
-        "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
-        "category": "Theme-Fantasy",
-        "rank": 88,
+        "id": 1589,
+        "name": "Criminal Organization",
+        "description": "Prominently features a group of people who commit crimes for illicit or violent purposes.",
+        "category": "Theme-Other-Organisations",
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2628,19 +2638,19 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 88,
+        "rank": 89,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 84,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
+        "id": 66,
+        "name": "Super Power",
+        "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+        "category": "Theme-Fantasy",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -2654,10 +2664,40 @@
         "isAdult": false
       },
       {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 83,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 1382,
         "name": "Orphan",
         "description": "Prominently features a character that is an orphan.",
         "category": "Cast-Traits",
+        "rank": 83,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 30,
+        "name": "Martial Arts",
+        "description": "Centers around the use of traditional hand-to-hand combat.",
+        "category": "Theme-Action",
         "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2674,41 +2714,11 @@
         "isAdult": false
       },
       {
-        "id": 102,
-        "name": "Coming of Age",
-        "description": "Centers around a character's transition from childhood to adulthood.",
-        "category": "Theme-Drama",
-        "rank": 81,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 30,
-        "name": "Martial Arts",
-        "description": "Centers around the use of traditional hand-to-hand combat.",
-        "category": "Theme-Action",
-        "rank": 81,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1589,
-        "name": "Criminal Organization",
-        "description": "Prominently features a group of people who commit crimes for illicit or violent purposes.",
-        "category": "Theme-Other-Organisations",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 456,
         "name": "Conspiracy",
         "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
         "category": "Theme-Drama",
-        "rank": 77,
+        "rank": 78,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2718,7 +2728,7 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 70,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2728,17 +2738,7 @@
         "name": "Cultivation",
         "description": "Features characters using training, often martial arts-related, and other special methods to cultivate qi (a component of traditional Chinese philosophy, described as \"life force\") and gain strength or immortality.",
         "category": "Theme-Fantasy",
-        "rank": 69,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 66,
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2748,7 +2748,17 @@
         "name": "Fugitive",
         "description": "Prominently features a character evading capture by an individual or organization.",
         "category": "Theme-Action",
-        "rank": 65,
+        "rank": 68,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 67,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2758,7 +2768,7 @@
         "name": "Time Skip",
         "description": "Features a gap in time used to advance the story.",
         "category": "Setting-Time",
-        "rank": 64,
+        "rank": 65,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2768,7 +2778,7 @@
         "name": "Politics",
         "description": "Centers around politics, politicians, or government activities.",
         "category": "Theme-Other",
-        "rank": 64,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2778,7 +2788,7 @@
         "name": "Necromancy",
         "description": "When the dead are summoned as spirits, skeletons, or the undead, usually for the purpose of gaining information or to be used as a weapon.",
         "category": "Theme-Fantasy",
-        "rank": 64,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2788,6 +2798,16 @@
         "name": "Gods",
         "description": "Prominently features a character of divine or religious nature.",
         "category": "Cast-Traits",
+        "rank": 61,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 285,
+        "name": "Terrorism",
+        "description": "Centers around the activities of a terrorist or terrorist organization.",
+        "category": "Theme-Other",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
@@ -2844,10 +2864,10 @@
         "isAdult": false
       },
       {
-        "id": 285,
-        "name": "Terrorism",
-        "description": "Centers around the activities of a terrorist or terrorist organization.",
-        "category": "Theme-Other",
+        "id": 276,
+        "name": "Kaiju",
+        "description": "Prominently features giant monsters.",
+        "category": "Theme-Fantasy",
         "rank": 54,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
@@ -2864,21 +2884,11 @@
         "isAdult": false
       },
       {
-        "id": 276,
-        "name": "Kaiju",
-        "description": "Prominently features giant monsters.",
-        "category": "Theme-Fantasy",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 191,
         "name": "Aliens",
         "description": "Prominently features extraterrestrial lifeforms.",
         "category": "Cast-Traits",
-        "rank": 47,
+        "rank": 48,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2904,21 +2914,21 @@
         "isAdult": false
       },
       {
-        "id": 77,
-        "name": "Gender Bending",
-        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
-        "category": "Theme-Other",
-        "rank": 31,
+        "id": 83,
+        "name": "Slapstick",
+        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+        "category": "Theme-Comedy",
+        "rank": 37,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 83,
-        "name": "Slapstick",
-        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
-        "category": "Theme-Comedy",
-        "rank": 30,
+        "id": 77,
+        "name": "Gender Bending",
+        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
+        "category": "Theme-Other",
+        "rank": 31,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2949,9 +2959,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 582256,
-    "trending": 35,
-    "favourites": 45281,
+    "popularity": 582953,
+    "trending": 39,
+    "favourites": 45336,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3753,9 +3763,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 551444,
-    "trending": 35,
-    "favourites": 30587,
+    "popularity": 552219,
+    "trending": 53,
+    "favourites": 30626,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6896,9 +6906,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 80,
-    "popularity": 434727,
-    "trending": 21,
-    "favourites": 21947,
+    "popularity": 435045,
+    "trending": 25,
+    "favourites": 21965,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -16927,9 +16937,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 283387,
+    "popularity": 283824,
     "trending": 25,
-    "favourites": 16565,
+    "favourites": 16584,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
