@@ -331,9 +331,9 @@
     "type": "ANIME",
     "format": "TV",
     "status": "NOT_YET_RELEASED",
-    "season": "",
-    "seasonYear": null,
-    "seasonInt": null,
+    "season": "FALL",
+    "seasonYear": 2026,
+    "seasonInt": 264,
     "episodes": 0,
     "duration": 0,
     "genres": [
@@ -371,6 +371,26 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 123,
+        "name": "Male Harem",
+        "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -389,8 +409,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 20,
-    "trending": 15,
-    "favourites": 0,
+    "trending": 5,
+    "favourites": 2,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -401,5 +421,68 @@
     "mal_url": "https://myanimelist.net/anime/64326",
     "anilist_url": "https://anilist.co/anime/212799",
     "trailer": null
+  },
+  {
+    "animeId": 212812,
+    "anilistId": 212812,
+    "title": "Paradox Live THE ANIMATION Movie",
+    "titleRomaji": "Paradox Live THE ANIMATION Movie",
+    "titleEnglish": "",
+    "titleNative": "映画 Paradox Live THE ANIMATION",
+    "synonyms": [
+      "映画 パラドックスライブ"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212812-ClgAw2ammA8s.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212812-ClgAw2ammA8s.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx212812-ClgAw2ammA8s.jpg",
+    "coverImageColor": "#d6f143",
+    "bannerImage": "",
+    "synopsis": "Theatrical follow-up to Paradox Live THE ANIMATION . Note: Title is provisional and subject to change.",
+    "type": "ANIME",
+    "format": "MOVIE",
+    "status": "NOT_YET_RELEASED",
+    "season": "",
+    "seasonYear": null,
+    "seasonInt": null,
+    "episodes": 1,
+    "duration": 0,
+    "genres": [
+      "Drama",
+      "Music",
+      "Sci-Fi"
+    ],
+    "tags": [],
+    "studios": [
+      {
+        "id": 829,
+        "name": "GRAPH77",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/829"
+      }
+    ],
+    "studiosNames": [
+      "GRAPH77"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 0,
+    "popularity": 0,
+    "trending": 6,
+    "favourites": 0,
+    "source": "OTHER",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#パラアニ #パラライ",
+    "startDate": null,
+    "endDate": null,
+    "mal_url": "",
+    "anilist_url": "https://anilist.co/anime/212812",
+    "trailer": {
+      "id": "426lOMH69bM",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=426lOMH69bM"
+    }
   }
 ]
