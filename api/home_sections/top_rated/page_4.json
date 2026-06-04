@@ -458,7 +458,7 @@
         "name": "Time Loop",
         "description": "A character is stuck in a repetitive cycle that they are attempting to break out of. This is distinct from a manipulating time of their own choice.",
         "category": "Theme-Sci-Fi",
-        "rank": 94,
+        "rank": 93,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -468,7 +468,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 90,
+        "rank": 91,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -478,7 +478,7 @@
         "name": "Time Manipulation",
         "description": "Prominently features time-traveling or other time-warping phenomena.",
         "category": "Theme-Sci-Fi",
-        "rank": 89,
+        "rank": 88,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -514,23 +514,23 @@
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 82,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 85,
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 82,
+        "rank": 83,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -578,7 +578,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 75,
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -608,7 +608,7 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 70,
+        "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -618,7 +618,7 @@
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
         "category": "Cast-Traits",
-        "rank": 69,
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -628,7 +628,7 @@
         "name": "Astronomy",
         "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
         "category": "Theme-Other",
-        "rank": 67,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -648,7 +648,27 @@
         "name": "Creature Taming",
         "description": "Features the taming of animals, monsters, or other creatures.",
         "category": "Theme-Other",
-        "rank": 57,
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 772,
+        "name": "Shapeshifting",
+        "description": "Features character(s) who changes one's appearance or form.",
+        "category": "Theme-Fantasy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+        "category": "Cast-Traits",
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -664,33 +684,13 @@
         "isAdult": false
       },
       {
-        "id": 772,
-        "name": "Shapeshifting",
-        "description": "Features character(s) who changes one's appearance or form.",
-        "category": "Theme-Fantasy",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 249,
         "name": "Maids",
         "description": "Prominently features a character who is a maid.",
         "category": "Cast-Traits",
-        "rank": 52,
+        "rank": 49,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 224,
-        "name": "Dragons",
-        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
-        "category": "Cast-Traits",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -698,7 +698,7 @@
         "name": "Twins",
         "description": "Prominently features two or more siblings that were born at one birth.",
         "category": "Cast-Traits",
-        "rank": 45,
+        "rank": 49,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -720,8 +720,8 @@
     "averageScore": 88,
     "meanScore": 88,
     "popularity": 101308,
-    "trending": 76,
-    "favourites": 3470,
+    "trending": 650,
+    "favourites": 3609,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
