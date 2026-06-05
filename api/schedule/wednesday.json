@@ -74,7 +74,7 @@
     "averageScore": 0,
     "meanScore": 68,
     "popularity": 2988,
-    "trending": 1,
+    "trending": 0,
     "favourites": 23,
     "source": "MANGA",
     "countryOfOrigin": "KR",
@@ -588,8 +588,8 @@
     "averageScore": 79,
     "meanScore": 79,
     "popularity": 93666,
-    "trending": 300,
-    "favourites": 2352,
+    "trending": 142,
+    "favourites": 2363,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -692,7 +692,7 @@
     "averageScore": 42,
     "meanScore": 42,
     "popularity": 3574,
-    "trending": 4,
+    "trending": 3,
     "favourites": 59,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -952,16 +952,6 @@
         "isAdult": false
       },
       {
-        "id": 23,
-        "name": "Female Harem",
-        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
-        "category": "Theme-Romance",
-        "rank": 63,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1771,
         "name": "Creature Taming",
         "description": "Features the taming of animals, monsters, or other creatures.",
@@ -989,6 +979,16 @@
         "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 23,
+        "name": "Female Harem",
+        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 55,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1038,8 +1038,8 @@
     "averageScore": 88,
     "meanScore": 88,
     "popularity": 102393,
-    "trending": 319,
-    "favourites": 3609,
+    "trending": 199,
+    "favourites": 3669,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1098,6 +1098,16 @@
         "isAdult": false
       },
       {
+        "id": 190,
+        "name": "Prostitution",
+        "description": "Features characters who are paid for sexual favors.",
+        "category": "Sexual Content",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": true
+      },
+      {
         "id": 1045,
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
@@ -1126,16 +1136,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 190,
-        "name": "Prostitution",
-        "description": "Features characters who are paid for sexual favors.",
-        "category": "Sexual Content",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
       },
       {
         "id": 281,
@@ -1168,16 +1168,6 @@
         "isAdult": false
       },
       {
-        "id": 1670,
-        "name": "Psychosexual",
-        "description": "Work that involves the psychological aspects of sexual impulses.",
-        "category": "Theme-Other",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 23,
         "name": "Female Harem",
         "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
@@ -1185,6 +1175,16 @@
         "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1670,
+        "name": "Psychosexual",
+        "description": "Work that involves the psychological aspects of sexual impulses.",
+        "category": "Theme-Other",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1214,8 +1214,8 @@
     "averageScore": 57,
     "meanScore": 58,
     "popularity": 17449,
-    "trending": 47,
-    "favourites": 265,
+    "trending": 43,
+    "favourites": 266,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1400,7 +1400,7 @@
     "averageScore": 64,
     "meanScore": 65,
     "popularity": 12562,
-    "trending": 32,
+    "trending": 17,
     "favourites": 125,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1470,20 +1470,20 @@
         "isAdult": false
       },
       {
-        "id": 249,
-        "name": "Maids",
-        "description": "Prominently features a character who is a maid.",
-        "category": "Cast-Traits",
+        "id": 242,
+        "name": "Flash",
+        "description": "Created using Flash animation techniques.",
+        "category": "Technical",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 242,
-        "name": "Flash",
-        "description": "Created using Flash animation techniques.",
-        "category": "Technical",
+        "id": 249,
+        "name": "Maids",
+        "description": "Prominently features a character who is a maid.",
+        "category": "Cast-Traits",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1516,7 +1516,7 @@
     "averageScore": 64,
     "meanScore": 72,
     "popularity": 1740,
-    "trending": 4,
+    "trending": 5,
     "favourites": 15,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1563,20 +1563,20 @@
     ],
     "tags": [
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1593,20 +1593,10 @@
         "isAdult": false
       },
       {
-        "id": 102,
-        "name": "Coming of Age",
-        "description": "Centers around a character's transition from childhood to adulthood.",
-        "category": "Theme-Drama",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1752,
-        "name": "Medieval",
-        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
-        "category": "Setting-Time",
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+        "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1623,10 +1613,20 @@
         "isAdult": false
       },
       {
-        "id": 224,
-        "name": "Dragons",
-        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
-        "category": "Cast-Traits",
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1649,8 +1649,8 @@
     "averageScore": 57,
     "meanScore": 57,
     "popularity": 37767,
-    "trending": 130,
-    "favourites": 632,
+    "trending": 74,
+    "favourites": 642,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1820,16 +1820,6 @@
         "isAdult": false
       },
       {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 308,
         "name": "Video Games",
         "description": "Centers around characters playing video games.",
@@ -1847,6 +1837,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1876,8 +1876,8 @@
     "averageScore": 76,
     "meanScore": 76,
     "popularity": 50159,
-    "trending": 149,
-    "favourites": 919,
+    "trending": 141,
+    "favourites": 928,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1932,10 +1932,10 @@
         "isAdult": false
       },
       {
-        "id": 281,
-        "name": "Surreal Comedy",
-        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
-        "category": "Theme-Comedy",
+        "id": 1742,
+        "name": "Mixed Media",
+        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
+        "category": "Technical",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1952,10 +1952,10 @@
         "isAdult": false
       },
       {
-        "id": 1742,
-        "name": "Mixed Media",
-        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
-        "category": "Technical",
+        "id": 281,
+        "name": "Surreal Comedy",
+        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
+        "category": "Theme-Comedy",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2064,10 +2064,10 @@
         "isAdult": false
       },
       {
-        "id": 780,
-        "name": "Ojou-sama",
-        "description": "Features a wealthy, high-class, oftentimes stuck up and demanding female character.",
-        "category": "Cast-Traits",
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2084,10 +2084,10 @@
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
+        "id": 780,
+        "name": "Ojou-sama",
+        "description": "Features a wealthy, high-class, oftentimes stuck up and demanding female character.",
+        "category": "Cast-Traits",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2140,8 +2140,8 @@
     "averageScore": 70,
     "meanScore": 71,
     "popularity": 16772,
-    "trending": 62,
-    "favourites": 236,
+    "trending": 38,
+    "favourites": 237,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2240,16 +2240,6 @@
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 88,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1063,
         "name": "Cute Boys Doing Cute Things",
         "description": "Centers around male characters doing cute activities, usually with little to no emphasis on drama and conflict.",
@@ -2264,7 +2254,17 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 85,
+        "rank": 78,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2300,6 +2300,16 @@
         "isAdult": false
       },
       {
+        "id": 251,
+        "name": "Archery",
+        "description": "Centers around the sport of archery, or prominently features the use of archery in combat.",
+        "category": "Theme-Action",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 139,
         "name": "Love Triangle",
         "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
@@ -2317,16 +2327,6 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 251,
-        "name": "Archery",
-        "description": "Centers around the sport of archery, or prominently features the use of archery in combat.",
-        "category": "Theme-Action",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
@@ -2346,8 +2346,8 @@
     "averageScore": 77,
     "meanScore": 78,
     "popularity": 24711,
-    "trending": 69,
-    "favourites": 737,
+    "trending": 46,
+    "favourites": 747,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
