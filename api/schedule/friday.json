@@ -327,7 +327,7 @@
     "averageScore": 73,
     "meanScore": 73,
     "popularity": 23059,
-    "trending": 4,
+    "trending": 11,
     "favourites": 735,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
@@ -495,7 +495,7 @@
     "averageScore": 74,
     "meanScore": 75,
     "popularity": 22027,
-    "trending": 139,
+    "trending": 90,
     "favourites": 354,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -656,7 +656,7 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 64800,
-    "trending": 179,
+    "trending": 114,
     "favourites": 1690,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -877,7 +877,7 @@
     "averageScore": 81,
     "meanScore": 81,
     "popularity": 96396,
-    "trending": 612,
+    "trending": 399,
     "favourites": 2710,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -998,10 +998,10 @@
         "isAdult": false
       },
       {
-        "id": 1616,
-        "name": "Snowscape",
-        "description": "Prominently or partially set in a snowy environment.",
-        "category": "Setting-Scene",
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1018,16 +1018,6 @@
         "isAdult": false
       },
       {
-        "id": 43,
-        "name": "Swordplay",
-        "description": "Prominently features the use of swords in combat.",
-        "category": "Theme-Action",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 66,
         "name": "Super Power",
         "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
@@ -1035,6 +1025,16 @@
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1616,
+        "name": "Snowscape",
+        "description": "Prominently or partially set in a snowy environment.",
+        "category": "Setting-Scene",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1074,7 +1074,7 @@
     "averageScore": 62,
     "meanScore": 63,
     "popularity": 11028,
-    "trending": 52,
+    "trending": 34,
     "favourites": 126,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1136,21 +1136,11 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 50,
         "name": "Seinen",
         "description": "Target demographic is adult males.",
         "category": "Demographic",
-        "rank": 60,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1160,7 +1150,17 @@
         "name": "Food",
         "description": "Centers around cooking or food appraisal.",
         "category": "Theme-Arts",
-        "rank": 60,
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1192,7 +1192,7 @@
     "averageScore": 54,
     "meanScore": 56,
     "popularity": 4419,
-    "trending": 15,
+    "trending": 10,
     "favourites": 35,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1267,7 +1267,7 @@
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 91,
+        "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1327,7 +1327,7 @@
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 74,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1397,7 +1397,7 @@
         "name": "Travel",
         "description": "Centers around character(s) moving between places a significant distance apart.",
         "category": "Theme-Other",
-        "rank": 55,
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1408,6 +1408,16 @@
         "description": "Features characters attending a boarding school.",
         "category": "Setting-Scene",
         "rank": 52,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1433,10 +1443,10 @@
         "isAdult": false
       },
       {
-        "id": 193,
-        "name": "Episodic",
-        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-        "category": "Technical",
+        "id": 386,
+        "name": "Software Development",
+        "description": "Centers around characters developing or programming a piece of technology, software, gaming, etc.",
+        "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1459,7 +1469,7 @@
     "averageScore": 78,
     "meanScore": 79,
     "popularity": 25939,
-    "trending": 152,
+    "trending": 86,
     "favourites": 568,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1595,7 +1605,7 @@
     "averageScore": 57,
     "meanScore": 60,
     "popularity": 5300,
-    "trending": 18,
+    "trending": 9,
     "favourites": 72,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1663,10 +1673,10 @@
         "isAdult": false
       },
       {
-        "id": 446,
-        "name": "Primarily Child Cast",
-        "description": "Main cast is mostly composed of characters below a high school age.",
-        "category": "Cast-Main Cast",
+        "id": 488,
+        "name": "Age Regression",
+        "description": "Prominently features a character who was returned to a younger state.",
+        "category": "Cast-Traits",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1683,10 +1693,10 @@
         "isAdult": false
       },
       {
-        "id": 488,
-        "name": "Age Regression",
-        "description": "Prominently features a character who was returned to a younger state.",
-        "category": "Cast-Traits",
+        "id": 446,
+        "name": "Primarily Child Cast",
+        "description": "Main cast is mostly composed of characters below a high school age.",
+        "category": "Cast-Main Cast",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
