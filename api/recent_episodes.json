@@ -3104,7 +3104,7 @@
     "rating": 5.5,
     "averageScore": 55,
     "meanScore": 57,
-    "popularity": 2402,
+    "popularity": 2403,
     "trending": 0,
     "favourites": 49,
     "source": "MANGA",
@@ -7885,6 +7885,16 @@
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 265,
+        "name": "Musical Theater",
+        "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
+        "category": "Theme-Arts-Music",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -16743,6 +16753,26 @@
     ],
     "tags": [
       {
+        "id": 1342,
+        "name": "Clone",
+        "description": "Prominently features a character who is an artificial exact copy of another organism.",
+        "category": "Cast-Traits",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 98,
         "name": "Female Protagonist",
         "description": "Main character is female.",
@@ -16753,31 +16783,11 @@
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 95,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1342,
-        "name": "Clone",
-        "description": "Prominently features a character who is an artificial exact copy of another organism.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 46,
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 79,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -16787,7 +16797,7 @@
         "name": "Super Power",
         "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
         "category": "Theme-Fantasy",
-        "rank": 53,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
