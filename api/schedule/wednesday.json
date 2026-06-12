@@ -588,7 +588,7 @@
     "averageScore": 78,
     "meanScore": 79,
     "popularity": 96654,
-    "trending": 142,
+    "trending": 174,
     "favourites": 2448,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -692,7 +692,7 @@
     "averageScore": 41,
     "meanScore": 41,
     "popularity": 3776,
-    "trending": 1,
+    "trending": 0,
     "favourites": 62,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -812,6 +812,16 @@
         "isAdult": false
       },
       {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 85,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 240,
         "name": "Amnesia",
         "description": "Prominently features a character(s) with memory loss.",
@@ -822,31 +832,11 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 84,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 179,
         "name": "Witch",
         "description": "Prominently features a character who is a witch.",
         "category": "Cast-Traits",
         "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1292,
-        "name": "Spearplay",
-        "description": "Prominently features the use of spears in combat.",
-        "category": "Theme-Action",
-        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -882,21 +872,21 @@
         "isAdult": false
       },
       {
-        "id": 586,
-        "name": "Cult",
-        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
-        "category": "Theme-Other-Organisations",
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
         "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 75,
+        "id": 586,
+        "name": "Cult",
+        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+        "category": "Theme-Other-Organisations",
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -932,6 +922,16 @@
         "isAdult": false
       },
       {
+        "id": 623,
+        "name": "Astronomy",
+        "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
+        "category": "Theme-Other",
+        "rank": 67,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 598,
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
@@ -952,16 +952,6 @@
         "isAdult": false
       },
       {
-        "id": 623,
-        "name": "Astronomy",
-        "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
-        "category": "Theme-Other",
-        "rank": 62,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 772,
         "name": "Shapeshifting",
         "description": "Features character(s) who changes one's appearance or form.",
@@ -972,21 +962,21 @@
         "isAdult": false
       },
       {
+        "id": 1292,
+        "name": "Spearplay",
+        "description": "Prominently features the use of spears in combat.",
+        "category": "Theme-Action",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1771,
         "name": "Creature Taming",
         "description": "Features the taming of animals, monsters, or other creatures.",
         "category": "Theme-Other",
         "rank": 54,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1020,6 +1010,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -1038,7 +1038,7 @@
     "averageScore": 88,
     "meanScore": 88,
     "popularity": 106667,
-    "trending": 155,
+    "trending": 192,
     "favourites": 3982,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1224,7 +1224,7 @@
     "averageScore": 57,
     "meanScore": 58,
     "popularity": 18061,
-    "trending": 21,
+    "trending": 29,
     "favourites": 273,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1410,7 +1410,7 @@
     "averageScore": 64,
     "meanScore": 65,
     "popularity": 12909,
-    "trending": 2,
+    "trending": 0,
     "favourites": 127,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1526,7 +1526,7 @@
     "averageScore": 65,
     "meanScore": 73,
     "popularity": 1873,
-    "trending": 1,
+    "trending": 2,
     "favourites": 17,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1659,7 +1659,7 @@
     "averageScore": 57,
     "meanScore": 57,
     "popularity": 39096,
-    "trending": 56,
+    "trending": 61,
     "favourites": 667,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -1886,7 +1886,7 @@
     "averageScore": 76,
     "meanScore": 76,
     "popularity": 52909,
-    "trending": 75,
+    "trending": 79,
     "favourites": 995,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2151,7 +2151,7 @@
     "averageScore": 70,
     "meanScore": 71,
     "popularity": 17477,
-    "trending": 18,
+    "trending": 28,
     "favourites": 247,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -2357,7 +2357,7 @@
     "averageScore": 78,
     "meanScore": 79,
     "popularity": 25929,
-    "trending": 36,
+    "trending": 42,
     "favourites": 802,
     "source": "MANGA",
     "countryOfOrigin": "JP",
