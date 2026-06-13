@@ -443,7 +443,7 @@
         "name": "Drugs",
         "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
         "category": "Theme-Other",
-        "rank": 83,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -483,7 +483,7 @@
         "name": "VTuber",
         "description": "Prominently features a character who is either an actual or fictive VTuber.",
         "category": "Cast-Traits",
-        "rank": 74,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -493,7 +493,7 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 74,
+        "rank": 75,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -503,7 +503,7 @@
         "name": "Suicide",
         "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
         "category": "Theme-Drama",
-        "rank": 70,
+        "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -517,6 +517,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 155,
+        "name": "Rape",
+        "description": "Features non-consensual sexual penetration.",
+        "category": "Sexual Content",
+        "rank": 61,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": true
       },
       {
         "id": 1742,
@@ -539,16 +549,6 @@
         "isAdult": false
       },
       {
-        "id": 155,
-        "name": "Rape",
-        "description": "Features non-consensual sexual penetration.",
-        "category": "Sexual Content",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": true
-      },
-      {
         "id": 483,
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
@@ -569,6 +569,16 @@
         "isAdult": false
       },
       {
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
+        "category": "Theme-Drama",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 163,
         "name": "Yandere",
         "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
@@ -579,6 +589,16 @@
         "isAdult": false
       },
       {
+        "id": 1670,
+        "name": "Psychosexual",
+        "description": "Work that involves the psychological aspects of sexual impulses.",
+        "category": "Theme-Other",
+        "rank": 48,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 1219,
         "name": "Disability",
         "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
@@ -586,26 +606,6 @@
         "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 45,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1670,
-        "name": "Psychosexual",
-        "description": "Work that involves the psychological aspects of sexual impulses.",
-        "category": "Theme-Other",
-        "rank": 45,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
