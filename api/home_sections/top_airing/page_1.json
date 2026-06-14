@@ -797,9 +797,9 @@
     "rating": 8.7,
     "averageScore": 87,
     "meanScore": 87,
-    "popularity": 713687,
-    "trending": 193,
-    "favourites": 104281,
+    "popularity": 714479,
+    "trending": 171,
+    "favourites": 104387,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -982,7 +982,7 @@
         "name": "Travel",
         "description": "Centers around character(s) moving between places a significant distance apart.",
         "category": "Theme-Other",
-        "rank": 73,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1022,7 +1022,7 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 65,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1048,6 +1048,16 @@
         "isAdult": false
       },
       {
+        "id": 639,
+        "name": "Body Horror",
+        "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+        "category": "Theme-Other",
+        "rank": 62,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 311,
         "name": "Rehabilitation",
         "description": "Prominently features the recovery of a character who became incapable of social life or work.",
@@ -1058,31 +1068,11 @@
         "isAdult": false
       },
       {
-        "id": 639,
-        "name": "Body Horror",
-        "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
-        "category": "Theme-Other",
-        "rank": 57,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 164,
-        "name": "Tsundere",
-        "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
-        "category": "Cast-Traits",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 198,
         "name": "Foreign",
         "description": "Partly or completely set in a country outside the country of origin.",
         "category": "Setting-Scene",
-        "rank": 55,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1098,6 +1088,26 @@
         "isAdult": false
       },
       {
+        "id": 710,
+        "name": "Achromatic",
+        "description": "Contains animation that is primarily done in black and white.",
+        "category": "Technical",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 164,
+        "name": "Tsundere",
+        "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
+        "category": "Cast-Traits",
+        "rank": 48,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 494,
         "name": "Twins",
         "description": "Prominently features two or more siblings that were born at one birth.",
@@ -1105,16 +1115,6 @@
         "rank": 32,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 710,
-        "name": "Achromatic",
-        "description": "Contains animation that is primarily done in black and white.",
-        "category": "Technical",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -1133,9 +1133,9 @@
     "rating": 8.6,
     "averageScore": 86,
     "meanScore": 86,
-    "popularity": 174239,
-    "trending": 186,
-    "favourites": 6670,
+    "popularity": 175614,
+    "trending": 154,
+    "favourites": 6756,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1250,9 +1250,19 @@
         "name": "Time Manipulation",
         "description": "Prominently features time-traveling or other time-warping phenomena.",
         "category": "Theme-Sci-Fi",
-        "rank": 87,
+        "rank": 86,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 85,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1266,31 +1276,11 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 84,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 179,
         "name": "Witch",
         "description": "Prominently features a character who is a witch.",
         "category": "Cast-Traits",
         "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1292,
-        "name": "Spearplay",
-        "description": "Prominently features the use of spears in combat.",
-        "category": "Theme-Action",
-        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1326,21 +1316,21 @@
         "isAdult": false
       },
       {
-        "id": 586,
-        "name": "Cult",
-        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
-        "category": "Theme-Other-Organisations",
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
         "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 75,
+        "id": 586,
+        "name": "Cult",
+        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+        "category": "Theme-Other-Organisations",
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1376,6 +1366,16 @@
         "isAdult": false
       },
       {
+        "id": 623,
+        "name": "Astronomy",
+        "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
+        "category": "Theme-Other",
+        "rank": 67,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 598,
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
@@ -1396,16 +1396,6 @@
         "isAdult": false
       },
       {
-        "id": 623,
-        "name": "Astronomy",
-        "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
-        "category": "Theme-Other",
-        "rank": 62,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 772,
         "name": "Shapeshifting",
         "description": "Features character(s) who changes one's appearance or form.",
@@ -1416,23 +1406,13 @@
         "isAdult": false
       },
       {
-        "id": 1771,
-        "name": "Creature Taming",
-        "description": "Features the taming of animals, monsters, or other creatures.",
-        "category": "Theme-Other",
-        "rank": 54,
+        "id": 1292,
+        "name": "Spearplay",
+        "description": "Prominently features the use of spears in combat.",
+        "category": "Theme-Action",
+        "rank": 60,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1440,9 +1420,19 @@
         "name": "Female Harem",
         "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
         "category": "Theme-Romance",
-        "rank": 50,
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1771,
+        "name": "Creature Taming",
+        "description": "Features the taming of animals, monsters, or other creatures.",
+        "category": "Theme-Other",
+        "rank": 54,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1464,6 +1454,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -1481,9 +1481,9 @@
     "rating": 8.8,
     "averageScore": 88,
     "meanScore": 88,
-    "popularity": 106150,
-    "trending": 237,
-    "favourites": 3982,
+    "popularity": 107066,
+    "trending": 115,
+    "favourites": 4051,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1587,6 +1587,16 @@
         "isAdult": false
       },
       {
+        "id": 1771,
+        "name": "Creature Taming",
+        "description": "Features the taming of animals, monsters, or other creatures.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 250,
         "name": "Rural",
         "description": "Partly or completely set in the countryside.",
@@ -1647,16 +1657,6 @@
         "isAdult": false
       },
       {
-        "id": 1771,
-        "name": "Creature Taming",
-        "description": "Features the taming of animals, monsters, or other creatures.",
-        "category": "Theme-Other",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 456,
         "name": "Conspiracy",
         "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
@@ -1682,9 +1682,9 @@
     "rating": 7.8,
     "averageScore": 78,
     "meanScore": 78,
-    "popularity": 101851,
-    "trending": 67,
-    "favourites": 1925,
+    "popularity": 102524,
+    "trending": 403,
+    "favourites": 1957,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1766,6 +1766,16 @@
         "isAdult": false
       },
       {
+        "id": 99,
+        "name": "Henshin",
+        "description": "Prominently features character or costume transformations which often grant special abilities.",
+        "category": "Theme-Fantasy",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 105,
         "name": "Ensemble Cast",
         "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
@@ -1806,6 +1816,16 @@
         "isAdult": false
       },
       {
+        "id": 604,
+        "name": "Dungeon",
+        "description": "Prominently features a dungeon environment.",
+        "category": "Setting-Scene",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1292,
         "name": "Spearplay",
         "description": "Prominently features the use of spears in combat.",
@@ -1836,21 +1856,31 @@
         "isAdult": false
       },
       {
-        "id": 604,
-        "name": "Dungeon",
-        "description": "Prominently features a dungeon environment.",
-        "category": "Setting-Scene",
+        "id": 334,
+        "name": "Agender",
+        "description": "Prominently features agender characters.",
+        "category": "Cast-Traits",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 334,
-        "name": "Agender",
-        "description": "Prominently features agender characters.",
-        "category": "Cast-Traits",
-        "rank": 56,
+        "id": 157,
+        "name": "Guns",
+        "description": "Prominently features the use of guns in combat.",
+        "category": "Theme-Action",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1884,26 +1914,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 157,
-        "name": "Guns",
-        "description": "Prominently features the use of guns in combat.",
-        "category": "Theme-Action",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -1921,9 +1931,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 99272,
-    "trending": 40,
-    "favourites": 2831,
+    "popularity": 100172,
+    "trending": 214,
+    "favourites": 2882,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2289,12 +2299,12 @@
     "studiosNames": [
       "Lerche"
     ],
-    "rating": 7.9,
-    "averageScore": 79,
+    "rating": 7.8,
+    "averageScore": 78,
     "meanScore": 79,
-    "popularity": 96312,
-    "trending": 174,
-    "favourites": 2448,
+    "popularity": 97000,
+    "trending": 82,
+    "favourites": 2471,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2476,9 +2486,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 90028,
-    "trending": 61,
-    "favourites": 2418,
+    "popularity": 90709,
+    "trending": 44,
+    "favourites": 2447,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2883,9 +2893,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 76987,
+    "popularity": 77054,
     "trending": 8,
-    "favourites": 5827,
+    "favourites": 5829,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2943,7 +2953,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 86,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2953,7 +2963,7 @@
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 82,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2963,7 +2973,7 @@
         "name": "Primarily Teen Cast",
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 81,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2973,7 +2983,7 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 81,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2983,7 +2993,7 @@
         "name": "Otaku Culture",
         "description": "Centers around the culture of a fanatical fan-base.",
         "category": "Theme-Other",
-        "rank": 77,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2993,7 +3003,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 77,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3023,17 +3033,7 @@
         "name": "Chibi",
         "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
         "category": "Theme-Other",
-        "rank": 33,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 139,
-        "name": "Love Triangle",
-        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
-        "category": "Theme-Romance",
-        "rank": 20,
+        "rank": 36,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3046,6 +3046,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 15,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
@@ -3064,9 +3074,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 80,
-    "popularity": 70675,
-    "trending": 98,
-    "favourites": 1939,
+    "popularity": 71556,
+    "trending": 63,
+    "favourites": 1988,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3080,165 +3090,6 @@
       "id": "3mTUxCIyJhA",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=3mTUxCIyJhA"
-    }
-  },
-  {
-    "animeId": 56876,
-    "anilistId": 170019,
-    "title": "The Angel Next Door Spoils Me Rotten2",
-    "titleRomaji": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
-    "titleEnglish": "The Angel Next Door Spoils Me Rotten2",
-    "titleNative": "お隣の天使様にいつの間にか駄目人間にされていた件 第2期",
-    "synonyms": [
-      "The Angel Next Door Spoils Me Rotten Season 2",
-      "ขาดคุณนางฟ้าข้างห้องไป ผมคงมีชีวิตต่อไปไม่ได้อีกแล้ว2",
-      "Meu Anjo de Vizinha Me Mima Demais 2",
-      "Chouchouté par l’ange d’à côté saison 2",
-      "Ангел по соседству меня балует 2",
-      "關於我在無意間被隔壁的天使變成廢柴這件事",
-      "Aku Dimanjakan Tetanggaku yang Seperti Malaikat"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170019-djbN0b934MhE.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170019-djbN0b934MhE.jpg",
-    "coverImageColor": "#e4d628",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170019-r07RiVV5d8rT.jpg",
-    "synopsis": "The second season of Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken . Now a couple, Amane and Mahiru navigate school life and overcome their pasts in this sweet love story. (Source: Crunchyroll News) Note: Crunchyroll has labeled the English title under the name \"The Angel Next Door Spoils Me Rotten2\", so while it seems erroneous for the title not to have a space between the name and 2, it is what the series is officially labeled as.",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SPRING",
-    "seasonYear": 2026,
-    "seasonInt": 262,
-    "episodes": 12,
-    "duration": 24,
-    "genres": [
-      "Romance",
-      "Slice of Life"
-    ],
-    "tags": [
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 91,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 87,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 81,
-        "name": "Iyashikei",
-        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
-        "category": "Theme-Slice of Life",
-        "rank": 84,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 82,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 779,
-        "name": "Kuudere",
-        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
-        "category": "Cast-Traits",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 324,
-        "name": "Chibi",
-        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
-        "category": "Theme-Other",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 648,
-        "name": "Crime",
-        "description": "Centers around unlawful activities punishable by the state or other authority.",
-        "category": "Theme-Other",
-        "rank": 10,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 4399,
-        "name": "project No.9",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/4399"
-      }
-    ],
-    "studiosNames": [
-      "project No.9"
-    ],
-    "rating": 7.6,
-    "averageScore": 76,
-    "meanScore": 76,
-    "popularity": 66122,
-    "trending": 20,
-    "favourites": 1722,
-    "source": "LIGHT_NOVEL",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#お隣の天使様",
-    "startDate": "2026-04-03",
-    "endDate": "2026-06-19",
-    "mal_url": "https://myanimelist.net/anime/56876",
-    "anilist_url": "https://anilist.co/anime/170019",
-    "trailer": {
-      "id": "8Gtb1uhjPKs",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=8Gtb1uhjPKs"
     }
   },
   {
@@ -3484,21 +3335,21 @@
         "isAdult": false
       },
       {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 39,
+        "id": 140,
+        "name": "Educational",
+        "description": "Primary aim is to educate the audience.",
+        "category": "Theme-Other",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 140,
-        "name": "Educational",
-        "description": "Primary aim is to educate the audience.",
-        "category": "Theme-Other",
-        "rank": 20,
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 39,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3519,9 +3370,9 @@
     "rating": 7.5,
     "averageScore": 75,
     "meanScore": 75,
-    "popularity": 66012,
-    "trending": 86,
-    "favourites": 983,
+    "popularity": 66680,
+    "trending": 57,
+    "favourites": 1002,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3535,6 +3386,165 @@
       "id": "t0Ruh2QBpqg",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=t0Ruh2QBpqg"
+    }
+  },
+  {
+    "animeId": 56876,
+    "anilistId": 170019,
+    "title": "The Angel Next Door Spoils Me Rotten2",
+    "titleRomaji": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
+    "titleEnglish": "The Angel Next Door Spoils Me Rotten2",
+    "titleNative": "お隣の天使様にいつの間にか駄目人間にされていた件 第2期",
+    "synonyms": [
+      "The Angel Next Door Spoils Me Rotten Season 2",
+      "ขาดคุณนางฟ้าข้างห้องไป ผมคงมีชีวิตต่อไปไม่ได้อีกแล้ว2",
+      "Meu Anjo de Vizinha Me Mima Demais 2",
+      "Chouchouté par l’ange d’à côté saison 2",
+      "Ангел по соседству меня балует 2",
+      "關於我在無意間被隔壁的天使變成廢柴這件事",
+      "Aku Dimanjakan Tetanggaku yang Seperti Malaikat"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170019-djbN0b934MhE.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170019-djbN0b934MhE.jpg",
+    "coverImageColor": "#e4d628",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170019-r07RiVV5d8rT.jpg",
+    "synopsis": "The second season of Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken . Now a couple, Amane and Mahiru navigate school life and overcome their pasts in this sweet love story. (Source: Crunchyroll News) Note: Crunchyroll has labeled the English title under the name \"The Angel Next Door Spoils Me Rotten2\", so while it seems erroneous for the title not to have a space between the name and 2, it is what the series is officially labeled as.",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SPRING",
+    "seasonYear": 2026,
+    "seasonInt": 262,
+    "episodes": 12,
+    "duration": 24,
+    "genres": [
+      "Romance",
+      "Slice of Life"
+    ],
+    "tags": [
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 91,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 87,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 779,
+        "name": "Kuudere",
+        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+        "category": "Cast-Traits",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 324,
+        "name": "Chibi",
+        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 648,
+        "name": "Crime",
+        "description": "Centers around unlawful activities punishable by the state or other authority.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 4399,
+        "name": "project No.9",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/4399"
+      }
+    ],
+    "studiosNames": [
+      "project No.9"
+    ],
+    "rating": 7.6,
+    "averageScore": 76,
+    "meanScore": 76,
+    "popularity": 66523,
+    "trending": 72,
+    "favourites": 1738,
+    "source": "LIGHT_NOVEL",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#お隣の天使様",
+    "startDate": "2026-04-03",
+    "endDate": "2026-06-19",
+    "mal_url": "https://myanimelist.net/anime/56876",
+    "anilist_url": "https://anilist.co/anime/170019",
+    "trailer": {
+      "id": "8Gtb1uhjPKs",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=8Gtb1uhjPKs"
     }
   },
   {
@@ -3705,9 +3715,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 63027,
-    "trending": 296,
-    "favourites": 1177,
+    "popularity": 63665,
+    "trending": 75,
+    "favourites": 1205,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3930,9 +3940,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 76,
-    "popularity": 52480,
-    "trending": 114,
-    "favourites": 995,
+    "popularity": 53165,
+    "trending": 45,
+    "favourites": 1007,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3992,21 +4002,21 @@
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 86,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 82,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4036,7 +4046,7 @@
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 70,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4092,6 +4102,16 @@
         "isAdult": false
       },
       {
+        "id": 324,
+        "name": "Chibi",
+        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1382,
         "name": "Orphan",
         "description": "Prominently features a character that is an orphan.",
@@ -4106,17 +4126,7 @@
         "name": "School Club",
         "description": "Partly or completely set in a school club scene.",
         "category": "Setting-Scene",
-        "rank": 35,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 324,
-        "name": "Chibi",
-        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
-        "category": "Theme-Other",
-        "rank": 20,
+        "rank": 25,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4137,9 +4147,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 49135,
-    "trending": 296,
-    "favourites": 1036,
+    "popularity": 50021,
+    "trending": 59,
+    "favourites": 1079,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4396,9 +4406,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 41893,
-    "trending": 37,
-    "favourites": 814,
+    "popularity": 42194,
+    "trending": 30,
+    "favourites": 822,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4557,9 +4567,9 @@
     "rating": 7.2,
     "averageScore": 72,
     "meanScore": 73,
-    "popularity": 41507,
-    "trending": 46,
-    "favourites": 659,
+    "popularity": 41920,
+    "trending": 33,
+    "favourites": 671,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4728,9 +4738,9 @@
     "rating": 7.3,
     "averageScore": 73,
     "meanScore": 74,
-    "popularity": 41214,
-    "trending": 34,
-    "favourites": 809,
+    "popularity": 41453,
+    "trending": 30,
+    "favourites": 814,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4863,9 +4873,9 @@
     "rating": 5.7,
     "averageScore": 57,
     "meanScore": 57,
-    "popularity": 38924,
-    "trending": 93,
-    "favourites": 667,
+    "popularity": 39235,
+    "trending": 38,
+    "favourites": 674,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5017,16 +5027,6 @@
         "isAdult": false
       },
       {
-        "id": 138,
-        "name": "Age Gap",
-        "description": "Prominently features romantic relations between people with a significant age difference.",
-        "category": "Theme-Romance",
-        "rank": 70,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1121,
         "name": "Torture",
         "description": "The act of deliberately inflicting severe pain or suffering upon another individual or oneself as a punishment or with a specific purpose.",
@@ -5073,6 +5073,16 @@
         "category": "Cast-Traits",
         "rank": 65,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 64,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -5172,9 +5182,9 @@
     "rating": 7.5,
     "averageScore": 75,
     "meanScore": 75,
-    "popularity": 37071,
-    "trending": 25,
-    "favourites": 595,
+    "popularity": 37266,
+    "trending": 117,
+    "favourites": 599,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5356,9 +5366,9 @@
     "rating": 6,
     "averageScore": 60,
     "meanScore": 60,
-    "popularity": 34195,
-    "trending": 19,
-    "favourites": 317,
+    "popularity": 34345,
+    "trending": 11,
+    "favourites": 319,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5452,19 +5462,9 @@
         "name": "Drugs",
         "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
         "category": "Theme-Other",
-        "rank": 83,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -5488,11 +5488,21 @@
         "isAdult": false
       },
       {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1047,
         "name": "VTuber",
         "description": "Prominently features a character who is either an actual or fictive VTuber.",
         "category": "Cast-Traits",
-        "rank": 74,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5502,7 +5512,7 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 74,
+        "rank": 75,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5512,7 +5522,7 @@
         "name": "Suicide",
         "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
         "category": "Theme-Drama",
-        "rank": 70,
+        "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -5526,6 +5536,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 155,
+        "name": "Rape",
+        "description": "Features non-consensual sexual penetration.",
+        "category": "Sexual Content",
+        "rank": 61,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": true
       },
       {
         "id": 1742,
@@ -5548,21 +5568,11 @@
         "isAdult": false
       },
       {
-        "id": 155,
-        "name": "Rape",
-        "description": "Features non-consensual sexual penetration.",
-        "category": "Sexual Content",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": true
-      },
-      {
         "id": 483,
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 56,
+        "rank": 59,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5578,6 +5588,16 @@
         "isAdult": false
       },
       {
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
+        "category": "Theme-Drama",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 163,
         "name": "Yandere",
         "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
@@ -5588,6 +5608,16 @@
         "isAdult": false
       },
       {
+        "id": 1670,
+        "name": "Psychosexual",
+        "description": "Work that involves the psychological aspects of sexual impulses.",
+        "category": "Theme-Other",
+        "rank": 48,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 1219,
         "name": "Disability",
         "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
@@ -5595,26 +5625,6 @@
         "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 45,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1670,
-        "name": "Psychosexual",
-        "description": "Work that involves the psychological aspects of sexual impulses.",
-        "category": "Theme-Other",
-        "rank": 45,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -5673,9 +5683,9 @@
     "rating": 6.7,
     "averageScore": 67,
     "meanScore": 68,
-    "popularity": 33407,
-    "trending": 12,
-    "favourites": 681,
+    "popularity": 33545,
+    "trending": 59,
+    "favourites": 684,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5736,7 +5746,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 89,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5746,7 +5756,7 @@
         "name": "Acting",
         "description": "Centers around actors or the acting industry.",
         "category": "Theme-Arts",
-        "rank": 80,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5756,7 +5766,7 @@
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
-        "rank": 77,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5766,7 +5776,7 @@
         "name": "Coming of Age",
         "description": "Centers around a character's transition from childhood to adulthood.",
         "category": "Theme-Drama",
-        "rank": 71,
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5786,7 +5796,7 @@
         "name": "Work",
         "description": "Centers around the activities of a certain occupation.",
         "category": "Setting-Scene",
-        "rank": 60,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5796,7 +5806,7 @@
         "name": "Found Family",
         "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
         "category": "Theme-Other",
-        "rank": 57,
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5806,7 +5816,7 @@
         "name": "POV",
         "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
         "category": "Technical",
-        "rank": 50,
+        "rank": 51,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5816,17 +5826,7 @@
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 33,
+        "rank": 43,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5836,7 +5836,7 @@
         "name": "Family Life",
         "description": "Centers around the activities of a family unit.",
         "category": "Theme-Slice of Life",
-        "rank": 32,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5846,9 +5846,19 @@
         "name": "Time Skip",
         "description": "Features a gap in time used to advance the story.",
         "category": "Setting-Time",
-        "rank": 31,
+        "rank": 37,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 37,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -5856,7 +5866,7 @@
         "name": "Gyaru",
         "description": "Prominently features a female character who has a distinct American-emulated fashion style, such as tanned skin, bleached hair, and excessive makeup. Also known as gal.",
         "category": "Cast-Traits",
-        "rank": 10,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5877,9 +5887,9 @@
     "rating": 7.7,
     "averageScore": 77,
     "meanScore": 77,
-    "popularity": 33384,
-    "trending": 15,
-    "favourites": 415,
+    "popularity": 33510,
+    "trending": 136,
+    "favourites": 420,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5893,220 +5903,6 @@
       "id": "PZJAOQ-7iJ8",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=PZJAOQ-7iJ8"
-    }
-  },
-  {
-    "animeId": 60310,
-    "anilistId": 184492,
-    "title": "Welcome to Demon School! Iruma-kun Season 4",
-    "titleRomaji": "Mairimashita! Iruma-kun 4",
-    "titleEnglish": "Welcome to Demon School! Iruma-kun Season 4",
-    "titleNative": "魔入りました！入間くん 第4シリーズ",
-    "synonyms": [
-      "อิรุมะคุง ผจญในแดนปีศาจ ซีซั่น 4"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184492-KUVFGieuMaOx.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184492-KUVFGieuMaOx.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184492-KUVFGieuMaOx.jpg",
-    "coverImageColor": "#f1bb28",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184492-JsZazzn4Acqf.jpg",
-    "synopsis": "The fourth season of Mairimashita! Iruma-kun. Suzuki Iruma and all thirteen students of the Misfit Class must perform to reach Rank 4 at the Music Festival. (Source: Crunchyroll News)",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SPRING",
-    "seasonYear": 2026,
-    "seasonInt": 262,
-    "episodes": 24,
-    "duration": 25,
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Supernatural"
-    ],
-    "tags": [
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 86,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 56,
-        "name": "Shounen",
-        "description": "Target demographic is teenage and young adult males.",
-        "category": "Demographic",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1090,
-        "name": "Monster Boy",
-        "description": "Prominently features a male character who is a part-monster.",
-        "category": "Cast-Traits",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 259,
-        "name": "Monster Girl",
-        "description": "Prominently features a female character who is part-monster.",
-        "category": "Cast-Traits",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 110,
-        "name": "Band",
-        "description": "Main cast is a group of musicians.",
-        "category": "Theme-Arts-Music",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1277,
-        "name": "Found Family",
-        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
-        "category": "Theme-Other",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 186,
-        "name": "Crossdressing",
-        "description": "Prominently features a character dressing up as the opposite sex.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 265,
-        "name": "Musical Theater",
-        "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
-        "category": "Theme-Arts-Music",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 6116,
-        "name": "Bandai Namco Pictures",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/6116"
-      }
-    ],
-    "studiosNames": [
-      "Bandai Namco Pictures"
-    ],
-    "rating": 8,
-    "averageScore": 80,
-    "meanScore": 81,
-    "popularity": 32524,
-    "trending": 10,
-    "favourites": 638,
-    "source": "MANGA",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#魔入りました入間くん",
-    "startDate": "2026-04-04",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/60310",
-    "anilist_url": "https://anilist.co/anime/184492",
-    "trailer": {
-      "id": "6Lo1DUCY9nY",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=6Lo1DUCY9nY"
     }
   },
   {
@@ -6329,6 +6125,26 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
+      },
+      {
+        "id": 186,
+        "name": "Crossdressing",
+        "description": "Prominently features a character dressing up as the opposite sex.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -6343,12 +6159,12 @@
     "studiosNames": [
       "CUE"
     ],
-    "rating": 7.4,
-    "averageScore": 74,
+    "rating": 7.3,
+    "averageScore": 73,
     "meanScore": 74,
-    "popularity": 32483,
-    "trending": 23,
-    "favourites": 486,
+    "popularity": 32819,
+    "trending": 124,
+    "favourites": 495,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6362,6 +6178,220 @@
       "id": "9sEiONbweqI",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=9sEiONbweqI"
+    }
+  },
+  {
+    "animeId": 60310,
+    "anilistId": 184492,
+    "title": "Welcome to Demon School! Iruma-kun Season 4",
+    "titleRomaji": "Mairimashita! Iruma-kun 4",
+    "titleEnglish": "Welcome to Demon School! Iruma-kun Season 4",
+    "titleNative": "魔入りました！入間くん 第4シリーズ",
+    "synonyms": [
+      "อิรุมะคุง ผจญในแดนปีศาจ ซีซั่น 4"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184492-KUVFGieuMaOx.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184492-KUVFGieuMaOx.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx184492-KUVFGieuMaOx.jpg",
+    "coverImageColor": "#f1bb28",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184492-JsZazzn4Acqf.jpg",
+    "synopsis": "The fourth season of Mairimashita! Iruma-kun. Suzuki Iruma and all thirteen students of the Misfit Class must perform to reach Rank 4 at the Music Festival. (Source: Crunchyroll News)",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SPRING",
+    "seasonYear": 2026,
+    "seasonInt": 262,
+    "episodes": 24,
+    "duration": 25,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 83,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1090,
+        "name": "Monster Boy",
+        "description": "Prominently features a male character who is a part-monster.",
+        "category": "Cast-Traits",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 259,
+        "name": "Monster Girl",
+        "description": "Prominently features a female character who is part-monster.",
+        "category": "Cast-Traits",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 110,
+        "name": "Band",
+        "description": "Main cast is a group of musicians.",
+        "category": "Theme-Arts-Music",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1277,
+        "name": "Found Family",
+        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 186,
+        "name": "Crossdressing",
+        "description": "Prominently features a character dressing up as the opposite sex.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 265,
+        "name": "Musical Theater",
+        "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
+        "category": "Theme-Arts-Music",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 6116,
+        "name": "Bandai Namco Pictures",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/6116"
+      }
+    ],
+    "studiosNames": [
+      "Bandai Namco Pictures"
+    ],
+    "rating": 8,
+    "averageScore": 80,
+    "meanScore": 81,
+    "popularity": 32685,
+    "trending": 113,
+    "favourites": 646,
+    "source": "MANGA",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#魔入りました入間くん",
+    "startDate": "2026-04-04",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/60310",
+    "anilist_url": "https://anilist.co/anime/184492",
+    "trailer": {
+      "id": "6Lo1DUCY9nY",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=6Lo1DUCY9nY"
     }
   }
 ]
