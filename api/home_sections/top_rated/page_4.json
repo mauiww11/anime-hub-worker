@@ -420,7 +420,8 @@
       "Drama",
       "Fantasy",
       "Psychological",
-      "Romance"
+      "Romance",
+      "Thriller"
     ],
     "tags": [
       {
@@ -428,7 +429,7 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 99,
+        "rank": 98,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -438,7 +439,7 @@
         "name": "Memory Manipulation",
         "description": "Prominently features a character(s) who has had their memories altered.",
         "category": "Theme-Other",
-        "rank": 97,
+        "rank": 98,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -478,8 +479,18 @@
         "name": "Dissociative Identities",
         "description": "A case where one or more people share the same body.",
         "category": "Cast-Traits",
-        "rank": 88,
+        "rank": 89,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 87,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
         "isAdult": false
       },
@@ -488,19 +499,9 @@
         "name": "Time Manipulation",
         "description": "Prominently features time-traveling or other time-warping phenomena.",
         "category": "Theme-Sci-Fi",
-        "rank": 86,
+        "rank": 87,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 85,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -508,7 +509,7 @@
         "name": "Amnesia",
         "description": "Prominently features a character(s) with memory loss.",
         "category": "Cast-Traits",
-        "rank": 85,
+        "rank": 86,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -518,27 +519,7 @@
         "name": "Witch",
         "description": "Prominently features a character who is a witch.",
         "category": "Cast-Traits",
-        "rank": 83,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1453,
-        "name": "Desert",
-        "description": "Prominently features a desert environment.",
-        "category": "Setting-Scene",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1310,
-        "name": "Travel",
-        "description": "Centers around character(s) moving between places a significant distance apart.",
-        "category": "Theme-Other",
-        "rank": 77,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -548,16 +529,26 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 77,
+        "rank": 78,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
+        "id": 1453,
+        "name": "Desert",
+        "description": "Prominently features a desert environment.",
+        "category": "Setting-Scene",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1310,
+        "name": "Travel",
+        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "category": "Theme-Other",
         "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -568,7 +559,17 @@
         "name": "Cult",
         "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
         "category": "Theme-Other-Organisations",
-        "rank": 74,
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -598,7 +599,7 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 71,
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -608,7 +609,7 @@
         "name": "Astronomy",
         "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
         "category": "Theme-Other",
-        "rank": 67,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -618,7 +619,7 @@
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
         "category": "Cast-Traits",
-        "rank": 65,
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -628,7 +629,7 @@
         "name": "Dragons",
         "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
         "category": "Cast-Traits",
-        "rank": 62,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -674,21 +675,21 @@
         "isAdult": false
       },
       {
-        "id": 249,
-        "name": "Maids",
-        "description": "Prominently features a character who is a maid.",
+        "id": 494,
+        "name": "Twins",
+        "description": "Prominently features two or more siblings that were born at one birth.",
         "category": "Cast-Traits",
-        "rank": 47,
+        "rank": 44,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 494,
-        "name": "Twins",
-        "description": "Prominently features two or more siblings that were born at one birth.",
+        "id": 249,
+        "name": "Maids",
+        "description": "Prominently features a character who is a maid.",
         "category": "Cast-Traits",
-        "rank": 46,
+        "rank": 43,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -719,9 +720,9 @@
     "rating": 8.8,
     "averageScore": 88,
     "meanScore": 88,
-    "popularity": 107066,
-    "trending": 115,
-    "favourites": 4051,
+    "popularity": 108677,
+    "trending": 1913,
+    "favourites": 4158,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
