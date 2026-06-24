@@ -85,7 +85,7 @@
     "averageScore": 0,
     "meanScore": 10,
     "popularity": 92,
-    "trending": 0,
+    "trending": 1,
     "favourites": 4,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -163,7 +163,7 @@
     "averageScore": 0,
     "meanScore": 73,
     "popularity": 66,
-    "trending": 0,
+    "trending": 1,
     "favourites": 3,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
@@ -304,7 +304,7 @@
     "averageScore": 53,
     "meanScore": 63,
     "popularity": 523,
-    "trending": 2,
+    "trending": 5,
     "favourites": 9,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -339,7 +339,8 @@
       "Classroom of the Elite 2nd Year",
       "ขอต้อนรับสู่ห้องเรียนนิยม (เฉพาะ) ยอดคน ซีซั่น 4 ภาค ปี 2 เทอม 1",
       "Youjitsu",
-      "You-Zitsu"
+      "You-Zitsu",
+      "Cote 4"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180745-OEZaBeEdWozn.png",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180745-OEZaBeEdWozn.png",
@@ -349,7 +350,7 @@
     "synopsis": "The fourth season of Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e . As Ayanokouji and his classmates begin their second year at the Advanced Nurturing High School, they’re greeted by a fresh gauntlet of exams and a fresh batch of rather unique first-year students. They’ll have to get to know each other quickly, because the first special exam pairs the first-years with the second-years on a written test—with only the second-years facing expulsion if their team performs poorly! Worse yet? It seems one of the new first-years is also from the White Room. Can Ayanokouji avoid expulsion while sussing out the identity of this hidden foe? (Source: Seven Seas)",
     "type": "ANIME",
     "format": "TV",
-    "status": "RELEASING",
+    "status": "FINISHED",
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
@@ -405,9 +406,19 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 95,
+        "rank": 96,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 309,
+        "name": "Blackmail",
+        "description": "Features a character blackmailing another.",
+        "category": "Theme-Other",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -421,21 +432,11 @@
         "isAdult": false
       },
       {
-        "id": 309,
-        "name": "Blackmail",
-        "description": "Features a character blackmailing another.",
-        "category": "Theme-Other",
-        "rank": 95,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 94,
+        "id": 104,
+        "name": "Anti-Hero",
+        "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
+        "category": "Cast-Main Cast",
+        "rank": 93,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -451,26 +452,6 @@
         "isAdult": false
       },
       {
-        "id": 102,
-        "name": "Coming of Age",
-        "description": "Centers around a character's transition from childhood to adulthood.",
-        "category": "Theme-Drama",
-        "rank": 93,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 104,
-        "name": "Anti-Hero",
-        "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
-        "category": "Cast-Main Cast",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 365,
         "name": "Memory Manipulation",
         "description": "Prominently features a character(s) who has had their memories altered.",
@@ -478,16 +459,6 @@
         "rank": 91,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -501,32 +472,52 @@
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
         "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 88,
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 87,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
         "category": "Theme-Drama",
-        "rank": 79,
-        "isGeneralSpoiler": true,
+        "rank": 87,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 82,
+        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -538,26 +529,6 @@
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1046,
-        "name": "Suicide",
-        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
-        "category": "Theme-Drama",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -585,7 +556,7 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 72,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -611,11 +582,41 @@
         "isAdult": false
       },
       {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 60,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1724,
         "name": "Camping",
         "description": "Features the recreational activity of camping, either in a tent, vehicle, or simply sleeping outdoors.",
         "category": "Setting-Scene",
-        "rank": 50,
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 262,
+        "name": "Outdoor Activities",
+        "description": "Centers around hiking, camping or other outdoor activities.",
+        "category": "Setting-Scene",
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -631,6 +632,26 @@
         "isAdult": false
       },
       {
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+        "category": "Theme-Drama",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1760,
+        "name": "Wilderness",
+        "description": "Predominantly features a location with little to no human activity, such as a deserted island, a jungle, or a snowy mountain range.",
+        "category": "Setting-Scene",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 23,
         "name": "Female Harem",
         "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
@@ -641,22 +662,22 @@
         "isAdult": false
       },
       {
-        "id": 1760,
-        "name": "Wilderness",
-        "description": "Predominantly features a location with little to no human activity, such as a deserted island, a jungle, or a snowy mountain range.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 153,
         "name": "Time Skip",
         "description": "Features a gap in time used to advance the story.",
         "category": "Setting-Time",
         "rank": 20,
         "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 156,
+        "name": "Achronological Order",
+        "description": "Chapters or episodes do not occur in chronological order.",
+        "category": "Setting-Time",
+        "rank": 20,
+        "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       }
@@ -677,7 +698,7 @@
     "averageScore": 78,
     "meanScore": 79,
     "popularity": 100818,
-    "trending": 161,
+    "trending": 974,
     "favourites": 2606,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -685,7 +706,7 @@
     "isAdult": false,
     "hashtag": "#you_zitsu #よう実",
     "startDate": "2026-04-01",
-    "endDate": "2026-06-25",
+    "endDate": "2026-06-24",
     "mal_url": "https://myanimelist.net/anime/59708",
     "anilist_url": "https://anilist.co/anime/180745",
     "trailer": {
@@ -715,7 +736,7 @@
     "synopsis": "The fifth season of Kanojo, Okarishimasu . Note: Kanojo, Okarishimasu 5th Season was streamed 2 days in advance of the TV broadcast on DMM TV beginning April 8, 2026. Regular broadcasting began on April 11, 2026.",
     "type": "ANIME",
     "format": "ONA",
-    "status": "RELEASING",
+    "status": "FINISHED",
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
@@ -863,7 +884,7 @@
     "averageScore": 57,
     "meanScore": 58,
     "popularity": 18830,
-    "trending": 10,
+    "trending": 199,
     "favourites": 285,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -902,7 +923,7 @@
     "synopsis": "The third season of Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou.",
     "type": "ANIME",
     "format": "TV",
-    "status": "RELEASING",
+    "status": "FINISHED",
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
@@ -1050,7 +1071,7 @@
     "averageScore": 64,
     "meanScore": 65,
     "popularity": 13404,
-    "trending": 12,
+    "trending": 164,
     "favourites": 134,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1085,7 +1106,7 @@
     "synopsis": "“I will become the world’s most wonderful maid!” With her skirt fluttering in black and white, the girl shouted. Her name is Melody. A reincarnated former Japanese girl, she now pursues her dream in her new life, working as an all-purpose maid for a poor count’s family in the kingdom of Théolas. When she makes it, even cheap tea turns into a luxury brew, and a dilapidated mansion is quickly restored to new! Cleaning, serving, hunting, DIY—leave it all to her and her powerful magic. Unbeknownst to Melody, this world is actually an otome game, and she is the most powerful and invincible heroine, the saint! Yet, she remains oblivious to this fact. Romance with handsome men? Attacks by the Demon Lord? Work comes first! A fantasy of misunderstood work that unknowingly shatters destiny! (Source: Seven Seas Entertainment) Note: Heroine? Seijo? Iie, All Works Maid desu (Ko)! is streaming a week in advance of the TV broadcast on dAnimeStore and ABEMA beginning June 24th, 2026. Regular broadcast",
     "type": "ANIME",
     "format": "ONA",
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
@@ -1097,6 +1118,26 @@
     ],
     "tags": [
       {
+        "id": 249,
+        "name": "Maids",
+        "description": "Prominently features a character who is a maid.",
+        "category": "Cast-Traits",
+        "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 29,
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
@@ -1107,31 +1148,11 @@
         "isAdult": false
       },
       {
-        "id": 249,
-        "name": "Maids",
-        "description": "Prominently features a character who is a maid.",
-        "category": "Cast-Traits",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 243,
         "name": "Reincarnation",
         "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
-        "rank": 60,
+        "rank": 73,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1141,7 +1162,7 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 60,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1151,7 +1172,7 @@
         "name": "Ojou-sama",
         "description": "Features a wealthy, high-class, oftentimes stuck up and demanding female character.",
         "category": "Cast-Traits",
-        "rank": 60,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1161,7 +1182,27 @@
         "name": "Medieval",
         "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
         "category": "Setting-Time",
-        "rank": 60,
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 83,
+        "name": "Slapstick",
+        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+        "category": "Theme-Comedy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1183,7 +1224,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 4418,
-    "trending": 6,
+    "trending": 122,
     "favourites": 39,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1221,7 +1262,7 @@
     "synopsis": "The second season of Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Arthur faces one last mission with Jasmine, but the quest unleashes a tragedy no one saw coming. (Source: Crunchyoll News)",
     "type": "ANIME",
     "format": "TV",
-    "status": "RELEASING",
+    "status": "FINISHED",
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
@@ -1370,7 +1411,7 @@
     "averageScore": 58,
     "meanScore": 58,
     "popularity": 40622,
-    "trending": 19,
+    "trending": 527,
     "favourites": 695,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -1409,7 +1450,7 @@
     "synopsis": "Meet Takuya Seo, an otaku who sits behind the popular gals in class, Ijichi and Amane. Since they're people from different \"castes,\" you wouldn't expect them to have much in common. But when their worlds collide over a borrowed eraser, Takuya slips up about his favorite anime, and Amane...is rather quick to correct him. She says she's not a fan, but her familiarity with the series suggests otherwise. Could she be...a fellow geek?! (Source: Yen Press)",
     "type": "ANIME",
     "format": "TV",
-    "status": "RELEASING",
+    "status": "FINISHED",
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
@@ -1475,7 +1516,17 @@
         "name": "Love Triangle",
         "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
         "category": "Theme-Romance",
-        "rank": 81,
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1459,
+        "name": "Polyamorous",
+        "description": "Features a character who is in a consenting relationship with multiple people at one time.",
+        "category": "Theme-Romance",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1587,7 +1638,7 @@
     "averageScore": 76,
     "meanScore": 76,
     "popularity": 56189,
-    "trending": 46,
+    "trending": 685,
     "favourites": 1084,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1689,7 +1740,7 @@
     "averageScore": 55,
     "meanScore": 68,
     "popularity": 635,
-    "trending": 0,
+    "trending": 11,
     "favourites": 5,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
