@@ -107,7 +107,7 @@
     "averageScore": 81,
     "meanScore": 84,
     "popularity": 5197,
-    "trending": 6,
+    "trending": 2,
     "favourites": 358,
     "source": "OTHER",
     "countryOfOrigin": "CN",
@@ -207,6 +207,16 @@
         "name": "Seinen",
         "description": "Target demographic is adult males.",
         "category": "Demographic",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 239,
+        "name": "Biographical",
+        "description": "Based on true stories of real persons living or dead, written by another.",
+        "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -349,6 +359,16 @@
         "isAdult": false
       },
       {
+        "id": 1165,
+        "name": "Transgender",
+        "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 456,
         "name": "Conspiracy",
         "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
@@ -366,16 +386,6 @@
         "rank": 55,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1165,
-        "name": "Transgender",
-        "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
-        "category": "Cast-Traits",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -415,7 +425,7 @@
     "averageScore": 60,
     "meanScore": 61,
     "popularity": 35720,
-    "trending": 25,
+    "trending": 17,
     "favourites": 342,
     "source": "MANGA",
     "countryOfOrigin": "JP",
