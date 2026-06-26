@@ -949,16 +949,6 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 92,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 56,
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
@@ -976,6 +966,16 @@
         "rank": 91,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 91,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1009,20 +1009,20 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 82,
+        "id": 143,
+        "name": "Survival",
+        "description": "Centers around the struggle to live in spite of extreme obstacles.",
+        "category": "Theme-Other",
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 143,
-        "name": "Survival",
-        "description": "Centers around the struggle to live in spite of extreme obstacles.",
-        "category": "Theme-Other",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
         "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1063,7 +1063,7 @@
         "name": "Ensemble Cast",
         "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
         "category": "Cast-Main Cast",
-        "rank": 75,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1073,9 +1073,19 @@
         "name": "Martial Arts",
         "description": "Centers around the use of traditional hand-to-hand combat.",
         "category": "Theme-Action",
-        "rank": 70,
+        "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1456,
+        "name": "Femboy",
+        "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
+        "category": "Cast-Traits",
+        "rank": 64,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1109,6 +1119,16 @@
         "isAdult": false
       },
       {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 43,
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
@@ -1129,13 +1149,13 @@
         "isAdult": false
       },
       {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 52,
+        "id": 683,
+        "name": "Rotoscoping",
+        "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
+        "category": "Technical",
+        "rank": 48,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1143,19 +1163,9 @@
         "name": "Bisexual",
         "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
         "category": "Cast-Traits",
-        "rank": 47,
+        "rank": 48,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 683,
-        "name": "Rotoscoping",
-        "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
-        "category": "Technical",
-        "rank": 44,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1163,17 +1173,7 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1456,
-        "name": "Femboy",
-        "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
-        "category": "Cast-Traits",
-        "rank": 20,
+        "rank": 33,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1183,7 +1183,7 @@
         "name": "Crossdressing",
         "description": "Prominently features a character dressing up as the opposite sex.",
         "category": "Cast-Traits",
-        "rank": 20,
+        "rank": 33,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1204,9 +1204,9 @@
     "rating": 8.6,
     "averageScore": 86,
     "meanScore": 86,
-    "popularity": 229221,
-    "trending": 36,
-    "favourites": 9108,
+    "popularity": 232488,
+    "trending": 26,
+    "favourites": 9278,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1288,7 +1288,7 @@
         "name": "Wilderness",
         "description": "Predominantly features a location with little to no human activity, such as a deserted island, a jungle, or a snowy mountain range.",
         "category": "Setting-Scene",
-        "rank": 88,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1334,12 +1334,12 @@
         "isAdult": false
       },
       {
-        "id": 153,
-        "name": "Time Skip",
-        "description": "Features a gap in time used to advance the story.",
-        "category": "Setting-Time",
-        "rank": 81,
-        "isGeneralSpoiler": true,
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 80,
+        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -1348,18 +1348,28 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 78,
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 77,
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 79,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 153,
+        "name": "Time Skip",
+        "description": "Features a gap in time used to advance the story.",
+        "category": "Setting-Time",
+        "rank": 77,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -1368,17 +1378,7 @@
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 60,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1388,7 +1388,7 @@
         "name": "Rural",
         "description": "Partly or completely set in the countryside.",
         "category": "Setting-Scene",
-        "rank": 56,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1398,7 +1398,7 @@
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
         "category": "Theme-Action",
-        "rank": 55,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1408,7 +1408,27 @@
         "name": "Snowscape",
         "description": "Prominently or partially set in a snowy environment.",
         "category": "Setting-Scene",
-        "rank": 52,
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1420,6 +1440,16 @@
         "category": "Cast-Traits",
         "rank": 50,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 48,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -1440,26 +1470,6 @@
         "category": "Theme-Game-Sport",
         "rank": 41,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 56,
-        "name": "Shounen",
-        "description": "Target demographic is teenage and young adult males.",
-        "category": "Demographic",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 35,
-        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -1499,9 +1509,9 @@
     "rating": 8.8,
     "averageScore": 88,
     "meanScore": 88,
-    "popularity": 200686,
-    "trending": 38,
-    "favourites": 7816,
+    "popularity": 203196,
+    "trending": 32,
+    "favourites": 7940,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1602,16 +1612,6 @@
         "isAdult": false
       },
       {
-        "id": 153,
-        "name": "Time Skip",
-        "description": "Features a gap in time used to advance the story.",
-        "category": "Setting-Time",
-        "rank": 84,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 391,
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
@@ -1622,21 +1622,21 @@
         "isAdult": false
       },
       {
+        "id": 153,
+        "name": "Time Skip",
+        "description": "Features a gap in time used to advance the story.",
+        "category": "Setting-Time",
+        "rank": 83,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 1752,
         "name": "Medieval",
         "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
         "category": "Setting-Time",
-        "rank": 84,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 193,
-        "name": "Episodic",
-        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-        "category": "Technical",
-        "rank": 79,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1676,6 +1676,16 @@
         "name": "Foreign",
         "description": "Partly or completely set in a country outside the country of origin.",
         "category": "Setting-Scene",
+        "rank": 68,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
         "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1722,16 +1732,6 @@
         "isAdult": false
       },
       {
-        "id": 81,
-        "name": "Iyashikei",
-        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
-        "category": "Theme-Slice of Life",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1045,
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
@@ -1762,20 +1762,30 @@
         "isAdult": false
       },
       {
-        "id": 631,
-        "name": "Feet",
-        "description": "Features the sexual depiction or stimulation of a character's feet.",
-        "category": "Sexual Content",
-        "rank": 56,
+        "id": 683,
+        "name": "Rotoscoping",
+        "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
+        "category": "Technical",
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": true
+        "isAdult": false
       },
       {
         "id": 1292,
         "name": "Spearplay",
         "description": "Prominently features the use of spears in combat.",
         "category": "Theme-Action",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
         "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1807,16 +1817,6 @@
         "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
         "rank": 45,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 683,
-        "name": "Rotoscoping",
-        "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
-        "category": "Technical",
-        "rank": 43,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1867,9 +1867,9 @@
     "rating": 9.1,
     "averageScore": 91,
     "meanScore": 91,
-    "popularity": 444780,
-    "trending": 42,
-    "favourites": 52725,
+    "popularity": 448532,
+    "trending": 28,
+    "favourites": 53180,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2315,9 +2315,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 489582,
-    "trending": 134,
-    "favourites": 30241,
+    "popularity": 493123,
+    "trending": 124,
+    "favourites": 30608,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2439,7 +2439,7 @@
         "name": "Curses",
         "description": "Features a character, object or area that has been cursed, usually by a malevolent supernatural force.",
         "category": "Theme-Fantasy",
-        "rank": 84,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2449,7 +2449,7 @@
         "name": "Medieval",
         "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
         "category": "Setting-Time",
-        "rank": 80,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2469,7 +2469,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 76,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2505,20 +2505,20 @@
         "isAdult": false
       },
       {
-        "id": 639,
-        "name": "Body Horror",
-        "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
-        "category": "Theme-Other",
-        "rank": 67,
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
+        "id": 639,
+        "name": "Body Horror",
+        "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+        "category": "Theme-Other",
         "rank": 67,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2569,7 +2569,7 @@
         "name": "Politics",
         "description": "Centers around politics, politicians, or government activities.",
         "category": "Theme-Other",
-        "rank": 62,
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2579,7 +2579,7 @@
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
         "category": "Cast-Main Cast",
-        "rank": 59,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2599,6 +2599,16 @@
         "name": "Twins",
         "description": "Prominently features two or more siblings that were born at one birth.",
         "category": "Cast-Traits",
+        "rank": 57,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1456,
+        "name": "Femboy",
+        "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
+        "category": "Cast-Traits",
         "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2615,16 +2625,6 @@
         "isAdult": false
       },
       {
-        "id": 1456,
-        "name": "Femboy",
-        "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
-        "category": "Cast-Traits",
-        "rank": 55,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 254,
         "name": "Kemonomimi",
         "description": "Prominently features humanoid characters with animal ears.",
@@ -2635,21 +2635,21 @@
         "isAdult": false
       },
       {
-        "id": 102,
-        "name": "Coming of Age",
-        "description": "Centers around a character's transition from childhood to adulthood.",
-        "category": "Theme-Drama",
+        "id": 812,
+        "name": "Butler",
+        "description": "Prominently features a character who is a butler.",
+        "category": "Cast-Traits",
         "rank": 54,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 812,
-        "name": "Butler",
-        "description": "Prominently features a character who is a butler.",
-        "category": "Cast-Traits",
-        "rank": 53,
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 52,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2665,6 +2665,36 @@
         "isAdult": false
       },
       {
+        "id": 779,
+        "name": "Kuudere",
+        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+        "category": "Cast-Traits",
+        "rank": 41,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 41,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 113,
+        "name": "Nekomimi",
+        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 154,
         "name": "Body Swapping",
         "description": "Centers around individuals swapping bodies with one another.",
@@ -2675,16 +2705,6 @@
         "isAdult": false
       },
       {
-        "id": 779,
-        "name": "Kuudere",
-        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
-        "category": "Cast-Traits",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 186,
         "name": "Crossdressing",
         "description": "Prominently features a character dressing up as the opposite sex.",
@@ -2692,16 +2712,6 @@
         "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -2723,16 +2733,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 113,
-        "name": "Nekomimi",
-        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
-        "category": "Cast-Traits",
-        "rank": 39,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -2750,9 +2750,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 81,
-    "popularity": 593298,
-    "trending": 69,
-    "favourites": 34634,
+    "popularity": 596692,
+    "trending": 43,
+    "favourites": 35067,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3623,9 +3623,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 701590,
-    "trending": 42,
-    "favourites": 68823,
+    "popularity": 704694,
+    "trending": 29,
+    "favourites": 69428,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4382,7 +4382,7 @@
         "name": "Shapeshifting",
         "description": "Features character(s) who changes one's appearance or form.",
         "category": "Theme-Fantasy",
-        "rank": 68,
+        "rank": 67,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -4435,6 +4435,16 @@
         "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 55,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -4498,16 +4508,6 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 46,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 149,
         "name": "Baseball",
         "description": "Centers around the sport of baseball.",
@@ -4533,9 +4533,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 929098,
-    "trending": 40,
-    "favourites": 65644,
+    "popularity": 933858,
+    "trending": 28,
+    "favourites": 66668,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
