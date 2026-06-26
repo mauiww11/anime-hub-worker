@@ -3547,6 +3547,16 @@
         "isAdult": false
       },
       {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 321,
         "name": "Urban Fantasy",
         "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
@@ -3557,13 +3567,13 @@
         "isAdult": false
       },
       {
-        "id": 84,
-        "name": "School Club",
-        "description": "Partly or completely set in a school club scene.",
-        "category": "Setting-Scene",
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
         "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -3577,31 +3587,11 @@
         "isAdult": false
       },
       {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 50,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 66,
-        "name": "Super Power",
-        "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
-        "category": "Theme-Fantasy",
-        "rank": 33,
+        "id": 84,
+        "name": "School Club",
+        "description": "Partly or completely set in a school club scene.",
+        "category": "Setting-Scene",
+        "rank": 45,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3627,10 +3617,10 @@
         "isAdult": false
       },
       {
-        "id": 548,
-        "name": "Acting",
-        "description": "Centers around actors or the acting industry.",
-        "category": "Theme-Arts",
+        "id": 192,
+        "name": "Basketball",
+        "description": "Centers around the sport of basketball.",
+        "category": "Theme-Game-Sport",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -3641,7 +3631,7 @@
         "name": "Meta",
         "description": "Features fourth wall-breaking references to itself or genre tropes.",
         "category": "Theme-Other",
-        "rank": 13,
+        "rank": 10,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3657,20 +3647,20 @@
         "isAdult": false
       },
       {
-        "id": 192,
-        "name": "Basketball",
-        "description": "Centers around the sport of basketball.",
-        "category": "Theme-Game-Sport",
+        "id": 1219,
+        "name": "Disability",
+        "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
+        "category": "Cast-Traits",
         "rank": 10,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1219,
-        "name": "Disability",
-        "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
-        "category": "Cast-Traits",
+        "id": 548,
+        "name": "Acting",
+        "description": "Centers around actors or the acting industry.",
+        "category": "Theme-Arts",
         "rank": 10,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
