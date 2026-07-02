@@ -447,6 +447,16 @@
         "isAdult": false
       },
       {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1752,
         "name": "Medieval",
         "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
@@ -471,16 +481,6 @@
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
         "category": "Theme-Action",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -521,6 +521,170 @@
     },
     "latestEpisode": 1,
     "latestEpisodeTitle": "Episode 1"
+  },
+  {
+    "animeId": 62430,
+    "anilistId": 198376,
+    "title": "BanG Dream! YUME∞MITA",
+    "titleRomaji": "BanG Dream! Yume∞Mita",
+    "titleEnglish": "BanG Dream! YUME∞MITA",
+    "titleNative": "バンドリ！ ゆめ∞みた",
+    "synonyms": [
+      "BanG Dream! Yumemita"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-sc5qcFv0RSH9.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-sc5qcFv0RSH9.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198376-sc5qcFv0RSH9.jpg",
+    "coverImageColor": "#a1f150",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198376-1b4DxjIUwMIY.jpg",
+    "synopsis": "The latest anime project in the BanG Dream! franchise, spotlighting the band members in Mugendai Mewtype.",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 13,
+    "duration": 24,
+    "genres": [
+      "Music"
+    ],
+    "tags": [
+      {
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 110,
+        "name": "Band",
+        "description": "Main cast is a group of musicians.",
+        "category": "Theme-Arts-Music",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1047,
+        "name": "VTuber",
+        "description": "Prominently features a character who is either an actual or fictive VTuber.",
+        "category": "Cast-Traits",
+        "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 112,
+        "name": "Virtual World",
+        "description": "Partly or completely set in the world inside a video game.",
+        "category": "Setting-Universe",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 89,
+        "name": "Full CGI",
+        "description": "Almost entirely created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 163,
+        "name": "Yandere",
+        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 7701,
+        "name": "NICHICALINE",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/7701"
+      }
+    ],
+    "studiosNames": [
+      "NICHICALINE"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 0,
+    "popularity": 2909,
+    "trending": 110,
+    "favourites": 15,
+    "source": "OTHER",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#アニメゆめみた",
+    "startDate": "2026-07-02",
+    "endDate": "2026-09-10",
+    "mal_url": "https://myanimelist.net/anime/62430",
+    "anilist_url": "https://anilist.co/anime/198376",
+    "trailer": {
+      "id": "sMcHl3g6aS4",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=sMcHl3g6aS4"
+    },
+    "latestEpisode": 3,
+    "latestEpisodeTitle": "Episode 3"
   },
   {
     "animeId": 63508,
@@ -708,170 +872,6 @@
     },
     "latestEpisode": 2,
     "latestEpisodeTitle": "Episode 2"
-  },
-  {
-    "animeId": 62430,
-    "anilistId": 198376,
-    "title": "BanG Dream! YUME∞MITA",
-    "titleRomaji": "BanG Dream! Yume∞Mita",
-    "titleEnglish": "BanG Dream! YUME∞MITA",
-    "titleNative": "バンドリ！ ゆめ∞みた",
-    "synonyms": [
-      "BanG Dream! Yumemita"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-sc5qcFv0RSH9.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-sc5qcFv0RSH9.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198376-sc5qcFv0RSH9.jpg",
-    "coverImageColor": "#a1f150",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198376-1b4DxjIUwMIY.jpg",
-    "synopsis": "The latest anime project in the BanG Dream! franchise, spotlighting the band members in Mugendai Mewtype.",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 0,
-    "duration": 0,
-    "genres": [
-      "Music"
-    ],
-    "tags": [
-      {
-        "id": 86,
-        "name": "Primarily Female Cast",
-        "description": "Main cast is mostly composed of female characters.",
-        "category": "Cast-Main Cast",
-        "rank": 100,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 88,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 110,
-        "name": "Band",
-        "description": "Main cast is a group of musicians.",
-        "category": "Theme-Arts-Music",
-        "rank": 86,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1047,
-        "name": "VTuber",
-        "description": "Prominently features a character who is either an actual or fictive VTuber.",
-        "category": "Cast-Traits",
-        "rank": 84,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 112,
-        "name": "Virtual World",
-        "description": "Partly or completely set in the world inside a video game.",
-        "category": "Setting-Universe",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 89,
-        "name": "Full CGI",
-        "description": "Almost entirely created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 163,
-        "name": "Yandere",
-        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
-        "category": "Cast-Traits",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 7701,
-        "name": "NICHICALINE",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/7701"
-      }
-    ],
-    "studiosNames": [
-      "NICHICALINE"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 2909,
-    "trending": 110,
-    "favourites": 15,
-    "source": "OTHER",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#アニメゆめみた",
-    "startDate": "2026-07-02",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/62430",
-    "anilist_url": "https://anilist.co/anime/198376",
-    "trailer": {
-      "id": "sMcHl3g6aS4",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=sMcHl3g6aS4"
-    },
-    "latestEpisode": 3,
-    "latestEpisodeTitle": "Episode 3"
   },
   {
     "animeId": 61107,
