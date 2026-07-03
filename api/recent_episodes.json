@@ -540,7 +540,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 83,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -550,7 +550,7 @@
         "name": "Nekomimi",
         "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
         "category": "Cast-Traits",
-        "rank": 82,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -560,15 +560,15 @@
         "name": "Urban",
         "description": "Partly or completely set in a city.",
         "category": "Setting-Scene",
-        "rank": 72,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 100,
-        "name": "Nudity",
-        "description": "Features a character wearing no clothing or exposing intimate body parts.",
+        "id": 282,
+        "name": "Hikikomori",
+        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
         "category": "Cast-Traits",
         "rank": 66,
         "isGeneralSpoiler": false,
@@ -586,11 +586,11 @@
         "isAdult": false
       },
       {
-        "id": 282,
-        "name": "Hikikomori",
-        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
+        "id": 100,
+        "name": "Nudity",
+        "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 60,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -600,27 +600,17 @@
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
         "category": "Cast-Main Cast",
-        "rank": 53,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 131,
-        "name": "Masturbation",
-        "description": "Features erotic stimulation of one's own genitalia or other erogenous regions.",
-        "category": "Sexual Content",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
       },
       {
         "id": 109,
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 40,
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -630,10 +620,20 @@
         "name": "Urban Fantasy",
         "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
         "category": "Setting-Universe",
-        "rank": 20,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 131,
+        "name": "Masturbation",
+        "description": "Features erotic stimulation of one's own genitalia or other erogenous regions.",
+        "category": "Sexual Content",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": true
       }
     ],
     "studios": [
