@@ -688,7 +688,7 @@
         "name": "Kemonomimi",
         "description": "Prominently features humanoid characters with animal ears.",
         "category": "Cast-Traits",
-        "rank": 88,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -698,7 +698,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 85,
+        "rank": 87,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -708,7 +708,7 @@
         "name": "Nekomimi",
         "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
         "category": "Cast-Traits",
-        "rank": 83,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -719,6 +719,16 @@
         "description": "Features story arcs that are loosely tied or lack an overarching plot.",
         "category": "Technical",
         "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 282,
+        "name": "Hikikomori",
+        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
+        "category": "Cast-Traits",
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -752,16 +762,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": true
-      },
-      {
-        "id": 282,
-        "name": "Hikikomori",
-        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
-        "category": "Cast-Traits",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       },
       {
         "id": 143,
@@ -882,6 +882,16 @@
     ],
     "tags": [
       {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
@@ -917,16 +927,6 @@
         "description": "Prominently features a dungeon environment.",
         "category": "Setting-Scene",
         "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1126,6 +1126,16 @@
         "isAdult": false
       },
       {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 171,
         "name": "Bullying",
         "description": "Prominently features the use of force for intimidation, often in a school setting.",
@@ -1143,16 +1153,6 @@
         "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 48,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
@@ -2447,6 +2447,16 @@
     ],
     "tags": [
       {
+        "id": 39,
+        "name": "Parody",
+        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+        "category": "Theme-Comedy",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
@@ -2483,16 +2493,6 @@
         "category": "Theme-Romance",
         "rank": 20,
         "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 39,
-        "name": "Parody",
-        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
-        "category": "Theme-Comedy",
-        "rank": 20,
-        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       }
