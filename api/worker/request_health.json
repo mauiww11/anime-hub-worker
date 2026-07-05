@@ -1,14 +1,14 @@
 {
   "graphql.anilist.co": {
     "host": "graphql.anilist.co",
-    "consecutiveFailures": 0,
-    "totalFailures": 7364,
+    "consecutiveFailures": 12,
+    "totalFailures": 7376,
     "totalSuccesses": 30121,
-    "lastFailureAt": "2026-07-05T15:01:17.039Z",
+    "lastFailureAt": "2026-07-05T16:42:34.143Z",
     "lastSuccessAt": "2026-07-05T16:21:22.594Z",
-    "lastStatus": 200,
-    "cooldownUntil": null,
-    "circuitOpenUntil": null,
-    "lastError": null
+    "lastStatus": null,
+    "cooldownUntil": "2026-07-05T16:43:06.012Z",
+    "circuitOpenUntil": "2026-07-05T16:47:34.143Z",
+    "lastError": "host cooldown active for graphql.anilist.co before AniList GraphQL; remaining 286.7s exceeds prewait cap"
   }
 }
