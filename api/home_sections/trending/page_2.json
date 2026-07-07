@@ -65,21 +65,21 @@
         "isAdult": false
       },
       {
-        "id": 217,
-        "name": "Dystopian",
-        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
-        "category": "Setting-Time",
-        "rank": 88,
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 88,
+        "id": 217,
+        "name": "Dystopian",
+        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
+        "category": "Setting-Time",
+        "rank": 89,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -89,7 +89,7 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 80,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -99,7 +99,7 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 78,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -109,6 +109,16 @@
         "name": "Post-Apocalyptic",
         "description": "Partly or completely set in a world or civilization after a global disaster.",
         "category": "Setting-Universe",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
         "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -119,17 +129,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 72,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 72,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -139,7 +139,17 @@
         "name": "Class Struggle",
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
         "category": "Theme-Drama",
-        "rank": 71,
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -149,7 +159,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 65,
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -159,7 +169,7 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 62,
+        "rank": 66,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -169,7 +179,7 @@
         "name": "Satire",
         "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
         "category": "Theme-Comedy",
-        "rank": 60,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -185,11 +195,21 @@
         "isAdult": false
       },
       {
+        "id": 490,
+        "name": "Anachronism",
+        "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
+        "category": "Setting-Time",
+        "rank": 36,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 43,
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
         "category": "Theme-Action",
-        "rank": 32,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -199,27 +219,7 @@
         "name": "Agriculture",
         "description": "Prominently features agriculture practices.",
         "category": "Theme-Slice of Life",
-        "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 490,
-        "name": "Anachronism",
-        "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
-        "category": "Setting-Time",
-        "rank": 24,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 20,
+        "rank": 26,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -229,7 +229,7 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 15,
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -250,9 +250,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 47211,
-    "trending": 65,
-    "favourites": 1317,
+    "popularity": 50041,
+    "trending": 35,
+    "favourites": 1523,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1496,9 +1496,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 81,
-    "popularity": 34336,
-    "trending": 240,
-    "favourites": 691,
+    "popularity": 36018,
+    "trending": 62,
+    "favourites": 746,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3665,6 +3665,16 @@
         "name": "Witch",
         "description": "Prominently features a character who is a witch.",
         "category": "Cast-Traits",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
         "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -3711,11 +3721,11 @@
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 75,
+        "id": 772,
+        "name": "Shapeshifting",
+        "description": "Features character(s) who changes one's appearance or form.",
+        "category": "Theme-Fantasy",
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3726,16 +3736,6 @@
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
         "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 772,
-        "name": "Shapeshifting",
-        "description": "Features character(s) who changes one's appearance or form.",
-        "category": "Theme-Fantasy",
-        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3775,17 +3775,7 @@
         "name": "Slapstick",
         "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
         "category": "Theme-Comedy",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 35,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3795,8 +3785,18 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 33,
+        "rank": 40,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 40,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -3805,7 +3805,17 @@
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 20,
+        "rank": 35,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 28,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3818,6 +3828,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 586,
+        "name": "Cult",
+        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+        "category": "Theme-Other-Organisations",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -3833,12 +3853,12 @@
     "studiosNames": [
       "LIDENFILMS"
     ],
-    "rating": 6.3,
-    "averageScore": 63,
-    "meanScore": 64,
-    "popularity": 17966,
-    "trending": 30,
-    "favourites": 179,
+    "rating": 6.2,
+    "averageScore": 62,
+    "meanScore": 63,
+    "popularity": 20595,
+    "trending": 58,
+    "favourites": 226,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
