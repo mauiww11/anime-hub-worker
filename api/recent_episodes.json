@@ -463,8 +463,18 @@
         "isAdult": false
       }
     ],
-    "studios": [],
-    "studiosNames": [],
+    "studios": [
+      {
+        "id": 7382,
+        "name": "UNEND",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/7382"
+      }
+    ],
+    "studiosNames": [
+      "UNEND"
+    ],
     "rating": 0,
     "averageScore": 0,
     "meanScore": 0,
@@ -3346,20 +3356,20 @@
     ],
     "tags": [
       {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
-        "category": "Theme-Other",
-        "rank": 100,
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 97,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
+        "category": "Theme-Other",
         "rank": 97,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -3634,7 +3644,7 @@
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 75,
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
