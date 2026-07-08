@@ -1368,7 +1368,7 @@
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
-        "rank": 10,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12324,6 +12324,16 @@
         "isAdult": false
       },
       {
+        "id": 113,
+        "name": "Nekomimi",
+        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
+        "category": "Cast-Traits",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 254,
         "name": "Kemonomimi",
         "description": "Prominently features humanoid characters with animal ears.",
@@ -12334,21 +12344,11 @@
         "isAdult": false
       },
       {
-        "id": 113,
-        "name": "Nekomimi",
-        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
-        "category": "Cast-Traits",
-        "rank": 87,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 86,
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
         "category": "Cast-Main Cast",
-        "rank": 80,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12358,6 +12358,16 @@
         "name": "Episodic",
         "description": "Features story arcs that are loosely tied or lack an overarching plot.",
         "category": "Technical",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
         "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -12384,11 +12394,11 @@
         "isAdult": false
       },
       {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 78,
+        "id": 80,
+        "name": "Satire",
+        "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
+        "category": "Theme-Comedy",
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12414,11 +12424,11 @@
         "isAdult": false
       },
       {
-        "id": 100,
-        "name": "Nudity",
-        "description": "Features a character wearing no clothing or exposing intimate body parts.",
-        "category": "Cast-Traits",
-        "rank": 64,
+        "id": 143,
+        "name": "Survival",
+        "description": "Centers around the struggle to live in spite of extreme obstacles.",
+        "category": "Theme-Other",
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12427,6 +12437,36 @@
         "id": 387,
         "name": "Scat",
         "description": "Lots of feces.",
+        "category": "Sexual Content",
+        "rank": 63,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": true
+      },
+      {
+        "id": 282,
+        "name": "Hikikomori",
+        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
+        "category": "Cast-Traits",
+        "rank": 62,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 100,
+        "name": "Nudity",
+        "description": "Features a character wearing no clothing or exposing intimate body parts.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 131,
+        "name": "Masturbation",
+        "description": "Features erotic stimulation of one's own genitalia or other erogenous regions.",
         "category": "Sexual Content",
         "rank": 60,
         "isGeneralSpoiler": false,
@@ -12444,51 +12484,11 @@
         "isAdult": false
       },
       {
-        "id": 80,
-        "name": "Satire",
-        "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
-        "category": "Theme-Comedy",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 282,
-        "name": "Hikikomori",
-        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
-        "category": "Cast-Traits",
-        "rank": 57,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 143,
-        "name": "Survival",
-        "description": "Centers around the struggle to live in spite of extreme obstacles.",
-        "category": "Theme-Other",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 131,
-        "name": "Masturbation",
-        "description": "Features erotic stimulation of one's own genitalia or other erogenous regions.",
-        "category": "Sexual Content",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
-      },
-      {
         "id": 76,
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 45,
+        "rank": 36,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12498,7 +12498,7 @@
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 40,
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
