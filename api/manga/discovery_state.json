@@ -609,7 +609,7 @@
     "title": "Mocked",
     "lastChapterId": "366132ce-e6b3-46c8-a80c-6fa01b41c581",
     "lastChapter": "65",
-    "lastAttemptAt": "2026-07-09T21:51:58.863Z",
+    "lastAttemptAt": "2026-07-10T09:52:09.047Z",
     "reason": "anilist_match_not_found",
     "matcherVersion": 2
   },
@@ -30751,12 +30751,16 @@
     "matcherVersion": 2
   },
   "082b408a-9a6e-4380-aab6-b96141250746": {
-    "status": "failed",
-    "title": "",
-    "lastChapterId": "f346fa0c-390c-460a-bd41-c3b0ae825693",
-    "lastChapter": "1",
-    "lastAttemptAt": "2026-07-05T04:52:06.849Z",
-    "reason": "anilist_match_not_found",
+    "status": "discovered",
+    "title": "Maid-sama!",
+    "mangaId": 32921,
+    "anilistId": 32921,
+    "chapterIndexId": "082b408a-9a6e-4380-aab6-b96141250746",
+    "lastChapterId": "4ae2e52d-93ac-4b4e-a34c-3933a7522472",
+    "lastChapter": "2",
+    "lastAttemptAt": "2026-07-10T09:52:11.280Z",
+    "lastSuccessAt": "2026-07-10T09:52:11.280Z",
+    "reason": null,
     "matcherVersion": 2
   },
   "a2ecf90a-81f4-4c0b-a27b-3cea750f6bb6": {
@@ -31853,7 +31857,7 @@
     "title": "",
     "lastChapterId": "6d2ccaa8-a3a1-4e27-928d-ffcea9537079",
     "lastChapter": "1",
-    "lastAttemptAt": "2026-07-09T21:35:10.743Z",
+    "lastAttemptAt": "2026-07-10T09:52:14.601Z",
     "reason": "anilist_match_not_found",
     "matcherVersion": 2
   },
@@ -32162,6 +32166,15 @@
     "lastChapter": "3",
     "lastAttemptAt": "2026-07-10T08:52:08.370Z",
     "reason": "anilist_match_not_found",
+    "matcherVersion": 2
+  },
+  "8b7e5dcb-4ea1-46d5-99e3-805e2e33088c": {
+    "status": "failed",
+    "title": "",
+    "lastChapterId": "b23b7cd3-be56-47cd-8519-2f9376d563f0",
+    "lastChapter": "88",
+    "lastAttemptAt": "2026-07-10T09:52:14.970Z",
+    "reason": "adult_blocked",
     "matcherVersion": 2
   }
 }
