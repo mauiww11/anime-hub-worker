@@ -1372,29 +1372,28 @@
   {
     "animeId": 49233,
     "anilistId": 135865,
-    "title": "Youjo Senki II",
+    "title": "Saga of Tanya the Evil Season 2",
     "titleRomaji": "Youjo Senki II",
-    "titleEnglish": "",
+    "titleEnglish": "Saga of Tanya the Evil Season 2",
     "titleNative": "幼女戦記Ⅱ",
     "synonyms": [
-      "Saga of Tanya the Evil Season 2",
       "Saga of Tanya the Evil II",
       "Youjo Senki 2"
     ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-9b3Nn8nmGZIG.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135865-9b3Nn8nmGZIG.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx135865-9b3Nn8nmGZIG.jpg",
-    "coverImageColor": "#aef1ae",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135865-T7XIPMAbqcxN.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx135865-T7XIPMAbqcxN.png",
+    "coverImageColor": "#e46b28",
     "bannerImage": "",
     "synopsis": "The second season of Youjo Senki .",
     "type": "ANIME",
     "format": "TV",
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
-    "episodes": 0,
-    "duration": 0,
+    "episodes": 12,
+    "duration": 24,
     "genres": [
       "Action",
       "Fantasy"
@@ -1421,21 +1420,11 @@
         "isAdult": false
       },
       {
-        "id": 488,
-        "name": "Age Regression",
-        "description": "Prominently features a character who was returned to a younger state.",
-        "category": "Cast-Traits",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 98,
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 85,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1445,7 +1434,7 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 84,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1455,27 +1444,17 @@
         "name": "Anti-Hero",
         "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
         "category": "Cast-Main Cast",
-        "rank": 84,
+        "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 243,
-        "name": "Reincarnation",
-        "description": "Features a character being born again after death, typically as another person or in another world.",
-        "category": "Theme-Other",
-        "rank": 82,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 157,
-        "name": "Guns",
-        "description": "Prominently features the use of guns in combat.",
-        "category": "Theme-Action",
-        "rank": 82,
+        "id": 488,
+        "name": "Age Regression",
+        "description": "Prominently features a character who was returned to a younger state.",
+        "category": "Cast-Traits",
+        "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1485,7 +1464,27 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 79,
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 157,
+        "name": "Guns",
+        "description": "Prominently features the use of guns in combat.",
+        "category": "Theme-Action",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1501,12 +1500,22 @@
         "isAdult": false
       },
       {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
+        "id": 144,
+        "name": "Meta",
+        "description": "Features fourth wall-breaking references to itself or genre tropes.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 243,
+        "name": "Reincarnation",
+        "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
         "rank": 78,
-        "isGeneralSpoiler": false,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -1525,7 +1534,7 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 73,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1545,7 +1554,7 @@
         "name": "Gender Bending",
         "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
         "category": "Theme-Other",
-        "rank": 70,
+        "rank": 69,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1555,7 +1564,7 @@
         "name": "Historical",
         "description": "Partly or completely set during a real period of world history.",
         "category": "Setting-Time",
-        "rank": 68,
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1575,7 +1584,7 @@
         "name": "Primarily Male Cast",
         "description": "Main cast is mostly composed of male characters.",
         "category": "Cast-Main Cast",
-        "rank": 54,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1585,17 +1594,7 @@
         "name": "Tanks",
         "description": "Prominently features the use of tanks or other armoured vehicles.",
         "category": "Theme-Other-Vehicle",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1456,
-        "name": "Femboy",
-        "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
-        "category": "Cast-Traits",
-        "rank": 50,
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1605,7 +1604,7 @@
         "name": "Assassins",
         "description": "Centers around characters who murder people as a profession.",
         "category": "Theme-Other-Organisations",
-        "rank": 40,
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1623,25 +1622,25 @@
     "studiosNames": [
       "NUT"
     ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 52214,
-    "trending": 2,
-    "favourites": 622,
+    "rating": 8.1,
+    "averageScore": 81,
+    "meanScore": 82,
+    "popularity": 75082,
+    "trending": 79,
+    "favourites": 1236,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
     "hashtag": "#youjosenki",
-    "startDate": "2026-07-01",
+    "startDate": "2026-07-08",
     "endDate": null,
     "mal_url": "https://myanimelist.net/anime/49233",
     "anilist_url": "https://anilist.co/anime/135865",
     "trailer": {
-      "id": "3-Cj3dXwQWI",
+      "id": "kUvhvkPDvm0",
       "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=3-Cj3dXwQWI"
+      "url": "https://www.youtube.com/watch?v=kUvhvkPDvm0"
     }
   },
   {
