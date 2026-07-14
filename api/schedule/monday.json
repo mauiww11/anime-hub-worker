@@ -107,8 +107,8 @@
     "averageScore": 82,
     "meanScore": 85,
     "popularity": 5525,
-    "trending": 9,
-    "favourites": 382,
+    "trending": 6,
+    "favourites": 381,
     "source": "OTHER",
     "countryOfOrigin": "CN",
     "isLicensed": true,
@@ -123,8 +123,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=2rj8eXmgR3Y"
     },
-    "nextEpisode": 149,
-    "nextAiringAt": 1783908000
+    "nextEpisode": 150,
+    "nextAiringAt": 1784512800
   },
   {
     "animeId": 56736,
@@ -217,8 +217,8 @@
     "averageScore": 64,
     "meanScore": 66,
     "popularity": 14399,
-    "trending": 17,
-    "favourites": 140,
+    "trending": 207,
+    "favourites": 148,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -233,8 +233,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=tcaxQBQMTEk"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783943820
+    "nextEpisode": 3,
+    "nextAiringAt": 1784548620
   },
   {
     "animeId": 62936,
@@ -365,8 +365,8 @@
     "averageScore": 75,
     "meanScore": 76,
     "popularity": 22123,
-    "trending": 98,
-    "favourites": 249,
+    "trending": 263,
+    "favourites": 278,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -381,8 +381,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=OPZ7TOGxWqI"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783944000
+    "nextEpisode": 3,
+    "nextAiringAt": 1784548800
   },
   {
     "animeId": 60522,
@@ -553,8 +553,8 @@
     "averageScore": 69,
     "meanScore": 71,
     "popularity": 34144,
-    "trending": 12,
-    "favourites": 481,
+    "trending": 297,
+    "favourites": 489,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -569,8 +569,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=Enu3fyOdkoM"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783947600
+    "nextEpisode": 3,
+    "nextAiringAt": 1784552400
   },
   {
     "animeId": 63347,
@@ -735,8 +735,8 @@
     "averageScore": 73,
     "meanScore": 75,
     "popularity": 16626,
-    "trending": 9,
-    "favourites": 129,
+    "trending": 108,
+    "favourites": 133,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -751,8 +751,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=h2zytdkjAU8"
     },
-    "nextEpisode": 3,
-    "nextAiringAt": 1783947600
+    "nextEpisode": 4,
+    "nextAiringAt": 1784552400
   },
   {
     "animeId": 62289,
@@ -870,8 +870,8 @@
     "averageScore": 68,
     "meanScore": 71,
     "popularity": 11957,
-    "trending": 10,
-    "favourites": 91,
+    "trending": 214,
+    "favourites": 100,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -886,8 +886,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=yC4TghEG8q8"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783949400
+    "nextEpisode": 3,
+    "nextAiringAt": 1784554200
   },
   {
     "animeId": 63752,
@@ -919,10 +919,30 @@
     ],
     "tags": [
       {
+        "id": 27,
+        "name": "Josei",
+        "description": "Target demographic is adult females.",
+        "category": "Demographic",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 244,
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 142,
+        "name": "Food",
+        "description": "Centers around cooking or food appraisal.",
+        "category": "Theme-Arts",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -934,16 +954,6 @@
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
         "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 142,
-        "name": "Food",
-        "description": "Centers around cooking or food appraisal.",
-        "category": "Theme-Arts",
-        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -989,20 +999,20 @@
         "isAdult": false
       },
       {
-        "id": 27,
-        "name": "Josei",
-        "description": "Target demographic is adult females.",
-        "category": "Demographic",
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 81,
-        "name": "Iyashikei",
-        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
-        "category": "Theme-Slice of Life",
+        "id": 294,
+        "name": "Bisexual",
+        "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
+        "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1025,8 +1035,8 @@
     "averageScore": 62,
     "meanScore": 65,
     "popularity": 8365,
-    "trending": 5,
-    "favourites": 75,
+    "trending": 104,
+    "favourites": 80,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1041,8 +1051,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=VS0bW7JnEm0"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783951200
+    "nextEpisode": 3,
+    "nextAiringAt": 1784556000
   },
   {
     "animeId": 62031,
@@ -1121,8 +1131,8 @@
     "averageScore": 54,
     "meanScore": 64,
     "popularity": 1252,
-    "trending": 0,
-    "favourites": 17,
+    "trending": 10,
+    "favourites": 18,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1137,8 +1147,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=IRbt0J3l5js"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783951200
+    "nextEpisode": 3,
+    "nextAiringAt": 1784556000
   },
   {
     "animeId": 56735,
@@ -1287,8 +1297,8 @@
     "averageScore": 69,
     "meanScore": 71,
     "popularity": 20466,
-    "trending": 18,
-    "favourites": 209,
+    "trending": 228,
+    "favourites": 215,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1303,8 +1313,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=UTsFnJgDJz8"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1783953000
+    "nextEpisode": 3,
+    "nextAiringAt": 1784557800
   },
   {
     "animeId": 62331,
@@ -1473,8 +1483,8 @@
     "averageScore": 61,
     "meanScore": 61,
     "popularity": 38025,
-    "trending": 14,
-    "favourites": 402,
+    "trending": 120,
+    "favourites": 404,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1489,8 +1499,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=FIPOXj00ysQ"
     },
-    "nextEpisode": 15,
-    "nextAiringAt": 1783954800
+    "nextEpisode": 16,
+    "nextAiringAt": 1784559600
   },
   {
     "animeId": 50250,
@@ -1680,8 +1690,8 @@
     "averageScore": 84,
     "meanScore": 85,
     "popularity": 9690,
-    "trending": 6,
-    "favourites": 952,
+    "trending": 15,
+    "favourites": 955,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1696,7 +1706,7 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=m4yfCS_YBUU"
     },
-    "nextEpisode": 360,
-    "nextAiringAt": 1783982400
+    "nextEpisode": 362,
+    "nextAiringAt": 1784587200
   }
 ]
