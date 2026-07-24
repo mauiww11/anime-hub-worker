@@ -244,9 +244,9 @@
     "rating": 7.4,
     "averageScore": 74,
     "meanScore": 74,
-    "popularity": 458330,
-    "trending": 12,
-    "favourites": 8489,
+    "popularity": 460232,
+    "trending": 4,
+    "favourites": 8724,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -352,17 +352,7 @@
         "name": "Primarily Teen Cast",
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 93,
-        "name": "Post-Apocalyptic",
-        "description": "Partly or completely set in a world or civilization after a global disaster.",
-        "category": "Setting-Universe",
-        "rank": 84,
+        "rank": 86,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -372,7 +362,27 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 83,
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 99,
+        "name": "Henshin",
+        "description": "Prominently features character or costume transformations which often grant special abilities.",
+        "category": "Theme-Fantasy",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 93,
+        "name": "Post-Apocalyptic",
+        "description": "Partly or completely set in a world or civilization after a global disaster.",
+        "category": "Setting-Universe",
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -388,14 +398,34 @@
         "isAdult": false
       },
       {
-        "id": 99,
-        "name": "Henshin",
-        "description": "Prominently features character or costume transformations which often grant special abilities.",
-        "category": "Theme-Fantasy",
-        "rank": 79,
+        "id": 143,
+        "name": "Survival",
+        "description": "Centers around the struggle to live in spite of extreme obstacles.",
+        "category": "Theme-Other",
+        "rank": 80,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 95,
+        "name": "Steampunk",
+        "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
+        "category": "Theme-Fantasy",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 624,
+        "name": "Vore",
+        "description": "Features a character being swallowed or swallowing another creature whole.",
+        "category": "Sexual Content",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": true
       },
       {
         "id": 94,
@@ -405,6 +435,16 @@
         "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 365,
+        "name": "Memory Manipulation",
+        "description": "Prominently features a character(s) who has had their memories altered.",
+        "category": "Theme-Other",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -418,26 +458,6 @@
         "isAdult": false
       },
       {
-        "id": 43,
-        "name": "Swordplay",
-        "description": "Prominently features the use of swords in combat.",
-        "category": "Theme-Action",
-        "rank": 75,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 365,
-        "name": "Memory Manipulation",
-        "description": "Prominently features a character(s) who has had their memories altered.",
-        "category": "Theme-Other",
-        "rank": 75,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 105,
         "name": "Ensemble Cast",
         "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
@@ -448,41 +468,21 @@
         "isAdult": false
       },
       {
-        "id": 95,
-        "name": "Steampunk",
-        "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
-        "category": "Theme-Fantasy",
-        "rank": 73,
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 143,
-        "name": "Survival",
-        "description": "Centers around the struggle to live in spite of extreme obstacles.",
-        "category": "Theme-Other",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 624,
-        "name": "Vore",
-        "description": "Features a character being swallowed or swallowing another creature whole.",
-        "category": "Sexual Content",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
       },
       {
         "id": 1382,
         "name": "Orphan",
         "description": "Prominently features a character that is an orphan.",
         "category": "Cast-Traits",
-        "rank": 72,
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -508,11 +508,21 @@
         "isAdult": false
       },
       {
+        "id": 779,
+        "name": "Kuudere",
+        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+        "category": "Cast-Traits",
+        "rank": 68,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 56,
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
-        "rank": 62,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -548,16 +558,6 @@
         "isAdult": false
       },
       {
-        "id": 779,
-        "name": "Kuudere",
-        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1046,
         "name": "Suicide",
         "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
@@ -565,6 +565,16 @@
         "rank": 54,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -578,21 +588,11 @@
         "isAdult": false
       },
       {
-        "id": 1752,
-        "name": "Medieval",
-        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
-        "category": "Setting-Time",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1052,
         "name": "Adoption",
         "description": "Features a character who has been adopted by someone who is neither of their biological parents.",
         "category": "Theme-Other",
-        "rank": 33,
+        "rank": 31,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -602,7 +602,7 @@
         "name": "Primarily Male Cast",
         "description": "Main cast is mostly composed of male characters.",
         "category": "Cast-Main Cast",
-        "rank": 32,
+        "rank": 26,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -623,9 +623,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 1026381,
-    "trending": 37,
-    "favourites": 82844,
+    "popularity": 1032653,
+    "trending": 30,
+    "favourites": 85189,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -955,9 +955,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 970055,
-    "trending": 27,
-    "favourites": 58549,
+    "popularity": 975100,
+    "trending": 18,
+    "favourites": 60244,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1337,9 +1337,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 943914,
-    "trending": 35,
-    "favourites": 67425,
+    "popularity": 949898,
+    "trending": 26,
+    "favourites": 69571,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1543,9 +1543,9 @@
     "rating": 7.7,
     "averageScore": 77,
     "meanScore": 77,
-    "popularity": 854237,
-    "trending": 22,
-    "favourites": 33659,
+    "popularity": 858669,
+    "trending": 12,
+    "favourites": 34439,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1933,9 +1933,9 @@
     "rating": 8.9,
     "averageScore": 89,
     "meanScore": 89,
-    "popularity": 820181,
-    "trending": 76,
-    "favourites": 94700,
+    "popularity": 824805,
+    "trending": 43,
+    "favourites": 96820,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2217,9 +2217,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 751701,
-    "trending": 15,
-    "favourites": 32309,
+    "popularity": 755176,
+    "trending": 7,
+    "favourites": 33114,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2511,6 +2511,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 1090,
+        "name": "Monster Boy",
+        "description": "Prominently features a male character who is a part-monster.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -2528,9 +2538,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 76,
-    "popularity": 722745,
-    "trending": 21,
-    "favourites": 26399,
+    "popularity": 726648,
+    "trending": 15,
+    "favourites": 27157,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2909,7 +2919,7 @@
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 32,
+        "rank": 28,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2950,9 +2960,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 716788,
-    "trending": 21,
-    "favourites": 21189,
+    "popularity": 720597,
+    "trending": 17,
+    "favourites": 21838,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3121,6 +3131,16 @@
         "isAdult": false
       },
       {
+        "id": 2008,
+        "name": "Prophecy",
+        "description": "Features characters or plot elements that revolve around predicting the future.",
+        "category": "Theme-Other",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 103,
         "name": "Politics",
         "description": "Centers around politics, politicians, or government activities.",
@@ -3151,16 +3171,6 @@
         "isAdult": false
       },
       {
-        "id": 247,
-        "name": "Slavery",
-        "description": "Prominently features slaves, slavery, or slave trade.",
-        "category": "Theme-Other",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 217,
         "name": "Dystopian",
         "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
@@ -3168,6 +3178,16 @@
         "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 247,
+        "name": "Slavery",
+        "description": "Prominently features slaves, slavery, or slave trade.",
+        "category": "Theme-Other",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -3181,6 +3201,16 @@
         "isAdult": false
       },
       {
+        "id": 648,
+        "name": "Crime",
+        "description": "Centers around unlawful activities punishable by the state or other authority.",
+        "category": "Theme-Other",
+        "rank": 74,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 253,
         "name": "Gods",
         "description": "Prominently features a character of divine or religious nature.",
@@ -3188,26 +3218,6 @@
         "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 648,
-        "name": "Crime",
-        "description": "Centers around unlawful activities punishable by the state or other authority.",
-        "category": "Theme-Other",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 2008,
-        "name": "Prophecy",
-        "description": "Features characters or plot elements that revolve around predicting the future.",
-        "category": "Theme-Other",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -3351,16 +3361,6 @@
         "isAdult": false
       },
       {
-        "id": 291,
-        "name": "Samurai",
-        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
-        "category": "Cast-Traits",
-        "rank": 63,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1427,
         "name": "Prison",
         "description": "Partly or completely set in a prison.",
@@ -3394,6 +3394,16 @@
         "id": 175,
         "name": "Robots",
         "description": "Prominently features humanoid machines.",
+        "category": "Cast-Traits",
+        "rank": 62,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 291,
+        "name": "Samurai",
+        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
         "category": "Cast-Traits",
         "rank": 62,
         "isGeneralSpoiler": false,
@@ -3461,6 +3471,16 @@
         "isAdult": false
       },
       {
+        "id": 622,
+        "name": "Asexual",
+        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
+        "category": "Cast-Traits",
+        "rank": 58,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1433,
         "name": "Marriage",
         "description": "Centers around marriage between two or more characters.",
@@ -3501,16 +3521,6 @@
         "isAdult": false
       },
       {
-        "id": 622,
-        "name": "Asexual",
-        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
-        "category": "Cast-Traits",
-        "rank": 57,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 259,
         "name": "Monster Girl",
         "description": "Prominently features a female character who is part-monster.",
@@ -3541,20 +3551,20 @@
         "isAdult": false
       },
       {
-        "id": 322,
-        "name": "Assassins",
-        "description": "Centers around characters who murder people as a profession.",
-        "category": "Theme-Other-Organisations",
-        "rank": 55,
+        "id": 1681,
+        "name": "Aromantic",
+        "description": "Features a character who experiences little to no romantic attraction.",
+        "category": "Cast-Traits",
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1681,
-        "name": "Aromantic",
-        "description": "Features a character who experiences little to no romantic attraction.",
-        "category": "Cast-Traits",
+        "id": 322,
+        "name": "Assassins",
+        "description": "Centers around characters who murder people as a profession.",
+        "category": "Theme-Other-Organisations",
         "rank": 55,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -3796,9 +3806,9 @@
     "rating": 8.7,
     "averageScore": 87,
     "meanScore": 87,
-    "popularity": 727528,
-    "trending": 636,
-    "favourites": 106570,
+    "popularity": 732880,
+    "trending": 184,
+    "favourites": 108088,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4232,6 +4242,16 @@
         "isAdult": false
       },
       {
+        "id": 1923,
+        "name": "Human Experimentation",
+        "description": "Features experiments that use human and humanoid beings as test subjects.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 43,
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
@@ -4350,16 +4370,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 1923,
-        "name": "Human Experimentation",
-        "description": "Features experiments that use human and humanoid beings as test subjects.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -4377,9 +4387,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 710505,
-    "trending": 49,
-    "favourites": 70158,
+    "popularity": 714594,
+    "trending": 38,
+    "favourites": 71590,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4389,7 +4399,11 @@
     "endDate": "2010-07-04",
     "mal_url": "https://myanimelist.net/anime/5114",
     "anilist_url": "https://anilist.co/anime/5114",
-    "trailer": null
+    "trailer": {
+      "id": "1ac3_YdSSy0",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=1ac3_YdSSy0"
+    }
   },
   {
     "animeId": 20,
@@ -4699,6 +4713,16 @@
         "isAdult": false
       },
       {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 77,
         "name": "Gender Bending",
         "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
@@ -4713,16 +4737,6 @@
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 44,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
         "rank": 44,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -4784,9 +4798,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 80,
-    "popularity": 706831,
-    "trending": 55,
-    "favourites": 41316,
+    "popularity": 710923,
+    "trending": 34,
+    "favourites": 42504,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4889,20 +4903,20 @@
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 84,
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
         "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -5083,7 +5097,7 @@
         "name": "Inseki",
         "description": "Features sexual or romantic relations among step, adopted, and other non-blood related family members.",
         "category": "Sexual Content",
-        "rank": 33,
+        "rank": 37,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": true
@@ -5104,9 +5118,9 @@
     "rating": 7,
     "averageScore": 70,
     "meanScore": 70,
-    "popularity": 702581,
-    "trending": 15,
-    "favourites": 26077,
+    "popularity": 706338,
+    "trending": 18,
+    "favourites": 26530,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5488,9 +5502,9 @@
     "rating": 8.6,
     "averageScore": 86,
     "meanScore": 86,
-    "popularity": 670541,
-    "trending": 18,
-    "favourites": 21225,
+    "popularity": 673920,
+    "trending": 15,
+    "favourites": 21836,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5690,9 +5704,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 643025,
-    "trending": 23,
-    "favourites": 13161,
+    "popularity": 645646,
+    "trending": 10,
+    "favourites": 13441,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6130,9 +6144,9 @@
     "rating": 8.7,
     "averageScore": 87,
     "meanScore": 87,
-    "popularity": 627529,
-    "trending": 21,
-    "favourites": 29868,
+    "popularity": 630758,
+    "trending": 13,
+    "favourites": 30603,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6418,9 +6432,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 614929,
-    "trending": 12,
-    "favourites": 22219,
+    "popularity": 617948,
+    "trending": 11,
+    "favourites": 22662,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6777,9 +6791,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 610706,
-    "trending": 18,
-    "favourites": 35899,
+    "popularity": 614219,
+    "trending": 17,
+    "favourites": 37466,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7131,9 +7145,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 597126,
-    "trending": 15,
-    "favourites": 31143,
+    "popularity": 600018,
+    "trending": 9,
+    "favourites": 31809,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7313,7 +7327,7 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 73,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -7523,7 +7537,7 @@
         "name": "Estranged Family",
         "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
         "category": "Cast-Main Cast",
-        "rank": 20,
+        "rank": 28,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -7544,9 +7558,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 594726,
-    "trending": 70,
-    "favourites": 46538,
+    "popularity": 598042,
+    "trending": 43,
+    "favourites": 47757,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7841,9 +7855,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 589387,
-    "trending": 22,
-    "favourites": 12277,
+    "popularity": 591807,
+    "trending": 11,
+    "favourites": 12499,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7901,22 +7915,22 @@
     ],
     "tags": [
       {
+        "id": 96,
+        "name": "Time Manipulation",
+        "description": "Prominently features time-traveling or other time-warping phenomena.",
+        "category": "Theme-Sci-Fi",
+        "rank": 96,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 244,
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
         "rank": 95,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 96,
-        "name": "Time Manipulation",
-        "description": "Prominently features time-traveling or other time-warping phenomena.",
-        "category": "Theme-Sci-Fi",
-        "rank": 95,
-        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -8046,6 +8060,16 @@
         "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
         "category": "Theme-Other",
         "rank": 67,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -8259,16 +8283,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -8286,9 +8300,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 81,
-    "popularity": 603015,
-    "trending": 40,
-    "favourites": 35608,
+    "popularity": 607204,
+    "trending": 23,
+    "favourites": 36182,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -8431,6 +8445,16 @@
         "isAdult": false
       },
       {
+        "id": 1670,
+        "name": "Psychosexual",
+        "description": "Work that involves the psychological aspects of sexual impulses.",
+        "category": "Theme-Other",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 595,
         "name": "Urban",
         "description": "Partly or completely set in a city.",
@@ -8445,16 +8469,6 @@
         "name": "Henshin",
         "description": "Prominently features character or costume transformations which often grant special abilities.",
         "category": "Theme-Fantasy",
-        "rank": 81,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1670,
-        "name": "Psychosexual",
-        "description": "Work that involves the psychological aspects of sexual impulses.",
-        "category": "Theme-Other",
         "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -8511,20 +8525,20 @@
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 71,
+        "id": 199,
+        "name": "Yakuza",
+        "description": "Centered around Japanese organised crime syndicates.",
+        "category": "Theme-Other-Organisations",
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 199,
-        "name": "Yakuza",
-        "description": "Centered around Japanese organised crime syndicates.",
-        "category": "Theme-Other-Organisations",
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
         "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -8641,21 +8655,21 @@
         "isAdult": false
       },
       {
-        "id": 215,
-        "name": "POV",
-        "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
-        "category": "Technical",
-        "rank": 49,
+        "id": 100,
+        "name": "Nudity",
+        "description": "Features a character wearing no clothing or exposing intimate body parts.",
+        "category": "Cast-Traits",
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 100,
-        "name": "Nudity",
-        "description": "Features a character wearing no clothing or exposing intimate body parts.",
-        "category": "Cast-Traits",
-        "rank": 47,
+        "id": 215,
+        "name": "POV",
+        "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
+        "category": "Technical",
+        "rank": 49,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -8696,9 +8710,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 609816,
-    "trending": 23,
-    "favourites": 34481,
+    "popularity": 614622,
+    "trending": 17,
+    "favourites": 35495,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -9203,9 +9217,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 566273,
-    "trending": 91,
-    "favourites": 31694,
+    "popularity": 569952,
+    "trending": 57,
+    "favourites": 32457,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,

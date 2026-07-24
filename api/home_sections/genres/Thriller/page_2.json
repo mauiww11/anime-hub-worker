@@ -279,6 +279,16 @@
         "isAdult": false
       },
       {
+        "id": 100,
+        "name": "Nudity",
+        "description": "Features a character wearing no clothing or exposing intimate body parts.",
+        "category": "Cast-Traits",
+        "rank": 38,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 111,
         "name": "War",
         "description": "Partly or completely set during wartime.",
@@ -319,16 +329,6 @@
         "isAdult": false
       },
       {
-        "id": 100,
-        "name": "Nudity",
-        "description": "Features a character wearing no clothing or exposing intimate body parts.",
-        "category": "Cast-Traits",
-        "rank": 31,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 483,
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
@@ -343,6 +343,16 @@
         "name": "Football",
         "description": "Centers around the sport of football (known in the USA as \"soccer\").",
         "category": "Theme-Game-Sport",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 156,
+        "name": "Achronological Order",
+        "description": "Chapters or episodes do not occur in chronological order.",
+        "category": "Setting-Time",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -374,9 +384,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 81,
-    "popularity": 226128,
-    "trending": 0,
-    "favourites": 9319,
+    "popularity": 227494,
+    "trending": 1,
+    "favourites": 9442,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -693,6 +703,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 1899,
+        "name": "Brainwashing",
+        "description": "Centers on one or more characters who are mentally manipulated by others to behave abnormally or act against their own will.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -710,9 +730,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 217476,
-    "trending": 2,
-    "favourites": 8141,
+    "popularity": 218874,
+    "trending": 6,
+    "favourites": 8275,
     "source": "VISUAL_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -762,6 +782,26 @@
       "Thriller"
     ],
     "tags": [
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 100,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 615,
+        "name": "Death Game",
+        "description": "Features characters participating in a game, where failure results in death.",
+        "category": "Theme-Other",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
       {
         "id": 143,
         "name": "Survival",
@@ -833,31 +873,11 @@
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
         "category": "Theme-Drama",
-        "rank": 79,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 615,
-        "name": "Death Game",
-        "description": "Features characters participating in a game, where failure results in death.",
-        "category": "Theme-Other",
-        "rank": 79,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -887,7 +907,7 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 78,
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -897,17 +917,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1046,
-        "name": "Suicide",
-        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
-        "category": "Theme-Drama",
-        "rank": 73,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -917,7 +927,17 @@
         "name": "Crime",
         "description": "Centers around unlawful activities punishable by the state or other authority.",
         "category": "Theme-Other",
-        "rank": 64,
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -927,7 +947,7 @@
         "name": "Gods",
         "description": "Prominently features a character of divine or religious nature.",
         "category": "Cast-Traits",
-        "rank": 61,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -937,19 +957,9 @@
         "name": "Age Gap",
         "description": "Prominently features romantic relations between people with a significant age difference.",
         "category": "Theme-Romance",
-        "rank": 60,
+        "rank": 56,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 139,
-        "name": "Love Triangle",
-        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
-        "category": "Theme-Romance",
-        "rank": 48,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -957,7 +967,17 @@
         "name": "Yandere",
         "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
         "category": "Cast-Traits",
-        "rank": 47,
+        "rank": 42,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -967,7 +987,7 @@
         "name": "Guns",
         "description": "Prominently features the use of guns in combat.",
         "category": "Theme-Action",
-        "rank": 20,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -988,9 +1008,9 @@
     "rating": 6.8,
     "averageScore": 68,
     "meanScore": 68,
-    "popularity": 213816,
-    "trending": 3,
-    "favourites": 5085,
+    "popularity": 215238,
+    "trending": 6,
+    "favourites": 5193,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1046,6 +1066,16 @@
     ],
     "tags": [
       {
+        "id": 143,
+        "name": "Survival",
+        "description": "Centers around the struggle to live in spite of extreme obstacles.",
+        "category": "Theme-Other",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 96,
         "name": "Time Manipulation",
         "description": "Prominently features time-traveling or other time-warping phenomena.",
@@ -1080,19 +1110,9 @@
         "name": "Primarily Teen Cast",
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 772,
-        "name": "Shapeshifting",
-        "description": "Features character(s) who changes one's appearance or form.",
-        "category": "Theme-Fantasy",
         "rank": 90,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1116,19 +1136,9 @@
         "isAdult": false
       },
       {
-        "id": 1537,
-        "name": "Coastal",
-        "description": "Story prominently takes place near the beach or around a coastal area/town. Setting is near the ocean.",
-        "category": "Setting-Scene",
-        "rank": 88,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 208,
-        "name": "Mythology",
-        "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
+        "id": 772,
+        "name": "Shapeshifting",
+        "description": "Features character(s) who changes one's appearance or form.",
         "category": "Theme-Fantasy",
         "rank": 87,
         "isGeneralSpoiler": false,
@@ -1156,12 +1166,32 @@
         "isAdult": false
       },
       {
-        "id": 146,
-        "name": "Alternate Universe",
-        "description": "Features multiple alternate universes in the same series.",
-        "category": "Setting-Universe",
-        "rank": 84,
-        "isGeneralSpoiler": true,
+        "id": 1537,
+        "name": "Coastal",
+        "description": "Story prominently takes place near the beach or around a coastal area/town. Setting is near the ocean.",
+        "category": "Setting-Scene",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 208,
+        "name": "Mythology",
+        "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
+        "category": "Theme-Fantasy",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 85,
+        "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       },
@@ -1176,11 +1206,21 @@
         "isAdult": false
       },
       {
+        "id": 146,
+        "name": "Alternate Universe",
+        "description": "Features multiple alternate universes in the same series.",
+        "category": "Setting-Universe",
+        "rank": 82,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 154,
         "name": "Body Swapping",
         "description": "Centers around individuals swapping bodies with one another.",
         "category": "Theme-Fantasy",
-        "rank": 82,
+        "rank": 81,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1210,15 +1250,35 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 79,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       },
       {
-        "id": 143,
-        "name": "Survival",
-        "description": "Centers around the struggle to live in spite of extreme obstacles.",
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1342,
+        "name": "Clone",
+        "description": "Prominently features a character who is an artificial exact copy of another organism.",
+        "category": "Cast-Traits",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
         "rank": 79,
         "isGeneralSpoiler": false,
@@ -1226,13 +1286,23 @@
         "isAdult": false
       },
       {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
         "category": "Cast-Traits",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1382,
+        "name": "Orphan",
+        "description": "Prominently features a character that is an orphan.",
+        "category": "Cast-Traits",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1246,43 +1316,23 @@
         "isAdult": false
       },
       {
-        "id": 1091,
-        "name": "Religion",
-        "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
-        "category": "Theme-Other",
-        "rank": 78,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 56,
-        "name": "Shounen",
-        "description": "Target demographic is teenage and young adult males.",
-        "category": "Demographic",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1342,
-        "name": "Clone",
-        "description": "Prominently features a character who is an artificial exact copy of another organism.",
-        "category": "Cast-Traits",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 94,
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 74,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1091,
+        "name": "Religion",
+        "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
+        "category": "Theme-Other",
+        "rank": 71,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1296,33 +1346,23 @@
         "isAdult": false
       },
       {
-        "id": 191,
-        "name": "Aliens",
-        "description": "Prominently features extraterrestrial lifeforms.",
-        "category": "Cast-Traits",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 639,
         "name": "Body Horror",
         "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
         "category": "Theme-Other",
-        "rank": 66,
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       },
       {
-        "id": 1539,
-        "name": "Unrequited Love",
-        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
-        "category": "Theme-Romance",
-        "rank": 66,
+        "id": 191,
+        "name": "Aliens",
+        "description": "Prominently features extraterrestrial lifeforms.",
+        "category": "Cast-Traits",
+        "rank": 64,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1330,7 +1370,7 @@
         "name": "Guns",
         "description": "Prominently features the use of guns in combat.",
         "category": "Theme-Action",
-        "rank": 63,
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1350,7 +1390,27 @@
         "name": "Denpa",
         "description": "Works that feature themes of social dissociation, delusions, and other issues like suicide, bullying, self-isolation, paranoia, and technological necessity in daily lives. Classic iconography: telephone poles, rooftops, and trains.",
         "category": "Theme-Other",
-        "rank": 59,
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1539,
+        "name": "Unrequited Love",
+        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+        "category": "Theme-Romance",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1052,
+        "name": "Adoption",
+        "description": "Features a character who has been adopted by someone who is neither of their biological parents.",
+        "category": "Theme-Other",
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1360,7 +1420,7 @@
         "name": "Tanned Skin",
         "description": "Prominently features characters with tanned skin.",
         "category": "Cast-Traits",
-        "rank": 58,
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1370,7 +1430,7 @@
         "name": "Love Triangle",
         "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
         "category": "Theme-Romance",
-        "rank": 56,
+        "rank": 55,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1380,6 +1440,16 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
+        "rank": 47,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 83,
+        "name": "Slapstick",
+        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+        "category": "Theme-Comedy",
         "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1390,9 +1460,19 @@
         "name": "Age Regression",
         "description": "Prominently features a character who was returned to a younger state.",
         "category": "Cast-Traits",
-        "rank": 40,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 215,
+        "name": "POV",
+        "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
+        "category": "Technical",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
@@ -1411,9 +1491,9 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 218137,
-    "trending": 9,
-    "favourites": 9459,
+    "popularity": 220312,
+    "trending": 7,
+    "favourites": 9593,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1733,16 +1813,6 @@
         "isAdult": false
       },
       {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 51,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 108,
         "name": "Cyberpunk",
         "description": "Set in a future of advanced technological and scientific achievements that have resulted in social disorder.",
@@ -1753,11 +1823,21 @@
         "isAdult": false
       },
       {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 49,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 1165,
         "name": "Transgender",
         "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
         "category": "Cast-Traits",
-        "rank": 48,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1768,6 +1848,16 @@
         "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
         "category": "Cast-Traits",
         "rank": 38,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1923,
+        "name": "Human Experimentation",
+        "description": "Features experiments that use human and humanoid beings as test subjects.",
+        "category": "Theme-Other",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1788,9 +1878,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 81,
-    "popularity": 206032,
-    "trending": 4,
-    "favourites": 7968,
+    "popularity": 207936,
+    "trending": 5,
+    "favourites": 8101,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2185,9 +2275,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 176537,
-    "trending": 2,
-    "favourites": 7446,
+    "popularity": 177715,
+    "trending": 4,
+    "favourites": 7524,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2542,9 +2632,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 76,
-    "popularity": 174081,
+    "popularity": 175184,
     "trending": 3,
-    "favourites": 5931,
+    "favourites": 5960,
     "source": "VISUAL_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2616,7 +2706,7 @@
         "name": "Super Power",
         "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
         "category": "Theme-Fantasy",
-        "rank": 86,
+        "rank": 87,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2807,9 +2897,9 @@
     "rating": 7,
     "averageScore": 70,
     "meanScore": 70,
-    "popularity": 170152,
-    "trending": 1,
-    "favourites": 3086,
+    "popularity": 171317,
+    "trending": 3,
+    "favourites": 3130,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2864,7 +2954,7 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 96,
+        "rank": 95,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2890,16 +2980,6 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 86,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 586,
         "name": "Cult",
         "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
@@ -2915,6 +2995,16 @@
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
         "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2940,10 +3030,10 @@
         "isAdult": false
       },
       {
-        "id": 1304,
-        "name": "Anthropomorphism",
-        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
-        "category": "Cast-Traits",
+        "id": 1327,
+        "name": "Royal Affairs",
+        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
+        "category": "Theme-Other",
         "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2960,9 +3050,9 @@
         "isAdult": false
       },
       {
-        "id": 1327,
-        "name": "Royal Affairs",
-        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
         "category": "Theme-Other",
         "rank": 80,
         "isGeneralSpoiler": false,
@@ -2980,6 +3070,16 @@
         "isAdult": false
       },
       {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 598,
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
@@ -2990,33 +3090,13 @@
         "isAdult": false
       },
       {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 78,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
+        "id": 1899,
+        "name": "Brainwashing",
+        "description": "Centers on one or more characters who are mentally manipulated by others to behave abnormally or act against their own will.",
         "category": "Theme-Other",
-        "rank": 78,
+        "rank": 79,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -3026,6 +3106,26 @@
         "category": "Theme-Drama",
         "rank": 76,
         "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+        "category": "Cast-Traits",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 75,
+        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -3094,7 +3194,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 63,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3110,6 +3210,16 @@
         "isAdult": false
       },
       {
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 113,
         "name": "Nekomimi",
         "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
@@ -3120,21 +3230,11 @@
         "isAdult": false
       },
       {
-        "id": 224,
-        "name": "Dragons",
-        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
-        "category": "Cast-Traits",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 50,
         "name": "Seinen",
         "description": "Target demographic is adult males.",
         "category": "Demographic",
-        "rank": 56,
+        "rank": 55,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3180,11 +3280,31 @@
         "isAdult": false
       },
       {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 23,
         "name": "Female Harem",
         "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
         "category": "Theme-Romance",
-        "rank": 20,
+        "rank": 10,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3205,9 +3325,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 183472,
-    "trending": 34,
-    "favourites": 6104,
+    "popularity": 186927,
+    "trending": 12,
+    "favourites": 6212,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3471,7 +3591,7 @@
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 25,
+        "rank": 28,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -3492,9 +3612,9 @@
     "rating": 8.6,
     "averageScore": 86,
     "meanScore": 86,
-    "popularity": 168526,
-    "trending": 5,
-    "favourites": 10937,
+    "popularity": 170230,
+    "trending": 9,
+    "favourites": 11120,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
     "isLicensed": true,
@@ -3818,9 +3938,9 @@
     "rating": 7.5,
     "averageScore": 75,
     "meanScore": 75,
-    "popularity": 160718,
-    "trending": 2,
-    "favourites": 4066,
+    "popularity": 161768,
+    "trending": 4,
+    "favourites": 4111,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4087,9 +4207,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 76,
-    "popularity": 161039,
-    "trending": 1,
-    "favourites": 4433,
+    "popularity": 162849,
+    "trending": 4,
+    "favourites": 4512,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4100,9 +4220,9 @@
     "mal_url": "https://myanimelist.net/anime/50273",
     "anilist_url": "https://anilist.co/anime/141014",
     "trailer": {
-      "id": "y-hPQ0-orMM",
+      "id": "eP2FlJtfwL8",
       "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=y-hPQ0-orMM"
+      "url": "https://www.youtube.com/watch?v=eP2FlJtfwL8"
     }
   },
   {
@@ -4374,9 +4494,9 @@
     "rating": 7.9,
     "averageScore": 79,
     "meanScore": 79,
-    "popularity": 151708,
-    "trending": 4,
-    "favourites": 4435,
+    "popularity": 152994,
+    "trending": 6,
+    "favourites": 4522,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4797,9 +4917,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 146453,
-    "trending": 2,
-    "favourites": 7007,
+    "popularity": 147487,
+    "trending": 8,
+    "favourites": 7127,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5010,9 +5130,9 @@
     "rating": 7.1,
     "averageScore": 71,
     "meanScore": 71,
-    "popularity": 136920,
-    "trending": 1,
-    "favourites": 1342,
+    "popularity": 137560,
+    "trending": 2,
+    "favourites": 1364,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5112,7 +5232,7 @@
         "name": "Tsundere",
         "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
         "category": "Cast-Traits",
-        "rank": 67,
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5243,9 +5363,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 137143,
-    "trending": 0,
-    "favourites": 2219,
+    "popularity": 137994,
+    "trending": 1,
+    "favourites": 2245,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5538,9 +5658,9 @@
     "rating": 7.5,
     "averageScore": 75,
     "meanScore": 75,
-    "popularity": 127711,
+    "popularity": 128505,
     "trending": 1,
-    "favourites": 3282,
+    "favourites": 3313,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5932,9 +6052,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 127508,
-    "trending": 4,
-    "favourites": 4145,
+    "popularity": 128383,
+    "trending": 1,
+    "favourites": 4180,
     "source": "VISUAL_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6316,9 +6436,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 76,
-    "popularity": 127839,
-    "trending": 2,
-    "favourites": 3906,
+    "popularity": 128891,
+    "trending": 3,
+    "favourites": 3948,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6622,9 +6742,9 @@
     "rating": 7.7,
     "averageScore": 77,
     "meanScore": 77,
-    "popularity": 124171,
-    "trending": 4,
-    "favourites": 3136,
+    "popularity": 124954,
+    "trending": 2,
+    "favourites": 3152,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -6758,7 +6878,7 @@
         "name": "Body Horror",
         "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
         "category": "Theme-Other",
-        "rank": 87,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -6798,6 +6918,16 @@
         "name": "Unrequited Love",
         "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
         "category": "Theme-Romance",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
         "rank": 78,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -6814,26 +6944,6 @@
         "isAdult": false
       },
       {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 75,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 75,
-        "name": "Boys' Love",
-        "description": "Prominently features romance between two males, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 253,
         "name": "Gods",
         "description": "Prominently features a character of divine or religious nature.",
@@ -6841,6 +6951,16 @@
         "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 75,
+        "name": "Boys' Love",
+        "description": "Prominently features romance between two males, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 72,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -6864,6 +6984,16 @@
         "isAdult": false
       },
       {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 654,
         "name": "Denpa",
         "description": "Works that feature themes of social dissociation, delusions, and other issues like suicide, bullying, self-isolation, paranoia, and technological necessity in daily lives. Classic iconography: telephone poles, rooftops, and trains.",
@@ -6874,21 +7004,21 @@
         "isAdult": false
       },
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 63,
+        "id": 215,
+        "name": "POV",
+        "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
+        "category": "Technical",
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 215,
-        "name": "POV",
-        "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
-        "rank": 58,
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -6898,7 +7028,7 @@
         "name": "Asexual",
         "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
         "category": "Cast-Traits",
-        "rank": 51,
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -6908,19 +7038,9 @@
         "name": "Aromantic",
         "description": "Features a character who experiences little to no romantic attraction.",
         "category": "Cast-Traits",
-        "rank": 47,
+        "rank": 49,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 45,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -6928,7 +7048,7 @@
         "name": "Mountaineering",
         "description": "Prominently features characters discussing or hiking mountains.",
         "category": "Theme-Other",
-        "rank": 20,
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -6959,9 +7079,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 81,
-    "popularity": 132665,
+    "popularity": 135483,
     "trending": 8,
-    "favourites": 5354,
+    "favourites": 5553,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7284,9 +7404,9 @@
     "rating": 7,
     "averageScore": 70,
     "meanScore": 70,
-    "popularity": 119755,
-    "trending": 3,
-    "favourites": 2325,
+    "popularity": 120555,
+    "trending": 4,
+    "favourites": 2350,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7682,9 +7802,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 116352,
-    "trending": 3,
-    "favourites": 6129,
+    "popularity": 117218,
+    "trending": 1,
+    "favourites": 6177,
     "source": "VISUAL_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -7847,6 +7967,16 @@
         "isAdult": false
       },
       {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1689,
         "name": "Curses",
         "description": "Features a character, object or area that has been cursed, usually by a malevolent supernatural force.",
@@ -7854,16 +7984,6 @@
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 78,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -8005,6 +8125,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 163,
+        "name": "Yandere",
+        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -8022,9 +8152,9 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 84,
-    "popularity": 115840,
-    "trending": 0,
-    "favourites": 7041,
+    "popularity": 116699,
+    "trending": 1,
+    "favourites": 7102,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,

@@ -711,29 +711,32 @@
   {
     "animeId": 62430,
     "anilistId": 198376,
-    "title": "BanG Dream! Yume∞Mita",
+    "title": "BanG Dream! YUME∞MITA",
     "titleRomaji": "BanG Dream! Yume∞Mita",
-    "titleEnglish": "",
+    "titleEnglish": "BanG Dream! YUME∞MITA",
     "titleNative": "バンドリ！ ゆめ∞みた",
     "synonyms": [
       "BanG Dream! Yumemita"
     ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-hFnAdwIcedY5.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-hFnAdwIcedY5.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198376-hFnAdwIcedY5.png",
-    "coverImageColor": "#35c9ff",
-    "bannerImage": "",
-    "synopsis": "The latest anime project in the BanG Dream! franchise, spotlighting the band members in Mugendai Mewtype.",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198376-sc5qcFv0RSH9.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-sc5qcFv0RSH9.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198376-sc5qcFv0RSH9.jpg",
+    "coverImageColor": "#a1f150",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198376-1b4DxjIUwMIY.jpg",
+    "synopsis": "Suddenly thrown together, a group of girls are now debuting as the virtual band, Mugendai Mewtype. They’ve got talent and personality, but no clue how to perform as one. Can they survive, let alone make it to the top in this unforgiving music world? (Source: Crunchyroll)",
     "type": "ANIME",
     "format": "TV",
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
-    "episodes": 0,
-    "duration": 0,
+    "episodes": 13,
+    "duration": 24,
     "genres": [
-      "Music"
+      "Comedy",
+      "Drama",
+      "Music",
+      "Slice of Life"
     ],
     "tags": [
       {
@@ -747,21 +750,11 @@
         "isAdult": false
       },
       {
-        "id": 1047,
-        "name": "VTuber",
-        "description": "Prominently features a character who is either an actual or fictive VTuber.",
-        "category": "Cast-Traits",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 110,
-        "name": "Band",
-        "description": "Main cast is a group of musicians.",
-        "category": "Theme-Arts-Music",
-        "rank": 86,
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 100,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -771,17 +764,127 @@
         "name": "Primarily Teen Cast",
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 80,
+        "rank": 100,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 73,
+        "id": 110,
+        "name": "Band",
+        "description": "Main cast is a group of musicians.",
+        "category": "Theme-Arts-Music",
+        "rank": 91,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1047,
+        "name": "VTuber",
+        "description": "Prominently features a character who is either an actual or fictive VTuber.",
+        "category": "Cast-Traits",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 89,
+        "name": "Full CGI",
+        "description": "Almost entirely created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 112,
+        "name": "Virtual World",
+        "description": "Partly or completely set in the world inside a video game.",
+        "category": "Setting-Universe",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
+        "category": "Theme-Drama",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 309,
+        "name": "Blackmail",
+        "description": "Features a character blackmailing another.",
+        "category": "Theme-Other",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 163,
+        "name": "Yandere",
+        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
+        "category": "Cast-Traits",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 68,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 51,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 118,
+        "name": "Drawing",
+        "description": "Centers around the art of drawing, including manga and doujinshi.",
+        "category": "Theme-Arts",
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -799,25 +902,25 @@
     "studiosNames": [
       "NICHICALINE"
     ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 1518,
-    "trending": 1,
-    "favourites": 9,
+    "rating": 7.2,
+    "averageScore": 72,
+    "meanScore": 76,
+    "popularity": 5744,
+    "trending": 45,
+    "favourites": 76,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
     "hashtag": "#アニメゆめみた",
-    "startDate": "2026-07-01",
-    "endDate": null,
+    "startDate": "2026-07-02",
+    "endDate": "2026-09-10",
     "mal_url": "https://myanimelist.net/anime/62430",
     "anilist_url": "https://anilist.co/anime/198376",
     "trailer": {
-      "id": "7fdSXo-be7o",
+      "id": "sMcHl3g6aS4",
       "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=7fdSXo-be7o"
+      "url": "https://www.youtube.com/watch?v=sMcHl3g6aS4"
     }
   },
   {
@@ -1281,27 +1384,25 @@
   {
     "animeId": 62322,
     "anilistId": 197715,
-    "title": "LV999 no Murabito",
+    "title": "The Villager of Level 999",
     "titleRomaji": "LV999 no Murabito",
-    "titleEnglish": "",
+    "titleEnglish": "The Villager of Level 999",
     "titleNative": "LV999の村人",
-    "synonyms": [
-      "The Villager of Level 999"
-    ],
+    "synonyms": [],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197715-KLFLxU24U1uL.png",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197715-KLFLxU24U1uL.png",
     "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx197715-KLFLxU24U1uL.png",
     "coverImageColor": "#5daef1",
     "bannerImage": "",
-    "synopsis": "In this world, the concept of levels exist. Other than those who live off defeating monsters, most people are only around Level 1 to 5. What's more, not just anyone can go out to hunt monsters; it's heavily influenced by one's role anointed by god. There are eight such eligible roles. Warriors. Fighters. Clerics. Magicians. Rogues. Merchants. Hunters. Sorcerers. Those blessed with extraordinary power are divided into three types. Royalty. Heroes. Sages. But for the majority of the population, they have no such powers and live by farming or running shops. Towns are developed by those with the weakest role…Villagers. For the powerless Villagers going out to hunt monsters is equivalent to committing suicide. But one day, a certain two-year-old child given the role of Villager notices something. Once you defeat a monster… you can earn great wealth.",
+    "synopsis": "In Earthclear, everyone is born into a fixed role, and villagers are the weakest of all. Most never rise above Level 5—except Kouji Kagami, who is Level…999?! On a monster hunt, he meets Alice, the Demon King’s daughter, and discovers they share an impossible dream: coexistence between humans and demons. In a world destined for conflict, they charge into battle to defy fate and shatter the rules. (Source: Crunchyroll)",
     "type": "ANIME",
-    "format": "TV",
-    "status": "NOT_YET_RELEASED",
+    "format": "ONA",
+    "status": "RELEASING",
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
-    "episodes": 0,
-    "duration": 0,
+    "episodes": 12,
+    "duration": 24,
     "genres": [
       "Action",
       "Adventure",
@@ -1310,21 +1411,11 @@
     ],
     "tags": [
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 20,
+        "id": 39,
+        "name": "Parody",
+        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+        "category": "Theme-Comedy",
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1334,9 +1425,119 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+        "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 931,
+        "name": "Tomboy",
+        "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 281,
+        "name": "Surreal Comedy",
+        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
+        "category": "Theme-Comedy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 144,
+        "name": "Meta",
+        "description": "Features fourth wall-breaking references to itself or genre tropes.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 217,
+        "name": "Dystopian",
+        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
+        "category": "Setting-Time",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -1352,25 +1553,25 @@
     "studiosNames": [
       "Brain's Base"
     ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 4185,
-    "trending": 0,
-    "favourites": 66,
+    "rating": 6.3,
+    "averageScore": 63,
+    "meanScore": 63,
+    "popularity": 29056,
+    "trending": 82,
+    "favourites": 382,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
-    "hashtag": "",
-    "startDate": "2026-07-01",
+    "hashtag": "#LV999の村人",
+    "startDate": "2026-07-02",
     "endDate": null,
     "mal_url": "https://myanimelist.net/anime/62322",
     "anilist_url": "https://anilist.co/anime/197715",
     "trailer": {
-      "id": "IMKro1SWUzw",
+      "id": "YfWJLXcN7hI",
       "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=IMKro1SWUzw"
+      "url": "https://www.youtube.com/watch?v=YfWJLXcN7hI"
     }
   },
   {
