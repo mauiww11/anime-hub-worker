@@ -309,7 +309,7 @@
     "averageScore": 68,
     "meanScore": 69,
     "popularity": 13980,
-    "trending": 4,
+    "trending": 3,
     "favourites": 259,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -851,7 +851,7 @@
     "averageScore": 81,
     "meanScore": 82,
     "popularity": 44689,
-    "trending": 61,
+    "trending": 36,
     "favourites": 676,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -966,7 +966,7 @@
     "averageScore": 69,
     "meanScore": 72,
     "popularity": 7590,
-    "trending": 6,
+    "trending": 3,
     "favourites": 75,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1699,7 +1699,7 @@
     "averageScore": 58,
     "meanScore": 59,
     "popularity": 20394,
-    "trending": 11,
+    "trending": 18,
     "favourites": 220,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1929,7 +1929,7 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 43592,
-    "trending": 37,
+    "trending": 20,
     "favourites": 423,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -2251,6 +2251,16 @@
         "isAdult": false
       },
       {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 772,
         "name": "Shapeshifting",
         "description": "Features character(s) who changes one's appearance or form.",
@@ -2281,16 +2291,6 @@
         "isAdult": false
       },
       {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 104,
         "name": "Anti-Hero",
         "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
@@ -2311,20 +2311,20 @@
         "isAdult": false
       },
       {
-        "id": 499,
-        "name": "Skeleton",
-        "description": "Prominently features skeleton(s) as a character.",
-        "category": "Cast-Traits",
-        "rank": 63,
+        "id": 659,
+        "name": "Medicine",
+        "description": "Centered around the activities of people working in the field of medicine.",
+        "category": "Theme-Other",
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 659,
-        "name": "Medicine",
-        "description": "Centered around the activities of people working in the field of medicine.",
-        "category": "Theme-Other",
+        "id": 499,
+        "name": "Skeleton",
+        "description": "Prominently features skeleton(s) as a character.",
+        "category": "Cast-Traits",
         "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2371,21 +2371,21 @@
         "isAdult": false
       },
       {
-        "id": 291,
-        "name": "Samurai",
-        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
-        "category": "Cast-Traits",
+        "id": 1453,
+        "name": "Desert",
+        "description": "Prominently features a desert environment.",
+        "category": "Setting-Scene",
         "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1453,
-        "name": "Desert",
-        "description": "Prominently features a desert environment.",
-        "category": "Setting-Scene",
-        "rank": 62,
+        "id": 291,
+        "name": "Samurai",
+        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
+        "category": "Cast-Traits",
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2426,6 +2426,16 @@
         "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
         "category": "Theme-Other",
         "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 489,
+        "name": "Drugs",
+        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
+        "category": "Theme-Other",
+        "rank": 58,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2475,16 +2485,6 @@
         "name": "Kuudere",
         "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
         "category": "Cast-Traits",
-        "rank": 57,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 489,
-        "name": "Drugs",
-        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
-        "category": "Theme-Other",
         "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2561,16 +2561,6 @@
         "isAdult": false
       },
       {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 558,
         "name": "Mermaid",
         "description": "A mythological creature with the body of a human and the tail of a fish.",
@@ -2598,6 +2588,16 @@
         "rank": 50,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -3205,7 +3205,7 @@
     "averageScore": 73,
     "meanScore": 75,
     "popularity": 23042,
-    "trending": 14,
+    "trending": 16,
     "favourites": 230,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -3369,7 +3369,7 @@
         "name": "Boxing",
         "description": "Centers around the sport of boxing.",
         "category": "Theme-Game-Sport",
-        "rank": 68,
+        "rank": 69,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3491,7 +3491,7 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 22540,
-    "trending": 32,
+    "trending": 21,
     "favourites": 232,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
