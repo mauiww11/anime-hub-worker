@@ -169,7 +169,7 @@
     "rating": 5.4,
     "averageScore": 54,
     "meanScore": 62,
-    "popularity": 745,
+    "popularity": 747,
     "trending": 1,
     "favourites": 9,
     "source": "OTHER",
@@ -381,11 +381,11 @@
     "studiosNames": [
       "C-Station"
     ],
-    "rating": 5.5,
-    "averageScore": 55,
+    "rating": 5.4,
+    "averageScore": 54,
     "meanScore": 57,
-    "popularity": 4643,
-    "trending": 4,
+    "popularity": 4665,
+    "trending": 33,
     "favourites": 36,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -531,8 +531,8 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 45301,
-    "trending": 30,
+    "popularity": 45605,
+    "trending": 450,
     "favourites": 694,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -629,6 +629,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
+      },
+      {
+        "id": 140,
+        "name": "Educational",
+        "description": "Primary aim is to educate the audience.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -645,9 +655,9 @@
     ],
     "rating": 6.9,
     "averageScore": 69,
-    "meanScore": 72,
-    "popularity": 7718,
-    "trending": 3,
+    "meanScore": 71,
+    "popularity": 7777,
+    "trending": 82,
     "favourites": 77,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1156,8 +1166,8 @@
     "rating": 7.8,
     "averageScore": 78,
     "meanScore": 79,
-    "popularity": 14461,
-    "trending": 0,
+    "popularity": 14462,
+    "trending": 9,
     "favourites": 597,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -1324,6 +1334,16 @@
     ],
     "tags": [
       {
+        "id": 23,
+        "name": "Female Harem",
+        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 68,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 244,
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
@@ -1339,16 +1359,6 @@
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
         "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 23,
-        "name": "Female Harem",
-        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
-        "category": "Theme-Romance",
-        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1378,9 +1388,9 @@
     ],
     "rating": 5.8,
     "averageScore": 58,
-    "meanScore": 59,
-    "popularity": 20634,
-    "trending": 8,
+    "meanScore": 58,
+    "popularity": 20743,
+    "trending": 362,
     "favourites": 225,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1438,7 +1448,7 @@
         "name": "Steampunk",
         "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
         "category": "Theme-Fantasy",
-        "rank": 86,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1449,16 +1459,6 @@
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
         "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1484,11 +1484,11 @@
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1514,11 +1514,31 @@
         "isAdult": false
       },
       {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 140,
+        "name": "Educational",
+        "description": "Primary aim is to educate the audience.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 85,
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 50,
+        "rank": 46,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1528,7 +1548,7 @@
         "name": "Arranged Marriage",
         "description": "Features two characters made to marry each other, usually by their family.",
         "category": "Cast-Traits",
-        "rank": 35,
+        "rank": 32,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1548,7 +1568,7 @@
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 30,
+        "rank": 26,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1582,16 +1602,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 140,
-        "name": "Educational",
-        "description": "Primary aim is to educate the audience.",
-        "category": "Theme-Other",
-        "rank": 10,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -1606,11 +1616,11 @@
     "studiosNames": [
       "Kyoto Animation"
     ],
-    "rating": 7.5,
-    "averageScore": 75,
-    "meanScore": 76,
-    "popularity": 44131,
-    "trending": 25,
+    "rating": 7.6,
+    "averageScore": 76,
+    "meanScore": 77,
+    "popularity": 44400,
+    "trending": 311,
     "favourites": 431,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -1852,6 +1862,16 @@
         "isAdult": false
       },
       {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 648,
         "name": "Crime",
         "description": "Centers around unlawful activities punishable by the state or other authority.",
@@ -1859,16 +1879,6 @@
         "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -2458,7 +2468,7 @@
     "averageScore": 87,
     "meanScore": 87,
     "popularity": 733660,
-    "trending": 171,
+    "trending": 834,
     "favourites": 108137,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2715,11 +2725,11 @@
     "studiosNames": [
       "LIDENFILMS"
     ],
-    "rating": 6.2,
-    "averageScore": 62,
+    "rating": 6.3,
+    "averageScore": 63,
     "meanScore": 63,
-    "popularity": 21792,
-    "trending": 5,
+    "popularity": 21821,
+    "trending": 114,
     "favourites": 243,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2762,8 +2772,8 @@
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
-    "episodes": 0,
-    "duration": 0,
+    "episodes": 11,
+    "duration": 24,
     "genres": [
       "Drama",
       "Romance"
@@ -2800,6 +2810,16 @@
         "isAdult": false
       },
       {
+        "id": 1327,
+        "name": "Royal Affairs",
+        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
+        "category": "Theme-Other",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1598,
         "name": "Ancient China",
         "description": "Setting in ancient china, does not apply to fantasy settings.",
@@ -2814,16 +2834,6 @@
         "name": "Historical",
         "description": "Partly or completely set during a real period of world history.",
         "category": "Setting-Time",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1327,
-        "name": "Royal Affairs",
-        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
-        "category": "Theme-Other",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2885,8 +2895,8 @@
     "rating": 7.3,
     "averageScore": 73,
     "meanScore": 75,
-    "popularity": 23671,
-    "trending": 15,
+    "popularity": 24000,
+    "trending": 448,
     "favourites": 239,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -3056,20 +3066,20 @@
         "isAdult": false
       },
       {
-        "id": 772,
-        "name": "Shapeshifting",
-        "description": "Features character(s) who changes one's appearance or form.",
-        "category": "Theme-Fantasy",
-        "rank": 65,
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
+        "id": 772,
+        "name": "Shapeshifting",
+        "description": "Features character(s) who changes one's appearance or form.",
+        "category": "Theme-Fantasy",
         "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -3171,8 +3181,8 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 77,
-    "popularity": 22992,
-    "trending": 26,
+    "popularity": 23210,
+    "trending": 237,
     "favourites": 239,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -3234,7 +3244,7 @@
     "rating": 0,
     "averageScore": 0,
     "meanScore": 36,
-    "popularity": 69,
+    "popularity": 70,
     "trending": 0,
     "favourites": 2,
     "source": "OTHER",
@@ -3309,8 +3319,8 @@
     "rating": 0,
     "averageScore": 0,
     "meanScore": 43,
-    "popularity": 362,
-    "trending": 0,
+    "popularity": 363,
+    "trending": 1,
     "favourites": 6,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
