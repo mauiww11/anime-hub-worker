@@ -2566,47 +2566,265 @@
     "discoveredFromRecentFeed": false
   },
   {
-    "mangaId": 185105,
-    "anilistId": 185105,
-    "idMal": 176774,
-    "title": "Perfect Glitter",
-    "titleRomaji": "Perfect Glitter",
+    "mangaId": 138847,
+    "anilistId": 138847,
+    "idMal": 141337,
+    "title": "Studio Cabana",
+    "titleRomaji": "Studio Cabana",
     "titleEnglish": "",
-    "titleNative": "パーフェクト グリッター",
+    "titleNative": "スタジオカバナ",
     "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx185105-yq5KkolERnbv.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx185105-yq5KkolERnbv.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx185105-yq5KkolERnbv.jpg",
-    "coverImageColor": "#d6e45d",
-    "bannerImage": "",
-    "synopsis": "",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx138847-IuKHdfe0HZQc.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx138847-IuKHdfe0HZQc.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx138847-IuKHdfe0HZQc.jpg",
+    "coverImageColor": "",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/138847-xKuS2BxwVmVh.jpg",
+    "synopsis": "Yukari Maki, a diligent high school girl. One day, she spots her classmate, Yusuke Kusaka, who was rumored to be a delinquent, singing a love song. Never having imagined such a sweet, yet sad, singing voice could come from him, Yukari was instantly captivated—without knowing that it would soon be the beginning of a sad, unrequited love.",
     "type": "MANGA",
     "format": "MANGA",
     "status": "RELEASING",
-    "year": 2024,
-    "startDate": "2024-11-14",
+    "year": 2021,
+    "startDate": "2021-03-24",
     "endDate": null,
-    "chapters": 4,
+    "chapters": 38,
     "volumes": 0,
     "genres": [
-      "Drama",
-      "Psychological"
+      "Music",
+      "Romance"
     ],
     "tags": [
+      {
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 110,
+        "name": "Band",
+        "description": "Main cast is a group of musicians.",
+        "category": "Theme-Arts-Music",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 66,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1539,
+        "name": "Unrequited Love",
+        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+        "category": "Theme-Romance",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
       {
         "id": 98,
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 395,
+        "name": "Delinquents",
+        "description": "Features characters with a notorious image and attitude, sometimes referred to as \"yankees\".",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 100,
+        "name": "Nudity",
+        "description": "Features a character wearing no clothing or exposing intimate body parts.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      }
+    ],
+    "authors": [
+      "Agri Uma"
+    ],
+    "artists": [
+      "Agri Uma"
+    ],
+    "rating": 7.7,
+    "averageScore": 77,
+    "meanScore": 79,
+    "popularity": 5186,
+    "trending": 0,
+    "favourites": 205,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/138847",
+    "mal_url": "https://myanimelist.net/manga/141337",
+    "externalLinks": [
+      {
+        "site": "Pixiv Comic",
+        "url": "https://comic.pixiv.net/works/7567"
+      },
+      {
+        "site": "Kadocomi",
+        "url": "https://comic-walker.com/contents/detail/KDCW_AM02202555010000_68/"
+      }
+    ],
+    "mangadexId": "75732fed-087c-4fa0-bae8-7eec7286ba08",
+    "mangadexUrl": "https://mangadex.org/title/75732fed-087c-4fa0-bae8-7eec7286ba08",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "75732fed-087c-4fa0-bae8-7eec7286ba08",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "75732fed-087c-4fa0-bae8-7eec7286ba08",
+    "chapterSourceTitle": "Studio Cabana",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-07-26T12:35:51+00:00",
+    "latestChapterNumber": "39",
+    "latestChapterTitle": "",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "1b57b73a-f784-41c7-ae57-4519153d3af0",
+    "chapterCoverageCount": 2,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 45305,
+    "anilistId": 45305,
+    "idMal": 15305,
+    "title": "Kyojin no Hoshi",
+    "titleRomaji": "Kyojin no Hoshi",
+    "titleEnglish": "",
+    "titleNative": "巨人の星",
+    "synonyms": [
+      "Star of the Giants"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b45305-gzmKyzxr1P4f.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b45305-gzmKyzxr1P4f.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b45305-gzmKyzxr1P4f.png",
+    "coverImageColor": "#e44393",
+    "bannerImage": "",
+    "synopsis": "The story is about Hyuma Hoshi, a promising young baseball pitcher who dreams of becoming a top star like his father Ittetsu Hoshi in the professional Japanese league. His father was once a 3rd baseman until he was injured in World War II and was forced to retire. The boy would join the ever popular Giants team, and soon he realized the difficulty of managing the high expectations. From the grueling training to battling the rival Mitsuru Hanagata on the Hanshin Tigers, he would have to take out his best pitching magic to step up to the challenge. (Source: Wikipedia)",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "FINISHED",
+    "year": 1966,
+    "startDate": "1966-08-11",
+    "endDate": "1971-01-17",
+    "chapters": 235,
+    "volumes": 19,
+    "genres": [
+      "Drama",
+      "Sports"
+    ],
+    "tags": [
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1813,
+        "name": "Gekiga",
+        "description": "An alternative comics movement of mature manga with stylized and cinematic visuals predominantly from the late 1950s through 1970s.",
+        "category": "Technical",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 149,
+        "name": "Baseball",
+        "description": "Centers around the sport of baseball.",
+        "category": "Theme-Game-Sport",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
         "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
@@ -2614,53 +2832,173 @@
         "isAdult": false
       },
       {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
+        "id": 88,
+        "name": "Primarily Male Cast",
+        "description": "Main cast is mostly composed of male characters.",
+        "category": "Cast-Main Cast",
         "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      }
+    ],
+    "authors": [
+      "Ikki Kajiwara"
+    ],
+    "artists": [
+      "Noboru Kawasaki"
+    ],
+    "rating": 5.6,
+    "averageScore": 56,
+    "meanScore": 72,
+    "popularity": 881,
+    "trending": 0,
+    "favourites": 16,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/45305",
+    "mal_url": "https://myanimelist.net/manga/15305",
+    "externalLinks": [
+      {
+        "site": "Kodansha USA",
+        "url": "https://kc.kodansha.co.jp/product?item=0000002402"
+      }
+    ],
+    "mangadexId": "3f208e0e-d61a-4a10-bf8c-dc8e4464378c",
+    "mangadexUrl": "https://mangadex.org/title/3f208e0e-d61a-4a10-bf8c-dc8e4464378c",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "3f208e0e-d61a-4a10-bf8c-dc8e4464378c",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "3f208e0e-d61a-4a10-bf8c-dc8e4464378c",
+    "chapterSourceTitle": "Star of the Giants",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-07-26T12:34:47+00:00",
+    "latestChapterNumber": "2",
+    "latestChapterTitle": "Major League Ball training cast",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "3a631c3d-46b7-423d-8b88-1ea0ed40e60d",
+    "chapterCoverageCount": 2,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 91867,
+    "anilistId": 91867,
+    "idMal": 73749,
+    "title": "Chou Kakutou Densetsu Ashita Kagayake!!",
+    "titleRomaji": "Chou Kakutou Densetsu Ashita Kagayake!!",
+    "titleEnglish": "",
+    "titleNative": "超格闘伝説あした輝け！！",
+    "synonyms": [
+      "Super Combat Legend: Shine Tomorrow"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx91867-dkXh8qhyrnKv.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx91867-dkXh8qhyrnKv.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx91867-dkXh8qhyrnKv.png",
+    "coverImageColor": "#bb5d35",
+    "bannerImage": "",
+    "synopsis": "The story follows Tachibana Misaki, a 15-year-old girl who's bullied at school. In her quest to become stronger, she decides to enter the delinquent path, aiming for a shinny tomorrow.",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "FINISHED",
+    "year": 1996,
+    "startDate": "1996-11-24",
+    "endDate": "1997-12-01",
+    "chapters": 17,
+    "volumes": 6,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sports"
+    ],
+    "tags": [
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 931,
+        "name": "Tomboy",
+        "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
     "authors": [
-      "Hinao Wono"
+      "Kouji Takahashi"
     ],
     "artists": [
-      "Hinao Wono"
+      "Kouji Takahashi"
     ],
     "rating": 0,
     "averageScore": 0,
-    "meanScore": 69,
-    "popularity": 295,
+    "meanScore": 45,
+    "popularity": 47,
     "trending": 0,
-    "favourites": 3,
+    "favourites": 0,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/185105",
-    "mal_url": "https://myanimelist.net/manga/176774",
-    "externalLinks": [
-      {
-        "site": "Cycomics",
-        "url": "https://cycomi.com/title/229"
-      }
-    ],
-    "mangadexId": "0c333b5c-d052-4fee-b18b-c907a2a256b7",
-    "mangadexUrl": "https://mangadex.org/title/0c333b5c-d052-4fee-b18b-c907a2a256b7",
+    "anilist_url": "https://anilist.co/manga/91867",
+    "mal_url": "https://myanimelist.net/manga/73749",
+    "externalLinks": [],
+    "mangadexId": "8318beeb-0a54-4b45-9595-277f42e82841",
+    "mangadexUrl": "https://mangadex.org/title/8318beeb-0a54-4b45-9595-277f42e82841",
     "mangadexMappingSource": "recent_chapter_discovery",
     "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "0c333b5c-d052-4fee-b18b-c907a2a256b7",
+    "chapterIndexId": "8318beeb-0a54-4b45-9595-277f42e82841",
     "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "0c333b5c-d052-4fee-b18b-c907a2a256b7",
-    "chapterSourceTitle": "Perfect Glitter",
+    "chapterSourceId": "8318beeb-0a54-4b45-9595-277f42e82841",
+    "chapterSourceTitle": "Cho Kakuto Densetsu Ashita Kagayake!!",
     "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-07-26T12:06:22+00:00",
-    "latestChapterNumber": "6",
-    "latestChapterTitle": "",
+    "latestChapterUpdatedAt": "2026-07-26T12:33:05+00:00",
+    "latestChapterNumber": "19",
+    "latestChapterTitle": "The Tragedy Begins",
     "latestChapterLanguage": "en",
-    "latestChapterId": "b0854b49-c97f-48ae-8752-71396b8bbbea",
+    "latestChapterId": "acb7485b-7f7a-405c-b316-329da696e654",
     "chapterCoverageCount": 3,
     "chapterCoverageLanguages": [
       "en"
@@ -2993,207 +3331,6 @@
     "latestChapterLanguage": "en",
     "latestChapterId": "a637fe5d-6e3f-49bc-a33d-f46da91b936f",
     "chapterCoverageCount": 38,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 193830,
-    "anilistId": 193830,
-    "idMal": 176746,
-    "title": "Open Car Girls",
-    "titleRomaji": "Open Car Girls",
-    "titleEnglish": "",
-    "titleNative": "オープンカー・ガールズ",
-    "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx193830-cEY0AsUpDoMJ.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx193830-cEY0AsUpDoMJ.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx193830-cEY0AsUpDoMJ.jpg",
-    "coverImageColor": "#f1c943",
-    "bannerImage": "",
-    "synopsis": "Otome Kito, a new college student, had vague dreams of “wanting to try something new.” Just then, a sleek, eye-catching car zooms past her, a crimson-red roadster! The driver is Yae Zensan, a car-lover. After being swept up by Yae's passionate appeal, Otome ended up purchasing a pure white Copen! With her new convertible, an exciting, vibrant college life is about to begin! (Source: Yanmaga, translated)",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "RELEASING",
-    "year": 2025,
-    "startDate": "2025-05-28",
-    "endDate": null,
-    "chapters": 19,
-    "volumes": 0,
-    "genres": [
-      "Slice of Life"
-    ],
-    "tags": [
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 10,
-        "name": "Cars",
-        "description": "Centers around the use of automotive vehicles.",
-        "category": "Theme-Other-Vehicle",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 404,
-        "name": "College",
-        "description": "Partly or completely set in a college or university.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "authors": [
-      "Wotake Kitsuneno"
-    ],
-    "artists": [
-      "Musou Annin"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 59,
-    "popularity": 80,
-    "trending": 0,
-    "favourites": 2,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/193830",
-    "mal_url": "https://myanimelist.net/manga/176746",
-    "externalLinks": [
-      {
-        "site": "Yanmaga",
-        "url": "https://yanmaga.jp/comics/オープンカー_ガールズ"
-      }
-    ],
-    "mangadexId": "675ee9b2-19bd-46f4-a592-e7eb256a465e",
-    "mangadexUrl": "https://mangadex.org/title/675ee9b2-19bd-46f4-a592-e7eb256a465e",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "675ee9b2-19bd-46f4-a592-e7eb256a465e",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "675ee9b2-19bd-46f4-a592-e7eb256a465e",
-    "chapterSourceTitle": "Open Car Girls",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-07-26T10:38:34+00:00",
-    "latestChapterNumber": "24",
-    "latestChapterTitle": "Summer Bugs!",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "40188490-226c-486f-88fe-965bc4d89bc6",
-    "chapterCoverageCount": 6,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 49156,
-    "anilistId": 49156,
-    "idMal": 19156,
-    "title": "Countach",
-    "titleEnglish": "",
-    "titleRomaji": "Countach",
-    "titleNative": "カウンタック",
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx49156-WZTXu1iEYZD0.png",
-    "synopsis": "The day after he finds himself dumped by his girlfriend, Sorayama Shun recieves a letter... from himself? The letter was from Shun 25 years ago for his future self. The letter reminds him of the time when he dreamed of owning a Countach and being a successful professional racer. With loads of luck and his ambition to make his childhood dream come true, he finds himself as a new owner of an LP400 Countach.",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Sports"
-    ],
-    "authors": [
-      "Haruto Umezawa"
-    ],
-    "artists": [
-      "Haruto Umezawa"
-    ],
-    "popularity": 1488,
-    "averageScore": 65,
-    "chapters": 316,
-    "volumes": 28,
-    "year": 2004,
-    "format": "MANGA",
-    "status": "FINISHED",
-    "mangadexId": "2b2e7c95-9e4d-4199-9ea6-52add4c22cfa",
-    "detailPage": 9,
-    "searchTerms": [
-      "Countach",
-      "カウンタック",
-      "Comedy",
-      "Romance",
-      "Sports",
-      "Haruto Umezawa"
-    ],
-    "chapterIndexId": "2b2e7c95-9e4d-4199-9ea6-52add4c22cfa",
-    "mangadexUrl": "https://mangadex.org/title/2b2e7c95-9e4d-4199-9ea6-52add4c22cfa",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "synonyms": [
-      "Contach",
-      "Countershock"
-    ],
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx49156-WZTXu1iEYZD0.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx49156-WZTXu1iEYZD0.png",
-    "coverImageColor": "#e48635",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/49156-6XURVRlVVun5.jpg",
-    "type": "MANGA",
-    "startDate": "2004-09-09",
-    "endDate": "2012-09-06",
-    "tags": [
-      {
-        "id": 10,
-        "name": "Cars",
-        "description": "Centers around the use of automotive vehicles.",
-        "category": "Theme-Other-Vehicle",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "rating": 6.5,
-    "meanScore": 72,
-    "trending": 0,
-    "favourites": 21,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/49156",
-    "mal_url": "https://myanimelist.net/manga/19156",
-    "externalLinks": [],
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "2b2e7c95-9e4d-4199-9ea6-52add4c22cfa",
-    "chapterSourceTitle": "Countach",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-07-26T10:30:26+00:00",
-    "latestChapterNumber": "269",
-    "latestChapterTitle": "They Who Cannot Return",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "3f509b7b-6f6d-487e-98dc-ba7d2022d0ba",
-    "chapterCoverageCount": 30,
     "chapterCoverageLanguages": [
       "en"
     ],
