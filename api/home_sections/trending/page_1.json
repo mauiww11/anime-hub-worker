@@ -39,7 +39,17 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 98,
+        "rank": 97,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 95,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -52,16 +62,6 @@
         "rank": 95,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 94,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -139,7 +139,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 81,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -179,7 +179,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 71,
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -209,7 +209,7 @@
         "name": "Travel",
         "description": "Centers around character(s) moving between places a significant distance apart.",
         "category": "Theme-Other",
-        "rank": 67,
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -229,7 +229,7 @@
         "name": "Elf",
         "description": "Prominently features a character who is an elf.",
         "category": "Cast-Traits",
-        "rank": 62,
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -279,7 +279,17 @@
         "name": "Female Harem",
         "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
         "category": "Theme-Romance",
-        "rank": 51,
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1292,
+        "name": "Spearplay",
+        "description": "Prominently features the use of spears in combat.",
+        "category": "Theme-Action",
+        "rank": 48,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -288,6 +298,16 @@
         "id": 249,
         "name": "Maids",
         "description": "Prominently features a character who is a maid.",
+        "category": "Cast-Traits",
+        "rank": 45,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 494,
+        "name": "Twins",
+        "description": "Prominently features two or more siblings that were born at one birth.",
         "category": "Cast-Traits",
         "rank": 43,
         "isGeneralSpoiler": false,
@@ -305,23 +325,13 @@
         "isAdult": false
       },
       {
-        "id": 494,
-        "name": "Twins",
-        "description": "Prominently features two or more siblings that were born at one birth.",
+        "id": 1342,
+        "name": "Clone",
+        "description": "Prominently features a character who is an artificial exact copy of another organism.",
         "category": "Cast-Traits",
-        "rank": 41,
+        "rank": 20,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1292,
-        "name": "Spearplay",
-        "description": "Prominently features the use of spears in combat.",
-        "category": "Theme-Action",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -340,9 +350,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 120035,
-    "trending": 64,
-    "favourites": 5601,
+    "popularity": 125066,
+    "trending": 30,
+    "favourites": 6040,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -732,9 +742,9 @@
     "rating": 7.8,
     "averageScore": 78,
     "meanScore": 79,
-    "popularity": 110593,
-    "trending": 29,
-    "favourites": 3155,
+    "popularity": 111904,
+    "trending": 30,
+    "favourites": 3188,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1178,16 +1188,6 @@
         "isAdult": false
       },
       {
-        "id": 217,
-        "name": "Dystopian",
-        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
-        "category": "Setting-Time",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 247,
         "name": "Slavery",
         "description": "Prominently features slaves, slavery, or slave trade.",
@@ -1202,9 +1202,29 @@
         "name": "Fugitive",
         "description": "Prominently features a character evading capture by an individual or organization.",
         "category": "Theme-Action",
-        "rank": 75,
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 217,
+        "name": "Dystopian",
+        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
+        "category": "Setting-Time",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1215,16 +1235,6 @@
         "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1252,7 +1262,17 @@
         "name": "Monster Boy",
         "description": "Prominently features a male character who is a part-monster.",
         "category": "Cast-Traits",
-        "rank": 70,
+        "rank": 69,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+        "category": "Cast-Traits",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1278,11 +1298,11 @@
         "isAdult": false
       },
       {
-        "id": 1304,
-        "name": "Anthropomorphism",
-        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
-        "category": "Cast-Traits",
-        "rank": 67,
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1318,11 +1338,11 @@
         "isAdult": false
       },
       {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 65,
+        "id": 433,
+        "name": "Animals",
+        "description": "Prominently features animal characters in a leading role.",
+        "category": "Theme-Other",
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1332,15 +1352,15 @@
         "name": "Anti-Hero",
         "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
         "category": "Cast-Main Cast",
-        "rank": 65,
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 433,
-        "name": "Animals",
-        "description": "Prominently features animal characters in a leading role.",
+        "id": 659,
+        "name": "Medicine",
+        "description": "Centered around the activities of people working in the field of medicine.",
         "category": "Theme-Other",
         "rank": 64,
         "isGeneralSpoiler": false,
@@ -1352,16 +1372,6 @@
         "name": "Skeleton",
         "description": "Prominently features skeleton(s) as a character.",
         "category": "Cast-Traits",
-        "rank": 63,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 659,
-        "name": "Medicine",
-        "description": "Centered around the activities of people working in the field of medicine.",
-        "category": "Theme-Other",
         "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1408,21 +1418,21 @@
         "isAdult": false
       },
       {
-        "id": 291,
-        "name": "Samurai",
-        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
-        "category": "Cast-Traits",
+        "id": 1453,
+        "name": "Desert",
+        "description": "Prominently features a desert environment.",
+        "category": "Setting-Scene",
         "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1453,
-        "name": "Desert",
-        "description": "Prominently features a desert environment.",
-        "category": "Setting-Scene",
-        "rank": 62,
+        "id": 291,
+        "name": "Samurai",
+        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
+        "category": "Cast-Traits",
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1463,6 +1473,16 @@
         "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
         "category": "Theme-Other",
         "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 489,
+        "name": "Drugs",
+        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
+        "category": "Theme-Other",
+        "rank": 58,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1512,16 +1532,6 @@
         "name": "Kuudere",
         "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
         "category": "Cast-Traits",
-        "rank": 57,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 489,
-        "name": "Drugs",
-        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
-        "category": "Theme-Other",
         "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1598,16 +1608,6 @@
         "isAdult": false
       },
       {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 558,
         "name": "Mermaid",
         "description": "A mythological creature with the body of a human and the tail of a fish.",
@@ -1635,6 +1635,16 @@
         "rank": 50,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1813,9 +1823,9 @@
     "rating": 8.7,
     "averageScore": 87,
     "meanScore": 87,
-    "popularity": 732880,
-    "trending": 184,
-    "favourites": 108088,
+    "popularity": 735687,
+    "trending": 179,
+    "favourites": 108391,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1944,20 +1954,20 @@
         "isAdult": false
       },
       {
-        "id": 1277,
-        "name": "Found Family",
-        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
-        "category": "Theme-Other",
-        "rank": 81,
+        "id": 446,
+        "name": "Primarily Child Cast",
+        "description": "Main cast is mostly composed of characters below a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 446,
-        "name": "Primarily Child Cast",
-        "description": "Main cast is mostly composed of characters below a high school age.",
-        "category": "Cast-Main Cast",
+        "id": 1277,
+        "name": "Found Family",
+        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
+        "category": "Theme-Other",
         "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1994,23 +2004,33 @@
         "isAdult": false
       },
       {
-        "id": 165,
-        "name": "Teacher",
-        "description": "Protagonist is an educator, usually in a school setting.",
-        "category": "Cast-Traits",
-        "rank": 67,
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
-        "category": "Theme-Other",
-        "rank": 66,
+        "id": 165,
+        "name": "Teacher",
+        "description": "Protagonist is an educator, usually in a school setting.",
+        "category": "Cast-Traits",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1219,
+        "name": "Disability",
+        "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
+        "category": "Cast-Traits",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -2021,16 +2041,6 @@
         "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1219,
-        "name": "Disability",
-        "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
-        "category": "Cast-Traits",
-        "rank": 64,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -2048,7 +2058,7 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 61,
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2149,9 +2159,9 @@
     "rating": 8.5,
     "averageScore": 85,
     "meanScore": 85,
-    "popularity": 207786,
-    "trending": 61,
-    "favourites": 10173,
+    "popularity": 210797,
+    "trending": 70,
+    "favourites": 10419,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2698,7 +2708,8 @@
     "synonyms": [
       "I Became Friends with the Second Cutest Girl in My Class",
       "Kuranika",
-      "クラにか"
+      "クラにか",
+      "Я подружился со второй красоткой класса"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169580-nXxpmqu6UVux.jpg",
@@ -2724,7 +2735,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 90,
+        "rank": 89,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2754,7 +2765,7 @@
         "name": "Primarily Teen Cast",
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 85,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2764,7 +2775,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 84,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2790,21 +2801,21 @@
         "isAdult": false
       },
       {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 78,
+        "id": 97,
+        "name": "Otaku Culture",
+        "description": "Centers around the culture of a fanatical fan-base.",
+        "category": "Theme-Other",
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 97,
-        "name": "Otaku Culture",
-        "description": "Centers around the culture of a fanatical fan-base.",
-        "category": "Theme-Other",
-        "rank": 78,
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2814,7 +2825,7 @@
         "name": "Coming of Age",
         "description": "Centers around a character's transition from childhood to adulthood.",
         "category": "Theme-Drama",
-        "rank": 60,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2824,7 +2835,7 @@
         "name": "Video Games",
         "description": "Centers around characters playing video games.",
         "category": "Theme-Game",
-        "rank": 56,
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2834,7 +2845,7 @@
         "name": "Chibi",
         "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
         "category": "Theme-Other",
-        "rank": 40,
+        "rank": 38,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2865,9 +2876,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 80,
-    "popularity": 87007,
-    "trending": 54,
-    "favourites": 3055,
+    "popularity": 91837,
+    "trending": 29,
+    "favourites": 3341,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3057,7 +3068,8 @@
       "Pasangan dari Alam Baka",
       "ยมลแห่งยมโลก",
       "Daemons do Reino das Sombras",
-      "Espíritus del Inframundo"
+      "Espíritus del Inframundo",
+      "Цугаи загробного мира"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195600-moI0UFArtOme.jpg",
@@ -3210,6 +3222,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
+      },
+      {
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -3227,9 +3249,9 @@
     "rating": 7.8,
     "averageScore": 78,
     "meanScore": 78,
-    "popularity": 121303,
-    "trending": 84,
-    "favourites": 2491,
+    "popularity": 123499,
+    "trending": 68,
+    "favourites": 2557,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4071,7 +4093,7 @@
         "name": "Agender",
         "description": "Prominently features agender characters.",
         "category": "Cast-Traits",
-        "rank": 62,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4107,16 +4129,6 @@
         "isAdult": false
       },
       {
-        "id": 622,
-        "name": "Asexual",
-        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
@@ -4134,6 +4146,16 @@
         "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 622,
+        "name": "Asexual",
+        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
+        "category": "Cast-Traits",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -4192,9 +4214,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 118811,
-    "trending": 88,
-    "favourites": 3981,
+    "popularity": 121353,
+    "trending": 68,
+    "favourites": 4109,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4561,7 +4583,7 @@
         "name": "Mixed Gender Harem",
         "description": "Main cast features the protagonist plus several people, regardless of gender, who are romantically interested in them.",
         "category": "Theme-Romance",
-        "rank": 33,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4610,9 +4632,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 110744,
-    "trending": 41,
-    "favourites": 3782,
+    "popularity": 112301,
+    "trending": 37,
+    "favourites": 3843,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,

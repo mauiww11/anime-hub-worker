@@ -192,16 +192,6 @@
         "isAdult": false
       },
       {
-        "id": 217,
-        "name": "Dystopian",
-        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
-        "category": "Setting-Time",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 247,
         "name": "Slavery",
         "description": "Prominently features slaves, slavery, or slave trade.",
@@ -216,9 +206,29 @@
         "name": "Fugitive",
         "description": "Prominently features a character evading capture by an individual or organization.",
         "category": "Theme-Action",
-        "rank": 75,
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 217,
+        "name": "Dystopian",
+        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
+        "category": "Setting-Time",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -229,16 +239,6 @@
         "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -266,7 +266,17 @@
         "name": "Monster Boy",
         "description": "Prominently features a male character who is a part-monster.",
         "category": "Cast-Traits",
-        "rank": 70,
+        "rank": 69,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+        "category": "Cast-Traits",
+        "rank": 68,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -292,11 +302,11 @@
         "isAdult": false
       },
       {
-        "id": 1304,
-        "name": "Anthropomorphism",
-        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
-        "category": "Cast-Traits",
-        "rank": 67,
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -332,11 +342,11 @@
         "isAdult": false
       },
       {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 65,
+        "id": 433,
+        "name": "Animals",
+        "description": "Prominently features animal characters in a leading role.",
+        "category": "Theme-Other",
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -346,15 +356,15 @@
         "name": "Anti-Hero",
         "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
         "category": "Cast-Main Cast",
-        "rank": 65,
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 433,
-        "name": "Animals",
-        "description": "Prominently features animal characters in a leading role.",
+        "id": 659,
+        "name": "Medicine",
+        "description": "Centered around the activities of people working in the field of medicine.",
         "category": "Theme-Other",
         "rank": 64,
         "isGeneralSpoiler": false,
@@ -366,16 +376,6 @@
         "name": "Skeleton",
         "description": "Prominently features skeleton(s) as a character.",
         "category": "Cast-Traits",
-        "rank": 63,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 659,
-        "name": "Medicine",
-        "description": "Centered around the activities of people working in the field of medicine.",
-        "category": "Theme-Other",
         "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -422,21 +422,21 @@
         "isAdult": false
       },
       {
-        "id": 291,
-        "name": "Samurai",
-        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
-        "category": "Cast-Traits",
+        "id": 1453,
+        "name": "Desert",
+        "description": "Prominently features a desert environment.",
+        "category": "Setting-Scene",
         "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1453,
-        "name": "Desert",
-        "description": "Prominently features a desert environment.",
-        "category": "Setting-Scene",
-        "rank": 62,
+        "id": 291,
+        "name": "Samurai",
+        "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
+        "category": "Cast-Traits",
+        "rank": 61,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -477,6 +477,16 @@
         "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
         "category": "Theme-Other",
         "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 489,
+        "name": "Drugs",
+        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
+        "category": "Theme-Other",
+        "rank": 58,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -526,16 +536,6 @@
         "name": "Kuudere",
         "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
         "category": "Cast-Traits",
-        "rank": 57,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 489,
-        "name": "Drugs",
-        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
-        "category": "Theme-Other",
         "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -612,16 +612,6 @@
         "isAdult": false
       },
       {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 52,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 558,
         "name": "Mermaid",
         "description": "A mythological creature with the body of a human and the tail of a fish.",
@@ -649,6 +639,16 @@
         "rank": 50,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -827,9 +827,9 @@
     "rating": 8.7,
     "averageScore": 87,
     "meanScore": 87,
-    "popularity": 732880,
-    "trending": 184,
-    "favourites": 108088,
+    "popularity": 735687,
+    "trending": 179,
+    "favourites": 108391,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -951,7 +951,7 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 86,
+        "rank": 87,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1192,9 +1192,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 123350,
-    "trending": 27,
-    "favourites": 5919,
+    "popularity": 125066,
+    "trending": 30,
+    "favourites": 6040,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1223,7 +1223,8 @@
       "Pasangan dari Alam Baka",
       "ยมลแห่งยมโลก",
       "Daemons do Reino das Sombras",
-      "Espíritus del Inframundo"
+      "Espíritus del Inframundo",
+      "Цугаи загробного мира"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195600-moI0UFArtOme.jpg",
@@ -1376,6 +1377,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
+      },
+      {
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -1393,9 +1404,9 @@
     "rating": 7.8,
     "averageScore": 78,
     "meanScore": 78,
-    "popularity": 121303,
-    "trending": 84,
-    "favourites": 2491,
+    "popularity": 123499,
+    "trending": 68,
+    "favourites": 2557,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1561,7 +1572,7 @@
         "name": "Agender",
         "description": "Prominently features agender characters.",
         "category": "Cast-Traits",
-        "rank": 62,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1597,16 +1608,6 @@
         "isAdult": false
       },
       {
-        "id": 622,
-        "name": "Asexual",
-        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
@@ -1624,6 +1625,16 @@
         "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 622,
+        "name": "Asexual",
+        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
+        "category": "Cast-Traits",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1682,9 +1693,9 @@
     "rating": 8.2,
     "averageScore": 82,
     "meanScore": 82,
-    "popularity": 118811,
-    "trending": 88,
-    "favourites": 3981,
+    "popularity": 121353,
+    "trending": 68,
+    "favourites": 4109,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1719,7 +1730,7 @@
     "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx196187-0dgFi2CPp3xn.jpg",
     "coverImageColor": "#f1c9bb",
     "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/196187-Z9dV6uotmKjM.jpg",
-    "synopsis": "Sasaki is an overworked salaryman drifting through the corporate grind, sustained by cigarettes and the cheerful service and smile of Yamada, the clerk at his favorite supermarket. But one night after a grueling shift, he arrives late to find Yamada nowhere to be seen. With nowhere left to smoke, his spirits sink—until a pierced young woman calls out to him: “You can smoke here.” (Source: Crunchyroll) Note: Episodes 1-6 had an early release by ABEMA and Crunchyroll on June 3rd, 2026 in a mini-episode batch format that splits 6 episodes into 12, ahead of the TV broadcast which started on July 9th, 2026.",
+    "synopsis": "Sasaki is an overworked salaryman drifting through the corporate grind, sustained by cigarettes and the cheerful service and smile of Yamada, the clerk at his favorite supermarket. But one night after a grueling shift, he arrives late to find Yamada nowhere to be seen. With nowhere left to smoke, his spirits sink—until a pierced young woman calls out to him: “You can smoke here.” (Source: Crunchyroll) Note: Episodes 1-6 had an early release by ABEMA and Crunchyroll on June 3rd, 2026 in a mini-episode batch format that splits 6 episodes into 12, ahead of the TV broadcast which started on July 10th, 2026.",
     "type": "ANIME",
     "format": "TV",
     "status": "RELEASING",
@@ -1749,7 +1760,7 @@
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 92,
+        "rank": 93,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1759,7 +1770,7 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 89,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1795,21 +1806,21 @@
         "isAdult": false
       },
       {
-        "id": 81,
-        "name": "Iyashikei",
-        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
-        "category": "Theme-Slice of Life",
-        "rank": 76,
+        "id": 489,
+        "name": "Drugs",
+        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
+        "category": "Theme-Other",
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 489,
-        "name": "Drugs",
-        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
-        "category": "Theme-Other",
-        "rank": 75,
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1869,16 +1880,16 @@
     ],
     "rating": 8.2,
     "averageScore": 82,
-    "meanScore": 83,
-    "popularity": 93397,
-    "trending": 307,
-    "favourites": 2660,
+    "meanScore": 82,
+    "popularity": 97865,
+    "trending": 294,
+    "favourites": 2825,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
     "hashtag": "#ヤニすう",
-    "startDate": "2026-07-09",
+    "startDate": "2026-07-10",
     "endDate": null,
     "mal_url": "https://myanimelist.net/anime/62076",
     "anilist_url": "https://anilist.co/anime/196187",
@@ -2144,9 +2155,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 80837,
-    "trending": 126,
-    "favourites": 1444,
+    "popularity": 83198,
+    "trending": 118,
+    "favourites": 1522,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2551,9 +2562,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 78470,
-    "trending": 9,
-    "favourites": 5944,
+    "popularity": 78669,
+    "trending": 12,
+    "favourites": 5954,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2564,6 +2575,183 @@
     "mal_url": "https://myanimelist.net/anime/235",
     "anilist_url": "https://anilist.co/anime/235",
     "trailer": null
+  },
+  {
+    "animeId": 60636,
+    "anilistId": 185874,
+    "title": "BLEACH: Thousand-Year Blood War - The Calamity",
+    "titleRomaji": "BLEACH: Sennen Kessen-hen - Kashin-tan",
+    "titleEnglish": "BLEACH: Thousand-Year Blood War - The Calamity",
+    "titleNative": "BLEACH 千年血戦篇-禍進譚-",
+    "synonyms": [
+      "BLEACH: Thousand-Year Blood War Part 4",
+      "BLEACH 千年血戦篇 第4クール",
+      "BLEACH: Thousand-Year Blood War The Final Season",
+      "BLEACH TYBW"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185874-aU3e6tBT6wwA.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185874-aU3e6tBT6wwA.jpg",
+    "coverImageColor": "",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185874-IdGyh1EBG91I.jpg",
+    "synopsis": "The fourth and final part of BLEACH: Sennen Kessen-hen . Destruction looms at the end of the Thousand-Year Blood War between the Soul Reapers and Quincies… as the death of the Soul King mirrors the collapse of the Three Worlds, distortions and omens of destruction start to appear in all realms. Fierce battles erupt throughout the Wahr Welt between the Thirteen Court Guard Squads and the Royal Guard. Ichigo learns about Uryuu's true intentions and renews his determination to protect the world together, as friends who trust each other. Yhwach has surpassed even his own ability, The Almighty... The fierce battle for the survival of the Three Worlds approaches its end. Beyond the chaos of calamity, what lies in wait—despair or hope? (Source: VIZ Media, edited)",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 10,
+    "duration": 0,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "tags": [
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 91,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 91,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
+        "category": "Theme-Other",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 66,
+        "name": "Super Power",
+        "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+        "category": "Theme-Fantasy",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 321,
+        "name": "Urban Fantasy",
+        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+        "category": "Setting-Universe",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 365,
+        "name": "Memory Manipulation",
+        "description": "Prominently features a character(s) who has had their memories altered.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 94,
+        "name": "Gore",
+        "description": "Prominently features graphic bloodshed and violence.",
+        "category": "Theme-Other",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 251,
+        "name": "Archery",
+        "description": "Centers around the sport of archery, or prominently features the use of archery in combat.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 335,
+        "name": "Tanned Skin",
+        "description": "Prominently features characters with tanned skin.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 7517,
+        "name": "PIERROT FILMS",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/7517"
+      }
+    ],
+    "studiosNames": [
+      "PIERROT FILMS"
+    ],
+    "rating": 8.8,
+    "averageScore": 88,
+    "meanScore": 88,
+    "popularity": 64603,
+    "trending": 33,
+    "favourites": 1933,
+    "source": "MANGA",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#BLEACH_anime #BLEACH",
+    "startDate": "2026-07-25",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/60636",
+    "anilist_url": "https://anilist.co/anime/185874",
+    "trailer": {
+      "id": "IJONbpfIlUg",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=IJONbpfIlUg"
+    }
   },
   {
     "animeId": 63403,
@@ -2610,17 +2798,7 @@
         "name": "Drugs",
         "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
         "category": "Theme-Other",
-        "rank": 97,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 113,
-        "name": "Nekomimi",
-        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
-        "category": "Cast-Traits",
-        "rank": 92,
+        "rank": 96,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2630,6 +2808,16 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 113,
+        "name": "Nekomimi",
+        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
+        "category": "Cast-Traits",
         "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2670,17 +2858,7 @@
         "name": "Episodic",
         "description": "Features story arcs that are loosely tied or lack an overarching plot.",
         "category": "Technical",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 311,
-        "name": "Rehabilitation",
-        "description": "Prominently features the recovery of a character who became incapable of social life or work.",
-        "category": "Theme-Drama",
-        "rank": 80,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2690,27 +2868,27 @@
         "name": "Class Struggle",
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
         "category": "Theme-Drama",
-        "rank": 80,
+        "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
-      },
-      {
-        "id": 387,
-        "name": "Scat",
-        "description": "Lots of feces.",
-        "category": "Sexual Content",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
       },
       {
         "id": 109,
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
-        "rank": 75,
+        "rank": 78,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 311,
+        "name": "Rehabilitation",
+        "description": "Prominently features the recovery of a character who became incapable of social life or work.",
+        "category": "Theme-Drama",
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2720,7 +2898,7 @@
         "name": "Urban Fantasy",
         "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
         "category": "Setting-Universe",
-        "rank": 75,
+        "rank": 74,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2750,7 +2928,7 @@
         "name": "Satire",
         "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
         "category": "Theme-Comedy",
-        "rank": 63,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2780,7 +2958,17 @@
         "name": "Survival",
         "description": "Centers around the struggle to live in spite of extreme obstacles.",
         "category": "Theme-Other",
-        "rank": 53,
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 92,
+        "name": "Cute Girls Doing Cute Things",
+        "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
+        "category": "Theme-Slice of Life",
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2790,10 +2978,30 @@
         "name": "Watersports",
         "description": "Features sexual situations involving urine.",
         "category": "Sexual Content",
-        "rank": 41,
+        "rank": 36,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": true
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 117,
+        "name": "Mahjong",
+        "description": "Centered around the game of mahjong.",
+        "category": "Theme-Game-Card & Board Game",
+        "rank": 13,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -2808,12 +3016,12 @@
     "studiosNames": [
       "Bibury Animation Studios"
     ],
-    "rating": 6.8,
-    "averageScore": 68,
-    "meanScore": 68,
-    "popularity": 51906,
-    "trending": 270,
-    "favourites": 744,
+    "rating": 6.7,
+    "averageScore": 67,
+    "meanScore": 67,
+    "popularity": 56673,
+    "trending": 287,
+    "favourites": 856,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2876,7 +3084,7 @@
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
-        "rank": 75,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2912,6 +3120,16 @@
         "isAdult": false
       },
       {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 15,
         "name": "Demons",
         "description": "Prominently features malevolent otherworldly creatures.",
@@ -2932,11 +3150,31 @@
         "isAdult": false
       },
       {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 13,
+        "id": 30,
+        "name": "Martial Arts",
+        "description": "Centers around the use of traditional hand-to-hand combat.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 40,
+        "name": "Police",
+        "description": "Centers around the life and activities of law enforcement officers.",
+        "category": "Theme-Other-Organisations",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 310,
+        "name": "Espionage",
+        "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
+        "category": "Theme-Action",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2954,12 +3192,12 @@
     "studiosNames": [
       "100studio"
     ],
-    "rating": 7.2,
-    "averageScore": 72,
-    "meanScore": 73,
-    "popularity": 49265,
-    "trending": 46,
-    "favourites": 645,
+    "rating": 7.1,
+    "averageScore": 71,
+    "meanScore": 72,
+    "popularity": 53464,
+    "trending": 40,
+    "favourites": 727,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3031,7 +3269,7 @@
         "name": "Iyashikei",
         "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
         "category": "Theme-Slice of Life",
-        "rank": 85,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3061,17 +3299,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 65,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3082,6 +3310,16 @@
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
         "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3102,9 +3340,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 44689,
-    "trending": 55,
-    "favourites": 676,
+    "popularity": 47163,
+    "trending": 32,
+    "favourites": 760,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3118,480 +3356,6 @@
       "id": "HW7enBbU_hk",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=HW7enBbU_hk"
-    }
-  },
-  {
-    "animeId": 61126,
-    "anilistId": 187260,
-    "title": "I Want to Love You Till Your Dying Day",
-    "titleRomaji": "Kimi ga Shinu made Koi wo Shitai",
-    "titleEnglish": "I Want to Love You Till Your Dying Day",
-    "titleNative": "きみが死ぬまで恋をしたい",
-    "synonyms": [
-      "きみ死ぬ",
-      "KimiShinu",
-      "Je veux t'aimer jusqu'à ta mort"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187260-WW5RBa5NINRP.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187260-WW5RBa5NINRP.jpg",
-    "coverImageColor": "#e4ae35",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187260-HMkLPy3ZvzW1.jpg",
-    "synopsis": "At the mysterious orphanage where Sheena lives, death is nothing new to its residents—girls who no longer have families of their own, who are raised as weapons of war, taught to kill and take the lives of others without batting an eye. Everyone, that is, except Sheena, who wishes for nothing more than the growing conflict around her to end. On the night of her roommate's death, Sheena meets a strange girl covered in blood, who smiles despite the turmoil surrounding them. The next day, the girl appears as a new student in Sheena's class and introduces herself as Mimi. Initially thought to be a school myth, there are now whispers in the orphanage's halls that Mimi is their secret weapon—an immortal who cannot die. When Mimi is later assigned as Sheena's new roommate, Sheena's world grows even more complicated when she begins living with someone who loves and welcomes death, when all Sheena wants to do is stop it… (Source: Kodansha USA)",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 13,
-    "duration": 24,
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "tags": [
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 97,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
-        "category": "Theme-Other",
-        "rank": 96,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 86,
-        "name": "Primarily Female Cast",
-        "description": "Main cast is mostly composed of female characters.",
-        "category": "Cast-Main Cast",
-        "rank": 93,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 92,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 91,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 34,
-        "name": "Military",
-        "description": "Centered around the life and activities of military personnel.",
-        "category": "Theme-Other-Organisations",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 220,
-        "name": "Ghost",
-        "description": "Prominently features a character who is a ghost.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 639,
-        "name": "Body Horror",
-        "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
-        "category": "Theme-Other",
-        "rank": 77,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 94,
-        "name": "Gore",
-        "description": "Prominently features graphic bloodshed and violence.",
-        "category": "Theme-Other",
-        "rank": 76,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1382,
-        "name": "Orphan",
-        "description": "Prominently features a character that is an orphan.",
-        "category": "Cast-Traits",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1489,
-        "name": "Boarding School",
-        "description": "Features characters attending a boarding school.",
-        "category": "Setting-Scene",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 217,
-        "name": "Dystopian",
-        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
-        "category": "Setting-Time",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 53,
-        "name": "Shoujo",
-        "description": "Target demographic is teenage and young adult females.",
-        "category": "Demographic",
-        "rank": 49,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 90,
-        "name": "CGI",
-        "description": "Prominently features scenes created with computer-generated imagery.",
-        "category": "Technical",
-        "rank": 48,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 7475,
-        "name": "ROLL2",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/7475"
-      }
-    ],
-    "studiosNames": [
-      "ROLL2"
-    ],
-    "rating": 7.5,
-    "averageScore": 75,
-    "meanScore": 76,
-    "popularity": 44079,
-    "trending": 58,
-    "favourites": 695,
-    "source": "MANGA",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#きみ死ぬアニメ",
-    "startDate": "2026-07-07",
-    "endDate": "2026-09-29",
-    "mal_url": "https://myanimelist.net/anime/61126",
-    "anilist_url": "https://anilist.co/anime/187260",
-    "trailer": {
-      "id": "zJLbfK_9ZmQ",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=zJLbfK_9ZmQ"
-    }
-  },
-  {
-    "animeId": 62856,
-    "anilistId": 103303,
-    "title": "Sparks of Tomorrow",
-    "titleRomaji": "Nijusseiki Denki Mokuroku: Eureka Evrika",
-    "titleEnglish": "Sparks of Tomorrow",
-    "titleNative": "二十世紀電氣目録-ユーレカ・エヴリカ-",
-    "synonyms": [
-      "20th Century Electricity Catalogue",
-      "Twentieth Century Electrical Records",
-      "A Luz do Futuro",
-      "Destellos del mañana",
-      "Étincelles de Demain",
-      "ประกายฝัน วันพรุ่งนี้"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103303-IF43hFJPPv2Y.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103303-IF43hFJPPv2Y.png",
-    "coverImageColor": "#fec950",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103303-K73aVOqkCPqL.jpg",
-    "synopsis": "The novel takes place in the summer of 1907, the 40th year of the Meiji era. 15-year-old Inako Momokawa lives in the Fushimi area of Kyoto, and is the second daughter of a sake brewer. Nothing she does ever comes out right, and she receives a scolding from her father every day. Her only relief is the trust she places in her prayers to the gods. One day while at Fushimi Inari shrine, she meets a freewheeling young man named Kihachi Sakamoto. He rejects the gods, and boasts of the incoming age of electricity. The topic of marriage suddenly comes up in Inako's household. Her father is one-sidedly making all the decisions for her, and Inako is about to give up hope. It is then that Kihachi draws out Inako's true feelings of wanting to run away from her family. The only way to stop her marriage is to find an unusual book called the \"Electricity Catalog.\" The book is a prediction book about electricity that Kihachi wrote when he was a child, but his older brother Seiroku took the book, and i",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 13,
-    "duration": 25,
-    "genres": [
-      "Adventure",
-      "Romance"
-    ],
-    "tags": [
-      {
-        "id": 95,
-        "name": "Steampunk",
-        "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
-        "category": "Theme-Fantasy",
-        "rank": 86,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 391,
-        "name": "Philosophy",
-        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
-        "category": "Theme-Other",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 62,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1742,
-        "name": "Mixed Media",
-        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
-        "category": "Technical",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 55,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 25,
-        "name": "Historical",
-        "description": "Partly or completely set during a real period of world history.",
-        "category": "Setting-Time",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 85,
-        "name": "Tragedy",
-        "description": "Centers around tragic events and unhappy endings.",
-        "category": "Theme-Drama",
-        "rank": 50,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1578,
-        "name": "Arranged Marriage",
-        "description": "Features two characters made to marry each other, usually by their family.",
-        "category": "Cast-Traits",
-        "rank": 35,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
-        "category": "Theme-Other",
-        "rank": 25,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 505,
-        "name": "Advertisement",
-        "description": "Produced in order to promote the products of a certain company.",
-        "category": "Technical",
-        "rank": 10,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 140,
-        "name": "Educational",
-        "description": "Primary aim is to educate the audience.",
-        "category": "Theme-Other",
-        "rank": 10,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 2,
-        "name": "Kyoto Animation",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/2"
-      }
-    ],
-    "studiosNames": [
-      "Kyoto Animation"
-    ],
-    "rating": 7.6,
-    "averageScore": 76,
-    "meanScore": 77,
-    "popularity": 43592,
-    "trending": 30,
-    "favourites": 423,
-    "source": "OTHER",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#二十世紀電氣目録 #sparks_of_tomorrow",
-    "startDate": "2026-07-05",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/62856",
-    "anilist_url": "https://anilist.co/anime/103303",
-    "trailer": {
-      "id": "-W2vs2etG9o",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=-W2vs2etG9o"
     }
   },
   {
@@ -3631,7 +3395,7 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 88,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3641,7 +3405,7 @@
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
-        "rank": 86,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3747,16 +3511,6 @@
         "isAdult": false
       },
       {
-        "id": 624,
-        "name": "Vore",
-        "description": "Features a character being swallowed or swallowing another creature whole.",
-        "category": "Sexual Content",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
-      },
-      {
         "id": 143,
         "name": "Survival",
         "description": "Centers around the struggle to live in spite of extreme obstacles.",
@@ -3792,9 +3546,9 @@
     "rating": 6.7,
     "averageScore": 67,
     "meanScore": 67,
-    "popularity": 43201,
-    "trending": 416,
-    "favourites": 654,
+    "popularity": 46372,
+    "trending": 356,
+    "favourites": 715,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3808,6 +3562,400 @@
       "id": "uC13b3_8riU",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=uC13b3_8riU"
+    }
+  },
+  {
+    "animeId": 61126,
+    "anilistId": 187260,
+    "title": "I Want to Love You Till Your Dying Day",
+    "titleRomaji": "Kimi ga Shinu made Koi wo Shitai",
+    "titleEnglish": "I Want to Love You Till Your Dying Day",
+    "titleNative": "きみが死ぬまで恋をしたい",
+    "synonyms": [
+      "きみ死ぬ",
+      "KimiShinu",
+      "Je veux t'aimer jusqu'à ta mort"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187260-WW5RBa5NINRP.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx187260-WW5RBa5NINRP.jpg",
+    "coverImageColor": "#e4ae35",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187260-HMkLPy3ZvzW1.jpg",
+    "synopsis": "At the mysterious orphanage where Sheena lives, death is nothing new to its residents—girls who no longer have families of their own, who are raised as weapons of war, taught to kill and take the lives of others without batting an eye. Everyone, that is, except Sheena, who wishes for nothing more than the growing conflict around her to end. On the night of her roommate's death, Sheena meets a strange girl covered in blood, who smiles despite the turmoil surrounding them. The next day, the girl appears as a new student in Sheena's class and introduces herself as Mimi. Initially thought to be a school myth, there are now whispers in the orphanage's halls that Mimi is their secret weapon—an immortal who cannot die. When Mimi is later assigned as Sheena's new roommate, Sheena's world grows even more complicated when she begins living with someone who loves and welcomes death, when all Sheena wants to do is stop it… (Source: Kodansha USA)",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 13,
+    "duration": 24,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "tags": [
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 98,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
+        "category": "Theme-Other",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 93,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 92,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 85,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 34,
+        "name": "Military",
+        "description": "Centered around the life and activities of military personnel.",
+        "category": "Theme-Other-Organisations",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 639,
+        "name": "Body Horror",
+        "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+        "category": "Theme-Other",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 94,
+        "name": "Gore",
+        "description": "Prominently features graphic bloodshed and violence.",
+        "category": "Theme-Other",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1382,
+        "name": "Orphan",
+        "description": "Prominently features a character that is an orphan.",
+        "category": "Cast-Traits",
+        "rank": 74,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1489,
+        "name": "Boarding School",
+        "description": "Features characters attending a boarding school.",
+        "category": "Setting-Scene",
+        "rank": 62,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 217,
+        "name": "Dystopian",
+        "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
+        "category": "Setting-Time",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 37,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 7475,
+        "name": "ROLL2",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/7475"
+      }
+    ],
+    "studiosNames": [
+      "ROLL2"
+    ],
+    "rating": 7.5,
+    "averageScore": 75,
+    "meanScore": 75,
+    "popularity": 46153,
+    "trending": 47,
+    "favourites": 749,
+    "source": "MANGA",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#きみ死ぬアニメ",
+    "startDate": "2026-07-07",
+    "endDate": "2026-09-29",
+    "mal_url": "https://myanimelist.net/anime/61126",
+    "anilist_url": "https://anilist.co/anime/187260",
+    "trailer": {
+      "id": "zJLbfK_9ZmQ",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=zJLbfK_9ZmQ"
+    }
+  },
+  {
+    "animeId": 62856,
+    "anilistId": 103303,
+    "title": "Sparks of Tomorrow",
+    "titleRomaji": "Nijusseiki Denki Mokuroku: Eureka Evrika",
+    "titleEnglish": "Sparks of Tomorrow",
+    "titleNative": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+    "synonyms": [
+      "20th Century Electricity Catalogue",
+      "Twentieth Century Electrical Records",
+      "A Luz do Futuro",
+      "Destellos del mañana",
+      "Étincelles de Demain",
+      "ประกายฝัน วันพรุ่งนี้"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103303-IF43hFJPPv2Y.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103303-IF43hFJPPv2Y.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103303-IF43hFJPPv2Y.png",
+    "coverImageColor": "#fec950",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103303-K73aVOqkCPqL.jpg",
+    "synopsis": "The novel takes place in the summer of 1907, the 40th year of the Meiji era. 15-year-old Inako Momokawa lives in the Fushimi area of Kyoto, and is the second daughter of a sake brewer. Nothing she does ever comes out right, and she receives a scolding from her father every day. Her only relief is the trust she places in her prayers to the gods. One day while at Fushimi Inari shrine, she meets a freewheeling young man named Kihachi Sakamoto. He rejects the gods, and boasts of the incoming age of electricity. The topic of marriage suddenly comes up in Inako's household. Her father is one-sidedly making all the decisions for her, and Inako is about to give up hope. It is then that Kihachi draws out Inako's true feelings of wanting to run away from her family. The only way to stop her marriage is to find an unusual book called the \"Electricity Catalog.\" The book is a prediction book about electricity that Kihachi wrote when he was a child, but his older brother Seiroku took the book, and i",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 13,
+    "duration": 25,
+    "genres": [
+      "Adventure",
+      "Romance"
+    ],
+    "tags": [
+      {
+        "id": 95,
+        "name": "Steampunk",
+        "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
+        "category": "Theme-Fantasy",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+        "category": "Theme-Other",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 57,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 46,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1578,
+        "name": "Arranged Marriage",
+        "description": "Features two characters made to marry each other, usually by their family.",
+        "category": "Cast-Traits",
+        "rank": 32,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 2,
+        "name": "Kyoto Animation",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/2"
+      }
+    ],
+    "studiosNames": [
+      "Kyoto Animation"
+    ],
+    "rating": 7.6,
+    "averageScore": 76,
+    "meanScore": 76,
+    "popularity": 45870,
+    "trending": 32,
+    "favourites": 469,
+    "source": "OTHER",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#二十世紀電氣目録 #sparks_of_tomorrow",
+    "startDate": "2026-07-05",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/62856",
+    "anilist_url": "https://anilist.co/anime/103303",
+    "trailer": {
+      "id": "-W2vs2etG9o",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=-W2vs2etG9o"
     }
   },
   {
@@ -3974,6 +4122,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
+      },
+      {
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -3988,12 +4146,12 @@
     "studiosNames": [
       "ENGI"
     ],
-    "rating": 6.8,
-    "averageScore": 68,
-    "meanScore": 69,
-    "popularity": 41674,
-    "trending": 87,
-    "favourites": 659,
+    "rating": 6.7,
+    "averageScore": 67,
+    "meanScore": 68,
+    "popularity": 43929,
+    "trending": 68,
+    "favourites": 676,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4138,7 +4296,7 @@
         "name": "Police",
         "description": "Centers around the life and activities of law enforcement officers.",
         "category": "Theme-Other-Organisations",
-        "rank": 80,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4148,7 +4306,7 @@
         "name": "Dystopian",
         "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
         "category": "Setting-Time",
-        "rank": 76,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4158,7 +4316,7 @@
         "name": "Crime",
         "description": "Centers around unlawful activities punishable by the state or other authority.",
         "category": "Theme-Other",
-        "rank": 76,
+        "rank": 63,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4168,37 +4326,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 70,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
-        "category": "Theme-Other",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 294,
-        "name": "Bisexual",
-        "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 53,
+        "rank": 56,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4208,17 +4336,27 @@
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 43,
+        "rank": 51,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 193,
-        "name": "Episodic",
-        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-        "category": "Technical",
-        "rank": 40,
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 48,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4228,7 +4366,27 @@
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 30,
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 294,
+        "name": "Bisexual",
+        "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
+        "category": "Cast-Traits",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 26,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4248,10 +4406,10 @@
     ],
     "rating": 7.7,
     "averageScore": 77,
-    "meanScore": 78,
-    "popularity": 41365,
-    "trending": 80,
-    "favourites": 611,
+    "meanScore": 77,
+    "popularity": 43869,
+    "trending": 71,
+    "favourites": 691,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4265,190 +4423,6 @@
       "id": "b_v0-RWLo18",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=b_v0-RWLo18"
-    }
-  },
-  {
-    "animeId": 62331,
-    "anilistId": 197754,
-    "title": "LIAR GAME",
-    "titleRomaji": "LIAR GAME",
-    "titleEnglish": "LIAR GAME",
-    "titleNative": "LIAR GAME",
-    "synonyms": [
-      " ライアーゲーム",
-      "Игра лжецов"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197754-Q5KqcUhIdypp.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx197754-Q5KqcUhIdypp.png",
-    "coverImageColor": "",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/197754-cMWxeRdhYrFW.jpg",
-    "synopsis": "Wishing she would live up to the ideal, Kanzaki Nao's father named her thusly for “honesty”. Nao has more than lived up to her father's wishes--even exceeding them and earning the label of \"a foolishly honest girl\". This makes Nao the least qualified candidate for the high stakes 'Liar Game', where winning requires deceiving the opponent out of their money and losing means receiving massive debt. However, that doesn't stop a box containing a hundred million yen in cash and a card informing her of her participation in the game from arriving at her doorstep, nor does it stop her from being promptly tricked out of the entire sum of money. Upon hearing that a genius swindler, responsible for the bankruptcy of a major corporation, is being released from jail, Nao goes to the swindler, Shinichi Akiyama, to enlist his help. With that, the two are drawn into the dark, greed-filled, and deceptive world of the Liar Game.",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SPRING",
-    "seasonYear": 2026,
-    "seasonInt": 262,
-    "episodes": 0,
-    "duration": 24,
-    "genres": [
-      "Drama",
-      "Psychological"
-    ],
-    "tags": [
-      {
-        "id": 91,
-        "name": "Gambling",
-        "description": "Centers around the act of gambling.",
-        "category": "Theme-Other",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 84,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 102,
-        "name": "Coming of Age",
-        "description": "Centers around a character's transition from childhood to adulthood.",
-        "category": "Theme-Drama",
-        "rank": 70,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 615,
-        "name": "Death Game",
-        "description": "Features characters participating in a game, where failure results in death.",
-        "category": "Theme-Other",
-        "rank": 62,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1165,
-        "name": "Transgender",
-        "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 456,
-        "name": "Conspiracy",
-        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
-        "category": "Theme-Drama",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 55,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 586,
-        "name": "Cult",
-        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
-        "category": "Theme-Other-Organisations",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 11,
-        "name": "MADHOUSE",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/11"
-      }
-    ],
-    "studiosNames": [
-      "MADHOUSE"
-    ],
-    "rating": 6.1,
-    "averageScore": 61,
-    "meanScore": 61,
-    "popularity": 39137,
-    "trending": 21,
-    "favourites": 425,
-    "source": "MANGA",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#ライアーゲーム #LIARGAME",
-    "startDate": "2026-04-07",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/62331",
-    "anilist_url": "https://anilist.co/anime/197754",
-    "trailer": {
-      "id": "FIPOXj00ysQ",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=FIPOXj00ysQ"
     }
   },
   {
@@ -4618,10 +4592,10 @@
     ],
     "rating": 6.8,
     "averageScore": 68,
-    "meanScore": 69,
-    "popularity": 38991,
-    "trending": 35,
-    "favourites": 547,
+    "meanScore": 68,
+    "popularity": 40965,
+    "trending": 28,
+    "favourites": 577,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4635,6 +4609,190 @@
       "id": "Enu3fyOdkoM",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=Enu3fyOdkoM"
+    }
+  },
+  {
+    "animeId": 62331,
+    "anilistId": 197754,
+    "title": "LIAR GAME",
+    "titleRomaji": "LIAR GAME",
+    "titleEnglish": "LIAR GAME",
+    "titleNative": "LIAR GAME",
+    "synonyms": [
+      " ライアーゲーム",
+      "Игра лжецов"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197754-Q5KqcUhIdypp.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx197754-Q5KqcUhIdypp.png",
+    "coverImageColor": "",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/197754-cMWxeRdhYrFW.jpg",
+    "synopsis": "Wishing she would live up to the ideal, Kanzaki Nao's father named her thusly for “honesty”. Nao has more than lived up to her father's wishes--even exceeding them and earning the label of \"a foolishly honest girl\". This makes Nao the least qualified candidate for the high stakes 'Liar Game', where winning requires deceiving the opponent out of their money and losing means receiving massive debt. However, that doesn't stop a box containing a hundred million yen in cash and a card informing her of her participation in the game from arriving at her doorstep, nor does it stop her from being promptly tricked out of the entire sum of money. Upon hearing that a genius swindler, responsible for the bankruptcy of a major corporation, is being released from jail, Nao goes to the swindler, Shinichi Akiyama, to enlist his help. With that, the two are drawn into the dark, greed-filled, and deceptive world of the Liar Game.",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SPRING",
+    "seasonYear": 2026,
+    "seasonInt": 262,
+    "episodes": 0,
+    "duration": 24,
+    "genres": [
+      "Drama",
+      "Psychological"
+    ],
+    "tags": [
+      {
+        "id": 91,
+        "name": "Gambling",
+        "description": "Centers around the act of gambling.",
+        "category": "Theme-Other",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 615,
+        "name": "Death Game",
+        "description": "Features characters participating in a game, where failure results in death.",
+        "category": "Theme-Other",
+        "rank": 62,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1165,
+        "name": "Transgender",
+        "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 456,
+        "name": "Conspiracy",
+        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+        "category": "Theme-Drama",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 55,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
+        "category": "Theme-Drama",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 586,
+        "name": "Cult",
+        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+        "category": "Theme-Other-Organisations",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 11,
+        "name": "MADHOUSE",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/11"
+      }
+    ],
+    "studiosNames": [
+      "MADHOUSE"
+    ],
+    "rating": 6.1,
+    "averageScore": 61,
+    "meanScore": 61,
+    "popularity": 39715,
+    "trending": 19,
+    "favourites": 442,
+    "source": "MANGA",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#ライアーゲーム #LIARGAME",
+    "startDate": "2026-04-07",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/62331",
+    "anilist_url": "https://anilist.co/anime/197754",
+    "trailer": {
+      "id": "FIPOXj00ysQ",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=FIPOXj00ysQ"
     }
   },
   {
@@ -4692,7 +4850,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 80,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4702,15 +4860,15 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 80,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
         "rank": 80,
         "isGeneralSpoiler": false,
@@ -4728,11 +4886,11 @@
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 76,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4768,6 +4926,16 @@
         "isAdult": false
       },
       {
+        "id": 1277,
+        "name": "Found Family",
+        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
+        "category": "Theme-Other",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 265,
         "name": "Musical Theater",
         "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
@@ -4783,16 +4951,6 @@
         "description": "Main cast is a group of musicians.",
         "category": "Theme-Arts-Music",
         "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1277,
-        "name": "Found Family",
-        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
-        "category": "Theme-Other",
-        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -4833,9 +4991,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 81,
-    "popularity": 37815,
+    "popularity": 38380,
     "trending": 18,
-    "favourites": 807,
+    "favourites": 817,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -4849,6 +5007,367 @@
       "id": "6Lo1DUCY9nY",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=6Lo1DUCY9nY"
+    }
+  },
+  {
+    "animeId": 63508,
+    "anilistId": 208044,
+    "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+    "titleRomaji": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Bouken-roku",
+    "titleEnglish": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+    "titleNative": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+    "synonyms": [
+      "The Unsuccessful Yet Academically Unparalleled Sage: A Cheating S-Rank Sorcerer's Post-Rebirth Adventurer Log",
+      "The Failed Sage's Academy Domination"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx208044-Pm2UhvApQFUh.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx208044-Pm2UhvApQFUh.jpg",
+    "coverImageColor": "#f1d61a",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/208044-JtlSTlmp5SmP.jpg",
+    "synopsis": "The great sage Ephtal dies in despair after failing to reach the peak of magic—but 400 years later, he’s reborn with all his memories and power intact! In a world where magic has decayed and ancient spells are treated as miracles, Ephtal storms into a prestigious magic academy to reclaim the true art of sorcery. As his power shakes the world, long-forgotten legends begin to awaken! (Source: Crunchyroll) Note: Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Bouken-roku is streaming a week in advance of the TV broadcast on dAnimeStore, ABEMA, U-NEXT, and Anime Hodai beginning June 26th, 2026. Regular broadcasting began on July 2nd, 2026.",
+    "type": "ANIME",
+    "format": "ONA",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 0,
+    "duration": 24,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "id": 247,
+        "name": "Slavery",
+        "description": "Prominently features slaves, slavery, or slave trade.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1564,
+        "name": "Estranged Family",
+        "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 243,
+        "name": "Reincarnation",
+        "description": "Features a character being born again after death, typically as another person or in another world.",
+        "category": "Theme-Other",
+        "rank": 77,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 598,
+        "name": "Elf",
+        "description": "Prominently features a character who is an elf.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 101,
+        "name": "Battle Royale",
+        "description": "Centers around a fierce group competition, often violent and with only one winner.",
+        "category": "Theme-Action",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 6125,
+        "name": "EMT Squared",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/6125"
+      }
+    ],
+    "studiosNames": [
+      "EMT Squared"
+    ],
+    "rating": 6.5,
+    "averageScore": 65,
+    "meanScore": 66,
+    "popularity": 37983,
+    "trending": 344,
+    "favourites": 549,
+    "source": "MANGA",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": " #落第賢者",
+    "startDate": "2026-06-26",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/63508",
+    "anilist_url": "https://anilist.co/anime/208044",
+    "trailer": {
+      "id": "QOeItd-RrVs",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=QOeItd-RrVs"
+    }
+  },
+  {
+    "animeId": 62513,
+    "anilistId": 198946,
+    "title": "Clevatess Season 2",
+    "titleRomaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
+    "titleEnglish": "Clevatess Season 2",
+    "titleNative": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+    "synonyms": [
+      "クレバテスⅡ-魔獣の王と偽りの勇者伝承- 第2期",
+      "Clevatess II: Majuu no Ou to Akago to Kabane no Yuusha 2nd Season",
+      "เคลวาเทส อสูรจอมราชัน Ⅱ"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198946-IGXmbqBEYRYD.jpg",
+    "coverImageColor": "#f1bb5d",
+    "bannerImage": "",
+    "synopsis": "The second season of Clevatess: Majuu no Ou to Akago to Kabane no Yuusha .",
+    "type": "ANIME",
+    "format": "TV",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 13,
+    "duration": 24,
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 772,
+        "name": "Shapeshifting",
+        "description": "Features character(s) who changes one's appearance or form.",
+        "category": "Theme-Fantasy",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 456,
+        "name": "Conspiracy",
+        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+        "category": "Theme-Drama",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1090,
+        "name": "Monster Boy",
+        "description": "Prominently features a male character who is a part-monster.",
+        "category": "Cast-Traits",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 931,
+        "name": "Tomboy",
+        "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 259,
+        "name": "Monster Girl",
+        "description": "Prominently features a female character who is part-monster.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 6075,
+        "name": "Lay-duce",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/6075"
+      }
+    ],
+    "studiosNames": [
+      "Lay-duce"
+    ],
+    "rating": 7.5,
+    "averageScore": 75,
+    "meanScore": 77,
+    "popularity": 36666,
+    "trending": 94,
+    "favourites": 463,
+    "source": "MANGA",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#クレバテス  #clevatess",
+    "startDate": "2026-07-08",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/62513",
+    "anilist_url": "https://anilist.co/anime/198946",
+    "trailer": {
+      "id": "0N1-8XY_3Rs",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=0N1-8XY_3Rs"
     }
   },
   {
@@ -4875,7 +5394,7 @@
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
-    "episodes": 0,
+    "episodes": 24,
     "duration": 24,
     "genres": [
       "Drama",
@@ -5119,9 +5638,9 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 77,
-    "popularity": 35663,
-    "trending": 22,
-    "favourites": 595,
+    "popularity": 36174,
+    "trending": 16,
+    "favourites": 607,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5135,327 +5654,6 @@
       "id": "rtPF6rjrdSU",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=rtPF6rjrdSU"
-    }
-  },
-  {
-    "animeId": 62513,
-    "anilistId": 198946,
-    "title": "Clevatess Season 2",
-    "titleRomaji": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
-    "titleEnglish": "Clevatess Season 2",
-    "titleNative": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
-    "synonyms": [
-      "クレバテスⅡ-魔獣の王と偽りの勇者伝承- 第2期",
-      "Clevatess II: Majuu no Ou to Akago to Kabane no Yuusha 2nd Season",
-      "เคลวาเทส อสูรจอมราชัน Ⅱ"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx198946-IGXmbqBEYRYD.jpg",
-    "coverImageColor": "#f1bb5d",
-    "bannerImage": "",
-    "synopsis": "The second season of Clevatess: Majuu no Ou to Akago to Kabane no Yuusha .",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 13,
-    "duration": 24,
-    "genres": [
-      "Action",
-      "Drama",
-      "Fantasy"
-    ],
-    "tags": [
-      {
-        "id": 1752,
-        "name": "Medieval",
-        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
-        "category": "Setting-Time",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
-        "category": "Theme-Other",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1090,
-        "name": "Monster Boy",
-        "description": "Prominently features a male character who is a part-monster.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 931,
-        "name": "Tomboy",
-        "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
-        "category": "Cast-Traits",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 6075,
-        "name": "Lay-duce",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/6075"
-      }
-    ],
-    "studiosNames": [
-      "Lay-duce"
-    ],
-    "rating": 7.6,
-    "averageScore": 76,
-    "meanScore": 77,
-    "popularity": 34798,
-    "trending": 84,
-    "favourites": 426,
-    "source": "MANGA",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#クレバテス  #clevatess",
-    "startDate": "2026-07-08",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/62513",
-    "anilist_url": "https://anilist.co/anime/198946",
-    "trailer": {
-      "id": "0N1-8XY_3Rs",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=0N1-8XY_3Rs"
-    }
-  },
-  {
-    "animeId": 63508,
-    "anilistId": 208044,
-    "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
-    "titleRomaji": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Bouken-roku",
-    "titleEnglish": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
-    "titleNative": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
-    "synonyms": [
-      "The Unsuccessful Yet Academically Unparalleled Sage: A Cheating S-Rank Sorcerer's Post-Rebirth Adventurer Log",
-      "The Failed Sage's Academy Domination"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx208044-Pm2UhvApQFUh.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx208044-Pm2UhvApQFUh.jpg",
-    "coverImageColor": "#f1d61a",
-    "bannerImage": "",
-    "synopsis": "The great sage Ephtal dies in despair after failing to reach the peak of magic—but 400 years later, he’s reborn with all his memories and power intact! In a world where magic has decayed and ancient spells are treated as miracles, Ephtal storms into a prestigious magic academy to reclaim the true art of sorcery. As his power shakes the world, long-forgotten legends begin to awaken! (Source: Crunchyroll) Note: Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Bouken-roku is streaming a week in advance of the TV broadcast on dAnimeStore, ABEMA, U-NEXT, and Anime Hodai beginning June 26th, 2026. Regular broadcasting began on July 2nd, 2026.",
-    "type": "ANIME",
-    "format": "ONA",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 0,
-    "duration": 24,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "tags": [
-      {
-        "id": 247,
-        "name": "Slavery",
-        "description": "Prominently features slaves, slavery, or slave trade.",
-        "category": "Theme-Other",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1564,
-        "name": "Estranged Family",
-        "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
-        "category": "Cast-Main Cast",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 243,
-        "name": "Reincarnation",
-        "description": "Features a character being born again after death, typically as another person or in another world.",
-        "category": "Theme-Other",
-        "rank": 77,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 598,
-        "name": "Elf",
-        "description": "Prominently features a character who is an elf.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 224,
-        "name": "Dragons",
-        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 43,
-        "name": "Swordplay",
-        "description": "Prominently features the use of swords in combat.",
-        "category": "Theme-Action",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1752,
-        "name": "Medieval",
-        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
-        "category": "Setting-Time",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 6125,
-        "name": "EMT Squared",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/6125"
-      }
-    ],
-    "studiosNames": [
-      "EMT Squared"
-    ],
-    "rating": 6.6,
-    "averageScore": 66,
-    "meanScore": 66,
-    "popularity": 34639,
-    "trending": 360,
-    "favourites": 501,
-    "source": "MANGA",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": " #落第賢者",
-    "startDate": "2026-06-26",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/63508",
-    "anilist_url": "https://anilist.co/anime/208044",
-    "trailer": {
-      "id": "QOeItd-RrVs",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=QOeItd-RrVs"
     }
   },
   {
@@ -5539,6 +5737,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 90,
+        "name": "CGI",
+        "description": "Prominently features scenes created with computer-generated imagery.",
+        "category": "Technical",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -5561,12 +5769,12 @@
       "Hayabusa Film",
       "Passione"
     ],
-    "rating": 7.2,
-    "averageScore": 72,
-    "meanScore": 73,
-    "popularity": 34048,
-    "trending": 86,
-    "favourites": 423,
+    "rating": 7.1,
+    "averageScore": 71,
+    "meanScore": 72,
+    "popularity": 36031,
+    "trending": 95,
+    "favourites": 454,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5652,21 +5860,11 @@
         "isAdult": false
       },
       {
-        "id": 140,
-        "name": "Educational",
-        "description": "Primary aim is to educate the audience.",
-        "category": "Theme-Other",
-        "rank": 97,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 252,
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 94,
+        "rank": 95,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -5716,7 +5914,7 @@
         "name": "Slavery",
         "description": "Prominently features slaves, slavery, or slave trade.",
         "category": "Theme-Other",
-        "rank": 89,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5747,16 +5945,6 @@
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
         "category": "Theme-Drama",
         "rank": 82,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 27,
-        "name": "Josei",
-        "description": "Target demographic is adult females.",
-        "category": "Demographic",
-        "rank": 81,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5822,10 +6010,10 @@
         "isAdult": false
       },
       {
-        "id": 1453,
-        "name": "Desert",
-        "description": "Prominently features a desert environment.",
-        "category": "Setting-Scene",
+        "id": 27,
+        "name": "Josei",
+        "description": "Target demographic is adult females.",
+        "category": "Demographic",
         "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -5862,26 +6050,6 @@
         "isAdult": false
       },
       {
-        "id": 1046,
-        "name": "Suicide",
-        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
-        "category": "Theme-Drama",
-        "rank": 63,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 285,
-        "name": "Terrorism",
-        "description": "Centers around the activities of a terrorist or terrorist organization.",
-        "category": "Theme-Other",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 516,
         "name": "Language Barrier",
         "description": "A barrier to communication between people who are unable to speak a common language.",
@@ -5892,11 +6060,21 @@
         "isAdult": false
       },
       {
-        "id": 253,
-        "name": "Gods",
-        "description": "Prominently features a character of divine or religious nature.",
-        "category": "Cast-Traits",
-        "rank": 10,
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+        "category": "Theme-Drama",
+        "rank": 57,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1453,
+        "name": "Desert",
+        "description": "Prominently features a desert environment.",
+        "category": "Setting-Scene",
+        "rank": 54,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5917,9 +6095,9 @@
     "rating": 8.1,
     "averageScore": 81,
     "meanScore": 82,
-    "popularity": 31517,
-    "trending": 46,
-    "favourites": 442,
+    "popularity": 33341,
+    "trending": 31,
+    "favourites": 496,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -5933,191 +6111,6 @@
       "id": "GBHYXPp1lt8",
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=GBHYXPp1lt8"
-    }
-  },
-  {
-    "animeId": 62876,
-    "anilistId": 201514,
-    "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
-    "titleRomaji": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojou-sama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
-    "titleEnglish": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
-    "titleNative": "才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様(生活能力皆無)を陰ながらお世話することになりました",
-    "synonyms": [
-      "Das (fast) perfekte Fräulein und sein Butler",
-      "才女的侍從 在滿是高嶺之花的貴族學校暗中照顧（毫無生活自理能力的）學院第一大小姐",
-      "ผู้ดูแลเด็กสาว"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201514-BHAeWhSbcBrT.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx201514-BHAeWhSbcBrT.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx201514-BHAeWhSbcBrT.png",
-    "coverImageColor": "#e48650",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/201514-8dAOB0Xw124G.jpg",
-    "synopsis": "Hinako Konohana is the perfect young lady—graceful, elegant, and flawless… or so everyone thinks. Behind closed doors, she’s a total disaster who can’t handle basic chores! When ordinary student Itsuki Tomonari becomes her caretaker, he’s thrown into 24/7 damage control, maintaining her “perfect” image. It’s awkward, nonstop chaos—but it starts softening into something that feels like love… (Source: Crunchyroll)",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 12,
-    "duration": 24,
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "tags": [
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 23,
-        "name": "Female Harem",
-        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
-        "category": "Theme-Romance",
-        "rank": 68,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 780,
-        "name": "Ojou-sama",
-        "description": "Features a wealthy, high-class, oftentimes stuck up and demanding female character.",
-        "category": "Cast-Traits",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 812,
-        "name": "Butler",
-        "description": "Prominently features a character who is a butler.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1578,
-        "name": "Arranged Marriage",
-        "description": "Features two characters made to marry each other, usually by their family.",
-        "category": "Cast-Traits",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 46,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 26,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 249,
-        "name": "Maids",
-        "description": "Prominently features a character who is a maid.",
-        "category": "Cast-Traits",
-        "rank": 26,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 199,
-        "name": "Yakuza",
-        "description": "Centered around Japanese organised crime syndicates.",
-        "category": "Theme-Other-Organisations",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 112,
-        "name": "Brain's Base",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/112"
-      }
-    ],
-    "studiosNames": [
-      "Brain's Base"
-    ],
-    "rating": 7.2,
-    "averageScore": 72,
-    "meanScore": 73,
-    "popularity": 30037,
-    "trending": 23,
-    "favourites": 399,
-    "source": "LIGHT_NOVEL",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#才女のお世話",
-    "startDate": "2026-07-05",
-    "endDate": "2026-09-20",
-    "mal_url": "https://myanimelist.net/anime/62876",
-    "anilist_url": "https://anilist.co/anime/201514",
-    "trailer": {
-      "id": "JoRr4dfpXIU",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=JoRr4dfpXIU"
     }
   }
 ]
