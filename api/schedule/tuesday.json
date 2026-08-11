@@ -63,7 +63,7 @@
     "averageScore": 66,
     "meanScore": 77,
     "popularity": 577,
-    "trending": 1,
+    "trending": 2,
     "favourites": 45,
     "source": "OTHER",
     "countryOfOrigin": "CN",
@@ -345,7 +345,7 @@
     "averageScore": 61,
     "meanScore": 67,
     "popularity": 2681,
-    "trending": 13,
+    "trending": 12,
     "favourites": 38,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
@@ -497,7 +497,7 @@
         "name": "Cute Girls Doing Cute Things",
         "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
         "category": "Theme-Slice of Life",
-        "rank": 60,
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -559,7 +559,7 @@
     "averageScore": 74,
     "meanScore": 75,
     "popularity": 24731,
-    "trending": 123,
+    "trending": 171,
     "favourites": 268,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -645,7 +645,7 @@
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
         "category": "Cast-Main Cast",
-        "rank": 92,
+        "rank": 93,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -675,7 +675,7 @@
         "name": "Primarily Teen Cast",
         "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
-        "rank": 89,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -711,16 +711,6 @@
         "isAdult": false
       },
       {
-        "id": 1382,
-        "name": "Orphan",
-        "description": "Prominently features a character that is an orphan.",
-        "category": "Cast-Traits",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 639,
         "name": "Body Horror",
         "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
@@ -728,6 +718,16 @@
         "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1382,
+        "name": "Orphan",
+        "description": "Prominently features a character that is an orphan.",
+        "category": "Cast-Traits",
+        "rank": 71,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -755,7 +755,17 @@
         "name": "Dystopian",
         "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
         "category": "Setting-Time",
-        "rank": 60,
+        "rank": 62,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -771,21 +781,11 @@
         "isAdult": false
       },
       {
-        "id": 53,
-        "name": "Shoujo",
-        "description": "Target demographic is teenage and young adult females.",
-        "category": "Demographic",
-        "rank": 33,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 100,
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
         "category": "Cast-Traits",
-        "rank": 20,
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -807,7 +807,7 @@
     "averageScore": 74,
     "meanScore": 75,
     "popularity": 48670,
-    "trending": 69,
+    "trending": 255,
     "favourites": 811,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -951,7 +951,7 @@
     "averageScore": 47,
     "meanScore": 51,
     "popularity": 2355,
-    "trending": 2,
+    "trending": 13,
     "favourites": 23,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -1095,7 +1095,7 @@
     "averageScore": 64,
     "meanScore": 65,
     "popularity": 17643,
-    "trending": 8,
+    "trending": 222,
     "favourites": 188,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1313,6 +1313,16 @@
         "name": "Bisexual",
         "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
         "category": "Cast-Traits",
+        "rank": 45,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 77,
+        "name": "Gender Bending",
+        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
+        "category": "Theme-Other",
         "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1323,7 +1333,17 @@
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 34,
+        "rank": 37,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 35,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1334,26 +1354,6 @@
         "description": "Features story arcs that are loosely tied or lack an overarching plot.",
         "category": "Technical",
         "rank": 26,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 26,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 77,
-        "name": "Gender Bending",
-        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
-        "category": "Theme-Other",
-        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1385,7 +1385,7 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 47116,
-    "trending": 30,
+    "trending": 257,
     "favourites": 767,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1459,7 +1459,7 @@
     "averageScore": 52,
     "meanScore": 60,
     "popularity": 1455,
-    "trending": 0,
+    "trending": 13,
     "favourites": 20,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -1514,6 +1514,16 @@
         "name": "Found Family",
         "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
         "category": "Theme-Other",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
         "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1550,11 +1560,21 @@
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 70,
+        "id": 310,
+        "name": "Espionage",
+        "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
+        "category": "Theme-Action",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1327,
+        "name": "Royal Affairs",
+        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
+        "category": "Theme-Other",
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1590,26 +1610,6 @@
         "isAdult": false
       },
       {
-        "id": 310,
-        "name": "Espionage",
-        "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
-        "category": "Theme-Action",
-        "rank": 46,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1327,
-        "name": "Royal Affairs",
-        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
-        "category": "Theme-Other",
-        "rank": 46,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 250,
         "name": "Rural",
         "description": "Partly or completely set in the countryside.",
@@ -1636,7 +1636,7 @@
     "averageScore": 71,
     "meanScore": 73,
     "popularity": 12979,
-    "trending": 10,
+    "trending": 197,
     "favourites": 137,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1904,7 +1904,7 @@
     "averageScore": 60,
     "meanScore": 61,
     "popularity": 9534,
-    "trending": 2,
+    "trending": 74,
     "favourites": 86,
     "source": "MANGA",
     "countryOfOrigin": "JP",
