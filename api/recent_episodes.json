@@ -5125,6 +5125,26 @@
         "isAdult": false
       },
       {
+        "id": 146,
+        "name": "Alternate Universe",
+        "description": "Features multiple alternate universes in the same series.",
+        "category": "Setting-Universe",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 99,
+        "name": "Henshin",
+        "description": "Prominently features character or costume transformations which often grant special abilities.",
+        "category": "Theme-Fantasy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 76,
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
@@ -6892,21 +6912,21 @@
         "isAdult": false
       },
       {
-        "id": 198,
-        "name": "Foreign",
-        "description": "Partly or completely set in a country outside the country of origin.",
-        "category": "Setting-Scene",
+        "id": 25,
+        "name": "Historical",
+        "description": "Partly or completely set during a real period of world history.",
+        "category": "Setting-Time",
         "rank": 91,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 25,
-        "name": "Historical",
-        "description": "Partly or completely set during a real period of world history.",
-        "category": "Setting-Time",
-        "rank": 90,
+        "id": 198,
+        "name": "Foreign",
+        "description": "Partly or completely set in a country outside the country of origin.",
+        "category": "Setting-Scene",
+        "rank": 91,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -7145,7 +7165,7 @@
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
-        "rank": 93,
+        "rank": 94,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -7185,7 +7205,7 @@
         "name": "War",
         "description": "Partly or completely set during wartime.",
         "category": "Theme-Other",
-        "rank": 86,
+        "rank": 87,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -7411,6 +7431,16 @@
         "rank": 33,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 179,
+        "name": "Witch",
+        "description": "Prominently features a character who is a witch.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -19529,7 +19559,7 @@
         "name": "Historical",
         "description": "Partly or completely set during a real period of world history.",
         "category": "Setting-Time",
-        "rank": 95,
+        "rank": 96,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
