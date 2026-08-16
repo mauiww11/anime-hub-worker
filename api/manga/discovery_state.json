@@ -1784,16 +1784,12 @@
     "matcherVersion": 2
   },
   "51884f2e-8df3-45ec-8bab-4a9b10ae38ce": {
-    "status": "discovered",
-    "title": "Reikan no Mattaku nai Danjo ni Toritsuku Danjo no Rei no Manga",
-    "mangaId": 126568,
-    "anilistId": 126568,
-    "chapterIndexId": "51884f2e-8df3-45ec-8bab-4a9b10ae38ce",
-    "lastChapterId": "db947ab1-974d-414b-9018-b30476bffbca",
-    "lastChapter": "221",
-    "lastAttemptAt": "2026-08-05T13:35:13.917Z",
-    "lastSuccessAt": "2026-08-05T13:35:13.917Z",
-    "reason": null,
+    "status": "failed",
+    "title": "I Am...",
+    "lastChapterId": "7693939a-7b86-4a04-b57a-4d1561be934b",
+    "lastChapter": "223",
+    "lastAttemptAt": "2026-08-16T07:52:04.309Z",
+    "reason": "anilist_match_not_found",
     "matcherVersion": 2
   },
   "05a56be4-26ab-4f50-8fc0-ab8304570258": {
@@ -27715,8 +27711,8 @@
     "title": "",
     "lastChapterId": "9fe2021f-3e5a-4870-a757-b19de7f1871e",
     "lastChapter": "9",
-    "lastAttemptAt": "2026-08-15T19:36:18.803Z",
-    "reason": "anilist_match_not_found",
+    "lastAttemptAt": "2026-08-16T07:52:05.802Z",
+    "reason": "adult_blocked",
     "matcherVersion": 2
   },
   "a5fe1bd9-3e02-40f9-be4f-8852b69cabf7": {
@@ -37907,9 +37903,9 @@
   "8f57b207-5a82-4665-8470-e4989d504a1d": {
     "status": "failed",
     "title": "",
-    "lastChapterId": "340f91e0-f263-4eb2-bc06-1eb41e050733",
-    "lastChapter": "26",
-    "lastAttemptAt": "2026-08-16T07:35:01.615Z",
+    "lastChapterId": "4fd71d6a-49d6-40da-8bc4-56745e3e5620",
+    "lastChapter": "27",
+    "lastAttemptAt": "2026-08-16T07:52:01.727Z",
     "reason": "adult_blocked",
     "matcherVersion": 2
   },
@@ -38621,12 +38617,16 @@
     "matcherVersion": 2
   },
   "0c8d47e2-5e8b-4578-889f-b52e6729e490": {
-    "status": "failed",
-    "title": "Becoming Someone Suitable",
+    "status": "discovered",
+    "title": "Heibon de Arifureta, Shiawase na Renai.",
+    "mangaId": 212297,
+    "anilistId": 212297,
+    "chapterIndexId": "0c8d47e2-5e8b-4578-889f-b52e6729e490",
     "lastChapterId": "c69ebf4e-b6c1-47da-8e15-e5fdd2140d7f",
     "lastChapter": "1",
-    "lastAttemptAt": "2026-08-15T19:37:15.829Z",
-    "reason": "anilist_match_not_found",
+    "lastAttemptAt": "2026-08-16T07:52:04.782Z",
+    "lastSuccessAt": "2026-08-16T07:52:04.782Z",
+    "reason": null,
     "matcherVersion": 2
   },
   "b3bed5b7-5cde-4022-8d1d-44633b07edae": {
@@ -38683,6 +38683,19 @@
     "lastChapter": "17",
     "lastAttemptAt": "2026-08-16T07:18:05.184Z",
     "lastSuccessAt": "2026-08-16T07:18:05.184Z",
+    "reason": null,
+    "matcherVersion": 2
+  },
+  "e0ab9365-1174-4090-bbb2-7e3631b6eeeb": {
+    "status": "discovered",
+    "title": "Eden no Tou: Luluchika Kunya to Tou no Meikyuu",
+    "mangaId": 215358,
+    "anilistId": 215358,
+    "chapterIndexId": "e0ab9365-1174-4090-bbb2-7e3631b6eeeb",
+    "lastChapterId": "027ea5e9-4947-4520-ac79-c874b63ca91e",
+    "lastChapter": "1",
+    "lastAttemptAt": "2026-08-16T07:52:06.252Z",
+    "lastSuccessAt": "2026-08-16T07:52:06.252Z",
     "reason": null,
     "matcherVersion": 2
   }
