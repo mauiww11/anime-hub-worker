@@ -1,14 +1,14 @@
 {
   "api.mangadex.org": {
     "host": "api.mangadex.org",
-    "consecutiveFailures": 0,
-    "totalFailures": 80,
-    "totalSuccesses": 79896,
-    "lastFailureAt": "2026-08-12T19:18:06.213Z",
-    "lastSuccessAt": "2026-08-18T23:01:11.375Z",
-    "lastStatus": 200,
-    "cooldownUntil": null,
-    "circuitOpenUntil": null,
-    "lastError": null
+    "consecutiveFailures": 6,
+    "totalFailures": 86,
+    "totalSuccesses": 79900,
+    "lastFailureAt": "2026-08-18T23:20:50.496Z",
+    "lastSuccessAt": "2026-08-18T23:18:04.396Z",
+    "lastStatus": null,
+    "cooldownUntil": "2026-08-18T23:21:22.620Z",
+    "circuitOpenUntil": "2026-08-18T23:23:50.496Z",
+    "lastError": "host cooldown active for api.mangadex.org before mangadex chapter pages f379a7c6-439e-485a-88b9-f044bff96705; remaining 167.2s exceeds prewait cap"
   }
 }
