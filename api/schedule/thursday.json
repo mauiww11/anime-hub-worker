@@ -95,7 +95,7 @@
     "averageScore": 0,
     "meanScore": 58,
     "popularity": 246,
-    "trending": 4,
+    "trending": 1,
     "favourites": 4,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -111,8 +111,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=4anmA68beog"
     },
-    "nextEpisode": 22,
-    "nextAiringAt": 1787218200
+    "nextEpisode": 23,
+    "nextAiringAt": 1787823000
   },
   {
     "animeId": 62005,
@@ -220,7 +220,7 @@
     "averageScore": 52,
     "meanScore": 59,
     "popularity": 548,
-    "trending": 4,
+    "trending": 0,
     "favourites": 6,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -236,8 +236,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=jnSt-yJxigA"
     },
-    "nextEpisode": 46,
-    "nextAiringAt": 1787223600
+    "nextEpisode": 47,
+    "nextAiringAt": 1787828400
   },
   {
     "animeId": 63082,
@@ -464,8 +464,8 @@
     "averageScore": 64,
     "meanScore": 66,
     "popularity": 12048,
-    "trending": 22,
-    "favourites": 156,
+    "trending": 62,
+    "favourites": 162,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -480,8 +480,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=AZKlUSu5tQ0"
     },
-    "nextEpisode": 8,
-    "nextAiringAt": 1787229000
+    "nextEpisode": 9,
+    "nextAiringAt": 1787833800
   },
   {
     "animeId": 62883,
@@ -649,7 +649,7 @@
     "averageScore": 74,
     "meanScore": 79,
     "popularity": 4475,
-    "trending": 8,
+    "trending": 10,
     "favourites": 94,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -665,8 +665,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=xrGcSD7-miY"
     },
-    "nextEpisode": 8,
-    "nextAiringAt": 1787229600
+    "nextEpisode": 9,
+    "nextAiringAt": 1787834400
   },
   {
     "animeId": 61107,
@@ -942,7 +942,7 @@
     "averageScore": 68,
     "meanScore": 72,
     "popularity": 2341,
-    "trending": 2,
+    "trending": 8,
     "favourites": 24,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -958,8 +958,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=7WsRmVZspYI"
     },
-    "nextEpisode": 46,
-    "nextAiringAt": 1787230800
+    "nextEpisode": 47,
+    "nextAiringAt": 1787835600
   },
   {
     "animeId": 62430,
@@ -1027,7 +1027,7 @@
         "name": "Band",
         "description": "Main cast is a group of musicians.",
         "category": "Theme-Arts-Music",
-        "rank": 91,
+        "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1037,19 +1037,9 @@
         "name": "VTuber",
         "description": "Prominently features a character who is either an actual or fictive VTuber.",
         "category": "Cast-Traits",
-        "rank": 90,
+        "rank": 89,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 171,
-        "name": "Bullying",
-        "description": "Prominently features the use of force for intimidation, often in a school setting.",
-        "category": "Theme-Drama",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1057,7 +1047,7 @@
         "name": "Blackmail",
         "description": "Features a character blackmailing another.",
         "category": "Theme-Other",
-        "rank": 88,
+        "rank": 85,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1067,29 +1057,19 @@
         "name": "Full CGI",
         "description": "Almost entirely created with computer-generated imagery.",
         "category": "Technical",
+        "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 171,
+        "name": "Bullying",
+        "description": "Prominently features the use of force for intimidation, often in a school setting.",
+        "category": "Theme-Drama",
         "rank": 83,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 163,
-        "name": "Yandere",
-        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
-        "category": "Cast-Traits",
-        "rank": 80,
-        "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 112,
-        "name": "Virtual World",
-        "description": "Partly or completely set in the world inside a video game.",
-        "category": "Setting-Universe",
-        "rank": 78,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1103,11 +1083,31 @@
         "isAdult": false
       },
       {
+        "id": 112,
+        "name": "Virtual World",
+        "description": "Partly or completely set in the world inside a video game.",
+        "category": "Setting-Universe",
+        "rank": 74,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 163,
+        "name": "Yandere",
+        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
+        "category": "Cast-Traits",
+        "rank": 72,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 76,
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 71,
+        "rank": 69,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1147,7 +1147,7 @@
         "name": "Cute Girls Doing Cute Things",
         "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
         "category": "Theme-Slice of Life",
-        "rank": 44,
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1179,8 +1179,8 @@
     "averageScore": 73,
     "meanScore": 76,
     "popularity": 6852,
-    "trending": 7,
-    "favourites": 115,
+    "trending": 43,
+    "favourites": 118,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1195,8 +1195,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=sMcHl3g6aS4"
     },
-    "nextEpisode": 10,
-    "nextAiringAt": 1787234400
+    "nextEpisode": 11,
+    "nextAiringAt": 1787839200
   },
   {
     "animeId": 63802,
@@ -1345,9 +1345,9 @@
     "rating": 4.8,
     "averageScore": 48,
     "meanScore": 49,
-    "popularity": 7442,
-    "trending": 2,
-    "favourites": 59,
+    "popularity": 7447,
+    "trending": 14,
+    "favourites": 60,
     "source": "OTHER",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1362,8 +1362,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=ByOF3FLlAws"
     },
-    "nextEpisode": 7,
-    "nextAiringAt": 1787236200
+    "nextEpisode": 8,
+    "nextAiringAt": 1787841000
   },
   {
     "animeId": 62076,
@@ -1424,7 +1424,7 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 91,
+        "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1474,7 +1474,7 @@
         "name": "Iyashikei",
         "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
         "category": "Theme-Slice of Life",
-        "rank": 80,
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1494,7 +1494,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 70,
+        "rank": 71,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1546,8 +1546,8 @@
     "averageScore": 82,
     "meanScore": 82,
     "popularity": 108185,
-    "trending": 43,
-    "favourites": 3186,
+    "trending": 416,
+    "favourites": 3215,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1562,8 +1562,213 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=aOOwNK6Ul6E"
     },
-    "nextEpisode": 7,
-    "nextAiringAt": 1787237760
+    "nextEpisode": 8,
+    "nextAiringAt": 1787842560
+  },
+  {
+    "animeId": 48820,
+    "anilistId": 133007,
+    "title": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
+    "titleRomaji": "Mahou Shoujo Madoka☆Magica: Walpurgis no Kaiten",
+    "titleEnglish": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
+    "titleNative": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
+    "synonyms": [
+      "Magical Girl Madoka Magica Movie 4",
+      "Puella Magi Madoka Magica Movie 4"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx133007-5gOUXDvzxy9S.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx133007-5gOUXDvzxy9S.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx133007-5gOUXDvzxy9S.jpg",
+    "coverImageColor": "#e4935d",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/133007-NkSVqsR7CTgT.jpg",
+    "synopsis": "The 10th anniversary online event for the Mahou Shoujo Madoka☆Magica anime revealed that the franchise is getting a new anime film titled Mahou Shoujo Madoka☆Magica: Walpurgis no Kaiten . The film will be an official sequel to the Mahou Shoujo Madoka☆Magica: Hangyaku no Monogatari film that opened in October 2013. The tagline on the new film's visual reads, \"Now, let's continue the story.\" (Source: Anime News Network, edited)",
+    "type": "ANIME",
+    "format": "MOVIE",
+    "status": "NOT_YET_RELEASED",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 1,
+    "duration": 0,
+    "genres": [
+      "Mahou Shoujo"
+    ],
+    "tags": [
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 89,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 391,
+        "name": "Philosophy",
+        "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+        "category": "Theme-Other",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 179,
+        "name": "Witch",
+        "description": "Prominently features a character who is a witch.",
+        "category": "Cast-Traits",
+        "rank": 83,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 66,
+        "name": "Super Power",
+        "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+        "category": "Theme-Fantasy",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 321,
+        "name": "Urban Fantasy",
+        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+        "category": "Setting-Universe",
+        "rank": 74,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 96,
+        "name": "Time Manipulation",
+        "description": "Prominently features time-traveling or other time-warping phenomena.",
+        "category": "Theme-Sci-Fi",
+        "rank": 70,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 779,
+        "name": "Kuudere",
+        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+        "category": "Cast-Traits",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 157,
+        "name": "Guns",
+        "description": "Prominently features the use of guns in combat.",
+        "category": "Theme-Action",
+        "rank": 54,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1689,
+        "name": "Curses",
+        "description": "Features a character, object or area that has been cursed, usually by a malevolent supernatural force.",
+        "category": "Theme-Fantasy",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 44,
+        "name": "Shaft",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/44"
+      }
+    ],
+    "studiosNames": [
+      "Shaft"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 0,
+    "popularity": 47868,
+    "trending": 1,
+    "favourites": 644,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#魔法少女まどかマギカ",
+    "startDate": "2026-08-28",
+    "endDate": "2026-08-28",
+    "mal_url": "https://myanimelist.net/anime/48820",
+    "anilist_url": "https://anilist.co/anime/133007",
+    "trailer": {
+      "id": "HD6vwmNvcXo",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=HD6vwmNvcXo"
+    },
+    "nextEpisode": 1,
+    "nextAiringAt": 1787842800
   },
   {
     "animeId": 63508,
@@ -1753,8 +1958,8 @@
     "averageScore": 64,
     "meanScore": 65,
     "popularity": 45292,
-    "trending": 16,
-    "favourites": 673,
+    "trending": 353,
+    "favourites": 678,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1769,139 +1974,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=QOeItd-RrVs"
     },
-    "nextEpisode": 9,
-    "nextAiringAt": 1787238000
-  },
-  {
-    "animeId": 63973,
-    "anilistId": 176373,
-    "title": "Shiranuhi",
-    "titleRomaji": "Shiranuhi",
-    "titleEnglish": "",
-    "titleNative": "しらぬひ",
-    "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176373-355WYOUefrCt.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176373-355WYOUefrCt.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176373-355WYOUefrCt.jpg",
-    "coverImageColor": "#f1e4bb",
-    "bannerImage": "",
-    "synopsis": "The short is set in a coastal town in Kumamoto at the tail end of summer 1996. The 10-year-old boy Minato lives a precarious life with his drunkard father. Minato's only source of strength is Ben-chan, a goddess in the form of a young girl that appeared in Benten Island. The time he spends with her are the only times where he feels like himself. But when he is about to be separated from Ben-chan due to being sent to a children's home, Minato prays to a Shiranuhi, a mysterious light floating above the sea, to grant him one wish. His wish, filled with hatred towards his father, eventually becomes a curse. (Source: Anime News Network) Note: Initially teased at AnimeJapan 2024 in the CoMix Wave Films booth, a visual of this project was shown off with a description being a new animation project by a \"rookie director\".",
-    "type": "ANIME",
-    "format": "MOVIE",
-    "status": "NOT_YET_RELEASED",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 1,
-    "duration": 0,
-    "genres": [
-      "Supernatural"
-    ],
-    "tags": [
-      {
-        "id": 1537,
-        "name": "Coastal",
-        "description": "Story prominently takes place near the beach or around a coastal area/town. Setting is near the ocean.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 291,
-        "name": "CoMix Wave",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/291"
-      }
-    ],
-    "studiosNames": [
-      "CoMix Wave"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 1554,
-    "trending": 0,
-    "favourites": 8,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#映画しらぬひ",
-    "startDate": "2026-08-21",
-    "endDate": "2026-08-21",
-    "mal_url": "https://myanimelist.net/anime/63973",
-    "anilist_url": "https://anilist.co/anime/176373",
-    "trailer": {
-      "id": "ixva4keCFsU",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=ixva4keCFsU"
-    },
-    "nextEpisode": 1,
-    "nextAiringAt": 1787238000
-  },
-  {
-    "animeId": 212652,
-    "anilistId": 212652,
-    "title": "Kidou Keisatsu Patlabor EZY File 2",
-    "titleRomaji": "Kidou Keisatsu Patlabor EZY File 2",
-    "titleEnglish": "",
-    "titleNative": "機動警察パトレイバー EZY File 2",
-    "synonyms": [
-      "パトレイバー EZY File 2"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212652-ZDAdpsFuFiGB.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212652-ZDAdpsFuFiGB.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx212652-ZDAdpsFuFiGB.png",
-    "coverImageColor": "#78c9e4",
-    "bannerImage": "",
-    "synopsis": "The second part of Kidou Keisatsu Patlabor EZY . Note: Initially releases on Aug 14, 2026 as a limited theatrical pre-screening.",
-    "type": "ANIME",
-    "format": "OVA",
-    "status": "NOT_YET_RELEASED",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 3,
-    "duration": 24,
-    "genres": [
-      "Mecha"
-    ],
-    "tags": [],
-    "studios": [
-      {
-        "id": 7,
-        "name": "J.C.STAFF",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/7"
-      }
-    ],
-    "studiosNames": [
-      "J.C.STAFF"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 670,
-    "trending": 0,
-    "favourites": 4,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#パトレイバーEZY #patlabor",
-    "startDate": "2026-08-21",
-    "endDate": "2026-08-21",
-    "mal_url": "",
-    "anilist_url": "https://anilist.co/anime/212652",
-    "trailer": null,
-    "nextEpisode": 1,
-    "nextAiringAt": 1787238000
+    "nextEpisode": 10,
+    "nextAiringAt": 1787842800
   },
   {
     "animeId": 59741,
@@ -2092,8 +2166,8 @@
     "averageScore": 67,
     "meanScore": 67,
     "popularity": 54595,
-    "trending": 26,
-    "favourites": 890,
+    "trending": 481,
+    "favourites": 899,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2108,294 +2182,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=uC13b3_8riU"
     },
-    "nextEpisode": 8,
-    "nextAiringAt": 1787239560
-  },
-  {
-    "animeId": 63403,
-    "anilistId": 207141,
-    "title": "Chainsmoker Cat",
-    "titleRomaji": "Yani Neko",
-    "titleEnglish": "Chainsmoker Cat",
-    "titleNative": "ヤニねこ",
-    "synonyms": [
-      "แมวสาวอมควัน",
-      "尼古喵喵"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx207141-h5q5KJPd6vaX.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx207141-h5q5KJPd6vaX.jpg",
-    "coverImageColor": "#50a1f1",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/207141-MvHAS2YVfJzL.jpg",
-    "synopsis": "Yani is a catgirl with a seriously bad smoking habit. She smokes so much that her apartment smells like ash and is littered with cigarette butts—and plenty of other trash! Every time she tries to quit, she becomes weak to the cravings and gives in almost instantly. Will she ever get her life together, or is she doomed to live as a chainsmoking slob forever? (Source: Seven Seas Entertainment)",
-    "type": "ANIME",
-    "format": "TV",
-    "status": "RELEASING",
-    "season": "SUMMER",
-    "seasonYear": 2026,
-    "seasonInt": 263,
-    "episodes": 0,
-    "duration": 24,
-    "genres": [
-      "Comedy",
-      "Slice of Life"
-    ],
-    "tags": [
-      {
-        "id": 489,
-        "name": "Drugs",
-        "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
-        "category": "Theme-Other",
-        "rank": 96,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 93,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 281,
-        "name": "Surreal Comedy",
-        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
-        "category": "Theme-Comedy",
-        "rank": 93,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 113,
-        "name": "Nekomimi",
-        "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
-        "category": "Cast-Traits",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 254,
-        "name": "Kemonomimi",
-        "description": "Prominently features humanoid characters with animal ears.",
-        "category": "Cast-Traits",
-        "rank": 92,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 86,
-        "name": "Primarily Female Cast",
-        "description": "Main cast is mostly composed of female characters.",
-        "category": "Cast-Main Cast",
-        "rank": 88,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 193,
-        "name": "Episodic",
-        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-        "category": "Technical",
-        "rank": 85,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
-        "category": "Setting-Scene",
-        "rank": 84,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1403,
-        "name": "Class Struggle",
-        "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
-        "category": "Theme-Drama",
-        "rank": 82,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 311,
-        "name": "Rehabilitation",
-        "description": "Prominently features the recovery of a character who became incapable of social life or work.",
-        "category": "Theme-Drama",
-        "rank": 75,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 321,
-        "name": "Urban Fantasy",
-        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
-        "category": "Setting-Universe",
-        "rank": 74,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 80,
-        "name": "Satire",
-        "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
-        "category": "Theme-Comedy",
-        "rank": 68,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 395,
-        "name": "Delinquents",
-        "description": "Features characters with a notorious image and attitude, sometimes referred to as \"yankees\".",
-        "category": "Cast-Traits",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 282,
-        "name": "Hikikomori",
-        "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
-        "category": "Cast-Traits",
-        "rank": 64,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 100,
-        "name": "Nudity",
-        "description": "Features a character wearing no clothing or exposing intimate body parts.",
-        "category": "Cast-Traits",
-        "rank": 64,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 143,
-        "name": "Survival",
-        "description": "Centers around the struggle to live in spite of extreme obstacles.",
-        "category": "Theme-Other",
-        "rank": 62,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 92,
-        "name": "Cute Girls Doing Cute Things",
-        "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
-        "category": "Theme-Slice of Life",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 632,
-        "name": "Centaur",
-        "description": "Prominently features a character with a human upper body and the lower body of a horse.",
-        "category": "Cast-Traits",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 117,
-        "name": "Mahjong",
-        "description": "Centered around the game of mahjong.",
-        "category": "Theme-Game-Card & Board Game",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 6180,
-        "name": "Bibury Animation Studios",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/6180"
-      }
-    ],
-    "studiosNames": [
-      "Bibury Animation Studios"
-    ],
-    "rating": 6.7,
-    "averageScore": 67,
-    "meanScore": 68,
-    "popularity": 65921,
-    "trending": 40,
-    "favourites": 1123,
-    "source": "MANGA",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#ヤニねこ",
-    "startDate": "2026-07-03",
-    "endDate": null,
-    "mal_url": "https://myanimelist.net/anime/63403",
-    "anilist_url": "https://anilist.co/anime/207141",
-    "trailer": {
-      "id": "KYGgyQtSAdI",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=KYGgyQtSAdI"
-    },
-    "nextEpisode": 8,
-    "nextAiringAt": 1787239800
+    "nextEpisode": 9,
+    "nextAiringAt": 1787844360
   },
   {
     "animeId": 63150,
@@ -2664,8 +2452,8 @@
     "averageScore": 75,
     "meanScore": 76,
     "popularity": 35075,
-    "trending": 19,
-    "favourites": 575,
+    "trending": 226,
+    "favourites": 581,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2680,8 +2468,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=ECtHlHde3EQ"
     },
-    "nextEpisode": 8,
-    "nextAiringAt": 1787243280
+    "nextEpisode": 9,
+    "nextAiringAt": 1787848080
   },
   {
     "animeId": 50250,
@@ -2871,8 +2659,8 @@
     "averageScore": 84,
     "meanScore": 85,
     "popularity": 10614,
-    "trending": 5,
-    "favourites": 1011,
+    "trending": 15,
+    "favourites": 1013,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2887,7 +2675,7 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=m4yfCS_YBUU"
     },
-    "nextEpisode": 371,
-    "nextAiringAt": 1787265600
+    "nextEpisode": 373,
+    "nextAiringAt": 1787870400
   }
 ]
