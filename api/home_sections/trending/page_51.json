@@ -770,7 +770,7 @@
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
-        "rank": 88,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -780,7 +780,7 @@
         "name": "Reincarnation",
         "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
-        "rank": 80,
+        "rank": 83,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -810,6 +810,16 @@
         "name": "Dungeon",
         "description": "Prominently features a dungeon environment.",
         "category": "Setting-Scene",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 94,
+        "name": "Gore",
+        "description": "Prominently features graphic bloodshed and violence.",
+        "category": "Theme-Other",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -866,16 +876,6 @@
         "isAdult": false
       },
       {
-        "id": 94,
-        "name": "Gore",
-        "description": "Prominently features graphic bloodshed and violence.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 143,
         "name": "Survival",
         "description": "Centers around the struggle to live in spite of extreme obstacles.",
@@ -908,12 +908,12 @@
     "studiosNames": [
       "GoHands"
     ],
-    "rating": 6.7,
-    "averageScore": 67,
+    "rating": 6.6,
+    "averageScore": 66,
     "meanScore": 67,
-    "popularity": 46372,
-    "trending": 356,
-    "favourites": 715,
+    "popularity": 57761,
+    "trending": 72,
+    "favourites": 962,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,

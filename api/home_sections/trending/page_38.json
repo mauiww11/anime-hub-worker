@@ -1424,7 +1424,7 @@
         "name": "Religion",
         "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
         "category": "Theme-Other",
-        "rank": 88,
+        "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1434,7 +1434,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 85,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1444,7 +1444,17 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 81,
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 157,
+        "name": "Guns",
+        "description": "Prominently features the use of guns in combat.",
+        "category": "Theme-Action",
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1454,7 +1464,7 @@
         "name": "Politics",
         "description": "Centers around politics, politicians, or government activities.",
         "category": "Theme-Other",
-        "rank": 81,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1464,7 +1474,7 @@
         "name": "Age Regression",
         "description": "Prominently features a character who was returned to a younger state.",
         "category": "Cast-Traits",
-        "rank": 81,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1480,31 +1490,31 @@
         "isAdult": false
       },
       {
-        "id": 157,
-        "name": "Guns",
-        "description": "Prominently features the use of guns in combat.",
-        "category": "Theme-Action",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 243,
         "name": "Reincarnation",
         "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
-        "rank": 79,
+        "rank": 80,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 78,
+        "id": 250,
+        "name": "Rural",
+        "description": "Partly or completely set in the countryside.",
+        "category": "Setting-Scene",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1514,17 +1524,17 @@
         "name": "Gods",
         "description": "Prominently features a character of divine or religious nature.",
         "category": "Cast-Traits",
-        "rank": 72,
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 198,
-        "name": "Foreign",
-        "description": "Partly or completely set in a country outside the country of origin.",
-        "category": "Setting-Scene",
-        "rank": 71,
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 77,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1534,7 +1544,17 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
-        "rank": 70,
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 198,
+        "name": "Foreign",
+        "description": "Partly or completely set in a country outside the country of origin.",
+        "category": "Setting-Scene",
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1544,27 +1564,7 @@
         "name": "Gender Bending",
         "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
         "category": "Theme-Other",
-        "rank": 70,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 25,
-        "name": "Historical",
-        "description": "Partly or completely set during a real period of world history.",
-        "category": "Setting-Time",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 109,
-        "name": "Primarily Adult Cast",
-        "description": "Main cast is mostly composed of characters above a high school age.",
-        "category": "Cast-Main Cast",
-        "rank": 62,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1574,7 +1574,27 @@
         "name": "Meta",
         "description": "Features fourth wall-breaking references to itself or genre tropes.",
         "category": "Theme-Other",
-        "rank": 60,
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 25,
+        "name": "Historical",
+        "description": "Partly or completely set during a real period of world history.",
+        "category": "Setting-Time",
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1584,7 +1604,7 @@
         "name": "Primarily Male Cast",
         "description": "Main cast is mostly composed of male characters.",
         "category": "Cast-Main Cast",
-        "rank": 53,
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1594,7 +1614,7 @@
         "name": "Tanks",
         "description": "Prominently features the use of tanks or other armoured vehicles.",
         "category": "Theme-Other-Vehicle",
-        "rank": 45,
+        "rank": 49,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1604,7 +1624,7 @@
         "name": "Assassins",
         "description": "Centers around characters who murder people as a profession.",
         "category": "Theme-Other-Organisations",
-        "rank": 40,
+        "rank": 44,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1622,12 +1642,12 @@
     "studiosNames": [
       "NUT"
     ],
-    "rating": 8.1,
-    "averageScore": 81,
-    "meanScore": 82,
-    "popularity": 83198,
-    "trending": 118,
-    "favourites": 1522,
+    "rating": 8,
+    "averageScore": 80,
+    "meanScore": 81,
+    "popularity": 89931,
+    "trending": 65,
+    "favourites": 1762,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,

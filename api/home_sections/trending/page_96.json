@@ -983,13 +983,14 @@
     "titleEnglish": "Hanaori-san Still Wants to Fight in the Next Life",
     "titleNative": "花織さんは転生しても喧嘩がしたい",
     "synonyms": [
-      "Hanaori-san Wants to Have A Fight Even If She Reincarnates"
+      "Hanaori-san Wants to Have A Fight Even If She Reincarnates",
+      "คุณฮานาโอริ เกิดใหม่ครั้งนี้ก็ขอมีเรื่อง"
     ],
     "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199066-YXDVsguvFZMm.jpg",
     "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199066-YXDVsguvFZMm.jpg",
     "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199066-YXDVsguvFZMm.jpg",
     "coverImageColor": "#43bbe4",
-    "bannerImage": "",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199066-nmAYnI6uChse.jpg",
     "synopsis": "Once the Demon King, now a shut-in NEET—Ryuusei Narukami’s second life is anything but peaceful! When Meteor Hanaori, the Hero who once defeated him, suddenly returns as a normal high school girl, his world is thrown into chaos. Determined to change, Ryuusei reenters society as a teacher and ends up teaching at her school! Their explosive reunion reignites the past—and sparks an unexpected love! (Source: Crunchyroll)",
     "type": "ANIME",
     "format": "TV",
@@ -997,8 +998,8 @@
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
-    "episodes": 0,
-    "duration": 0,
+    "episodes": 12,
+    "duration": 24,
     "genres": [
       "Comedy",
       "Romance",
@@ -1006,21 +1007,21 @@
     ],
     "tags": [
       {
-        "id": 1907,
-        "name": "Reverse Isekai",
-        "description": "Features a character from a fantasy world who is transported into a modern-day setting.",
-        "category": "Theme-Fantasy",
-        "rank": 88,
+        "id": 39,
+        "name": "Parody",
+        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+        "category": "Theme-Comedy",
+        "rank": 100,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 39,
-        "name": "Parody",
-        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
-        "category": "Theme-Comedy",
-        "rank": 79,
+        "id": 1907,
+        "name": "Reverse Isekai",
+        "description": "Features a character from a fantasy world who is transported into a modern-day setting.",
+        "category": "Theme-Fantasy",
+        "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1030,7 +1031,27 @@
         "name": "Heterosexual",
         "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 76,
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 80,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 83,
+        "name": "Slapstick",
+        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+        "category": "Theme-Comedy",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1040,17 +1061,7 @@
         "name": "Reincarnation",
         "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
-        "rank": 75,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 138,
-        "name": "Age Gap",
-        "description": "Prominently features romantic relations between people with a significant age difference.",
-        "category": "Theme-Romance",
-        "rank": 75,
+        "rank": 76,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1060,19 +1071,39 @@
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 60,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 83,
-        "name": "Slapstick",
-        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
-        "category": "Theme-Comedy",
-        "rank": 60,
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 321,
+        "name": "Urban Fantasy",
+        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+        "category": "Setting-Universe",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1081,6 +1112,66 @@
         "description": "Target demographic is adult males.",
         "category": "Demographic",
         "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 191,
+        "name": "Aliens",
+        "description": "Prominently features extraterrestrial lifeforms.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 146,
+        "name": "Alternate Universe",
+        "description": "Features multiple alternate universes in the same series.",
+        "category": "Setting-Universe",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 99,
+        "name": "Henshin",
+        "description": "Prominently features character or costume transformations which often grant special abilities.",
+        "category": "Theme-Fantasy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 16,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 10,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1098,19 +1189,19 @@
     "studiosNames": [
       "LIDENFILMS"
     ],
-    "rating": 6.6,
-    "averageScore": 66,
-    "meanScore": 71,
-    "popularity": 9656,
-    "trending": 99,
-    "favourites": 64,
+    "rating": 6.9,
+    "averageScore": 69,
+    "meanScore": 70,
+    "popularity": 22651,
+    "trending": 72,
+    "favourites": 266,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
     "hashtag": "#アニメ花織さん #花織さんは転生しても喧嘩がしたい",
     "startDate": "2026-07-12",
-    "endDate": null,
+    "endDate": "2026-09-27",
     "mal_url": "https://myanimelist.net/anime/62535",
     "anilist_url": "https://anilist.co/anime/199066",
     "trailer": {
@@ -1655,11 +1746,31 @@
     ],
     "tags": [
       {
+        "id": 100,
+        "name": "Nudity",
+        "description": "Features a character wearing no clothing or exposing intimate body parts.",
+        "category": "Cast-Traits",
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 244,
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 66,
+        "rank": 64,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 23,
+        "name": "Female Harem",
+        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1669,7 +1780,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 50,
+        "rank": 55,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1680,16 +1791,6 @@
         "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
         "category": "Setting-Time",
         "rank": 30,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 23,
-        "name": "Female Harem",
-        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
-        "category": "Theme-Romance",
-        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1707,12 +1808,12 @@
     "studiosNames": [
       "Maho Film"
     ],
-    "rating": 5.9,
-    "averageScore": 59,
-    "meanScore": 61,
-    "popularity": 16154,
-    "trending": 504,
-    "favourites": 171,
+    "rating": 5.5,
+    "averageScore": 55,
+    "meanScore": 56,
+    "popularity": 26278,
+    "trending": 252,
+    "favourites": 292,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -2617,7 +2718,7 @@
     "season": "SUMMER",
     "seasonYear": 2026,
     "seasonInt": 263,
-    "episodes": 0,
+    "episodes": 12,
     "duration": 23,
     "genres": [
       "Action",
@@ -2657,21 +2758,11 @@
         "isAdult": false
       },
       {
-        "id": 29,
-        "name": "Magic",
-        "description": "Prominently features magical elements or the use of magic.",
-        "category": "Theme-Fantasy",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 46,
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
-        "rank": 20,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2681,6 +2772,26 @@
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
         "category": "Technical",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 29,
+        "name": "Magic",
+        "description": "Prominently features magical elements or the use of magic.",
+        "category": "Theme-Fantasy",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 488,
+        "name": "Age Regression",
+        "description": "Prominently features a character who was returned to a younger state.",
+        "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -2707,19 +2818,19 @@
       "Hayabusa Film",
       "Passione"
     ],
-    "rating": 7.1,
-    "averageScore": 71,
-    "meanScore": 72,
-    "popularity": 36031,
-    "trending": 95,
-    "favourites": 454,
+    "rating": 7,
+    "averageScore": 70,
+    "meanScore": 71,
+    "popularity": 41559,
+    "trending": 35,
+    "favourites": 547,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
     "hashtag": "#おっさん剣聖",
     "startDate": "2026-07-08",
-    "endDate": null,
+    "endDate": "2026-09-23",
     "mal_url": "https://myanimelist.net/anime/61897",
     "anilist_url": "https://anilist.co/anime/194829",
     "trailer": {

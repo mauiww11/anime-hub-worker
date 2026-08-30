@@ -1355,7 +1355,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 80,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1365,15 +1365,15 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 80,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
         "category": "Cast-Main Cast",
         "rank": 80,
         "isGeneralSpoiler": false,
@@ -1391,11 +1391,11 @@
         "isAdult": false
       },
       {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 76,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1431,6 +1431,16 @@
         "isAdult": false
       },
       {
+        "id": 1277,
+        "name": "Found Family",
+        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
+        "category": "Theme-Other",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 265,
         "name": "Musical Theater",
         "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
@@ -1446,16 +1456,6 @@
         "description": "Main cast is a group of musicians.",
         "category": "Theme-Arts-Music",
         "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1277,
-        "name": "Found Family",
-        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
-        "category": "Theme-Other",
-        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1496,9 +1496,9 @@
     "rating": 8,
     "averageScore": 80,
     "meanScore": 81,
-    "popularity": 36700,
-    "trending": 99,
-    "favourites": 776,
+    "popularity": 40347,
+    "trending": 74,
+    "favourites": 892,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -3624,7 +3624,7 @@
     "season": "SPRING",
     "seasonYear": 2026,
     "seasonInt": 262,
-    "episodes": 0,
+    "episodes": 24,
     "duration": 24,
     "genres": [
       "Fantasy"
@@ -3661,21 +3661,21 @@
         "isAdult": false
       },
       {
-        "id": 179,
-        "name": "Witch",
-        "description": "Prominently features a character who is a witch.",
-        "category": "Cast-Traits",
-        "rank": 82,
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
-        "category": "Theme-Romance",
-        "rank": 80,
+        "id": 179,
+        "name": "Witch",
+        "description": "Prominently features a character who is a witch.",
+        "category": "Cast-Traits",
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -3791,32 +3791,32 @@
         "isAdult": false
       },
       {
-        "id": 138,
-        "name": "Age Gap",
-        "description": "Prominently features romantic relations between people with a significant age difference.",
-        "category": "Theme-Romance",
-        "rank": 40,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 483,
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
         "category": "Theme-Other",
-        "rank": 35,
+        "rank": 32,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 28,
+        "id": 586,
+        "name": "Cult",
+        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+        "category": "Theme-Other-Organisations",
+        "rank": 30,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 138,
+        "name": "Age Gap",
+        "description": "Prominently features romantic relations between people with a significant age difference.",
+        "category": "Theme-Romance",
+        "rank": 26,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -3831,12 +3831,22 @@
         "isAdult": false
       },
       {
-        "id": 586,
-        "name": "Cult",
-        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
-        "category": "Theme-Other-Organisations",
+        "id": 77,
+        "name": "Gender Bending",
+        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
+        "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 154,
+        "name": "Body Swapping",
+        "description": "Centers around individuals swapping bodies with one another.",
+        "category": "Theme-Fantasy",
+        "rank": 20,
+        "isGeneralSpoiler": true,
         "isMediaSpoiler": true,
         "isAdult": false
       }
@@ -3856,16 +3866,16 @@
     "rating": 6.2,
     "averageScore": 62,
     "meanScore": 63,
-    "popularity": 20954,
-    "trending": 160,
-    "favourites": 232,
+    "popularity": 23338,
+    "trending": 111,
+    "favourites": 264,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
     "hashtag": "#黒猫と魔女の教室",
     "startDate": "2026-04-12",
-    "endDate": "2026-01-01",
+    "endDate": "2026-09-20",
     "mal_url": "https://myanimelist.net/anime/62171",
     "anilist_url": "https://anilist.co/anime/196974",
     "trailer": {
@@ -4978,11 +4988,11 @@
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 66,
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -5038,16 +5048,6 @@
         "isAdult": false
       },
       {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 244,
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
@@ -5068,13 +5068,13 @@
         "isAdult": false
       },
       {
-        "id": 1501,
-        "name": "Natural Disaster",
-        "description": "It focuses on catastrophic events of natural origin, such as earthquakes, tsunamis,  volcanic eruptions, and severe storms. These works often present situations of extreme danger in which the characters struggle to survive and overcome the adversity.",
-        "category": "Setting-Scene",
-        "rank": 60,
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 55,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -5085,6 +5085,16 @@
         "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1501,
+        "name": "Natural Disaster",
+        "description": "It focuses on catastrophic events of natural origin, such as earthquakes, tsunamis,  volcanic eruptions, and severe storms. These works often present situations of extreme danger in which the characters struggle to survive and overcome the adversity.",
+        "category": "Setting-Scene",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -5102,10 +5112,10 @@
     ],
     "rating": 6.5,
     "averageScore": 65,
-    "meanScore": 67,
-    "popularity": 16352,
-    "trending": 83,
-    "favourites": 198,
+    "meanScore": 66,
+    "popularity": 18954,
+    "trending": 41,
+    "favourites": 240,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,

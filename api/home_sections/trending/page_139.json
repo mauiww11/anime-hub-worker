@@ -1387,6 +1387,7 @@
     "episodes": 0,
     "duration": 23,
     "genres": [
+      "Adventure",
       "Drama"
     ],
     "tags": [
@@ -1425,7 +1426,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 98,
+        "rank": 99,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1435,9 +1436,39 @@
         "name": "Revenge",
         "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
         "category": "Theme-Drama",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 456,
+        "name": "Conspiracy",
+        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+        "category": "Theme-Drama",
         "rank": 95,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1327,
+        "name": "Royal Affairs",
+        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
+        "category": "Theme-Other",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 247,
+        "name": "Slavery",
+        "description": "Prominently features slaves, slavery, or slave trade.",
+        "category": "Theme-Other",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1451,10 +1482,10 @@
         "isAdult": false
       },
       {
-        "id": 1327,
-        "name": "Royal Affairs",
-        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
-        "category": "Theme-Other",
+        "id": 198,
+        "name": "Foreign",
+        "description": "Partly or completely set in a country outside the country of origin.",
+        "category": "Setting-Scene",
         "rank": 92,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1471,40 +1502,30 @@
         "isAdult": false
       },
       {
-        "id": 198,
-        "name": "Foreign",
-        "description": "Partly or completely set in a country outside the country of origin.",
-        "category": "Setting-Scene",
-        "rank": 91,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 247,
-        "name": "Slavery",
-        "description": "Prominently features slaves, slavery, or slave trade.",
-        "category": "Theme-Other",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 153,
         "name": "Time Skip",
         "description": "Features a gap in time used to advance the story.",
         "category": "Setting-Time",
-        "rank": 85,
+        "rank": 88,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1419,
-        "name": "Kingdom Management",
-        "description": "Characters in these series take on the responsibility of running a town or kingdom, whether they take control of an existing one, or build their own from the ground up.",
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
         "category": "Theme-Drama",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 239,
+        "name": "Biographical",
+        "description": "Based on true stories of real persons living or dead, written by another.",
+        "category": "Theme-Other",
         "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1515,16 +1536,16 @@
         "name": "Class Struggle",
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
         "category": "Theme-Drama",
-        "rank": 82,
+        "rank": 84,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 239,
-        "name": "Biographical",
-        "description": "Based on true stories of real persons living or dead, written by another.",
-        "category": "Theme-Other",
+        "id": 1382,
+        "name": "Orphan",
+        "description": "Prominently features a character that is an orphan.",
+        "category": "Cast-Traits",
         "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1541,41 +1562,11 @@
         "isAdult": false
       },
       {
-        "id": 102,
-        "name": "Coming of Age",
-        "description": "Centers around a character's transition from childhood to adulthood.",
-        "category": "Theme-Drama",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 143,
-        "name": "Survival",
-        "description": "Centers around the struggle to live in spite of extreme obstacles.",
-        "category": "Theme-Other",
-        "rank": 80,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 310,
         "name": "Espionage",
         "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
         "category": "Theme-Action",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 456,
-        "name": "Conspiracy",
-        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
-        "category": "Theme-Drama",
-        "rank": 79,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1585,17 +1576,7 @@
         "name": "Josei",
         "description": "Target demographic is adult females.",
         "category": "Demographic",
-        "rank": 75,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1382,
-        "name": "Orphan",
-        "description": "Prominently features a character that is an orphan.",
-        "category": "Cast-Traits",
-        "rank": 75,
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1605,7 +1586,7 @@
         "name": "Religion",
         "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
         "category": "Theme-Other",
-        "rank": 74,
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1615,7 +1596,27 @@
         "name": "Philosophy",
         "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
         "category": "Theme-Other",
-        "rank": 73,
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 143,
+        "name": "Survival",
+        "description": "Centers around the struggle to live in spite of extreme obstacles.",
+        "category": "Theme-Other",
+        "rank": 74,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1419,
+        "name": "Kingdom Management",
+        "description": "Characters in these series take on the responsibility of running a town or kingdom, whether they take control of an existing one, or build their own from the ground up.",
+        "category": "Theme-Drama",
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1625,7 +1626,7 @@
         "name": "Language Barrier",
         "description": "A barrier to communication between people who are unable to speak a common language.",
         "category": "Theme-Other",
-        "rank": 60,
+        "rank": 57,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1635,7 +1636,7 @@
         "name": "Suicide",
         "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
         "category": "Theme-Drama",
-        "rank": 57,
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -1645,7 +1646,27 @@
         "name": "Desert",
         "description": "Prominently features a desert environment.",
         "category": "Setting-Scene",
-        "rank": 54,
+        "rank": 52,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1578,
+        "name": "Arranged Marriage",
+        "description": "Features two characters made to marry each other, usually by their family.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 1929,
+        "name": "Middle east",
+        "description": "Partially or completely set in the Middle East, does not apply to fantasy settings.",
+        "category": "Setting-Scene",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1663,12 +1684,12 @@
     "studiosNames": [
       "Science SARU"
     ],
-    "rating": 8.1,
-    "averageScore": 81,
-    "meanScore": 82,
-    "popularity": 33341,
-    "trending": 31,
-    "favourites": 496,
+    "rating": 8.2,
+    "averageScore": 82,
+    "meanScore": 83,
+    "popularity": 40111,
+    "trending": 134,
+    "favourites": 716,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
