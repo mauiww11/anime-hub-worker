@@ -33,7 +33,7 @@
         "name": "Time Manipulation",
         "description": "Prominently features time-traveling or other time-warping phenomena.",
         "category": "Theme-Sci-Fi",
-        "rank": 80,
+        "rank": 84,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -99,6 +99,26 @@
         "isAdult": false
       },
       {
+        "id": 198,
+        "name": "Foreign",
+        "description": "Partly or completely set in a country outside the country of origin.",
+        "category": "Setting-Scene",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1310,
+        "name": "Travel",
+        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 195,
         "name": "Photography",
         "description": "Centers around the use of cameras to capture photos.",
@@ -119,6 +139,16 @@
         "isAdult": false
       },
       {
+        "id": 30,
+        "name": "Martial Arts",
+        "description": "Centers around the use of traditional hand-to-hand combat.",
+        "category": "Theme-Action",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 156,
         "name": "Achronological Order",
         "description": "Chapters or episodes do not occur in chronological order.",
@@ -126,36 +156,6 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 198,
-        "name": "Foreign",
-        "description": "Partly or completely set in a country outside the country of origin.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 30,
-        "name": "Martial Arts",
-        "description": "Centers around the use of traditional hand-to-hand combat.",
-        "category": "Theme-Action",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1310,
-        "name": "Travel",
-        "description": "Centers around character(s) moving between places a significant distance apart.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -175,7 +175,7 @@
     "averageScore": 84,
     "meanScore": 87,
     "popularity": 15647,
-    "trending": 56,
+    "trending": 71,
     "favourites": 305,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
@@ -399,7 +399,7 @@
     "averageScore": 62,
     "meanScore": 66,
     "popularity": 3372,
-    "trending": 6,
+    "trending": 15,
     "favourites": 48,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
@@ -747,7 +747,7 @@
     "averageScore": 73,
     "meanScore": 73,
     "popularity": 24254,
-    "trending": 10,
+    "trending": 13,
     "favourites": 760,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
@@ -904,7 +904,7 @@
     "averageScore": 64,
     "meanScore": 66,
     "popularity": 4597,
-    "trending": 2,
+    "trending": 5,
     "favourites": 142,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -1091,7 +1091,7 @@
     "averageScore": 63,
     "meanScore": 63,
     "popularity": 38088,
-    "trending": 21,
+    "trending": 280,
     "favourites": 485,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1151,7 +1151,7 @@
         "name": "Kingdom Management",
         "description": "Characters in these series take on the responsibility of running a town or kingdom, whether they take control of an existing one, or build their own from the ground up.",
         "category": "Theme-Drama",
-        "rank": 84,
+        "rank": 86,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1171,7 +1171,7 @@
         "name": "Found Family",
         "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
         "category": "Theme-Other",
-        "rank": 76,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1217,6 +1217,16 @@
         "isAdult": false
       },
       {
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+        "category": "Cast-Traits",
+        "rank": 51,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
@@ -1237,16 +1247,6 @@
         "isAdult": false
       },
       {
-        "id": 1304,
-        "name": "Anthropomorphism",
-        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
-        "category": "Cast-Traits",
-        "rank": 46,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 105,
         "name": "Ensemble Cast",
         "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
@@ -1261,7 +1261,7 @@
         "name": "Gender Bending",
         "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
         "category": "Theme-Other",
-        "rank": 24,
+        "rank": 33,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1283,7 +1283,7 @@
     "averageScore": 67,
     "meanScore": 67,
     "popularity": 30249,
-    "trending": 12,
+    "trending": 331,
     "favourites": 381,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1479,26 +1479,6 @@
         "isAdult": false
       },
       {
-        "id": 96,
-        "name": "Time Manipulation",
-        "description": "Prominently features time-traveling or other time-warping phenomena.",
-        "category": "Theme-Sci-Fi",
-        "rank": 60,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 622,
-        "name": "Asexual",
-        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
-        "category": "Cast-Traits",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 82,
         "name": "Male Protagonist",
         "description": "Main character is male.",
@@ -1514,6 +1494,26 @@
         "description": "Prominently features skeleton(s) as a character.",
         "category": "Cast-Traits",
         "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 96,
+        "name": "Time Manipulation",
+        "description": "Prominently features time-traveling or other time-warping phenomena.",
+        "category": "Theme-Sci-Fi",
+        "rank": 53,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 622,
+        "name": "Asexual",
+        "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
+        "category": "Cast-Traits",
+        "rank": 48,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1567,6 +1567,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -1585,7 +1595,7 @@
     "averageScore": 83,
     "meanScore": 83,
     "popularity": 131945,
-    "trending": 86,
+    "trending": 1349,
     "favourites": 4613,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1805,7 +1815,7 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 26069,
-    "trending": 10,
+    "trending": 173,
     "favourites": 233,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1956,21 +1966,21 @@
         "isAdult": false
       },
       {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
-        "rank": 51,
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 52,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       },
       {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 48,
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 52,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -2012,7 +2022,7 @@
     "averageScore": 77,
     "meanScore": 79,
     "popularity": 10634,
-    "trending": 5,
+    "trending": 94,
     "favourites": 131,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2130,7 +2140,7 @@
     "averageScore": 54,
     "meanScore": 56,
     "popularity": 5810,
-    "trending": 0,
+    "trending": 17,
     "favourites": 40,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2240,6 +2250,16 @@
         "isAdult": false
       },
       {
+        "id": 186,
+        "name": "Crossdressing",
+        "description": "Prominently features a character dressing up as the opposite sex.",
+        "category": "Cast-Traits",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 138,
         "name": "Age Gap",
         "description": "Prominently features romantic relations between people with a significant age difference.",
@@ -2268,16 +2288,6 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 186,
-        "name": "Crossdressing",
-        "description": "Prominently features a character dressing up as the opposite sex.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
       }
     ],
     "studios": [
@@ -2296,7 +2306,7 @@
     "averageScore": 68,
     "meanScore": 70,
     "popularity": 9347,
-    "trending": 2,
+    "trending": 77,
     "favourites": 131,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -2453,7 +2463,7 @@
     "averageScore": 72,
     "meanScore": 73,
     "popularity": 37605,
-    "trending": 24,
+    "trending": 626,
     "favourites": 601,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
