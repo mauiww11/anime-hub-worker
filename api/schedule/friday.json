@@ -204,8 +204,8 @@
     "rating": 8.4,
     "averageScore": 84,
     "meanScore": 86,
-    "popularity": 16648,
-    "trending": 17,
+    "popularity": 16761,
+    "trending": 20,
     "favourites": 336,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
@@ -552,8 +552,8 @@
     "rating": 7.3,
     "averageScore": 73,
     "meanScore": 73,
-    "popularity": 24425,
-    "trending": 13,
+    "popularity": 24441,
+    "trending": 12,
     "favourites": 763,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
@@ -659,6 +659,16 @@
         "isAdult": false
       },
       {
+        "id": 77,
+        "name": "Gender Bending",
+        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 1596,
         "name": "Time Loop",
         "description": "A character is stuck in a repetitive cycle that they are attempting to break out of. This is distinct from a manipulating time of their own choice.",
@@ -676,6 +686,16 @@
         "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 456,
+        "name": "Conspiracy",
+        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+        "category": "Theme-Drama",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -749,16 +769,6 @@
         "isAdult": false
       },
       {
-        "id": 456,
-        "name": "Conspiracy",
-        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
-        "category": "Theme-Drama",
-        "rank": 53,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 186,
         "name": "Crossdressing",
         "description": "Prominently features a character dressing up as the opposite sex.",
@@ -829,21 +839,11 @@
         "isAdult": false
       },
       {
-        "id": 77,
-        "name": "Gender Bending",
-        "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 76,
         "name": "Yuri",
         "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
         "category": "Theme-Romance",
-        "rank": 10,
+        "rank": 33,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -864,8 +864,8 @@
     "rating": 8.3,
     "averageScore": 83,
     "meanScore": 83,
-    "popularity": 135755,
-    "trending": 542,
+    "popularity": 136159,
+    "trending": 443,
     "favourites": 4835,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -949,6 +949,16 @@
         "isAdult": false
       },
       {
+        "id": 1742,
+        "name": "Mixed Media",
+        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
+        "category": "Technical",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 103,
         "name": "Politics",
         "description": "Centers around politics, politicians, or government activities.",
@@ -973,16 +983,6 @@
         "name": "Shounen",
         "description": "Target demographic is teenage and young adult males.",
         "category": "Demographic",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1742,
-        "name": "Mixed Media",
-        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
-        "category": "Technical",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1019,9 +1019,9 @@
         "isAdult": false
       },
       {
-        "id": 446,
-        "name": "Primarily Child Cast",
-        "description": "Main cast is mostly composed of characters below a high school age.",
+        "id": 88,
+        "name": "Primarily Male Cast",
+        "description": "Main cast is mostly composed of male characters.",
         "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
@@ -1029,9 +1029,9 @@
         "isAdult": false
       },
       {
-        "id": 88,
-        "name": "Primarily Male Cast",
-        "description": "Main cast is mostly composed of male characters.",
+        "id": 446,
+        "name": "Primarily Child Cast",
+        "description": "Main cast is mostly composed of characters below a high school age.",
         "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
@@ -1069,16 +1069,6 @@
         "isAdult": false
       },
       {
-        "id": 356,
-        "name": "Gyaru",
-        "description": "Prominently features a female character who has a distinct American-emulated fashion style, such as tanned skin, bleached hair, and excessive makeup. Also known as gal.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 490,
         "name": "Anachronism",
         "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
@@ -1086,6 +1076,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 356,
+        "name": "Gyaru",
+        "description": "Prominently features a female character who has a distinct American-emulated fashion style, such as tanned skin, bleached hair, and excessive makeup. Also known as gal.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
@@ -1104,8 +1104,8 @@
     "rating": 7.6,
     "averageScore": 76,
     "meanScore": 77,
-    "popularity": 27063,
-    "trending": 79,
+    "popularity": 27185,
+    "trending": 60,
     "favourites": 255,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1266,16 +1266,6 @@
         "isAdult": false
       },
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 51,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 483,
         "name": "LGBTQ+ Themes",
         "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
@@ -1283,6 +1273,16 @@
         "rank": 51,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 51,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1311,8 +1311,8 @@
     "rating": 7.8,
     "averageScore": 78,
     "meanScore": 79,
-    "popularity": 11252,
-    "trending": 37,
+    "popularity": 11345,
+    "trending": 32,
     "favourites": 159,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1478,9 +1478,9 @@
     ],
     "rating": 6.8,
     "averageScore": 68,
-    "meanScore": 69,
-    "popularity": 9879,
-    "trending": 34,
+    "meanScore": 70,
+    "popularity": 9938,
+    "trending": 50,
     "favourites": 142,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1561,20 +1561,20 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
+        "id": 1771,
+        "name": "Creature Taming",
+        "description": "Features the taming of animals, monsters, or other creatures.",
+        "category": "Theme-Other",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1771,
-        "name": "Creature Taming",
-        "description": "Features the taming of animals, monsters, or other creatures.",
-        "category": "Theme-Other",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1591,20 +1591,20 @@
         "isAdult": false
       },
       {
-        "id": 15,
-        "name": "Demons",
-        "description": "Prominently features malevolent otherworldly creatures.",
-        "category": "Cast-Traits",
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
+        "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
       },
       {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
-        "category": "Theme-Other",
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
@@ -1636,8 +1636,8 @@
     "rating": 7.1,
     "averageScore": 71,
     "meanScore": 72,
-    "popularity": 40009,
-    "trending": 220,
+    "popularity": 40296,
+    "trending": 193,
     "favourites": 652,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -1739,8 +1739,8 @@
     "rating": 0,
     "averageScore": 0,
     "meanScore": 60,
-    "popularity": 609,
-    "trending": 5,
+    "popularity": 666,
+    "trending": 3,
     "favourites": 11,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1758,5 +1758,131 @@
     },
     "nextEpisode": 4,
     "nextAiringAt": 1790377200
+  },
+  {
+    "animeId": 64210,
+    "anilistId": 212308,
+    "title": "Pan no Akachan (TV)",
+    "titleRomaji": "Pan no Akachan (TV)",
+    "titleEnglish": "",
+    "titleNative": "パンの赤ちゃん",
+    "synonyms": [
+      "Babies of Bread",
+      "Hey! パンの赤ちゃん",
+      "Hey! Pan no Akachan"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212308-HUdh20Djd7cm.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx212308-HUdh20Djd7cm.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx212308-HUdh20Djd7cm.jpg",
+    "coverImageColor": "#1abbd6",
+    "bannerImage": "",
+    "synopsis": "",
+    "type": "ANIME",
+    "format": "TV_SHORT",
+    "status": "RELEASING",
+    "season": "SUMMER",
+    "seasonYear": 2026,
+    "seasonInt": 263,
+    "episodes": 0,
+    "duration": 2,
+    "genres": [
+      "Comedy"
+    ],
+    "tags": [
+      {
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+        "category": "Cast-Traits",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 323,
+        "name": "Stop Motion",
+        "description": "Animation style characterized by physical objects being moved incrementally between frames to create the illusion of movement.",
+        "category": "Technical",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 142,
+        "name": "Food",
+        "description": "Centers around cooking or food appraisal.",
+        "category": "Theme-Arts",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 324,
+        "name": "Chibi",
+        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1647,
+        "name": "Restaurant",
+        "description": "Features a business that prepares and serves food and drinks to customers. Also encompasses cafes and bistros.",
+        "category": "Setting-Scene",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 7359,
+        "name": "CHOCOLATE",
+        "isMain": true,
+        "isAnimationStudio": false,
+        "siteUrl": "https://anilist.co/studio/7359"
+      }
+    ],
+    "studiosNames": [
+      "CHOCOLATE"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 52,
+    "popularity": 231,
+    "trending": 1,
+    "favourites": 1,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#パンの赤ちゃん",
+    "startDate": "2026-07-04",
+    "endDate": null,
+    "mal_url": "https://myanimelist.net/anime/64210",
+    "anilist_url": "https://anilist.co/anime/212308",
+    "trailer": {
+      "id": "NGwgoL0TvI8",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=NGwgoL0TvI8"
+    },
+    "nextEpisode": 13,
+    "nextAiringAt": 1790379000
   }
 ]
