@@ -205,8 +205,8 @@
     "averageScore": 84,
     "meanScore": 86,
     "popularity": 16761,
-    "trending": 20,
-    "favourites": 336,
+    "trending": 16,
+    "favourites": 335,
     "source": "ORIGINAL",
     "countryOfOrigin": "CN",
     "isLicensed": true,
@@ -553,7 +553,7 @@
     "averageScore": 73,
     "meanScore": 73,
     "popularity": 24441,
-    "trending": 12,
+    "trending": 6,
     "favourites": 763,
     "source": "VIDEO_GAME",
     "countryOfOrigin": "JP",
@@ -865,8 +865,8 @@
     "averageScore": 83,
     "meanScore": 83,
     "popularity": 136159,
-    "trending": 443,
-    "favourites": 4835,
+    "trending": 309,
+    "favourites": 4869,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -949,20 +949,10 @@
         "isAdult": false
       },
       {
-        "id": 1742,
-        "name": "Mixed Media",
-        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
-        "category": "Technical",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 103,
-        "name": "Politics",
-        "description": "Centers around politics, politicians, or government activities.",
-        "category": "Theme-Other",
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -979,10 +969,20 @@
         "isAdult": false
       },
       {
-        "id": 56,
-        "name": "Shounen",
-        "description": "Target demographic is teenage and young adult males.",
-        "category": "Demographic",
+        "id": 103,
+        "name": "Politics",
+        "description": "Centers around politics, politicians, or government activities.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1742,
+        "name": "Mixed Media",
+        "description": "Features a combination of different media and animation techniques. Often seen with puppetry, textiles, live action footage, stop motion, and more. This does not include works with normal usage of CGI in their production.",
+        "category": "Technical",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -994,26 +994,6 @@
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
         "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 281,
-        "name": "Surreal Comedy",
-        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
-        "category": "Theme-Comedy",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 144,
-        "name": "Meta",
-        "description": "Features fourth wall-breaking references to itself or genre tropes.",
-        "category": "Theme-Other",
-        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1033,6 +1013,26 @@
         "name": "Primarily Child Cast",
         "description": "Main cast is mostly composed of characters below a high school age.",
         "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 144,
+        "name": "Meta",
+        "description": "Features fourth wall-breaking references to itself or genre tropes.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 281,
+        "name": "Surreal Comedy",
+        "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
+        "category": "Theme-Comedy",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1059,16 +1059,6 @@
         "isAdult": false
       },
       {
-        "id": 255,
-        "name": "Ninja",
-        "description": "Prominently features Japanese warriors traditionally trained in espionage, sabotage and assasination.",
-        "category": "Cast-Traits",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 490,
         "name": "Anachronism",
         "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
@@ -1082,6 +1072,16 @@
         "id": 356,
         "name": "Gyaru",
         "description": "Prominently features a female character who has a distinct American-emulated fashion style, such as tanned skin, bleached hair, and excessive makeup. Also known as gal.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 255,
+        "name": "Ninja",
+        "description": "Prominently features Japanese warriors traditionally trained in espionage, sabotage and assasination.",
         "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
@@ -1105,8 +1105,8 @@
     "averageScore": 76,
     "meanScore": 77,
     "popularity": 27185,
-    "trending": 60,
-    "favourites": 255,
+    "trending": 41,
+    "favourites": 258,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1176,6 +1176,16 @@
         "isAdult": false
       },
       {
+        "id": 118,
+        "name": "Drawing",
+        "description": "Centers around the art of drawing, including manga and doujinshi.",
+        "category": "Theme-Arts",
+        "rank": 87,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 97,
         "name": "Otaku Culture",
         "description": "Centers around the culture of a fanatical fan-base.",
@@ -1186,21 +1196,21 @@
         "isAdult": false
       },
       {
-        "id": 118,
-        "name": "Drawing",
-        "description": "Centers around the art of drawing, including manga and doujinshi.",
-        "category": "Theme-Arts",
-        "rank": 86,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 98,
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
         "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 165,
+        "name": "Teacher",
+        "description": "Protagonist is an educator, usually in a school setting.",
+        "category": "Cast-Traits",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1266,16 +1276,6 @@
         "isAdult": false
       },
       {
-        "id": 483,
-        "name": "LGBTQ+ Themes",
-        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
-        "category": "Theme-Other",
-        "rank": 51,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
         "id": 46,
         "name": "School",
         "description": "Partly or completely set in a primary or secondary educational institution.",
@@ -1283,6 +1283,16 @@
         "rank": 51,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 51,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -1312,8 +1322,8 @@
     "averageScore": 78,
     "meanScore": 79,
     "popularity": 11345,
-    "trending": 32,
-    "favourites": 159,
+    "trending": 20,
+    "favourites": 160,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1444,9 +1454,9 @@
         "isAdult": false
       },
       {
-        "id": 595,
-        "name": "Urban",
-        "description": "Partly or completely set in a city.",
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
         "category": "Setting-Scene",
         "rank": 20,
         "isGeneralSpoiler": false,
@@ -1454,9 +1464,9 @@
         "isAdult": false
       },
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
         "category": "Setting-Scene",
         "rank": 20,
         "isGeneralSpoiler": false,
@@ -1480,8 +1490,8 @@
     "averageScore": 68,
     "meanScore": 70,
     "popularity": 9938,
-    "trending": 50,
-    "favourites": 142,
+    "trending": 15,
+    "favourites": 144,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1591,13 +1601,13 @@
         "isAdult": false
       },
       {
-        "id": 111,
-        "name": "War",
-        "description": "Partly or completely set during wartime.",
+        "id": 1277,
+        "name": "Found Family",
+        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
         "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
+        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -1611,13 +1621,13 @@
         "isAdult": false
       },
       {
-        "id": 1277,
-        "name": "Found Family",
-        "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
+        "id": 111,
+        "name": "War",
+        "description": "Partly or completely set during wartime.",
         "category": "Theme-Other",
         "rank": 20,
         "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -1637,8 +1647,8 @@
     "averageScore": 71,
     "meanScore": 72,
     "popularity": 40296,
-    "trending": 193,
-    "favourites": 652,
+    "trending": 102,
+    "favourites": 657,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1740,7 +1750,7 @@
     "averageScore": 0,
     "meanScore": 60,
     "popularity": 666,
-    "trending": 3,
+    "trending": 1,
     "favourites": 11,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1790,20 +1800,20 @@
     ],
     "tags": [
       {
-        "id": 1304,
-        "name": "Anthropomorphism",
-        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
-        "category": "Cast-Traits",
+        "id": 323,
+        "name": "Stop Motion",
+        "description": "Animation style characterized by physical objects being moved incrementally between frames to create the illusion of movement.",
+        "category": "Technical",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 323,
-        "name": "Stop Motion",
-        "description": "Animation style characterized by physical objects being moved incrementally between frames to create the illusion of movement.",
-        "category": "Technical",
+        "id": 1304,
+        "name": "Anthropomorphism",
+        "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+        "category": "Cast-Traits",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1820,10 +1830,10 @@
         "isAdult": false
       },
       {
-        "id": 324,
-        "name": "Chibi",
-        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
-        "category": "Theme-Other",
+        "id": 1647,
+        "name": "Restaurant",
+        "description": "Features a business that prepares and serves food and drinks to customers. Also encompasses cafes and bistros.",
+        "category": "Setting-Scene",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -1840,10 +1850,20 @@
         "isAdult": false
       },
       {
-        "id": 1647,
-        "name": "Restaurant",
-        "description": "Features a business that prepares and serves food and drinks to customers. Also encompasses cafes and bistros.",
-        "category": "Setting-Scene",
+        "id": 324,
+        "name": "Chibi",
+        "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+        "category": "Theme-Other",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 341,
+        "name": "No Dialogue",
+        "description": "This work contains no dialogue.",
+        "category": "Technical",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
