@@ -12834,6 +12834,16 @@
         "isAdult": false
       },
       {
+        "id": 654,
+        "name": "Denpa",
+        "description": "Works that feature themes of social dissociation, delusions, and other issues like suicide, bullying, self-isolation, paranoia, and technological necessity in daily lives. Classic iconography: telephone poles, rooftops, and trains.",
+        "category": "Theme-Other",
+        "rank": 95,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 50,
         "name": "Seinen",
         "description": "Target demographic is adult males.",
@@ -12888,7 +12898,7 @@
         "name": "Time Manipulation",
         "description": "Prominently features time-traveling or other time-warping phenomena.",
         "category": "Theme-Sci-Fi",
-        "rank": 88,
+        "rank": 89,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12908,7 +12918,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 85,
+        "rank": 86,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12928,17 +12938,17 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 81,
+        "rank": 82,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 654,
-        "name": "Denpa",
-        "description": "Works that feature themes of social dissociation, delusions, and other issues like suicide, bullying, self-isolation, paranoia, and technological necessity in daily lives. Classic iconography: telephone poles, rooftops, and trains.",
-        "category": "Theme-Other",
-        "rank": 79,
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12954,11 +12964,11 @@
         "isAdult": false
       },
       {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
-        "rank": 75,
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12968,7 +12978,7 @@
         "name": "Desert",
         "description": "Prominently features a desert environment.",
         "category": "Setting-Scene",
-        "rank": 73,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -12978,16 +12988,6 @@
         "name": "Medieval",
         "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
         "category": "Setting-Time",
-        "rank": 73,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
         "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -13004,11 +13004,31 @@
         "isAdult": false
       },
       {
+        "id": 598,
+        "name": "Elf",
+        "description": "Prominently features a character who is an elf.",
+        "category": "Cast-Traits",
+        "rank": 65,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 623,
         "name": "Astronomy",
         "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
         "category": "Theme-Other",
-        "rank": 67,
+        "rank": 64,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1310,
+        "name": "Travel",
+        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "category": "Theme-Other",
+        "rank": 64,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -13018,39 +13038,9 @@
         "name": "Anthropomorphism",
         "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
         "category": "Cast-Traits",
-        "rank": 66,
+        "rank": 62,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
-        "isAdult": false
-      },
-      {
-        "id": 1310,
-        "name": "Travel",
-        "description": "Centers around character(s) moving between places a significant distance apart.",
-        "category": "Theme-Other",
-        "rank": 66,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1937,
-        "name": "Interspecies",
-        "description": "Romance between characters of different species.",
-        "category": "Theme-Romance",
-        "rank": 65,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 598,
-        "name": "Elf",
-        "description": "Prominently features a character who is an elf.",
-        "category": "Cast-Traits",
-        "rank": 64,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
         "isAdult": false
       },
       {
@@ -13094,6 +13084,16 @@
         "isAdult": false
       },
       {
+        "id": 1937,
+        "name": "Interspecies",
+        "description": "Romance between characters of different species.",
+        "category": "Theme-Romance",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1342,
         "name": "Clone",
         "description": "Prominently features a character who is an artificial exact copy of another organism.",
@@ -13128,7 +13128,7 @@
         "name": "Gods",
         "description": "Prominently features a character of divine or religious nature.",
         "category": "Cast-Traits",
-        "rank": 42,
+        "rank": 44,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": true,
         "isAdult": false
@@ -13149,9 +13149,9 @@
     "rating": 9,
     "averageScore": 90,
     "meanScore": 90,
-    "popularity": 142243,
-    "trending": 59,
-    "favourites": 7629,
+    "popularity": 142520,
+    "trending": 503,
+    "favourites": 7686,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -13166,10 +13166,10 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=i8EjBP85cCc"
     },
-    "latestEpisode": 17,
-    "latestEpisodeTitle": "Episode 17",
-    "nextEpisode": 18,
-    "nextAiringAt": 1790168400
+    "latestEpisode": 18,
+    "latestEpisodeTitle": "Episode 18",
+    "nextEpisode": 19,
+    "nextAiringAt": 1790773200
   },
   {
     "animeId": 46102,
@@ -22540,7 +22540,7 @@
     "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131773-pgtzQtbqU2nQ.jpg",
     "coverImageColor": "#f1e4c9",
     "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131773-sDCTYEVSwL8T.jpg",
-    "synopsis": "Special episode concluding the story of Wonder Egg Priority . Ai Ooto is finally at the cusp of unraveling the mystery behind her best friend's suicide. After stepping into the strange dreamlike world of the Wonder Egg and sparing people from their adversities, she reaches her end goal of resurrecting her friend from death. Yet, now with her friend alive, Ai is confused and hurt after realizing that she does not remember her anymore. She is not the only one who has been alienated by the person she saved. In fact, the other girls caught up in the affairs also face the same repercussions for bringing someone back to life. As they try to grasp their new reality, the girls come to terms with the trauma from their \"mission\" and question whether they should dive back into the Wonder Egg to uncover the truth behind everything. (Source: MAL Rewrite)",
+    "synopsis": "Ai Ooto is finally at the cusp of unraveling the mystery behind her best friend's suicide. After stepping into the strange dreamlike world of the Wonder Egg and sparing people from their adversities, she reaches her end goal of resurrecting her friend from death. Yet, now with her friend alive, Ai is confused and hurt after realizing that she does not remember her anymore. She is not the only one who has been alienated by the person she saved. In fact, the other girls caught up in the affairs also face the same repercussions for bringing someone back to life. As they try to grasp their new reality, the girls come to terms with the trauma from their \"mission\" and question whether they should dive back into the Wonder Egg to uncover the truth behind everything. (Source: MAL Rewrite)",
     "type": "ANIME",
     "format": "SPECIAL",
     "status": "FINISHED",
@@ -30143,6 +30143,7 @@
       "Action",
       "Drama",
       "Mystery",
+      "Psychological",
       "Thriller"
     ],
     "tags": [
