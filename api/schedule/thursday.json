@@ -105,7 +105,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 20755,
-    "trending": 5,
+    "trending": 6,
     "favourites": 215,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -250,7 +250,7 @@
     "averageScore": 0,
     "meanScore": 55,
     "popularity": 273,
-    "trending": 1,
+    "trending": 2,
     "favourites": 4,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -393,7 +393,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 5147,
-    "trending": 2,
+    "trending": 1,
     "favourites": 37,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -746,7 +746,7 @@
     "averageScore": 68,
     "meanScore": 73,
     "popularity": 2439,
-    "trending": 14,
+    "trending": 5,
     "favourites": 23,
     "source": "OTHER",
     "countryOfOrigin": "JP",
@@ -798,6 +798,16 @@
     ],
     "tags": [
       {
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 90,
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
@@ -808,21 +818,11 @@
         "isAdult": false
       },
       {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
-        "rank": 89,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 1870,
         "name": "Exiled",
         "description": "Features a character or characters that get banished or ostracized from a place or group they belonged to.",
         "category": "Theme-Other",
-        "rank": 85,
+        "rank": 88,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -832,7 +832,7 @@
         "name": "Reincarnation",
         "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
-        "rank": 83,
+        "rank": 85,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -842,7 +842,7 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 80,
+        "rank": 83,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -852,7 +852,7 @@
         "name": "Class Struggle",
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
         "category": "Theme-Drama",
-        "rank": 66,
+        "rank": 75,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -862,7 +862,7 @@
         "name": "Dungeon",
         "description": "Prominently features a dungeon environment.",
         "category": "Setting-Scene",
-        "rank": 65,
+        "rank": 72,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -872,7 +872,7 @@
         "name": "Gore",
         "description": "Prominently features graphic bloodshed and violence.",
         "category": "Theme-Other",
-        "rank": 60,
+        "rank": 66,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -882,7 +882,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 53,
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -892,27 +892,7 @@
         "name": "Swordplay",
         "description": "Prominently features the use of swords in combat.",
         "category": "Theme-Action",
-        "rank": 46,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1327,
-        "name": "Royal Affairs",
-        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
-        "category": "Theme-Other",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1752,
-        "name": "Medieval",
-        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
-        "category": "Setting-Time",
-        "rank": 30,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -922,7 +902,17 @@
         "name": "Estranged Family",
         "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
         "category": "Cast-Main Cast",
-        "rank": 20,
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 53,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -932,17 +922,17 @@
         "name": "Survival",
         "description": "Centers around the struggle to live in spite of extreme obstacles.",
         "category": "Theme-Other",
-        "rank": 20,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 1310,
-        "name": "Travel",
-        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "id": 1327,
+        "name": "Royal Affairs",
+        "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
         "category": "Theme-Other",
-        "rank": 20,
+        "rank": 46,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -952,7 +942,17 @@
         "name": "Meta",
         "description": "Features fourth wall-breaking references to itself or genre tropes.",
         "category": "Theme-Other",
-        "rank": 10,
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1310,
+        "name": "Travel",
+        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "category": "Theme-Other",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -974,7 +974,7 @@
     "averageScore": 67,
     "meanScore": 67,
     "popularity": 63984,
-    "trending": 401,
+    "trending": 264,
     "favourites": 1144,
     "source": "MANGA",
     "countryOfOrigin": "JP",
