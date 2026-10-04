@@ -172,7 +172,7 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 96,
+        "rank": 97,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -182,7 +182,7 @@
         "name": "Economics",
         "description": "Centers around the field of economics.",
         "category": "Theme-Other",
-        "rank": 94,
+        "rank": 95,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -192,7 +192,7 @@
         "name": "Gambling",
         "description": "Centers around the act of gambling.",
         "category": "Theme-Other",
-        "rank": 92,
+        "rank": 93,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -212,7 +212,7 @@
         "name": "Tragedy",
         "description": "Centers around tragic events and unhappy endings.",
         "category": "Theme-Drama",
-        "rank": 71,
+        "rank": 75,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -222,7 +222,7 @@
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
         "category": "Cast-Main Cast",
-        "rank": 60,
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -232,10 +232,30 @@
         "name": "Primarily Adult Cast",
         "description": "Main cast is mostly composed of characters above a high school age.",
         "category": "Cast-Main Cast",
+        "rank": 68,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 137,
+        "name": "Large Breasts",
+        "description": "Features a character with larger-than-average breasts.",
+        "category": "Sexual Content",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": true
       },
       {
         "id": 1046,
@@ -258,16 +278,6 @@
         "isAdult": false
       },
       {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 153,
         "name": "Time Skip",
         "description": "Features a gap in time used to advance the story.",
@@ -276,16 +286,6 @@
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
         "isAdult": false
-      },
-      {
-        "id": 137,
-        "name": "Large Breasts",
-        "description": "Features a character with larger-than-average breasts.",
-        "category": "Sexual Content",
-        "rank": 40,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": true
       },
       {
         "id": 140,
@@ -314,8 +314,8 @@
     "averageScore": 69,
     "meanScore": 72,
     "popularity": 10128,
-    "trending": 39,
-    "favourites": 87,
+    "trending": 59,
+    "favourites": 96,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -441,6 +441,16 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "studios": [
@@ -459,8 +469,8 @@
     "averageScore": 82,
     "meanScore": 84,
     "popularity": 26821,
-    "trending": 78,
-    "favourites": 370,
+    "trending": 63,
+    "favourites": 408,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -555,8 +565,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 11486,
-    "trending": 3,
-    "favourites": 98,
+    "trending": 6,
+    "favourites": 103,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -775,7 +785,7 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 2428,
-    "trending": 3,
+    "trending": 0,
     "favourites": 7,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -991,16 +1001,6 @@
     ],
     "tags": [
       {
-        "id": 244,
-        "name": "Isekai",
-        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
-        "category": "Theme-Fantasy",
-        "rank": 90,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 90,
         "name": "CGI",
         "description": "Prominently features scenes created with computer-generated imagery.",
@@ -1016,6 +1016,16 @@
         "description": "Features a character or characters that get banished or ostracized from a place or group they belonged to.",
         "category": "Theme-Other",
         "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 87,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -1167,8 +1177,8 @@
     "averageScore": 67,
     "meanScore": 68,
     "popularity": 66653,
-    "trending": 128,
-    "favourites": 1211,
+    "trending": 89,
+    "favourites": 1222,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1273,8 +1283,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 10899,
-    "trending": 7,
-    "favourites": 128,
+    "trending": 3,
+    "favourites": 130,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
