@@ -28,21 +28,11 @@
     ],
     "tags": [
       {
-        "id": 56,
-        "name": "Shounen",
-        "description": "Target demographic is teenage and young adult males.",
-        "category": "Demographic",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 615,
         "name": "Death Game",
         "description": "Features characters participating in a game, where failure results in death.",
         "category": "Theme-Other",
-        "rank": 20,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -52,7 +42,7 @@
         "name": "Dystopian",
         "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
         "category": "Setting-Time",
-        "rank": 20,
+        "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -62,6 +52,16 @@
         "name": "Super Power",
         "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
         "category": "Theme-Fantasy",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -75,6 +75,16 @@
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
         "isAdult": false
       }
     ],
@@ -261,7 +271,7 @@
         "name": "Witch",
         "description": "Prominently features a character who is a witch.",
         "category": "Cast-Traits",
-        "rank": 73,
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
