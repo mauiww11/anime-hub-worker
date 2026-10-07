@@ -696,7 +696,7 @@
     "seasonYear": 2026,
     "seasonInt": 264,
     "episodes": 0,
-    "duration": 23,
+    "duration": 24,
     "genres": [
       "Adventure",
       "Comedy",
@@ -1014,7 +1014,7 @@
     "seasonYear": 2026,
     "seasonInt": 264,
     "episodes": 0,
-    "duration": 0,
+    "duration": 24,
     "genres": [
       "Action",
       "Fantasy"
@@ -11561,8 +11561,18 @@
         "isAdult": false
       }
     ],
-    "studios": [],
-    "studiosNames": [],
+    "studios": [
+      {
+        "id": 463,
+        "name": "M.S.C",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/463"
+      }
+    ],
+    "studiosNames": [
+      "M.S.C"
+    ],
     "rating": 0,
     "averageScore": 0,
     "meanScore": 67,
