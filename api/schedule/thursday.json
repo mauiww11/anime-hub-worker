@@ -123,7 +123,7 @@
     "averageScore": 0,
     "meanScore": 64,
     "popularity": 98,
-    "trending": 5,
+    "trending": 0,
     "favourites": 2,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
@@ -135,8 +135,8 @@
     "mal_url": "https://myanimelist.net/anime/65095",
     "anilist_url": "https://anilist.co/anime/217624",
     "trailer": null,
-    "nextEpisode": 2,
-    "nextAiringAt": 1791451800
+    "nextEpisode": 3,
+    "nextAiringAt": 1792056600
   },
   {
     "animeId": 63337,
@@ -192,7 +192,7 @@
         "name": "Gambling",
         "description": "Centers around the act of gambling.",
         "category": "Theme-Other",
-        "rank": 94,
+        "rank": 90,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -228,11 +228,21 @@
         "isAdult": false
       },
       {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 76,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 140,
         "name": "Educational",
         "description": "Primary aim is to educate the audience.",
         "category": "Theme-Other",
-        "rank": 75,
+        "rank": 76,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -248,16 +258,6 @@
         "isAdult": false
       },
       {
-        "id": 50,
-        "name": "Seinen",
-        "description": "Target demographic is adult males.",
-        "category": "Demographic",
-        "rank": 72,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 145,
         "name": "Work",
         "description": "Centers around the activities of a certain occupation.",
@@ -268,6 +268,16 @@
         "isAdult": false
       },
       {
+        "id": 1046,
+        "name": "Suicide",
+        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+        "category": "Theme-Drama",
+        "rank": 63,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 153,
         "name": "Time Skip",
         "description": "Features a gap in time used to advance the story.",
@@ -275,16 +285,6 @@
         "rank": 60,
         "isGeneralSpoiler": true,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1046,
-        "name": "Suicide",
-        "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
-        "category": "Theme-Drama",
-        "rank": 56,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -314,8 +314,8 @@
     "averageScore": 69,
     "meanScore": 71,
     "popularity": 13273,
-    "trending": 61,
-    "favourites": 113,
+    "trending": 134,
+    "favourites": 125,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -330,8 +330,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=7rxIZ3z0S4s"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1791462600
+    "nextEpisode": 3,
+    "nextAiringAt": 1792067400
   },
   {
     "animeId": 64534,
@@ -383,21 +383,21 @@
         "isAdult": false
       },
       {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 53,
-        "name": "Shoujo",
-        "description": "Target demographic is teenage and young adult females.",
-        "category": "Demographic",
-        "rank": 79,
+        "id": 139,
+        "name": "Love Triangle",
+        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+        "category": "Theme-Romance",
+        "rank": 70,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -413,11 +413,11 @@
         "isAdult": false
       },
       {
-        "id": 779,
-        "name": "Kuudere",
-        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
-        "category": "Cast-Traits",
-        "rank": 60,
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 65,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -433,21 +433,31 @@
         "isAdult": false
       },
       {
-        "id": 139,
-        "name": "Love Triangle",
-        "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
-        "category": "Theme-Romance",
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 53,
+        "id": 779,
+        "name": "Kuudere",
+        "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+        "category": "Cast-Traits",
+        "rank": 46,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -469,8 +479,8 @@
     "averageScore": 82,
     "meanScore": 83,
     "popularity": 30138,
-    "trending": 31,
-    "favourites": 470,
+    "trending": 282,
+    "favourites": 487,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -485,26 +495,27 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=VvzeL7UMCE8"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1791471360
+    "nextEpisode": 3,
+    "nextAiringAt": 1792076160
   },
   {
-    "animeId": 63423,
-    "anilistId": 207327,
-    "title": "To You in the Beyond",
-    "titleRomaji": "Doko yori mo Tooi Basho ni Iru Kimi e",
-    "titleEnglish": "To You in the Beyond",
-    "titleNative": "どこよりも遠い場所にいる君へ",
+    "animeId": 62582,
+    "anilistId": 199340,
+    "title": "Rascal Does Not Dream of a Dear Friend",
+    "titleRomaji": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+    "titleEnglish": "Rascal Does Not Dream of a Dear Friend",
+    "titleNative": "青春ブタ野郎はディアフレンドの夢を見ない",
     "synonyms": [
-      "どこきみ",
-      "DokoKimi"
+      "Rascal Does Not Dream of a Dear Friend",
+      "AoButa",
+      " 青ブタ"
     ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207327-OSrMbh8DrGE4.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx207327-OSrMbh8DrGE4.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx207327-OSrMbh8DrGE4.jpg",
-    "coverImageColor": "#f1d6ae",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199340-YQlmzvmcJzyt.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199340-YQlmzvmcJzyt.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx199340-YQlmzvmcJzyt.jpg",
+    "coverImageColor": "#5da1f1",
     "bannerImage": "",
-    "synopsis": "The story centers on a boy named Kazuki Tsukigase, who transfers to a high school on a remote island to get away from anyone who knows him. Kazuki finds out that there is an inlet on the island where people are rumored to disappear. Exploring the inlet, he encounters an unconscious girl. When she comes to after Kazuki takes her to the clinic, she is unable to give out anything about her identity except that she is named Nao, is 16 years old, and whispers the year \"1974.\" (Source: Anime News Network, edited)",
+    "synopsis": "\"Actually, I’m Touko Kirishima.\" The audience erupted in excitement upon learning that the true identity of the mysterious, wildly popular internet singer was none other than the nation’s favorite actress, Mai Sakurajima. The scene was exactly the same as the dream Sakuta Azusagawa had seen on Christmas Eve. Starting with Mai’s shocking confession on April 1, the impossible events that everyone once dreamed of keep happening one after another. The social media hashtag \"#Yumemiru,\" where dreams come true, has vanished, and as Sakuta struggles with the disconnect between the reality before him and his own perception, he receives a message from a version of himself in an alternate reality. ―Stop Touko Kirishima, ―Before reality is rewritten. To restore the world to its original state, Sakuta sets out to find Touko Kirishima. This is a story about overcoming the \"Adolescent Syndrome\". (Source: Crunchyroll News, edited)",
     "type": "ANIME",
     "format": "MOVIE",
     "status": "NOT_YET_RELEASED",
@@ -514,112 +525,18 @@
     "episodes": 1,
     "duration": 0,
     "genres": [
-      "Mystery",
-      "Romance"
+      "Drama",
+      "Psychological",
+      "Romance",
+      "Supernatural"
     ],
     "tags": [
       {
-        "id": 1537,
-        "name": "Coastal",
-        "description": "Story prominently takes place near the beach or around a coastal area/town. Setting is near the ocean.",
-        "category": "Setting-Scene",
-        "rank": 50,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 250,
-        "name": "Rural",
-        "description": "Partly or completely set in the countryside.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 96,
-        "name": "Time Manipulation",
-        "description": "Prominently features time-traveling or other time-warping phenomena.",
-        "category": "Theme-Sci-Fi",
-        "rank": 20,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
-        "isAdult": false
-      }
-    ],
-    "studios": [
-      {
-        "id": 73,
-        "name": "TMS Entertainment",
-        "isMain": true,
-        "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/73"
-      }
-    ],
-    "studiosNames": [
-      "TMS Entertainment"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 12213,
-    "trending": 2,
-    "favourites": 105,
-    "source": "LIGHT_NOVEL",
-    "countryOfOrigin": "JP",
-    "isLicensed": true,
-    "isAdult": false,
-    "hashtag": "#どこきみ",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "mal_url": "https://myanimelist.net/anime/63423",
-    "anilist_url": "https://anilist.co/anime/207327",
-    "trailer": {
-      "id": "J2tjySs8UbA",
-      "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=J2tjySs8UbA"
-    },
-    "nextEpisode": 1,
-    "nextAiringAt": 1791471600
-  },
-  {
-    "animeId": 39168,
-    "anilistId": 202390,
-    "title": "Girls und Panzer: Saishuushou 5",
-    "titleRomaji": "Girls und Panzer: Saishuushou 5",
-    "titleEnglish": "",
-    "titleNative": "ガールズ＆パンツァー 最終章 第5話",
-    "synonyms": [
-      "Girls und Panzer das Finale 5",
-      "Girls und Panzer das Finale - Part 5"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202390-XrdgWaUKxDUg.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202390-XrdgWaUKxDUg.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b202390-XrdgWaUKxDUg.jpg",
-    "coverImageColor": "",
-    "bannerImage": "",
-    "synopsis": "The fifth film in the six-part Girls und Panzer: Saishuushou film series.",
-    "type": "ANIME",
-    "format": "MOVIE",
-    "status": "NOT_YET_RELEASED",
-    "season": "FALL",
-    "seasonYear": 2026,
-    "seasonInt": 264,
-    "episodes": 1,
-    "duration": 0,
-    "genres": [
-      "Action",
-      "Sports"
-    ],
-    "tags": [
-      {
-        "id": 174,
-        "name": "Tanks",
-        "description": "Prominently features the use of tanks or other armoured vehicles.",
-        "category": "Theme-Other-Vehicle",
-        "rank": 88,
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -629,7 +546,77 @@
         "name": "Female Protagonist",
         "description": "Main character is female.",
         "category": "Cast-Main Cast",
-        "rank": 66,
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 404,
+        "name": "College",
+        "description": "Partly or completely set in a college or university.",
+        "category": "Setting-Scene",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 365,
+        "name": "Memory Manipulation",
+        "description": "Prominently features a character(s) who has had their memories altered.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 146,
+        "name": "Alternate Universe",
+        "description": "Features multiple alternate universes in the same series.",
+        "category": "Setting-Universe",
+        "rank": 60,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -637,38 +624,175 @@
     ],
     "studios": [
       {
-        "id": 60,
-        "name": "Actas",
+        "id": 6222,
+        "name": "CloverWorks",
         "isMain": true,
         "isAnimationStudio": true,
-        "siteUrl": "https://anilist.co/studio/60"
+        "siteUrl": "https://anilist.co/studio/6222"
       }
     ],
     "studiosNames": [
-      "Actas"
+      "CloverWorks"
     ],
     "rating": 0,
     "averageScore": 0,
     "meanScore": 0,
-    "popularity": 3705,
-    "trending": 0,
-    "favourites": 55,
-    "source": "ORIGINAL",
+    "popularity": 31903,
+    "trending": 5,
+    "favourites": 402,
+    "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
     "isAdult": false,
-    "hashtag": "#garupan",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "mal_url": "https://myanimelist.net/anime/39168",
-    "anilist_url": "https://anilist.co/anime/202390",
+    "hashtag": "#青ブタ #青ブタアニメ",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "mal_url": "https://myanimelist.net/anime/62582",
+    "anilist_url": "https://anilist.co/anime/199340",
     "trailer": {
-      "id": "yDRK9-yG9X8",
+      "id": "ydmOU6gOi3k",
       "site": "youtube",
-      "url": "https://www.youtube.com/watch?v=yDRK9-yG9X8"
+      "url": "https://www.youtube.com/watch?v=ydmOU6gOi3k"
     },
     "nextEpisode": 1,
-    "nextAiringAt": 1791471600
+    "nextAiringAt": 1792076400
+  },
+  {
+    "animeId": 62270,
+    "anilistId": 197543,
+    "title": "BanG Dream! Ave Mujica: prima aurora",
+    "titleRomaji": "BanG Dream! Ave Mujica: prima aurora",
+    "titleEnglish": "",
+    "titleNative": "BanG Dream! Ave Mujica prima aurora",
+    "synonyms": [
+      "Ave Mujica - prima aurora -",
+      "BanG Dream! Ave Mujica Movie",
+      "Ave Mujica - The Die is Cast - Movie"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197543-UhIhht4Gku8z.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197543-UhIhht4Gku8z.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx197543-UhIhht4Gku8z.png",
+    "coverImageColor": "#4393e4",
+    "bannerImage": "",
+    "synopsis": "",
+    "type": "ANIME",
+    "format": "MOVIE",
+    "status": "NOT_YET_RELEASED",
+    "season": "FALL",
+    "seasonYear": 2026,
+    "seasonInt": 264,
+    "episodes": 1,
+    "duration": 0,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "tags": [
+      {
+        "id": 110,
+        "name": "Band",
+        "description": "Main cast is a group of musicians.",
+        "category": "Theme-Arts-Music",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1674,
+        "name": "Rock Music",
+        "description": "Centers on the musical style of rock, not to be applied to anime that use rock in its soundtrack.",
+        "category": "Theme-Arts-Music",
+        "rank": 95,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1228,
+        "name": "Primarily Teen Cast",
+        "description": "Main cast is mostly composed of teen characters.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1675,
+        "name": "Metal Music",
+        "description": "Centers on the musical style of metal, not to be applied to anime that use metal in its soundtrack.",
+        "category": "Theme-Arts-Music",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 76,
+        "name": "Yuri",
+        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+        "category": "Theme-Romance",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "studios": [
+      {
+        "id": 7701,
+        "name": "NICHICALINE",
+        "isMain": true,
+        "isAnimationStudio": true,
+        "siteUrl": "https://anilist.co/studio/7701"
+      }
+    ],
+    "studiosNames": [
+      "NICHICALINE"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 0,
+    "popularity": 3425,
+    "trending": 1,
+    "favourites": 22,
+    "source": "OTHER",
+    "countryOfOrigin": "JP",
+    "isLicensed": true,
+    "isAdult": false,
+    "hashtag": "#AveMujica ",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "mal_url": "https://myanimelist.net/anime/62270",
+    "anilist_url": "https://anilist.co/anime/197543",
+    "trailer": {
+      "id": "Uqt2rXUA-r8",
+      "site": "youtube",
+      "url": "https://www.youtube.com/watch?v=Uqt2rXUA-r8"
+    },
+    "nextEpisode": 1,
+    "nextAiringAt": 1792076400
   },
   {
     "animeId": 62615,
@@ -688,7 +812,7 @@
     "synopsis": "Misaki has often felt the urge to break free from everyday life and set out on a journey somewhere far away. Even though she doesn’t yet know what she wants to become, she longs to find something she can truly be passionate about. At the start of a new chapter on a lively campus, she meets the members of the Railway Travel Research Club—known as the “Tetsuryo Club.” As her world unfolds along the railway lines, Misaki’s heart begins to race with excitement! As TETSUDOU MUSUME celebrates its 20th anniversary, the Tetsuryo Club sets off on a journey through the world where the Railway Girls work, in search of moments of wonder. (Source: Pony Canyon Anime)",
     "type": "ANIME",
     "format": "TV",
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "season": "FALL",
     "seasonYear": 2026,
     "seasonInt": 264,
@@ -749,6 +873,26 @@
         "isAdult": false
       },
       {
+        "id": 1310,
+        "name": "Travel",
+        "description": "Centers around character(s) moving between places a significant distance apart.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 404,
+        "name": "College",
+        "description": "Partly or completely set in a college or university.",
+        "category": "Setting-Scene",
+        "rank": 70,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 86,
         "name": "Primarily Female Cast",
         "description": "Main cast is mostly composed of female characters.",
@@ -759,10 +903,10 @@
         "isAdult": false
       },
       {
-        "id": 404,
-        "name": "College",
-        "description": "Partly or completely set in a college or university.",
-        "category": "Setting-Scene",
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -785,8 +929,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 2690,
-    "trending": 2,
-    "favourites": 10,
+    "trending": 54,
+    "favourites": 14,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -801,8 +945,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=GixEiC7k9_4"
     },
-    "nextEpisode": 1,
-    "nextAiringAt": 1791471600
+    "nextEpisode": 2,
+    "nextAiringAt": 1792076400
   },
   {
     "animeId": 64180,
@@ -866,7 +1010,7 @@
     "averageScore": 54,
     "meanScore": 66,
     "popularity": 1775,
-    "trending": 5,
+    "trending": 7,
     "favourites": 16,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -882,8 +1026,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=vnOrtJ4vRmw"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1791471600
+    "nextEpisode": 3,
+    "nextAiringAt": 1792076400
   },
   {
     "animeId": 214593,
@@ -949,8 +1093,8 @@
     "averageScore": 0,
     "meanScore": 50,
     "popularity": 107,
-    "trending": 0,
-    "favourites": 2,
+    "trending": 1,
+    "favourites": 3,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -965,8 +1109,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=WprfleUJVck"
     },
-    "nextEpisode": 2,
-    "nextAiringAt": 1791471600
+    "nextEpisode": 4,
+    "nextAiringAt": 1792076400
   },
   {
     "animeId": 59741,
@@ -1177,8 +1321,8 @@
     "averageScore": 67,
     "meanScore": 68,
     "popularity": 67797,
-    "trending": 34,
-    "favourites": 1250,
+    "trending": 374,
+    "favourites": 1259,
     "source": "MANGA",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1193,8 +1337,8 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=uC13b3_8riU"
     },
-    "nextEpisode": 15,
-    "nextAiringAt": 1791473160
+    "nextEpisode": 16,
+    "nextAiringAt": 1792077960
   },
   {
     "animeId": 64254,
@@ -1214,7 +1358,7 @@
     "synopsis": "Once dismissed as the sole ordinary student at the elite Arnold Academy of Sorcery, Ray White—secretly, the Iceblade Sorcerer—has finally earned his place. With a new school year comes a new challenge: The Magicks War, a grand competition pitting teams from rival schools against each other. But an ominous shadow looms over Ray and his friends as the other grand sorcerers plot their next moves. (Source: Crunchyroll)",
     "type": "ANIME",
     "format": "TV",
-    "status": "NOT_YET_RELEASED",
+    "status": "RELEASING",
     "season": "FALL",
     "seasonYear": 2026,
     "seasonInt": 264,
@@ -1257,6 +1401,16 @@
         "isAdult": false
       },
       {
+        "id": 186,
+        "name": "Crossdressing",
+        "description": "Prominently features a character dressing up as the opposite sex.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 1403,
         "name": "Class Struggle",
         "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
@@ -1283,8 +1437,8 @@
     "averageScore": 0,
     "meanScore": 0,
     "popularity": 11982,
-    "trending": 5,
-    "favourites": 147,
+    "trending": 166,
+    "favourites": 171,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
     "isLicensed": true,
@@ -1299,7 +1453,7 @@
       "site": "youtube",
       "url": "https://www.youtube.com/watch?v=oxkxyAcKv2g"
     },
-    "nextEpisode": 1,
-    "nextAiringAt": 1791476880
+    "nextEpisode": 2,
+    "nextAiringAt": 1792081680
   }
 ]
