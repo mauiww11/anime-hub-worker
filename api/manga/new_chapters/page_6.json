@@ -1,52 +1,569 @@
 [
   {
-    "mangaId": 144559,
-    "anilistId": 144559,
-    "idMal": 178131,
-    "title": "HANA",
-    "titleEnglish": "",
-    "titleRomaji": "HANA",
-    "titleNative": "HANA",
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx144559-e8nhpkxGTtDF.jpg",
-    "synopsis": "The story of Hana, a genetically engineered mouse who escapes from a laboratory. (Source: Naver, translated)",
+    "mangaId": 101233,
+    "anilistId": 101233,
+    "idMal": 112922,
+    "title": "The Way of the Househusband",
+    "titleRomaji": "Gokushufudou",
+    "titleEnglish": "The Way of the Househusband",
+    "titleNative": "極主夫道",
+    "synonyms": [
+      "The Way of the House Husband",
+      "La Via del Grembiule",
+      "Gokushufudo: El Yakuza Amo de Casa",
+      "Yakuza w fartuszku. Kodeks perfekcyjnego pana domu",
+      "Gokushufudou: The Way of the House Husband",
+      "Yakuza goes Hausmann",
+      "La voie du tablier",
+      "Ev Erkeğinin Yolu",
+      "พ่อบ้านสุดเก๋า ",
+      "极主夫道",
+      "Đạo làm chồng đảm",
+      "Шлях домогосподаря",
+      "Gokushufudou: Tatsu Imortal",
+      "Muž v domácnosti",
+      "極道主夫",
+      "극주부도"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx101233-ipG2rYitNxyd.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx101233-ipG2rYitNxyd.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx101233-ipG2rYitNxyd.jpg",
+    "coverImageColor": "#f1bb5d",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/101233-4Q41vXLKrjhe.jpg",
+    "synopsis": "He was the fiercest member of the yakuza, a man who left countless underworld legends in his wake. They called him “the Immortal Dragon.” But one day he walked away from it all to travel another path—the path of the househusband! The curtain rises on this cozy yakuza comedy! (Source: VIZ Media)",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "RELEASING",
+    "year": 2018,
+    "startDate": "2018-02-23",
+    "endDate": null,
+    "chapters": 139,
+    "volumes": 0,
     "genres": [
-      "Action",
-      "Drama",
-      "Sci-Fi"
+      "Comedy",
+      "Slice of Life"
+    ],
+    "tags": [
+      {
+        "id": 39,
+        "name": "Parody",
+        "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+        "category": "Theme-Comedy",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 193,
+        "name": "Episodic",
+        "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+        "category": "Technical",
+        "rank": 94,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 199,
+        "name": "Yakuza",
+        "description": "Centered around Japanese organised crime syndicates.",
+        "category": "Theme-Other-Organisations",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 83,
+        "name": "Slapstick",
+        "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+        "category": "Theme-Comedy",
+        "rank": 87,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 106,
+        "name": "Gangs",
+        "description": "Centers around gang organizations.",
+        "category": "Theme-Other-Organisations",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 87,
+        "name": "Family Life",
+        "description": "Centers around the activities of a family unit.",
+        "category": "Theme-Slice of Life",
+        "rank": 84,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 82,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 50,
+        "name": "Seinen",
+        "description": "Target demographic is adult males.",
+        "category": "Demographic",
+        "rank": 78,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 142,
+        "name": "Food",
+        "description": "Centers around cooking or food appraisal.",
+        "category": "Theme-Arts",
+        "rank": 75,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 595,
+        "name": "Urban",
+        "description": "Partly or completely set in a city.",
+        "category": "Setting-Scene",
+        "rank": 72,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 81,
+        "name": "Iyashikei",
+        "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+        "category": "Theme-Slice of Life",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 433,
+        "name": "Animals",
+        "description": "Prominently features animal characters in a leading role.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1433,
+        "name": "Marriage",
+        "description": "Centers around marriage between two or more characters.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 97,
+        "name": "Otaku Culture",
+        "description": "Centers around the culture of a fanatical fan-base.",
+        "category": "Theme-Other",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 335,
+        "name": "Tanned Skin",
+        "description": "Prominently features characters with tanned skin.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
     ],
     "authors": [
-      "Wanan"
+      "Kousuke Oono"
     ],
     "artists": [
-      "Wanan"
+      "Kousuke Oono"
     ],
-    "popularity": 317,
-    "averageScore": 0,
-    "chapters": 192,
-    "volumes": 0,
-    "year": 2013,
+    "rating": 7.9,
+    "averageScore": 79,
+    "meanScore": 79,
+    "popularity": 68517,
+    "trending": 1,
+    "favourites": 2489,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/101233",
+    "mal_url": "https://myanimelist.net/manga/112922",
+    "externalLinks": [
+      {
+        "site": "Kurage Bunch",
+        "url": "https://kuragebunch.com/episode/10834108156629370790"
+      },
+      {
+        "site": "VIZ",
+        "url": "https://www.viz.com/the-way-of-the-househusband"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://manga.bilibili.com/detail/mc27877"
+      },
+      {
+        "site": "Carlsen Manga!",
+        "url": "https://www.carlsen.de/reihe/yakuza-goes-hausmann"
+      },
+      {
+        "site": "Pixiv Comic",
+        "url": "https://comic.pixiv.net/works/4679"
+      },
+      {
+        "site": "Kana",
+        "url": "https://www.kana.fr/series/la-voie-du-tablier/"
+      },
+      {
+        "site": "Lezhin",
+        "url": "https://www.lezhin.com/ko/comic/gokusyufudo"
+      },
+      {
+        "site": "Piccoma",
+        "url": "https://piccoma.com/web/product/3408?etype=episode"
+      },
+      {
+        "site": "Naver Series",
+        "url": "https://series.naver.com/comic/detail.series?productNo=5314590"
+      }
+    ],
+    "chapterIndexId": "89daf9dc-075a-4aa5-873a-cc76bb287108",
+    "mangadexId": "89daf9dc-075a-4aa5-873a-cc76bb287108",
+    "mangadexUrl": "https://mangadex.org/title/89daf9dc-075a-4aa5-873a-cc76bb287108",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "detailPage": 1,
+    "searchTerms": [
+      "The Way of the Househusband",
+      "Gokushufudou",
+      "極主夫道",
+      "Comedy",
+      "Slice of Life",
+      "Kousuke Oono"
+    ],
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "89daf9dc-075a-4aa5-873a-cc76bb287108",
+    "chapterSourceTitle": "Gokushufudou",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T13:06:02+00:00",
+    "latestChapterNumber": "153.5",
+    "latestChapterTitle": "Volume 17 bonus chapters",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "2403e286-5a2c-45fb-b22a-905646f4a917",
+    "chapterCoverageCount": 5,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 132428,
+    "anilistId": 132428,
+    "idMal": 78681,
+    "title": "Ginkai no Speed Star",
+    "titleRomaji": "Ginkai no Speed Star",
+    "titleEnglish": "",
+    "titleNative": "銀灰のスピードスター",
+    "synonyms": [],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b132428-9BVwHRsMZc6H.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b132428-9BVwHRsMZc6H.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b132428-9BVwHRsMZc6H.jpg",
+    "coverImageColor": "",
+    "bannerImage": "",
+    "synopsis": "",
+    "type": "MANGA",
     "format": "MANGA",
     "status": "FINISHED",
-    "mangadexId": "985480b8-cda1-4411-8d4f-5174a0045837",
-    "detailPage": 9,
-    "searchTerms": [
-      "HANA",
-      "Action",
+    "year": 2014,
+    "startDate": "2014-04-11",
+    "endDate": "2015-04-13",
+    "chapters": 19,
+    "volumes": 2,
+    "genres": [
       "Drama",
-      "Sci-Fi",
-      "Wanan"
+      "Sports"
     ],
+    "tags": [],
+    "authors": [
+      "Michiharu Kusunoki"
+    ],
+    "artists": [
+      "Michiharu Kusunoki"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 70,
+    "popularity": 100,
+    "trending": 0,
+    "favourites": 2,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/132428",
+    "mal_url": "https://myanimelist.net/manga/78681",
+    "externalLinks": [],
+    "mangadexId": "aae175fe-7d78-4643-97dd-25afb8610a8b",
+    "mangadexUrl": "https://mangadex.org/title/aae175fe-7d78-4643-97dd-25afb8610a8b",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "aae175fe-7d78-4643-97dd-25afb8610a8b",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "aae175fe-7d78-4643-97dd-25afb8610a8b",
+    "chapterSourceTitle": "Ginkai no Speed Star",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T12:44:41+00:00",
+    "latestChapterNumber": "15",
+    "latestChapterTitle": "Drawing the Line",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "0816a49e-e73a-4433-acd6-2a319bcdb3ed",
+    "chapterCoverageCount": 8,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 95190,
+    "anilistId": 95190,
+    "idMal": 90058,
+    "title": "Otoko Ippiki Gaki Daishou",
+    "titleRomaji": "Otoko Ippiki Gaki Daishou",
+    "titleEnglish": "",
+    "titleNative": "男一匹ガキ大将",
     "synonyms": [
-      "하나"
+      "An Exemplary Gang Leader",
+      "A Shining Example of Gang Leader"
     ],
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx144559-e8nhpkxGTtDF.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx144559-e8nhpkxGTtDF.jpg",
-    "coverImageColor": "",
-    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/144559-wcB7fpDuP50Z.jpg",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx95190-85H8fZwc8vfR.png",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx95190-85H8fZwc8vfR.png",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx95190-85H8fZwc8vfR.png",
+    "coverImageColor": "#e4bb5d",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/95190-JsqjCk6BiwFQ.jpg",
+    "synopsis": "This monumental manga became the driving force behind Shonen Jump, the tough kid boss of the neighborhood, Mankichi Togawa, uses his fighting skills and charm to find friends as he takes on the bad guys and the big shots who control Japan's financial world. This series, which was followed enthusiastically by the youth of the time, blazed the trail for a new class of readers. This work embodies the spirit of the magazine Shonen Jump. It had a major influence on the authors who followed. In 1969, it became the first Shonen Jump work to be turned into animation, and in 1971 it was turned into a live action film. (Source: Weekly Shounen Jump Exhibition Vol.1 Catalog)",
     "type": "MANGA",
-    "startDate": "2013-05-14",
-    "endDate": "2017-01-10",
+    "format": "MANGA",
+    "status": "FINISHED",
+    "year": 1968,
+    "startDate": "1968-12-26",
+    "endDate": "1973-03-12",
+    "chapters": 160,
+    "volumes": 20,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
     "tags": [
+      {
+        "id": 395,
+        "name": "Delinquents",
+        "description": "Features characters with a notorious image and attitude, sometimes referred to as \"yankees\".",
+        "category": "Cast-Traits",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 106,
+        "name": "Gangs",
+        "description": "Centers around gang organizations.",
+        "category": "Theme-Other-Organisations",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 66,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 102,
+        "name": "Coming of Age",
+        "description": "Centers around a character's transition from childhood to adulthood.",
+        "category": "Theme-Drama",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 311,
+        "name": "Rehabilitation",
+        "description": "Prominently features the recovery of a character who became incapable of social life or work.",
+        "category": "Theme-Drama",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 248,
+        "name": "Economics",
+        "description": "Centers around the field of economics.",
+        "category": "Theme-Other",
+        "rank": 30,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "authors": [
+      "Hiroshi Motomiya"
+    ],
+    "artists": [
+      "Hiroshi Motomiya"
+    ],
+    "rating": 6.3,
+    "averageScore": 63,
+    "meanScore": 74,
+    "popularity": 948,
+    "trending": 0,
+    "favourites": 23,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/95190",
+    "mal_url": "https://myanimelist.net/manga/90058",
+    "externalLinks": [],
+    "mangadexId": "6ee24b3e-5a71-480f-abe0-5c9791402fc8",
+    "mangadexUrl": "https://mangadex.org/title/6ee24b3e-5a71-480f-abe0-5c9791402fc8",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "6ee24b3e-5a71-480f-abe0-5c9791402fc8",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "6ee24b3e-5a71-480f-abe0-5c9791402fc8",
+    "chapterSourceTitle": "Otoko Ippiki Gaki Daisho",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T12:31:16+00:00",
+    "latestChapterNumber": "86",
+    "latestChapterTitle": "The Two Sasakis",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "61c83b5c-fca8-4a04-87a0-eec1851a61ba",
+    "chapterCoverageCount": 9,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 142945,
+    "anilistId": 142945,
+    "idMal": 145248,
+    "title": "Okaeri, Hatsukoi.",
+    "titleRomaji": "Okaeri, Hatsukoi.",
+    "titleEnglish": "",
+    "titleNative": "おかえり、初恋。",
+    "synonyms": [
+      "You Haven't Changed",
+      "Yappari Kawattenai",
+      "やっぱり変わってない",
+      "Chưa từng thay đổi",
+      "Taguchi-kun and Yamane-san",
+      "Taguchi-kun to Yamane-san",
+      "Welcome Back, First Love",
+      "Xin chào, tình đầu",
+      "田口くんと山根さん",
+      "歡迎回來，初戀。"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx142945-A5rnWK6LDcgr.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx142945-A5rnWK6LDcgr.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx142945-A5rnWK6LDcgr.jpg",
+    "coverImageColor": "#f1d6bb",
+    "bannerImage": "",
+    "synopsis": "At a high school reunion, the shy Yamane reunites with Taguchi, a friend who used to be a delinquent. Have they changed? Or are they the same as ever? Note: Originally self-published, it was picked up for commercial serialization by Pixiv Sylph starting 2022-07-28.",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "RELEASING",
+    "year": 2021,
+    "startDate": "2021-10-12",
+    "endDate": null,
+    "chapters": 36,
+    "volumes": 0,
+    "genres": [
+      "Romance",
+      "Slice of Life"
+    ],
+    "tags": [
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
       {
         "id": 207,
         "name": "Full Color",
@@ -58,479 +575,129 @@
         "isAdult": false
       },
       {
-        "id": 433,
-        "name": "Animals",
-        "description": "Prominently features animal characters in a leading role.",
-        "category": "Theme-Other",
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
         "rank": 60,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 198,
-        "name": "Foreign",
-        "description": "Partly or completely set in a country outside the country of origin.",
-        "category": "Setting-Scene",
+        "id": 153,
+        "name": "Time Skip",
+        "description": "Features a gap in time used to advance the story.",
+        "category": "Setting-Time",
+        "rank": 20,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 653,
+        "name": "Office Lady",
+        "description": "Prominently features a female office worker or OL.",
+        "category": "Cast-Traits",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
-    "rating": 0,
-    "meanScore": 70,
-    "trending": 0,
-    "favourites": 3,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "KR",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/144559",
-    "mal_url": "https://myanimelist.net/manga/178131",
-    "externalLinks": [
-      {
-        "site": "Naver Webtoon",
-        "url": "https://series.naver.com/comic/detail.series?productNo=641919"
-      },
-      {
-        "site": "Naver Webtoon",
-        "url": "https://comic.naver.com/webtoon/list?titleId=557675"
-      }
-    ],
-    "mangadexUrl": "https://mangadex.org/title/985480b8-cda1-4411-8d4f-5174a0045837",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "985480b8-cda1-4411-8d4f-5174a0045837",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "985480b8-cda1-4411-8d4f-5174a0045837",
-    "chapterSourceTitle": "HANA",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T15:13:24+00:00",
-    "latestChapterNumber": "89",
-    "latestChapterTitle": "Dear Dr. Heo ♡ (2)",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "46421fa1-f313-4f69-90df-226c2209df49",
-    "chapterCoverageCount": 23,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 126568,
-    "anilistId": 126568,
-    "idMal": null,
-    "title": "Reikan no Mattaku nai Danjo ni Toritsuku Danjo no Rei no Manga",
-    "titleRomaji": "Reikan no Mattaku nai Danjo ni Toritsuku Danjo no Rei no Manga",
-    "titleEnglish": "",
-    "titleNative": "霊感のまったくない男女にとり憑く男女の霊の漫画",
-    "synonyms": [
-      "A manga about two spirits haunting a man and a woman who have zero supernatural perception",
-      "Story of two spirits possessing a man and a woman",
-      "Reikan no Mattakunai Danjo ni Tori Tsuku Danjo no Rei no Manga"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126568-Eba8BoTDPbxd.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx126568-Eba8BoTDPbxd.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx126568-Eba8BoTDPbxd.png",
-    "coverImageColor": "",
-    "bannerImage": "",
-    "synopsis": "A manga about two spirits haunting a man and a woman who have zero supernatural perception.",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "FINISHED",
-    "year": 2018,
-    "startDate": "2018-09-25",
-    "endDate": "2019-09-23",
-    "chapters": 246,
-    "volumes": 0,
-    "genres": [
-      "Comedy",
-      "Supernatural"
-    ],
-    "tags": [
-      {
-        "id": 163,
-        "name": "Yandere",
-        "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 220,
-        "name": "Ghost",
-        "description": "Prominently features a character who is a ghost.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
     "authors": [
-      "Kina Azusa"
+      "Tora Kamemizu"
     ],
     "artists": [
-      "Kina Azusa"
+      "Tora Kamemizu"
     ],
-    "rating": 5.5,
-    "averageScore": 55,
-    "meanScore": 63,
-    "popularity": 351,
+    "rating": 6.5,
+    "averageScore": 65,
+    "meanScore": 73,
+    "popularity": 1279,
     "trending": 0,
-    "favourites": 4,
+    "favourites": 15,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/126568",
-    "mal_url": "",
+    "anilist_url": "https://anilist.co/manga/142945",
+    "mal_url": "https://myanimelist.net/manga/145248",
     "externalLinks": [
+      {
+        "site": "Pixiv",
+        "url": "https://www.pixiv.net/user/6285426/series/139163"
+      },
+      {
+        "site": "Nico Nico Seiga",
+        "url": "https://seiga.nicovideo.jp/comic/56778"
+      },
+      {
+        "site": "Twitter",
+        "url": "https://twitter.com/i/events/1466431277482000392"
+      },
+      {
+        "site": "Pixiv Comic",
+        "url": "https://comic.pixiv.net/works/8557"
+      },
+      {
+        "site": "Kadocomi",
+        "url": "https://comic-walker.com/detail/KC_000740_S?episodeType=first"
+      },
       {
         "site": "Official Site",
-        "url": "https://www.pixiv.net/user/12149098/series/65225"
+        "url": "https://www.ching-win.com.tw/products/?First=10321001"
       }
     ],
-    "mangadexId": "51884f2e-8df3-45ec-8bab-4a9b10ae38ce",
-    "mangadexUrl": "https://mangadex.org/title/51884f2e-8df3-45ec-8bab-4a9b10ae38ce",
+    "mangadexId": "42f40118-dff5-4f23-acbf-e54e89f026bd",
+    "mangadexUrl": "https://mangadex.org/title/42f40118-dff5-4f23-acbf-e54e89f026bd",
     "mangadexMappingSource": "recent_chapter_discovery",
     "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "51884f2e-8df3-45ec-8bab-4a9b10ae38ce",
+    "chapterIndexId": "42f40118-dff5-4f23-acbf-e54e89f026bd",
     "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "51884f2e-8df3-45ec-8bab-4a9b10ae38ce",
-    "chapterSourceTitle": "Danjo-hi 1:39 no Heikou Sekai wa Omoi no Hoka Futsuu (Fan Colored)",
+    "chapterSourceId": "42f40118-dff5-4f23-acbf-e54e89f026bd",
+    "chapterSourceTitle": "Okaeri, Hatsukoi.",
     "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T15:04:41+00:00",
-    "latestChapterNumber": "250",
-    "latestChapterTitle": "Thank You, Team A",
+    "latestChapterUpdatedAt": "2026-10-26T12:13:53+00:00",
+    "latestChapterNumber": "44",
+    "latestChapterTitle": "I Want To Be More Like a Couple With You",
     "latestChapterLanguage": "en",
-    "latestChapterId": "5604a9f8-8ef0-49fa-bc7c-bf36d4b0099d",
-    "chapterCoverageCount": 5,
+    "latestChapterId": "8c7b39a8-f1ab-41f3-9c34-d171e50ab947",
+    "chapterCoverageCount": 11,
     "chapterCoverageLanguages": [
       "en"
     ],
     "discoveredFromRecentFeed": false
   },
   {
-    "mangaId": 179721,
-    "anilistId": 179721,
-    "idMal": null,
-    "title": "She Yao Yao Chu Tao",
+    "mangaId": 194502,
+    "anilistId": 194502,
+    "idMal": 176791,
+    "title": "Hanako-san, Tabenai de",
+    "titleRomaji": "Hanako-san, Tabenai de",
     "titleEnglish": "",
-    "titleRomaji": "She Yao Yao Chu Tao",
-    "titleNative": "蛇妖要出逃",
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx179721-D1W0i1FuPyKa.jpg",
-    "synopsis": "Due to an unexpected mishap, the Snake Demon King was forced into a bonded contract with a (perverted) prodigal Taoist priest. This is the story about how the Snake Demon King tries to undo the contract and take back his throne, only to lose his heart in the p",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "authors": [],
-    "artists": [],
-    "popularity": 426,
-    "averageScore": 0,
-    "chapters": 43,
-    "volumes": 0,
-    "year": 2024,
-    "format": "MANGA",
-    "status": "RELEASING",
-    "mangadexId": "f4f3f2cd-bb17-4b46-84dc-b9054e3756c6",
-    "detailPage": 9,
-    "searchTerms": [
-      "She Yao Yao Chu Tao",
-      "蛇妖要出逃",
-      "Comedy",
-      "Drama",
-      "Fantasy",
-      "Romance"
-    ],
-    "chapterIndexId": "f4f3f2cd-bb17-4b46-84dc-b9054e3756c6",
-    "latestChapterUpdatedAt": "2026-10-26T14:44:13+00:00",
-    "latestChapterNumber": "55",
-    "latestChapterTitle": "",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "1353a2b9-5c33-43f3-ad51-c58a6cf9923b",
-    "chapterCoverageCount": 57,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 182719,
-    "anilistId": 182719,
-    "idMal": null,
-    "title": "Rare Monsters? Sore, Tada no Gaichuu desu yo: Shiranu Ma ni Dungeon-ka Shita Jitaku de no Nichijou Seikatsu ga Haishin Sarete Buzzttan desu ga",
-    "titleRomaji": "Rare Monsters? Sore, Tada no Gaichuu desu yo: Shiranu Ma ni Dungeon-ka Shita Jitaku de no Nichijou Seikatsu ga Haishin Sarete Buzzttan desu ga",
-    "titleEnglish": "",
-    "titleNative": "レアモンスター？それ、ただの害虫ですよ ～知らぬ間にダンジョン化した自宅での日常生活が配信されてバズったんですが～",
-    "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx182719-JDRddhTs9Uk2.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx182719-JDRddhTs9Uk2.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx182719-JDRddhTs9Uk2.jpg",
-    "coverImageColor": "#f15d6b",
-    "bannerImage": "",
-    "synopsis": "",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "RELEASING",
-    "year": 2024,
-    "startDate": "2024-06-27",
-    "endDate": null,
-    "chapters": 1,
-    "volumes": 0,
-    "genres": [
-      "Adventure",
-      "Fantasy"
-    ],
-    "tags": [],
-    "authors": [
-      "chippi",
-      "Oteteponta"
-    ],
-    "artists": [
-      "chippi"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 42,
-    "popularity": 27,
-    "trending": 0,
-    "favourites": 0,
-    "source": "LIGHT_NOVEL",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/182719",
-    "mal_url": "",
-    "externalLinks": [
-      {
-        "site": "Kadocomi",
-        "url": "https://comic-walker.com/detail/KC_005702_S/episodes/KC_0057020000200011_E?episodeType=first"
-      }
-    ],
-    "mangadexId": "89bdd0d8-d21a-41b0-82e7-eb48f02d7213",
-    "mangadexUrl": "https://mangadex.org/title/89bdd0d8-d21a-41b0-82e7-eb48f02d7213",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "89bdd0d8-d21a-41b0-82e7-eb48f02d7213",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "89bdd0d8-d21a-41b0-82e7-eb48f02d7213",
-    "chapterSourceTitle": "Rare Monster? Sore, Tada no Gaichuu desu yo ~Shiranumani Dungeon-ka Shita Jitaku de no Nichijou Seikatsu ga Haishinsarete Bazuttan desu ga~",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T14:32:34+00:00",
-    "latestChapterNumber": "19",
-    "latestChapterTitle": "Subjugation Complete",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "360d5421-d485-4ad8-aa7e-c0c0f8d55c1c",
-    "chapterCoverageCount": 19,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 183847,
-    "anilistId": 183847,
-    "idMal": 175926,
-    "title": "Honmono no Kanojo ni Shitaku Naru made, Watashi de Tameshite Ii yo.",
-    "titleRomaji": "Honmono no Kanojo ni Shitaku Naru made, Watashi de Tameshite Ii yo.",
-    "titleEnglish": "",
-    "titleNative": "本物のカノジョにしたくなるまで、私で試していいよ。",
+    "titleNative": "花子さん、食べないで",
     "synonyms": [
-      "Try Me Until You Choose Me as Your Real Girlfriend"
+      "Hanako-san, don't eat me"
     ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx183847-BngLBB0bFoHp.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx183847-BngLBB0bFoHp.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx183847-BngLBB0bFoHp.png",
-    "coverImageColor": "#e4435d",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx194502-DXbAK1OM6Lyn.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx194502-DXbAK1OM6Lyn.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx194502-DXbAK1OM6Lyn.jpg",
+    "coverImageColor": "#f1436b",
     "bannerImage": "",
     "synopsis": "",
     "type": "MANGA",
     "format": "MANGA",
     "status": "RELEASING",
     "year": 2024,
-    "startDate": "2024-11-02",
+    "startDate": "2024-11-30",
     "endDate": null,
-    "chapters": 6,
+    "chapters": 3,
     "volumes": 0,
     "genres": [
       "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "tags": [],
-    "authors": [
-      "Hoeru Aritake",
-      "wano"
-    ],
-    "artists": [
-      "wano"
-    ],
-    "rating": 5.2,
-    "averageScore": 52,
-    "meanScore": 63,
-    "popularity": 571,
-    "trending": 0,
-    "favourites": 4,
-    "source": "LIGHT_NOVEL",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/183847",
-    "mal_url": "https://myanimelist.net/manga/175926",
-    "externalLinks": [
-      {
-        "site": "Kadocomi",
-        "url": "https://comic-walker.com/detail/KC_006047_S/episodes/KC_0060470000200011_E?episodeType=latest"
-      }
-    ],
-    "mangadexId": "bc7d2f16-f89f-480b-8be5-c24b34798b6a",
-    "mangadexUrl": "https://mangadex.org/title/bc7d2f16-f89f-480b-8be5-c24b34798b6a",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "bc7d2f16-f89f-480b-8be5-c24b34798b6a",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "bc7d2f16-f89f-480b-8be5-c24b34798b6a",
-    "chapterSourceTitle": "Honmono no Kanojo ni Shitakunaru Made, Watashi de Tameshite Ii yo.",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T14:16:46+00:00",
-    "latestChapterNumber": "8",
-    "latestChapterTitle": "",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "88f1de37-7529-4625-88c7-3faf7bf31e74",
-    "chapterCoverageCount": 3,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 198548,
-    "anilistId": 198548,
-    "idMal": null,
-    "title": "Seton Doubutsuki",
-    "titleRomaji": "Seton Doubutsuki",
-    "titleEnglish": "",
-    "titleNative": "シートン動物記",
-    "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b198548-mXNp4lUgKTjf.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b198548-mXNp4lUgKTjf.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b198548-mXNp4lUgKTjf.jpg",
-    "coverImageColor": "#f16b35",
-    "bannerImage": "",
-    "synopsis": "Manga adaptation of the works of American naturalist Ernest Thompson Seton.",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "FINISHED",
-    "year": 1985,
-    "startDate": "1985-04-01",
-    "endDate": "1985-04-01",
-    "chapters": 1,
-    "volumes": 1,
-    "genres": [
-      "Action"
-    ],
-    "tags": [
-      {
-        "id": 198,
-        "name": "Foreign",
-        "description": "Partly or completely set in a country outside the country of origin.",
-        "category": "Setting-Scene",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 227,
-        "name": "Classic Literature",
-        "description": "Discusses or adapts a work of classic world literature.",
-        "category": "Theme-Arts",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 433,
-        "name": "Animals",
-        "description": "Prominently features animal characters in a leading role.",
-        "category": "Theme-Other",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "authors": [
-      "Ernest Thompson Seton",
-      "Junichi Miyata"
-    ],
-    "artists": [
-      "Junichi Miyata"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 4,
-    "trending": 0,
-    "favourites": 0,
-    "source": "OTHER",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/198548",
-    "mal_url": "",
-    "externalLinks": [],
-    "mangadexId": "e396a999-6442-476b-a4d5-b5b074ca2492",
-    "mangadexUrl": "https://mangadex.org/title/e396a999-6442-476b-a4d5-b5b074ca2492",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "e396a999-6442-476b-a4d5-b5b074ca2492",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "e396a999-6442-476b-a4d5-b5b074ca2492",
-    "chapterSourceTitle": "Seton Animal Chronicles",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T13:12:33+00:00",
-    "latestChapterNumber": "3",
-    "latestChapterTitle": "The Springfield Fox",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "9a86b8f1-0cb8-4c83-a674-b2f2529c2697",
-    "chapterCoverageCount": 3,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 217844,
-    "anilistId": 217844,
-    "idMal": null,
-    "title": "Kimi no Kami ga Kininarunda",
-    "titleRomaji": "Kimi no Kami ga Kininarunda",
-    "titleEnglish": "",
-    "titleNative": "君の髪が気になるんだ",
-    "synonyms": [
-      "Can't Stop Thinking About Your Hair"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx217844-zmy1qwQ5003g.png",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx217844-zmy1qwQ5003g.png",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx217844-zmy1qwQ5003g.png",
-    "coverImageColor": "",
-    "bannerImage": "",
-    "synopsis": "",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "RELEASING",
-    "year": 2026,
-    "startDate": "2026-10-05",
-    "endDate": null,
-    "chapters": 1,
-    "volumes": 0,
-    "genres": [
-      "Comedy",
-      "Romance"
+      "Horror",
+      "Romance",
+      "Supernatural"
     ],
     "tags": [
       {
@@ -538,6 +705,16 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1045,
+        "name": "Heterosexual",
+        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "category": "Theme-Romance",
         "rank": 20,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
@@ -552,50 +729,915 @@
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
+      },
+      {
+        "id": 220,
+        "name": "Ghost",
+        "description": "Prominently features a character who is a ghost.",
+        "category": "Cast-Traits",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
       }
     ],
     "authors": [
-      "Ryou Kaneda"
+      "Kinoko Nabatani"
     ],
     "artists": [
-      "Ryou Kaneda"
+      "Kinoko Nabatani"
     ],
     "rating": 0,
     "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 27,
+    "meanScore": 40,
+    "popularity": 73,
     "trending": 0,
-    "favourites": 0,
+    "favourites": 2,
     "source": "ORIGINAL",
     "countryOfOrigin": "JP",
     "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/217844",
+    "anilist_url": "https://anilist.co/manga/194502",
+    "mal_url": "https://myanimelist.net/manga/176791",
+    "externalLinks": [
+      {
+        "site": "Kadocomi",
+        "url": "https://comic-walker.com/detail/KC_006107_S?episodeType=first"
+      },
+      {
+        "site": "Nico Nico Seiga",
+        "url": "https://manga.nicovideo.jp/comic/70798"
+      }
+    ],
+    "mangadexId": "b38918b6-04ad-4d11-b978-6771c94c639b",
+    "mangadexUrl": "https://mangadex.org/title/b38918b6-04ad-4d11-b978-6771c94c639b",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "b38918b6-04ad-4d11-b978-6771c94c639b",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "b38918b6-04ad-4d11-b978-6771c94c639b",
+    "chapterSourceTitle": "Hanako-san, Tabenai de",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T12:07:42+00:00",
+    "latestChapterNumber": "7",
+    "latestChapterTitle": "",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "1d7b11ad-fa9f-40a2-92a0-be85fbf37dcd",
+    "chapterCoverageCount": 4,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 193789,
+    "anilistId": 193789,
+    "idMal": 171243,
+    "title": "Level 0 no Munou Tansakusha to Sagesumaretemo Jitsu wa Sekai Saikyou desu: Tansaku Ranking 1-i wa Nazo no Hito",
+    "titleEnglish": "",
+    "titleRomaji": "Level 0 no Munou Tansakusha to Sagesumaretemo Jitsu wa Sekai Saikyou desu: Tansaku Ranking 1-i wa Nazo no Hito",
+    "titleNative": "レベル0の無能探索者と蔑まれても実は世界最強です～探索ランキング1位は謎の人～",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b193789-JdF0OB1uSrvQ.png",
+    "synopsis": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "authors": [
+      "Omine.",
+      "Ten"
+    ],
+    "artists": [
+      "Ten"
+    ],
+    "popularity": 992,
+    "averageScore": 54,
+    "chapters": 0,
+    "volumes": 0,
+    "year": 2024,
+    "format": "MANGA",
+    "status": "RELEASING",
+    "mangadexId": "9498b0cd-8444-45bb-bdde-172b4960eeef",
+    "detailPage": 9,
+    "searchTerms": [
+      "Level 0 no Munou Tansakusha to Sagesumaretemo Jitsu wa Sekai Saikyou desu: Tansaku Ranking 1-i wa Nazo no Hito",
+      "レベル0の無能探索者と蔑まれても実は世界最強です～探索ランキング1位は謎の人～",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Omine.",
+      "Ten"
+    ],
+    "chapterIndexId": "9498b0cd-8444-45bb-bdde-172b4960eeef",
+    "mangadexUrl": "https://mangadex.org/title/9498b0cd-8444-45bb-bdde-172b4960eeef",
+    "mangadexMappingSource": "al",
+    "mangadexMappingConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T11:41:44+00:00",
+    "latestChapterNumber": "18.3",
+    "latestChapterTitle": "",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "c4c57b75-adfa-4a07-b308-605ab94e3a23",
+    "chapterCoverageCount": 30,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 86310,
+    "anilistId": 86310,
+    "idMal": 91037,
+    "title": "Fire Force",
+    "titleEnglish": "Fire Force",
+    "titleRomaji": "Enen no Shouboutai",
+    "titleNative": "炎炎ノ消防隊",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx86310-OraykJ8bRNTr.jpg",
+    "synopsis": "Terror has paralyzed the clockwork metropolis of Tokyo! Possessed by demons, people have begun to burst into flame, leading to the establishment of a special firefighting team: the Fire Force, ready to roll on a moment's notice to fight spontaneous combustion anywhere it might break out. The team is about to get a very unique addition: Shinra, a boy who possesses the unique power to run at the speed of a rocket, leaving behind the famous \"devil's footprints\" (and destroying his shoes in the process). Can the Fire Force discover the source of this strange phenomenon and put a stop to it? Or will the city burn to ashes first? (Source: Kodansha USA) Note: Includes three extra chapters.",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "authors": [
+      "Atsushi Ookubo"
+    ],
+    "artists": [
+      "Atsushi Ookubo"
+    ],
+    "popularity": 63434,
+    "averageScore": 78,
+    "chapters": 305,
+    "volumes": 34,
+    "year": 2015,
+    "format": "MANGA",
+    "status": "FINISHED",
+    "mangadexId": "4c92f05f-73f9-493b-ac05-55bed8036c1c",
+    "detailPage": 1,
+    "searchTerms": [
+      "Fire Force",
+      "Enen no Shouboutai",
+      "炎炎ノ消防隊",
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Supernatural",
+      "Atsushi Ookubo"
+    ],
+    "chapterIndexId": "4c92f05f-73f9-493b-ac05-55bed8036c1c",
+    "mangadexUrl": "https://mangadex.org/title/4c92f05f-73f9-493b-ac05-55bed8036c1c",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "synonyms": [
+      "หน่วยผจญคนไฟลุก",
+      "Blazing Fire Brigade",
+      "Fire Brigade of Flames",
+      "Fire Force: Alev Gücü",
+      "La brigada de bomberos de las llamas",
+      "Бригада пылающего пламени",
+      "炎炎消防隊",
+      "장장 노 소방대"
+    ],
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx86310-OraykJ8bRNTr.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/nx86310-OraykJ8bRNTr.jpg",
+    "coverImageColor": "#e49328",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/86310-VbFYmmEc2tve.jpg",
+    "type": "MANGA",
+    "startDate": "2015-09-23",
+    "endDate": "2022-02-22",
+    "tags": [
+      {
+        "id": 636,
+        "name": "Cosmic Horror",
+        "description": "A type of horror that emphasizes human insignificance in the grand scope of cosmic reality; fearing the unknown and being powerless to fight it.",
+        "category": "Theme-Other",
+        "rank": 97,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 66,
+        "name": "Super Power",
+        "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+        "category": "Theme-Fantasy",
+        "rank": 96,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1091,
+        "name": "Religion",
+        "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
+        "category": "Theme-Other",
+        "rank": 93,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 253,
+        "name": "Gods",
+        "description": "Prominently features a character of divine or religious nature.",
+        "category": "Cast-Traits",
+        "rank": 91,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 93,
+        "name": "Post-Apocalyptic",
+        "description": "Partly or completely set in a world or civilization after a global disaster.",
+        "category": "Setting-Universe",
+        "rank": 90,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 613,
+        "name": "Firefighters",
+        "description": "Centered around the life and activities of rescuers specialised in firefighting.",
+        "category": "Theme-Other-Organisations",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 456,
+        "name": "Conspiracy",
+        "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+        "category": "Theme-Drama",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 85,
+        "name": "Tragedy",
+        "description": "Centers around tragic events and unhappy endings.",
+        "category": "Theme-Drama",
+        "rank": 88,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 144,
+        "name": "Meta",
+        "description": "Features fourth wall-breaking references to itself or genre tropes.",
+        "category": "Theme-Other",
+        "rank": 86,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 586,
+        "name": "Cult",
+        "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+        "category": "Theme-Other-Organisations",
+        "rank": 83,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 15,
+        "name": "Demons",
+        "description": "Prominently features malevolent otherworldly creatures.",
+        "category": "Cast-Traits",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 321,
+        "name": "Urban Fantasy",
+        "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+        "category": "Setting-Universe",
+        "rank": 77,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 146,
+        "name": "Alternate Universe",
+        "description": "Features multiple alternate universes in the same series.",
+        "category": "Setting-Universe",
+        "rank": 76,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 34,
+        "name": "Military",
+        "description": "Centered around the life and activities of military personnel.",
+        "category": "Theme-Other-Organisations",
+        "rank": 61,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 224,
+        "name": "Dragons",
+        "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+        "category": "Cast-Traits",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
+        "id": 109,
+        "name": "Primarily Adult Cast",
+        "description": "Main cast is mostly composed of characters above a high school age.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 88,
+        "name": "Primarily Male Cast",
+        "description": "Main cast is mostly composed of male characters.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 105,
+        "name": "Ensemble Cast",
+        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1745,
+        "name": "Rescue",
+        "description": "Centers around operations that carry out urgent treatment of injuries, remove people from danger, or save lives. This includes series that are about search-and-rescue teams, trauma surgeons, firefighters, and more.",
+        "category": "Theme-Other",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 614,
+        "name": "Nun",
+        "description": "Prominently features a character who is a nun.",
+        "category": "Cast-Traits",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 158,
+        "name": "Crossover",
+        "description": "Centers around the placement of two or more otherwise discrete fictional characters, settings, or universes into the context of a single story.",
+        "category": "Theme-Other",
+        "rank": 56,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 43,
+        "name": "Swordplay",
+        "description": "Prominently features the use of swords in combat.",
+        "category": "Theme-Action",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 23,
+        "name": "Female Harem",
+        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 45,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      }
+    ],
+    "rating": 7.8,
+    "meanScore": 78,
+    "trending": 1,
+    "favourites": 3240,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/86310",
+    "mal_url": "https://myanimelist.net/manga/91037",
+    "externalLinks": [
+      {
+        "site": "Pocket Magazine",
+        "url": "https://pocket.shonenmagazine.com/episode/13932016480029109829"
+      },
+      {
+        "site": "Kodansha",
+        "url": "https://kodansha.us/series/fire-force/"
+      },
+      {
+        "site": "Omoi",
+        "url": "https://www.azuki.co/series/fire-force"
+      },
+      {
+        "site": "INKR",
+        "url": "https://inkr.com/title/387"
+      },
+      {
+        "site": "Coolmic",
+        "url": "https://coolmic.me/titles/547"
+      },
+      {
+        "site": "K MANGA",
+        "url": "https://kmanga.kodansha.com/title/10122/episode/335681"
+      },
+      {
+        "site": "Twitter",
+        "url": "https://x.com/FireForce_PR"
+      },
+      {
+        "site": "Naver Series",
+        "url": "https://series.naver.com/comic/detail.series?productNo=2467520"
+      },
+      {
+        "site": "Official Site",
+        "url": "https://shonenmagazine.com/special_page/fireforce/"
+      },
+      {
+        "site": "Kodansha",
+        "url": "https://www.kodansha.co.jp/titles/1000026722"
+      },
+      {
+        "site": "Official Site",
+        "url": "https://www.tongli.com.tw/BooksList.aspx?Page=1&B=KD1317"
+      },
+      {
+        "site": "Kana",
+        "url": "https://www.kana.fr/series/fire-force/"
+      },
+      {
+        "site": "TOKYOPOP",
+        "url": "https://tokyopop.de/buecher/shonen/fire-force/"
+      },
+      {
+        "site": "Comico",
+        "url": "https://www.comico.jp/magazine_comic/121584"
+      }
+    ],
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "4c92f05f-73f9-493b-ac05-55bed8036c1c",
+    "chapterSourceTitle": "The Blade Boy",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T11:38:02+00:00",
+    "latestChapterNumber": "17",
+    "latestChapterTitle": "The Meeting",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "0fdb983a-7ede-4ec7-9584-cb5b99e1ba8e",
+    "chapterCoverageCount": 4,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 120644,
+    "anilistId": 120644,
+    "idMal": null,
+    "title": "World End Economica",
+    "titleRomaji": "World End Economica",
+    "titleEnglish": "",
+    "titleNative": "WORLD END ECONOMiCA",
+    "synonyms": [
+      "WEE"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx120644-k2Sltepf66Cl.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx120644-k2Sltepf66Cl.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx120644-k2Sltepf66Cl.jpg",
+    "coverImageColor": "",
+    "bannerImage": "",
+    "synopsis": "Roughly 16 years after the people who emigrated to the Moon had settled themselves. An age where a great number of people are chasing their wild dreams within the great skyscraper at humanity's frontier. A young boy named Hal, born and raised on the Moon, is one of those people chasing his wildest dream. His dream, is to stand where no man has before. In order to do so, he needed capital. A ludicrous amount of capital. The boy named Hal was facing a place that gathered up people's desires. Sometimes it granted them, and sometimes it crushed them mercilessly. There are only two key rules that govern that land. \"The first rule, is to never take a loss. The second rule, is to never forget the first.\" Only those who followed these rules were able to obtain enormous wealth. The stock market. A place that has gathered crowds of persistent men and women for centuries. (Source: WEE Official)",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "RELEASING",
+    "year": 2020,
+    "startDate": "2020-06-24",
+    "endDate": null,
+    "chapters": 126,
+    "volumes": 0,
+    "genres": [
+      "Adventure",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "tags": [
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 248,
+        "name": "Economics",
+        "description": "Centers around the field of economics.",
+        "category": "Theme-Other",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 86,
+        "name": "Primarily Female Cast",
+        "description": "Main cast is mostly composed of female characters.",
+        "category": "Cast-Main Cast",
+        "rank": 60,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 23,
+        "name": "Female Harem",
+        "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+        "category": "Theme-Romance",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 206,
+        "name": "4-koma",
+        "description": "A manga in the 'yonkoma' format, which consists of four equal-sized panels arranged in a vertical strip.",
+        "category": "Technical",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "authors": [
+      "Isuna Hasekura",
+      "Haruichi Hashimoto"
+    ],
+    "artists": [
+      "Haruichi Hashimoto"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 68,
+    "popularity": 120,
+    "trending": 0,
+    "favourites": 2,
+    "source": "VISUAL_NOVEL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/120644",
     "mal_url": "",
     "externalLinks": [
       {
-        "site": "Comic Days",
-        "url": "https://comic-days.com/episode/12207421984290137273"
-      },
-      {
-        "site": "Yanmaga",
-        "url": "https://yanmaga.jp/comics/読み切り版君の髪が気になるんだ"
+        "site": "Twitter",
+        "url": "https://twitter.com/wee_official_"
       }
     ],
-    "mangadexId": "af6667a4-ae4c-4baa-9283-a01f56d7f489",
-    "mangadexUrl": "https://mangadex.org/title/af6667a4-ae4c-4baa-9283-a01f56d7f489",
+    "mangadexId": "c9a8ffb7-682f-40e2-87fe-9537e8f425ea",
+    "mangadexUrl": "https://mangadex.org/title/c9a8ffb7-682f-40e2-87fe-9537e8f425ea",
     "mangadexMappingSource": "recent_chapter_discovery",
     "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "af6667a4-ae4c-4baa-9283-a01f56d7f489",
+    "chapterIndexId": "c9a8ffb7-682f-40e2-87fe-9537e8f425ea",
     "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "af6667a4-ae4c-4baa-9283-a01f56d7f489",
-    "chapterSourceTitle": "Kimi no Kami ga Ki ni Naru nda",
+    "chapterSourceId": "c9a8ffb7-682f-40e2-87fe-9537e8f425ea",
+    "chapterSourceTitle": "WEE!!!",
     "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T13:11:35+00:00",
-    "latestChapterNumber": "6",
+    "latestChapterUpdatedAt": "2026-10-26T10:26:10+00:00",
+    "latestChapterNumber": "215",
+    "latestChapterTitle": "Episode 215",
+    "latestChapterLanguage": "en",
+    "latestChapterId": "5ec099fa-7a6a-4c47-8217-f0e8a89ca08b",
+    "chapterCoverageCount": 40,
+    "chapterCoverageLanguages": [
+      "en"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 167108,
+    "anilistId": 167108,
+    "idMal": 160661,
+    "title": "A Love Too Captivating",
+    "titleRomaji": "Tamaranai no wa Koi nano ka",
+    "titleEnglish": "A Love Too Captivating",
+    "titleNative": "たまらないのは恋なのか",
+    "synonyms": [
+      "Is It Because of Love That I Can't Resist?",
+      "Será que Esse Amor é Irresistível?"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx167108-wcUoVyf5fwZy.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx167108-wcUoVyf5fwZy.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx167108-wcUoVyf5fwZy.jpg",
+    "coverImageColor": "#e45093",
+    "bannerImage": "",
+    "synopsis": "Misuzu was branded a delinquent when a small incident left him isolated. But one day, he sees the top student, Kitahara, get surrounded by bullies and decides to help him out. That sparked Kitahara's interest in the lonely boy, but Misuzu pushes Kitahara away. \"If you get involved with me, you'll get ostracized by everyone else too.\" But it won't take long for Misuzu's resolve to falter... (Source: K Manga)",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "RELEASING",
+    "year": 2023,
+    "startDate": "2023-07-13",
+    "endDate": null,
+    "chapters": 27,
+    "volumes": 0,
+    "genres": [
+      "Romance"
+    ],
+    "tags": [
+      {
+        "id": 75,
+        "name": "Boys' Love",
+        "description": "Prominently features romance between two males, not inherently sexual.",
+        "category": "Theme-Romance",
+        "rank": 88,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 53,
+        "name": "Shoujo",
+        "description": "Target demographic is teenage and young adult females.",
+        "category": "Demographic",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 82,
+        "name": "Male Protagonist",
+        "description": "Main character is male.",
+        "category": "Cast-Main Cast",
+        "rank": 80,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 483,
+        "name": "LGBTQ+ Themes",
+        "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+        "category": "Theme-Other",
+        "rank": 73,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 395,
+        "name": "Delinquents",
+        "description": "Features characters with a notorious image and attitude, sometimes referred to as \"yankees\".",
+        "category": "Cast-Traits",
+        "rank": 63,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 46,
+        "name": "School",
+        "description": "Partly or completely set in a primary or secondary educational institution.",
+        "category": "Setting-Scene",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 164,
+        "name": "Tsundere",
+        "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
+        "category": "Cast-Traits",
+        "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 88,
+        "name": "Primarily Male Cast",
+        "description": "Main cast is mostly composed of male characters.",
+        "category": "Cast-Main Cast",
+        "rank": 50,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1539,
+        "name": "Unrequited Love",
+        "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+        "category": "Theme-Romance",
+        "rank": 40,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "authors": [
+      "Mia Sorahana"
+    ],
+    "artists": [
+      "Mia Sorahana"
+    ],
+    "rating": 7.6,
+    "averageScore": 76,
+    "meanScore": 80,
+    "popularity": 2547,
+    "trending": 0,
+    "favourites": 94,
+    "source": "ORIGINAL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/167108",
+    "mal_url": "https://myanimelist.net/manga/160661",
+    "externalLinks": [
+      {
+        "site": "K MANGA",
+        "url": "https://s.kmanga.kodansha.com/ldg?t=10615"
+      }
+    ],
+    "mangadexId": "1afa2287-8408-4b17-9195-c42902153cfb",
+    "mangadexUrl": "https://mangadex.org/title/1afa2287-8408-4b17-9195-c42902153cfb",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "1afa2287-8408-4b17-9195-c42902153cfb",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "1afa2287-8408-4b17-9195-c42902153cfb",
+    "chapterSourceTitle": "Tamaranai no wa Koi na no ka",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T10:21:37+00:00",
+    "latestChapterNumber": "31",
+    "latestChapterTitle": "لم تختفِ",
+    "latestChapterLanguage": "ar",
+    "latestChapterId": "65d04dd0-5c4e-4d21-a9fa-1e8c08605a37",
+    "chapterCoverageCount": 5,
+    "chapterCoverageLanguages": [
+      "ar"
+    ],
+    "discoveredFromRecentFeed": false
+  },
+  {
+    "mangaId": 170021,
+    "anilistId": 170021,
+    "idMal": 164616,
+    "title": "Potion-danomi de Ikinobimasu! Zoku",
+    "titleRomaji": "Potion-danomi de Ikinobimasu! Zoku",
+    "titleEnglish": "",
+    "titleNative": "ポーション頼みで生き延びます! 続",
+    "synonyms": [
+      "I Shall Survive Using Potions!"
+    ],
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx170021-lG43xELbDDnZ.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx170021-lG43xELbDDnZ.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx170021-lG43xELbDDnZ.jpg",
+    "coverImageColor": "#f15078",
+    "bannerImage": "",
+    "synopsis": "",
+    "type": "MANGA",
+    "format": "MANGA",
+    "status": "RELEASING",
+    "year": 2022,
+    "startDate": "2022-08-01",
+    "endDate": null,
+    "chapters": 12,
+    "volumes": 0,
+    "genres": [
+      "Fantasy"
+    ],
+    "tags": [
+      {
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 98,
+        "name": "Female Protagonist",
+        "description": "Main character is female.",
+        "category": "Cast-Main Cast",
+        "rank": 79,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 56,
+        "name": "Shounen",
+        "description": "Target demographic is teenage and young adult males.",
+        "category": "Demographic",
+        "rank": 20,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      }
+    ],
+    "authors": [
+      "FUNA",
+      "Futsuu Onshin"
+    ],
+    "artists": [
+      "Futsuu Onshin"
+    ],
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 63,
+    "popularity": 408,
+    "trending": 0,
+    "favourites": 5,
+    "source": "LIGHT_NOVEL",
+    "countryOfOrigin": "JP",
+    "isAdult": false,
+    "anilist_url": "https://anilist.co/manga/170021",
+    "mal_url": "https://myanimelist.net/manga/164616",
+    "externalLinks": [
+      {
+        "site": "Nico Nico Seiga",
+        "url": "https://sp.seiga.nicovideo.jp/comic/59171"
+      }
+    ],
+    "mangadexId": "a1fe0826-e93b-4fb8-a19e-f1ca95362588",
+    "mangadexUrl": "https://mangadex.org/title/a1fe0826-e93b-4fb8-a19e-f1ca95362588",
+    "mangadexMappingSource": "recent_chapter_discovery",
+    "mangadexMappingConfidence": 0.98,
+    "chapterIndexId": "a1fe0826-e93b-4fb8-a19e-f1ca95362588",
+    "chapterSourceProvider": "mangadex",
+    "chapterSourceId": "a1fe0826-e93b-4fb8-a19e-f1ca95362588",
+    "chapterSourceTitle": "Potion-danomi de Ikinobimasu! Zoku",
+    "chapterSourceConfidence": 1,
+    "latestChapterUpdatedAt": "2026-10-26T09:50:06+00:00",
+    "latestChapterNumber": "13",
     "latestChapterTitle": "",
     "latestChapterLanguage": "en",
-    "latestChapterId": "be70d4c0-724d-493b-b1d6-29e592633b78",
-    "chapterCoverageCount": 6,
+    "latestChapterId": "76a59be7-9809-47fc-b333-34adfad042ec",
+    "chapterCoverageCount": 2,
     "chapterCoverageLanguages": [
       "en"
     ],
@@ -2543,149 +3585,44 @@
     "discoveredFromRecentFeed": false
   },
   {
-    "mangaId": 181162,
-    "anilistId": 181162,
-    "idMal": 173145,
-    "title": "Telecaster B-Boy",
-    "titleRomaji": "Telecaster B-Boy",
+    "mangaId": 196201,
+    "anilistId": 196201,
+    "idMal": null,
+    "title": "Tuojiang",
+    "titleRomaji": "Tuojiang",
     "titleEnglish": "",
-    "titleNative": "テレキャスタービーボーイ",
-    "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx181162-0lSbCWvJ7Mnq.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx181162-0lSbCWvJ7Mnq.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx181162-0lSbCWvJ7Mnq.jpg",
-    "coverImageColor": "#e4ae35",
-    "bannerImage": "",
-    "synopsis": "Kaedetsuki, a high school student in the light music club, feels frustrated by his inability to fit in with his surroundings and his lack of clear goals. One day, while attending his favorite band's live performance for the first time, he meets his sister's friend, Asuka. While attending a vocational school to become a nursery school teacher, Asuka has been unable to give up on her once passionate pursuit of music. Kaedetsuki and Asuka feel suffocated by their suffocating daily lives. The two hit it off and start a band, but various obstacles stand in their way... Friends, family, adults, people they love. People try to understand others. They want others to understand them. In the process, they discover a little bit of themselves they can like. (Source: Kadokawa, translated)",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "FINISHED",
-    "year": 2024,
-    "startDate": "2024-08-16",
-    "endDate": "2025-07-15",
-    "chapters": 11,
-    "volumes": 2,
-    "genres": [
-      "Drama",
-      "Music"
-    ],
-    "tags": [
-      {
-        "id": 53,
-        "name": "Shoujo",
-        "description": "Target demographic is teenage and young adult females.",
-        "category": "Demographic",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 82,
-        "name": "Male Protagonist",
-        "description": "Main character is male.",
-        "category": "Cast-Main Cast",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "authors": [
-      "Surii",
-      "Poyo Shitagokoro"
-    ],
-    "artists": [
-      "Poyo Shitagokoro"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 31,
-    "trending": 0,
-    "favourites": 0,
-    "source": "OTHER",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/181162",
-    "mal_url": "https://myanimelist.net/manga/173145",
-    "externalLinks": [],
-    "mangadexId": "e86fa963-a99c-4bce-8530-4edc4a158870",
-    "mangadexUrl": "https://mangadex.org/title/e86fa963-a99c-4bce-8530-4edc4a158870",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "e86fa963-a99c-4bce-8530-4edc4a158870",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "e86fa963-a99c-4bce-8530-4edc4a158870",
-    "chapterSourceTitle": "Telecaster B-Boy",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T05:22:46+00:00",
-    "latestChapterNumber": "1",
-    "latestChapterTitle": "The Story of Me, The Outsider",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "63f55056-16b0-4f64-ac64-4eb5fb8cb4ea",
-    "chapterCoverageCount": 1,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 168619,
-    "anilistId": 168619,
-    "idMal": 162128,
-    "title": "12cm Promise with a Cool Girl",
-    "titleRomaji": "Kakkoi Onnanoko to 12 Centimeter no Yakusoku",
-    "titleEnglish": "12cm Promise with a Cool Girl",
-    "titleNative": "カッコいい女の子と12センチの約束",
+    "titleNative": "脱缰",
     "synonyms": [
-      "Promise of 12cm with Cool Girl"
+      "Mad for Love",
+      "เอาตัวรอดจากรัชทายาทคลั่งรัก"
     ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx168619-wPXjQldCcRBo.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx168619-wPXjQldCcRBo.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx168619-wPXjQldCcRBo.jpg",
-    "coverImageColor": "",
+    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx196201-VtwBpvjTtN1s.jpg",
+    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx196201-VtwBpvjTtN1s.jpg",
+    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx196201-VtwBpvjTtN1s.jpg",
+    "coverImageColor": "#f1d6bb",
     "bannerImage": "",
-    "synopsis": "A boyish childhood friend grows up to be a super handsome girl!",
+    "synopsis": "After traveling into a historical BL novel, the actor Lin Yan gains a special ability: fast-traveling through a skill called [Escape Death]. His first mission? To secretly orchestrate an attack on Prince Qi Zhen, which leads to the prince becoming the villain. Lin Yan’s first identity in this world is none other than Lin Shou Yan, the prince’s foolish fiancé. But as he plays his role, he accidentally captures the prince’s heart, and his fake death turns out to be the key reason Qi Zhen becomes a ruthless tyrant! A cold, overthinking tsundere prince and his scheming, perverted fiancé—chaos ensues! (Source: KuiaKan Manhua, translated)",
     "type": "MANGA",
     "format": "MANGA",
     "status": "RELEASING",
-    "year": 2023,
-    "startDate": "2023-08-06",
+    "year": 2024,
+    "startDate": "2024-06-25",
     "endDate": null,
-    "chapters": 59,
+    "chapters": 65,
     "volumes": 0,
     "genres": [
       "Comedy",
+      "Drama",
+      "Fantasy",
       "Romance"
     ],
     "tags": [
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 931,
-        "name": "Tomboy",
-        "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1045,
-        "name": "Heterosexual",
-        "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+        "id": 75,
+        "name": "Boys' Love",
+        "description": "Prominently features romance between two males, not inherently sexual.",
         "category": "Theme-Romance",
-        "rank": 73,
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -2695,300 +3632,85 @@
         "name": "Male Protagonist",
         "description": "Main character is male.",
         "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 1228,
-        "name": "Primarily Teen Cast",
-        "description": "Main cast is mostly composed of teen characters.",
-        "category": "Cast-Main Cast",
-        "rank": 60,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 27,
-        "name": "Josei",
-        "description": "Target demographic is adult females.",
-        "category": "Demographic",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "authors": [
-      "Masaya Ziki"
-    ],
-    "artists": [
-      "Masaya Ziki"
-    ],
-    "rating": 6.6,
-    "averageScore": 66,
-    "meanScore": 70,
-    "popularity": 2008,
-    "trending": 0,
-    "favourites": 27,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/168619",
-    "mal_url": "https://myanimelist.net/manga/162128",
-    "externalLinks": [
-      {
-        "site": "Ganma!",
-        "url": "https://ganma.jp/12cm"
-      },
-      {
-        "site": "Nico Nico Seiga",
-        "url": "https://manga.nicovideo.jp/comic/72825"
-      },
-      {
-        "site": "Twitter",
-        "url": "https://x.com/kakoyaku12cm"
-      },
-      {
-        "site": "Pixiv Comic",
-        "url": "https://comic.pixiv.net/works/11167"
-      }
-    ],
-    "mangadexId": "657ccfcc-5847-40f7-8859-5631eeeb3784",
-    "mangadexUrl": "https://mangadex.org/title/657ccfcc-5847-40f7-8859-5631eeeb3784",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "657ccfcc-5847-40f7-8859-5631eeeb3784",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "657ccfcc-5847-40f7-8859-5631eeeb3784",
-    "chapterSourceTitle": "Kakkoii Onnanoko to 12-centi no Yakusoku",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T05:13:49+00:00",
-    "latestChapterNumber": "76",
-    "latestChapterTitle": "A tiny princess",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "8b1e37c7-a906-4055-b1fd-4d4ecf5a9b0d",
-    "chapterCoverageCount": 19,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 218764,
-    "anilistId": 218764,
-    "idMal": null,
-    "title": "Ouji wa Sakete Toorenai!",
-    "titleRomaji": "Ouji wa Sakete Toorenai!",
-    "titleEnglish": "",
-    "titleNative": "王子はさけて通れない！",
-    "synonyms": [],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx218764-7ZXQuBCWuM6t.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx218764-7ZXQuBCWuM6t.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx218764-7ZXQuBCWuM6t.jpg",
-    "coverImageColor": "#fe8650",
-    "bannerImage": "",
-    "synopsis": "",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "RELEASING",
-    "year": 2026,
-    "startDate": "2026-10-23",
-    "endDate": null,
-    "chapters": 1,
-    "volumes": 0,
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ],
-    "tags": [
-      {
-        "id": 76,
-        "name": "Yuri",
-        "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
-        "category": "Theme-Romance",
         "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
-      {
-        "id": 98,
-        "name": "Female Protagonist",
-        "description": "Main character is female.",
-        "category": "Cast-Main Cast",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 86,
-        "name": "Primarily Female Cast",
-        "description": "Main cast is mostly composed of female characters.",
-        "category": "Cast-Main Cast",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 79,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      }
-    ],
-    "authors": [
-      "Miyako Hinoeda"
-    ],
-    "artists": [
-      "Miyako Hinoeda"
-    ],
-    "rating": 0,
-    "averageScore": 0,
-    "meanScore": 0,
-    "popularity": 26,
-    "trending": 0,
-    "favourites": 1,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "JP",
-    "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/218764",
-    "mal_url": "",
-    "externalLinks": [
-      {
-        "site": "Kadocomi",
-        "url": "https://comic-walker.com/detail/KC_021486_S/episodes/KC_0214860000200011_E?episodeType=latest"
-      }
-    ],
-    "mangadexId": "19c29657-26ab-48e0-b480-4fdd8bf42c21",
-    "mangadexUrl": "https://mangadex.org/title/19c29657-26ab-48e0-b480-4fdd8bf42c21",
-    "mangadexMappingSource": "recent_chapter_discovery",
-    "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "19c29657-26ab-48e0-b480-4fdd8bf42c21",
-    "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "19c29657-26ab-48e0-b480-4fdd8bf42c21",
-    "chapterSourceTitle": "Ouji wa Sakete Toorenai!",
-    "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T04:56:00+00:00",
-    "latestChapterNumber": "1",
-    "latestChapterTitle": "",
-    "latestChapterLanguage": "en",
-    "latestChapterId": "53cc0131-f3da-46b1-b400-0c3f6908596c",
-    "chapterCoverageCount": 1,
-    "chapterCoverageLanguages": [
-      "en"
-    ],
-    "discoveredFromRecentFeed": false
-  },
-  {
-    "mangaId": 115218,
-    "anilistId": 115218,
-    "idMal": null,
-    "title": "Oppaya Nunaya",
-    "titleRomaji": "Oppaya Nunaya",
-    "titleEnglish": "",
-    "titleNative": "오빠야 누나야",
-    "synonyms": [
-      "忙內禁愛令"
-    ],
-    "imageUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx115218-M5Jt5O4IvXqv.jpg",
-    "coverImageLarge": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx115218-M5Jt5O4IvXqv.jpg",
-    "coverImageMedium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx115218-M5Jt5O4IvXqv.jpg",
-    "coverImageColor": "#f14343",
-    "bannerImage": "",
-    "synopsis": "Brothers and sisters, don't fight because of us!",
-    "type": "MANGA",
-    "format": "MANGA",
-    "status": "FINISHED",
-    "year": 2018,
-    "startDate": "2018-09-17",
-    "endDate": "2019-08-26",
-    "chapters": 50,
-    "volumes": 0,
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ],
-    "tags": [
       {
         "id": 207,
         "name": "Full Color",
         "description": "Manga that were initially published in full color.",
         "category": "Technical",
-        "rank": 50,
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 105,
-        "name": "Ensemble Cast",
-        "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
-        "category": "Cast-Main Cast",
-        "rank": 50,
+        "id": 1789,
+        "name": "Long Strip",
+        "description": "Manga originally published in a vertical, long-strip format, designed for viewing on smartphones. Also known as webtoons.",
+        "category": "Technical",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
       {
-        "id": 46,
-        "name": "School",
-        "description": "Partly or completely set in a primary or secondary educational institution.",
-        "category": "Setting-Scene",
-        "rank": 40,
+        "id": 244,
+        "name": "Isekai",
+        "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
+        "category": "Theme-Fantasy",
+        "rank": 79,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       }
     ],
     "authors": [
-      "Ginyu"
+      "Lu Fang",
+      "Meizi Xiale"
     ],
     "artists": [
-      "Ginyu"
+      "Fugui Jin"
     ],
-    "rating": 5.6,
-    "averageScore": 56,
-    "meanScore": 66,
-    "popularity": 492,
+    "rating": 0,
+    "averageScore": 0,
+    "meanScore": 42,
+    "popularity": 68,
     "trending": 0,
-    "favourites": 7,
-    "source": "ORIGINAL",
-    "countryOfOrigin": "KR",
+    "favourites": 1,
+    "source": "OTHER",
+    "countryOfOrigin": "CN",
     "isAdult": false,
-    "anilist_url": "https://anilist.co/manga/115218",
+    "anilist_url": "https://anilist.co/manga/196201",
     "mal_url": "",
     "externalLinks": [
       {
-        "site": "Naver Webtoon",
-        "url": "https://series.naver.com/comic/detail.nhn?productNo=3642559"
+        "site": "KuaiKan Manhua",
+        "url": "http://m.kuaikanmanhua.com/mobile/23127/list/"
+      },
+      {
+        "site": "WeComics",
+        "url": "https://wecomics.in.th/comics/18892/"
       }
     ],
-    "mangadexId": "00861d20-cb93-48d3-8130-9a9a46660ffc",
-    "mangadexUrl": "https://mangadex.org/title/00861d20-cb93-48d3-8130-9a9a46660ffc",
+    "mangadexId": "c956e450-ba9e-4dd5-8008-652c0e3a6a91",
+    "mangadexUrl": "https://mangadex.org/title/c956e450-ba9e-4dd5-8008-652c0e3a6a91",
     "mangadexMappingSource": "recent_chapter_discovery",
     "mangadexMappingConfidence": 0.98,
-    "chapterIndexId": "00861d20-cb93-48d3-8130-9a9a46660ffc",
+    "chapterIndexId": "c956e450-ba9e-4dd5-8008-652c0e3a6a91",
     "chapterSourceProvider": "mangadex",
-    "chapterSourceId": "00861d20-cb93-48d3-8130-9a9a46660ffc",
-    "chapterSourceTitle": "Brothers and Sisters",
+    "chapterSourceId": "c956e450-ba9e-4dd5-8008-652c0e3a6a91",
+    "chapterSourceTitle": "Mad for Love",
     "chapterSourceConfidence": 1,
-    "latestChapterUpdatedAt": "2026-10-26T04:42:19+00:00",
-    "latestChapterNumber": "38",
-    "latestChapterTitle": "",
+    "latestChapterUpdatedAt": "2026-10-26T01:27:24+00:00",
+    "latestChapterNumber": "81",
+    "latestChapterTitle": "I’ll Clean Them For You",
     "latestChapterLanguage": "en",
-    "latestChapterId": "47047740-21df-4466-99e2-6a5608789126",
-    "chapterCoverageCount": 5,
+    "latestChapterId": "bb6ce21b-7f3f-436f-baf7-841f053c1911",
+    "chapterCoverageCount": 17,
     "chapterCoverageLanguages": [
       "en"
     ],
