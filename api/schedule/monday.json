@@ -117,7 +117,7 @@
     "averageScore": 83,
     "meanScore": 85,
     "popularity": 6696,
-    "trending": 1,
+    "trending": 6,
     "favourites": 438,
     "source": "OTHER",
     "countryOfOrigin": "CN",
@@ -285,7 +285,7 @@
     "averageScore": 0,
     "meanScore": 66,
     "popularity": 505,
-    "trending": 5,
+    "trending": 2,
     "favourites": 8,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -391,7 +391,7 @@
     "averageScore": 0,
     "meanScore": 65,
     "popularity": 354,
-    "trending": 7,
+    "trending": 3,
     "favourites": 4,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -497,7 +497,7 @@
         "name": "Medicine",
         "description": "Centered around the activities of people working in the field of medicine.",
         "category": "Theme-Other",
-        "rank": 56,
+        "rank": 54,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -508,6 +508,16 @@
         "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
         "category": "Theme-Slice of Life",
         "rank": 53,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
+        "id": 1752,
+        "name": "Medieval",
+        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
+        "category": "Setting-Time",
+        "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -553,16 +563,6 @@
         "isAdult": false
       },
       {
-        "id": 1752,
-        "name": "Medieval",
-        "description": "Partially or completely set in the Middle Ages or a Middle Ages-inspired setting. Commonly features elements such as European castles and knights.",
-        "category": "Setting-Time",
-        "rank": 20,
-        "isGeneralSpoiler": false,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
         "id": 100,
         "name": "Nudity",
         "description": "Features a character wearing no clothing or exposing intimate body parts.",
@@ -589,7 +589,7 @@
     "averageScore": 73,
     "meanScore": 73,
     "popularity": 30697,
-    "trending": 245,
+    "trending": 385,
     "favourites": 384,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
@@ -644,22 +644,22 @@
     ],
     "tags": [
       {
+        "id": 480,
+        "name": "Goblin",
+        "description": "A goblin is a monstrous creature from European folklore. They are almost always small and grotesque, mischievous or outright malicious, and greedy. Sometimes with magical abilities.",
+        "category": "Cast-Traits",
+        "rank": 100,
+        "isGeneralSpoiler": false,
+        "isMediaSpoiler": false,
+        "isAdult": false
+      },
+      {
         "id": 243,
         "name": "Reincarnation",
         "description": "Features a character being born again after death, typically as another person or in another world.",
         "category": "Theme-Other",
         "rank": 79,
         "isGeneralSpoiler": true,
-        "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 480,
-        "name": "Goblin",
-        "description": "A goblin is a monstrous creature from European folklore. They are almost always small and grotesque, mischievous or outright malicious, and greedy. Sometimes with magical abilities.",
-        "category": "Cast-Traits",
-        "rank": 79,
-        "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
       },
@@ -678,7 +678,7 @@
         "name": "Isekai",
         "description": "Features a character from a modern-day setting being transported into an alternate world and has to adapt to their new surroundings.",
         "category": "Theme-Fantasy",
-        "rank": 60,
+        "rank": 73,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -688,7 +688,7 @@
         "name": "Magic",
         "description": "Prominently features magical elements or the use of magic.",
         "category": "Theme-Fantasy",
-        "rank": 20,
+        "rank": 50,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -698,7 +698,7 @@
         "name": "Seinen",
         "description": "Target demographic is adult males.",
         "category": "Demographic",
-        "rank": 20,
+        "rank": 30,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
         "isAdult": false
@@ -730,7 +730,7 @@
     "averageScore": 65,
     "meanScore": 65,
     "popularity": 23146,
-    "trending": 33,
+    "trending": 23,
     "favourites": 253,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -830,6 +830,16 @@
         "isAdult": false
       },
       {
+        "id": 96,
+        "name": "Time Manipulation",
+        "description": "Prominently features time-traveling or other time-warping phenomena.",
+        "category": "Theme-Sci-Fi",
+        "rank": 50,
+        "isGeneralSpoiler": true,
+        "isMediaSpoiler": true,
+        "isAdult": false
+      },
+      {
         "id": 217,
         "name": "Dystopian",
         "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
@@ -837,16 +847,6 @@
         "rank": 40,
         "isGeneralSpoiler": false,
         "isMediaSpoiler": false,
-        "isAdult": false
-      },
-      {
-        "id": 96,
-        "name": "Time Manipulation",
-        "description": "Prominently features time-traveling or other time-warping phenomena.",
-        "category": "Theme-Sci-Fi",
-        "rank": 33,
-        "isGeneralSpoiler": true,
-        "isMediaSpoiler": true,
         "isAdult": false
       },
       {
@@ -876,7 +876,7 @@
     "averageScore": 70,
     "meanScore": 71,
     "popularity": 23676,
-    "trending": 8,
+    "trending": 208,
     "favourites": 328,
     "source": "MANGA",
     "countryOfOrigin": "JP",
@@ -1214,7 +1214,7 @@
     "averageScore": 61,
     "meanScore": 63,
     "popularity": 7662,
-    "trending": 4,
+    "trending": 34,
     "favourites": 75,
     "source": "LIGHT_NOVEL",
     "countryOfOrigin": "JP",
